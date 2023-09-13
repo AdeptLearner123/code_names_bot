@@ -4,22 +4,26 @@ import os
 from config import SCENARIOS_DIR, CLUES_DIR
 
 from .clue_generator.manual_generator import ManualGenerator
+from .clue_generator.simple_gpt_generator import SimpleGptGenerator
 
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--scenarios", type=str, required=True)
     parser.add_argument("-g", "--generator", type=str, required=True)
+    parser.add_argument("-i", "--scenario-id", type=str, required=False)
     args = parser.parse_args()
-    return args.scenarios, args.generator
+    return args.scenarios, args.generator, args.scenario_id
 
 
 def get_generator(generator):
     if generator == "manual":
         return ManualGenerator()
+    if generator == "simple-gpt":
+        return SimpleGptGenerator()
 
 
 def main():
-    scenarios_name, generator_name = parse_args()
+    scenarios_name, generator_name, scenario_id = parse_args()
     path = os.path.join(SCENARIOS_DIR, f"{scenarios_name}.yaml")
 
     with open(path, "r") as file:
@@ -28,14 +32,27 @@ def main():
     clues = {}
     generator = get_generator(generator_name)
 
-    for i, (scenario_id, scenario) in enumerate(scenarios.items()):
+    if scenario_id is not None:
+        scenario_items = [(0, (scenario_id, scenarios[scenario_id]))]
+    else:
+        scenario_items = enumerate(scenarios.items())
+
+    for i, (scenario_id, scenario) in scenario_items:
         print(f"=== {i} / {len(scenarios)} ===")
 
-        clue, clue_words = generator.give_clue(scenario["pos"], scenario["neg"])
-        clues[scenario_id] = {
+        clue, clue_words, details = generator.give_clue(scenario["pos"], scenario["neg"])
+        output = {
             "clue": clue,
             "words": clue_words
         }
+
+        print("Output", output)
+
+        if details is not None:
+            output["details"] = details
+        
+        clues[scenario_id] = output
+
     
     output_path = os.path.join(CLUES_DIR, f"{scenarios_name}_{generator_name}.yaml")
 

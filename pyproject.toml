@@ -9,6 +9,7 @@ packages = [{include = "code_names_bot"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 PyYAML = "^6.0.1"
+openai = "^0.28.0"
 
 [tool.poetry.scripts]
 create-scenarios = "code_names_bot.create_scenarios:main"

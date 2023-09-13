@@ -5,4 +5,4 @@ class ManualGenerator(ClueGenerator):
         print("Pos:", ", ".join(pos_words))
         print("Neg:", ", ".join(neg_words))
         clue = input("Clue: ")
-        return clue, pos_words
+        return clue, pos_words, None
