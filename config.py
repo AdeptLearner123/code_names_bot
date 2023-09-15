@@ -1,3 +1,5 @@
 CARD_WORDS = "static/cardwords"
 SCENARIOS_DIR = "scenarios"
 CLUES_DIR = "clues"
+GUESSES_DIR = "guesses"
+PROMPTS_DIR = "prompts"

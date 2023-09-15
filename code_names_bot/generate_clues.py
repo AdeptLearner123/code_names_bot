@@ -3,8 +3,10 @@ import yaml
 import os
 from config import SCENARIOS_DIR, CLUES_DIR
 
-from .clue_generator.manual_generator import ManualGenerator
-from .clue_generator.simple_gpt_generator import SimpleGptGenerator
+from .clue_generator.manual_clue import manual_clue
+from .clue_generator.target_all_clue import target_all_clue
+from .clue_generator.immediate_clue import immediate_clue
+from .clue_generator.propose_rank import propose_rank_clue
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -17,9 +19,13 @@ def parse_args():
 
 def get_generator(generator):
     if generator == "manual":
-        return ManualGenerator()
-    if generator == "simple-gpt":
-        return SimpleGptGenerator()
+        return manual_clue
+    if generator == "target-all":
+        return target_all_clue
+    if generator == "immediate":
+        return immediate_clue
+    if generator == "propose-rank":
+        return propose_rank_clue
 
 
 def main():
@@ -40,7 +46,7 @@ def main():
     for i, (scenario_id, scenario) in scenario_items:
         print(f"=== {i} / {len(scenarios)} ===")
 
-        clue, clue_words, details = generator.give_clue(scenario["pos"], scenario["neg"])
+        clue, clue_words, details = generator(scenario["pos"], scenario["neg"])
         output = {
             "clue": clue,
             "words": clue_words
