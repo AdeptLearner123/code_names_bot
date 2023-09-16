@@ -8,6 +8,9 @@ def target_all_clue(pos_words, neg_words):
     neg_words_str = ", ".join(neg_words)
     user_msg = f"Positive words: {pos_words_str}\nNegative words:{neg_words_str}"
 
-    completion, json = get_completion(prompt, user_msg)
-    clue = completion.splitlines()[0].removeprefix("Clue:")
-    return clue, pos_words, json
+    completion, tokens = get_completion(prompt, user_msg)
+    clue = completion.splitlines()[0].removeprefix("Clue: ").upper()
+    details = {
+        "tokens": tokens
+    }
+    return clue, pos_words, details

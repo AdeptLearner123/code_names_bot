@@ -1,294 +1,100 @@
 02e42c49-c027-4568-b656-c78bc4a6ad47:
-  clue: ' Jungle'
-  details: '{"id": "chatcmpl-7yTMyP2ZtSMhNJyFD8CqMSl54SbJ3", "object": "chat.completion",
-    "created": 1694646932, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Jungle\n\nExplanation: The word \"Jungle\"
-    is related to \"Amazon\" as Amazon is known for its vast jungle. It can also be
-    related to \"Iron\" as iron ores are found in the earth''s crust, which includes
-    jungles. However, it has no direct connection with the negative words such as
-    \"Pole\" (which is associated with cold, opposite of jungle), \"Ring\", \"Flute\",
-    \"Cold\", \"Hand\", and \"Limousine\"."}, "finish_reason": "stop"}], "usage":
-    {"prompt_tokens": 62, "completion_tokens": 100, "total_tokens": 162}}'
+  clue: JUNGLE
+  details: {tokens: 73}
   words: [AMAZON, IRON]
 0cf1ceae-7b10-4ce8-b90e-074b2c5e1c24:
-  clue: ' THRONE'
-  details: '{"id": "chatcmpl-7yTN7eNDEIZG0LVhKXddG1SHW7iLc", "object": "chat.completion",
-    "created": 1694646941, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: THRONE\n\nExplanation: The word \"throne\"
-    is related to \"king\" as it is the seat of a king, and it can also be related
-    to \"plot\" as in a storyline involving royalty or power. However, it has no connection
-    to the negative words such as \"crane\" (a type of machinery or bird), \"screen\"
-    (a display or barrier), \"shark\" (a type of fish), \"tick\" (a type of insect
-    or a sound), \"Bermuda\" (a geographical location), or \"organ\" (a musical instrument
-    or body part)."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 59, "completion_tokens":
-    125, "total_tokens": 184}}'
+  clue: THRONE
+  details: {tokens: 69}
   words: [KING, PLOT]
 15d1e84b-9b94-4d13-bc8e-e4838b2e9dfa:
-  clue: ' Fruit'
-  details: '{"id": "chatcmpl-7yTNHblykylUdaQsOw9McfiDaaXVl", "object": "chat.completion",
-    "created": 1694646951, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Fruit\n\nExplanation: The word \"fruit\"
-    is related to the positive word \"orange\" as an orange is a type of fruit. However,
-    it is not related to any of the negative words such as \"trip,\" \"racket,\" \"torch,\"
-    \"theater,\" \"Hollywood,\" or \"log.\" The word \"port\" can be excluded as it
-    doesn''t have a direct connection with \"fruit.\""}, "finish_reason": "stop"}],
-    "usage": {"prompt_tokens": 60, "completion_tokens": 86, "total_tokens": 146}}'
+  clue: FRUIT
+  details: {tokens: 69}
   words: [PORT, ORANGE]
 1fbb4775-8b66-4e2b-aed6-481c309fb00f:
-  clue: ' Diplomacy'
-  details: '{"id": "chatcmpl-7yTNP5zOdzWE7ZTeoImuDKueGLHeo", "object": "chat.completion",
-    "created": 1694646959, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Diplomacy\n\nExplanation: The word \"Diplomacy\"
-    is related to both \"Comic\" and \"Embassy\" as it can refer to the diplomatic
-    relations often depicted in comic books or the actual act of diplomacy that takes
-    place in an embassy. However, it has no direct connection to the negative words
-    \"Board\", \"Buffalo\", \"Plate\", \"Laser\", \"Wave\", or \"Antarctica\"."},
-    "finish_reason": "stop"}], "usage": {"prompt_tokens": 65, "completion_tokens":
-    89, "total_tokens": 154}}'
+  clue: DIPLOMACY
+  details: {tokens: 76}
   words: [COMIC, EMBASSY]
 2afb7e7d-fe6b-44d7-9932-da2418712628:
-  clue: ' Plumbing'
-  details: '{"id": "chatcmpl-7yTNXWnJCgJHs39x2QQRlRvDm3ADp", "object": "chat.completion",
-    "created": 1694646967, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Plumbing\n\nExplanation: The word \"plumbing\"
-    is related to \"sink\" as sinks are a common component in plumbing systems. It
-    can also be related to \"helicopter\" as some helicopters are used in plumbing
-    operations for transporting heavy equipment or materials. However, it has no direct
-    relation to \"fence\", \"light\", \"Germany\", \"tower\", \"stream\", or \"band\"."},
-    "finish_reason": "stop"}], "usage": {"prompt_tokens": 61, "completion_tokens":
-    82, "total_tokens": 143}}'
+  clue: FLIGHT
+  details: {tokens: 70}
   words: [SINK, HELICOPTER]
 38df3256-a635-4dc3-bdb0-b804b8566a4d:
-  clue: ' Mythical'
-  details: '{"id": "chatcmpl-7yTNfbTMZZxIipxl62cAbGkXJMBjs", "object": "chat.completion",
-    "created": 1694646975, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Mythical\n\nExplanation: Both \"tablet\"
-    and \"unicorn\" can be associated with the word \"mythical\". A unicorn is a mythical
-    creature, and tablets (in the sense of ancient inscriptions) are often associated
-    with myths and legends. On the other hand, the negative words \"play\", \"king\",
-    \"helicopter\", \"lab\", \"pie\", and \"duck\" have no direct connection to the
-    concept of \"mythical\"."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    60, "completion_tokens": 94, "total_tokens": 154}}'
+  clue: MYTHICAL
+  details: {tokens: 71}
   words: [TABLET, UNICORN]
 3aea0278-1d10-4148-b6ff-420412b72587:
-  clue: ' "Protection"'
-  details: '{"id": "chatcmpl-7yTNn6HiOhcRUoVKvedfQTlkxhTEw", "object": "chat.completion",
-    "created": 1694646983, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: \"Protection\"\n\nExplanation: Both \"glove\"
-    and \"glass\" can be associated with the word \"protection\". A glove can protect
-    your hand from various elements, while glass (in the context of windows or windshields)
-    can protect you from wind, rain, or other environmental factors. However, the
-    negative words (giant, hotel, tag, Atlantis, jet, hospital) do not have a direct
-    association with the concept of protection."}, "finish_reason": "stop"}], "usage":
-    {"prompt_tokens": 63, "completion_tokens": 94, "total_tokens": 157}}'
+  clue: HANDHELD
+  details: {tokens: 73}
   words: [GLOVE, GLASS]
 466843ee-d24e-45c9-b209-391f7ce61062:
-  clue: ' Burglar'
-  details: '{"id": "chatcmpl-7yTNvQEQMRlwcAjGgABPjC5k3ixfV", "object": "chat.completion",
-    "created": 1694646991, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Burglar\n\nExplanation: The word \"burglar\"
-    is related to the positive word \"thief\" as they both refer to someone who steals.
-    However, it is not related to any of the negative words. It doesn''t have any
-    connection with \"strike,\" \"night,\" \"pound,\" \"horseshoe,\" \"bolt,\" or
-    \"mouth.\""}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 63, "completion_tokens":
-    76, "total_tokens": 139}}'
+  clue: BURGLAR
+  details: {tokens: 73}
   words: [THIEF, CROSS]
 5754771b-dd37-4bc2-869c-74cd9629bb5c:
-  clue: ' Island'
-  details: '{"id": "chatcmpl-7yTO1hXsFm2aZzc02uBIF363qm3Jm", "object": "chat.completion",
-    "created": 1694646997, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Island\n\nExplanation: Both \"Bermuda\"
-    and \"Palm\" are related to the concept of an island - Bermuda is an island itself
-    and palm trees are often associated with islands. None of the negative words have
-    a direct connection to the concept of an island."}, "finish_reason": "stop"}],
-    "usage": {"prompt_tokens": 64, "completion_tokens": 57, "total_tokens": 121}}'
+  clue: TROPICS
+  details: {tokens: 75}
   words: [BERMUDA, PALM]
 617c798c-03db-451e-9230-e668418c1eda:
-  clue: ' Garden'
-  details: '{"id": "chatcmpl-7yTO75drWJ0ZMPy17JOvfFGv89yoN", "object": "chat.completion",
-    "created": 1694647003, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Garden\n\nExplanation: Both \"rose\" and
-    \"slug\" are commonly found in a garden. However, \"moon,\" \"nail,\" \"Greece,\"
-    \"ghost,\" \"state,\" and \"cover\" are not directly associated with a garden."},
-    "finish_reason": "stop"}], "usage": {"prompt_tokens": 60, "completion_tokens":
-    53, "total_tokens": 113}}'
+  clue: GARDEN
+  details: {tokens: 69}
   words: [ROSE, SLUG]
 69e9a665-9d9d-4588-b65b-9e299685b00a:
-  clue: ' "Justice"'
-  details: '{"id": "chatcmpl-7yTOBEFPzulYGBHuI3FiJefqogClW", "object": "chat.completion",
-    "created": 1694647007, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: \"Justice\"\n\nExplanation: The word \"justice\"
-    is related to the positive words as police enforce justice and it is often associated
-    with the use of force. However, it has no direct connection to the negative words
-    which include a fruit (kiwi), a gemstone (diamond), a machine part (engine), and
-    fictional characters (superhero, pirate)."}, "finish_reason": "stop"}], "usage":
-    {"prompt_tokens": 62, "completion_tokens": 74, "total_tokens": 136}}'
+  clue: LAW
+  details: {tokens: 71}
   words: [POLICE, FORCE]
 756e0a13-c9f3-4584-ad7a-f16d0c68ea96:
-  clue: ' Orbit'
-  details: '{"id": "chatcmpl-7yTOIx5Ro1FbaS9uBoCpIJE9syl49", "object": "chat.completion",
-    "created": 1694647014, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Orbit\n\nExplanation: The word \"Orbit\"
-    is related to the positive words as satellites orbit around the earth and a hook
-    can be used to describe the path of an object in motion (like in orbit). However,
-    it doesn''t relate to the negative words as none of them have a direct connection
-    to the concept of orbiting."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    62, "completion_tokens": 70, "total_tokens": 132}}'
+  clue: ORBIT
+  details: {tokens: 72}
   words: [SATELLITE, HOOK]
 79dfa5cf-4784-4522-ab08-8057b4806cce:
-  clue: ' "Delivery"'
-  details: '{"id": "chatcmpl-7yTOOrEi4x7yxoHEe8PPJYAwPJqOt", "object": "chat.completion",
-    "created": 1694647020, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: \"Delivery\"\n\nExplanation: The word
-    \"Delivery\" is related to both \"March\" and \"Mail\" as you can march (move
-    or progress) to deliver something and mail is something that is delivered. However,
-    it has no connection to the negative words \"Port\", \"Wind\", \"Lion\", \"Greece\",
-    \"Fall\", and \"Glove\"."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    60, "completion_tokens": 76, "total_tokens": 136}}'
+  clue: DELIVER
+  details: {tokens: 70}
   words: [MARCH, MAIL]
 8ddccb64-fd16-4495-b680-2afea2ad65f7:
-  clue: ' Computer'
-  details: '{"id": "chatcmpl-7yTOUWGhgYaVNFLjdIHwOBYxEyARL", "object": "chat.completion",
-    "created": 1694647026, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Computer\n\nExplanation: The word \"computer\"
-    is related to both \"stock\" and \"screen\" as stocks can be traded online using
-    a computer and a computer has a screen. However, it is not directly related to
-    \"watch\", \"log\", \"school\", \"Egypt\", \"spine\", or \"Rome\"."}, "finish_reason":
-    "stop"}], "usage": {"prompt_tokens": 57, "completion_tokens": 68, "total_tokens":
-    125}}'
+  clue: COMPUTER
+  details: {tokens: 66}
   words: [STOCK, SCREEN]
 8e0fbfac-8722-41b1-b62a-437c6af86ffd:
-  clue: ' "Beak"'
-  details: '{"id": "chatcmpl-7yTOZBsb9NNzJ6eTuAV2fnxUuVAiw", "object": "chat.completion",
-    "created": 1694647031, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: \"Beak\"\n\nExplanation: The word \"beak\"
-    is related to both \"mouth\" and \"penguin\" as penguins have beaks and a beak
-    can also be referred to as a mouth in birds. However, it is not related to any
-    of the negative words: \"flute\" (a musical instrument), \"check\" (a banking
-    term or a pattern), \"knight\" (a medieval military rank), \"foot\" (a body part),
-    \"row\" (a line or argument), and \"iron\" (a metal or appliance for clothes)."},
-    "finish_reason": "stop"}], "usage": {"prompt_tokens": 60, "completion_tokens":
-    120, "total_tokens": 180}}'
+  clue: BEAK
+  details: {tokens: 70}
   words: [MOUTH, PENGUIN]
 9abdc4fd-baf6-42ec-b2a1-2477ca5a3e2c:
-  clue: ' Hospital'
-  details: '{"id": "chatcmpl-7yTOkwV0WDMxBHIcz5IDkpPIs32mw", "object": "chat.completion",
-    "created": 1694647042, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Hospital\n\nExplanation: The word \"hospital\"
-    is related to the positive words because doctors work in hospitals and a board
-    (as in a board of directors) is often part of a hospital''s management structure.
-    However, the word \"hospital\" is not related to any of the negative words. It
-    doesn''t have any connection to Olympus (a mountain or a brand), racket (a noise
-    or a piece of sports equipment), oil (a type of fuel or cooking ingredient), tablet
-    (a type of medication or a portable computer), angel (a spiritual being or an
-    investor), or stadium (a sports venue)."}, "finish_reason": "stop"}], "usage":
-    {"prompt_tokens": 64, "completion_tokens": 124, "total_tokens": 188}}'
+  clue: MEDICAL
+  details: {tokens: 74}
   words: [DOCTOR, BOARD]
 b46494c5-0293-4d42-940d-22436eb44bf5:
-  clue: ' Investigation'
-  details: '{"id": "chatcmpl-7yTOtAENMQj7q3aCzmQAtRunyB0XE", "object": "chat.completion",
-    "created": 1694647051, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Investigation\n\nExplanation: The word
-    \"investigation\" is related to both \"plot\" (as in a storyline or plan that
-    might require investigation) and \"police\" (who conduct investigations as part
-    of their job). However, it has no direct connection to \"grace\", \"litter\",
-    \"game\", \"table\", \"Moscow\", or \"laser\"."}, "finish_reason": "stop"}], "usage":
-    {"prompt_tokens": 60, "completion_tokens": 78, "total_tokens": 138}}'
+  clue: INVESTIGATION
+  details: {tokens: 69}
   words: [PLOT, POLICE]
 bc9ea454-2435-45fd-9bd7-e2b651e30f14:
-  clue: ' Japan'
-  details: '{"id": "chatcmpl-7yTOzSTO53GRY41eY519WAUIEw9rC", "object": "chat.completion",
-    "created": 1694647057, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Japan\n\nExplanation: The clue \"Japan\"
-    is related to the positive words because Tokyo is the capital of Japan and jam,
-    while not specifically tied to Japan, is a food item that can be found there.
-    However, the clue does not relate to any of the negative words. Court and Shakespeare
-    are related to law and literature respectively, water and disease are related
-    to health and environment, and olive and nurse have no particular connection to
-    Japan."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 65, "completion_tokens":
-    91, "total_tokens": 156}}'
+  clue: JAPAN
+  details: {tokens: 76}
   words: [TOKYO, JAM]
 bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
-  clue: ' Airplane'
-  details: '{"id": "chatcmpl-7yTP5JSFlhfjl8EQEx9honQUAkZfn", "object": "chat.completion",
-    "created": 1694647063, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Airplane\n\nExplanation: An airplane is
-    related to the word \"fly\" because it flies, and it''s related to the word \"hood\"
-    because the hood of an airplane is the front part or the cockpit. However, it''s
-    not related to any of the negative words. It''s not made in a specific country
-    like China, it doesn''t involve writing or notes, it''s not a type of fish like
-    a shark, it''s not a mythical creature like a dwarf, it''s not a royal title like
-    a queen, and it doesn''t involve covering something."}, "finish_reason": "stop"}],
-    "usage": {"prompt_tokens": 60, "completion_tokens": 117, "total_tokens": 177}}'
+  clue: AIRPLANE
+  details: {tokens: 71}
   words: [FLY, HOOD]
 c627b3ae-ec53-4865-93ac-f148ca00bed8:
-  clue: ' Mining'
-  details: '{"id": "chatcmpl-7yTPFpjDWoeujToRh3fZc1t6Xteri", "object": "chat.completion",
-    "created": 1694647073, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Mining\n\nExplanation: Both \"litter\"
-    and \"drill\" can be associated with mining. Litter can refer to debris or waste
-    materials often found in mining sites, while drill is a tool used in mining to
-    extract minerals. None of the negative words have a direct connection to mining.
-    For instance, \"bolt\" is a type of fastener, \"dinosaur\" is a prehistoric creature,
-    \"foot\" is a unit of measurement or a body part, \"maple\" is a type of tree
-    or syrup, \"marble\" is a type of stone used in construction and sculpture, and
-    \"web\" can refer to a spider''s web or the internet."}, "finish_reason": "stop"}],
-    "usage": {"prompt_tokens": 60, "completion_tokens": 140, "total_tokens": 200}}'
+  clue: BORE
+  details: {tokens: 70}
   words: [LITTER, DRILL]
 c8ae890a-83b0-4316-ad27-955615bc3d08:
-  clue: ' Cinema'
-  details: '{"id": "chatcmpl-7yTPOF3qgQhfUAO2hEMH8EXZiRgjn", "object": "chat.completion",
-    "created": 1694647082, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Cinema\n\nExplanation: The word \"Cinema\"
-    is related to the positive words as it is a place where films are shown and a
-    track can refer to a soundtrack in a film. However, it has no direct connection
-    to the negative words - stream, ketchup, forest, flute, satellite, and Aztec."},
-    "finish_reason": "stop"}], "usage": {"prompt_tokens": 63, "completion_tokens":
-    67, "total_tokens": 130}}'
+  clue: CINEMA
+  details: {tokens: 74}
   words: [FILM, TRACK]
 c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
-  clue: ' "Aircraft"'
-  details: '{"id": "chatcmpl-7yTPU5fEzB0JVhmosi0tefUFQ2eih", "object": "chat.completion",
-    "created": 1694647088, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: \"Aircraft\"\n\nExplanation: The word
-    \"Aircraft\" is related to the positive words because a pilot operates an aircraft
-    and a laser can be used in aircraft for various purposes like speed detection,
-    range finding, etc. However, the negative words like mammoth, undertaker, ring,
-    bill, shot, and cross have no direct connection to an aircraft."}, "finish_reason":
-    "stop"}], "usage": {"prompt_tokens": 62, "completion_tokens": 75, "total_tokens":
-    137}}'
+  clue: TECHNOLOGY
+  details: {tokens: 71}
   words: [PILOT, LASER]
 d604cf86-4697-423b-9761-c281bb312a23:
-  clue: ' "Online"'
-  details: '{"id": "chatcmpl-7yTPbSC3yNB3I2Y7v7s8dxonjmVY0", "object": "chat.completion",
-    "created": 1694647095, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: \"Online\"\n\nExplanation: The word \"online\"
-    is related to both \"mail\" and \"game\" as you can send mail or play games online.
-    However, it has no direct connection to \"ivory\", \"water\", \"Egypt\", \"chair\",
-    \"state\", or \"litter\"."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    58, "completion_tokens": 63, "total_tokens": 121}}'
+  clue: PLAY
+  details: {tokens: 67}
   words: [MAIL, GAME]
 e31b7942-1342-4eda-b6e0-e8e072b0cedf:
-  clue: ' Sword'
-  details: '{"id": "chatcmpl-7yTPho69mzuur90kxYSsgAdKpDkrW", "object": "chat.completion",
-    "created": 1694647101, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Sword\n\nExplanation: A sword is related
-    to the positive words as it is used by a \"FIGHTER\" and it has a \"POINT\". However,
-    it is not related to any of the negative words as it has nothing to do with \"CRICKET\"
-    (a sport or an insect), \"ROUND\" (it''s not round in shape), \"OLIVE\" (a type
-    of fruit), \"DRESS\" (a type of clothing), \"CAPITAL\" (a city or financial term),
-    or \"EYE\" (a body part)."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    60, "completion_tokens": 116, "total_tokens": 176}}'
+  clue: BOXING
+  details: {tokens: 70}
   words: [FIGHTER, POINT]
 ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
-  clue: ' Tennis'
-  details: '{"id": "chatcmpl-7yTPrPYxai2IgvgRJ8RB77fmpB6jj", "object": "chat.completion",
-    "created": 1694647111, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Tennis\n\nExplanation: The word \"Tennis\"
-    is related to the positive words as a \"racket\" is used in tennis and \"litter\"
-    can refer to a group of young animals, similar to how a group of tennis balls
-    might be referred to. However, it has no connection to the negative words - \"space\",
-    \"teacher\", \"bug\", \"mole\", \"nurse\", and \"glass\"."}, "finish_reason":
-    "stop"}], "usage": {"prompt_tokens": 60, "completion_tokens": 88, "total_tokens":
-    148}}'
+  clue: CLEANING
+  details: {tokens: 70}
   words: [RACKET, LITTER]

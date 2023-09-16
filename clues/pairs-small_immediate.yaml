@@ -1,405 +1,100 @@
 02e42c49-c027-4568-b656-c78bc4a6ad47:
-  clue: Jungle
-  details: '{"id": "chatcmpl-7ywMlStZj8DpYO9JWqFg67fT3P0uv", "object": "chat.completion",
-    "created": 1694758395, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Jungle\nWords: AMAZON, IRON\nExplanation:
-    The clue \"Jungle\" is related to \"AMAZON\" because the Amazon is a well-known
-    jungle. It is also related to \"IRON\" because iron ores are often found in jungle
-    areas. The clue is not related to \"POLE\" because poles are not typically associated
-    with jungles. It is not related to \"RING\" because rings do not have a specific
-    connection to jungles. \"FLUTE\" is not related because, while flutes can be made
-    from materials found in a jungle, the connection is too indirect. \"COLD\" is
-    not related because jungles are typically hot and humid environments. \"HAND\"
-    is not related because it is a body part and has no specific connection to jungles.
-    Lastly, \"LIMOUSINE\" is not related because limousines are not typically found
-    or associated with jungles."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    130, "completion_tokens": 187, "total_tokens": 317}}'
+  clue: JUNGLE
+  details: {tokens: 103}
   words: [AMAZON, IRON]
 0cf1ceae-7b10-4ce8-b90e-074b2c5e1c24:
-  clue: Throne
-  details: '{"id": "chatcmpl-7ywN61HrZNFI3QHZDjoW3pF5uOL3P", "object": "chat.completion",
-    "created": 1694758416, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Throne\nWords: KING, PLOT\nExplanation:
-    The clue \"Throne\" is not related to the negative words because \"CRANE\" is
-    a type of bird or machinery, \"SCREEN\" is a display or barrier, \"SHARK\" is
-    a type of fish, \"TICK\" is a type of insect or a sound made by a clock, \"BERMUDA\"
-    is a geographical location, and \"ORGAN\" is a part of the body or a musical instrument.
-    None of these have a direct connection to the concept of a \"Throne\", which is
-    associated with a king and can be a central element in a plot."}, "finish_reason":
-    "stop"}], "usage": {"prompt_tokens": 127, "completion_tokens": 134, "total_tokens":
-    261}}'
+  clue: THRONE
+  details: {tokens: 99}
   words: [KING, PLOT]
 15d1e84b-9b94-4d13-bc8e-e4838b2e9dfa:
-  clue: Fruit
-  details: '{"id": "chatcmpl-7ywNJwr5FOTT45tngKxjk8xa9HfOg", "object": "chat.completion",
-    "created": 1694758429, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Fruit\nWords: PORT, ORANGE\nExplanation:
-    The clue \"Fruit\" is related to \"ORANGE\" because an orange is a type of fruit.
-    It is also related to \"PORT\" because port is a type of wine often made from
-    fermented fruits. The clue is not related to \"TRIP\" because a trip refers to
-    a journey or voyage, not a fruit. \"RACKET\" is a device used in sports or a loud
-    noise, which has no relation to fruit. \"TORCH\" is a source of light or a tool
-    for heating, which is not related to fruit. \"THEATER\" is a venue for performing
-    arts, not related to fruit. \"HOLLYWOOD\" is a place known for the film industry,
-    not for fruit. \"LOG\" is a piece of a cut tree or a record of events, which has
-    no relation to fruit."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    128, "completion_tokens": 183, "total_tokens": 311}}'
-  words: [PORT, ORANGE]
+  clue: FRUIT
+  details: {tokens: 98}
+  words: [ORANGE]
 1fbb4775-8b66-4e2b-aed6-481c309fb00f:
-  clue: Diplomacy
-  details: '{"id": "chatcmpl-7ywNdEwr9zbz4NFw1oNpJR4CqkQAX", "object": "chat.completion",
-    "created": 1694758449, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Diplomacy\nWords: COMIC, EMBASSY\nExplanation:
-    The clue \"Diplomacy\" is related to \"EMBASSY\" as embassies are diplomatic missions
-    generally located in the capital city of another country serving as an office
-    for diplomats and is the place where diplomatic negotiations occur. The clue is
-    also related to \"COMIC\" as there are many comics that deal with political and
-    diplomatic themes. However, the clue \"Diplomacy\" is not related to \"BOARD\"
-    as this term is often used to refer to a group of people who manage the business
-    of an organization, \"BUFFALO\" which is an animal, \"PLATE\" which is a dish
-    or a flat piece of material, \"LASER\" which is a device that emits light, \"WAVE\"
-    which can refer to a gesture or a physical phenomenon in the ocean, and \"ANTARCTICA\"
-    which is a continent. None of these have a direct connection to the concept of
-    diplomacy."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 133, "completion_tokens":
-    208, "total_tokens": 341}}'
+  clue: DIPLOMACY
+  details: {tokens: 110}
   words: [COMIC, EMBASSY]
 2afb7e7d-fe6b-44d7-9932-da2418712628:
-  clue: Drain
-  details: '{"id": "chatcmpl-7ywNwignDq8TDL35Ghs8iDMnQzbjq", "object": "chat.completion",
-    "created": 1694758468, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Drain\nWords: SINK, HELICOPTER\nExplanation:
-    The clue \"Drain\" is related to \"SINK\" as sinks are often used to drain water.
-    It is also related to \"HELICOPTER\" because helicopters have a drain plug to
-    drain oil or fuel. The clue is not related to \"FENCE\" as fences do not have
-    a draining function. It is not related to \"LIGHT\" as light does not have a physical
-    form to be drained. \"GERMANY\" is a country and does not have a direct relation
-    to the concept of draining. \"TOWER\" does not necessarily have a draining function
-    unless specified like a cooling tower. \"STREAM\" is a natural water course and
-    while it can be said to drain water from a source to an outlet, the term \"drain\"
-    is more commonly used in man-made systems. \"BAND\" is a group of people with
-    a common interest or a ring and does not have a draining function."}, "finish_reason":
-    "stop"}], "usage": {"prompt_tokens": 129, "completion_tokens": 203, "total_tokens":
-    332}}'
+  clue: DRAINAGE
+  details: {tokens: 105}
   words: [SINK, HELICOPTER]
 38df3256-a635-4dc3-bdb0-b804b8566a4d:
-  clue: Mythical
-  details: '{"id": "chatcmpl-7ywOFIr17ZcybRjnKbSfeGOKAQpZf", "object": "chat.completion",
-    "created": 1694758487, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Mythical\nWords: TABLET, UNICORN\nExplanation:
-    The clue \"Mythical\" is related to \"TABLET\" and \"UNICORN\" because tablets
-    are often associated with ancient myths and stories, and unicorns are mythical
-    creatures. The clue is not related to \"PLAY\" because play refers to an activity
-    or a theatrical performance, not something mythical. \"KING\" is not related because
-    it''s a real-life title, not a mythical concept. \"HELICOPTER\" is a real, modern
-    machine, not a mythical entity. \"LAB\" is a place for scientific research, which
-    is based on facts and evidence, not myths. \"PIE\" is a type of food, not a mythical
-    concept. \"DUCK\" is a real animal, not a mythical creature."}, "finish_reason":
-    "stop"}], "usage": {"prompt_tokens": 128, "completion_tokens": 167, "total_tokens":
-    295}}'
-  words: [TABLET, UNICORN]
+  clue: MYTHICAL
+  details: {tokens: 100}
+  words: [UNICORN]
 3aea0278-1d10-4148-b6ff-420412b72587:
-  clue: Hand
-  details: '{"id": "chatcmpl-7ywOWSfWlsLuGe1fYK72EAnD3uQAS", "object": "chat.completion",
-    "created": 1694758504, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Hand\nWords: GLOVE, GLASS\nExplanation:
-    The clue \"Hand\" is related to \"GLOVE\" because gloves are worn on hands. It
-    is also related to \"GLASS\" because glasses can be held in a hand. The clue is
-    not related to \"GIANT\" because a giant is a mythical creature and has no direct
-    connection to a hand. It is not related to \"HOTEL\" because a hotel is a place
-    for accommodation and has no direct connection to a hand. The clue is not related
-    to \"TAG\" because tag is a game or a label and has no direct connection to a
-    hand. It is not related to \"ATLANTIS\" because Atlantis is a mythical city and
-    has no direct connection to a hand. The clue is not related to \"JET\" because
-    a jet is a type of aircraft and has no direct connection to a hand. It is not
-    related to \"HOSPITAL\" because a hospital is a place for medical treatment and
-    has no direct connection to a hand."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    131, "completion_tokens": 214, "total_tokens": 345}}'
-  words: [GLOVE, GLASS]
+  clue: HANDWEAR
+  details: {tokens: 103}
+  words: [GLOVE]
 466843ee-d24e-45c9-b209-391f7ce61062:
-  clue: CRUCIFIX
-  details: '{"id": "chatcmpl-7ywOscWQNPMAM3YnEMR05459h8mvi", "object": "chat.completion",
-    "created": 1694758526, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: CRUCIFIX\nWords: THIEF, CROSS\nExplanation:
-    The clue \"CRUCIFIX\" is related to the word \"THIEF\" because in the biblical
-    story, a thief was crucified next to Jesus. It is also directly related to \"CROSS\"
-    as a crucifix is a representation of Jesus on the cross. The clue is not related
-    to \"STRIKE\" as it does not imply any action of hitting or attacking. It is not
-    related to \"NIGHT\" as it does not indicate any time of day or darkness. It does
-    not have any connection with \"POUND\" which could mean a unit of weight or an
-    action of hitting. \"HORSESHOE\" is unrelated as it is a piece of metal used for
-    horse''s foot and has no connection with crucifix. \"BOLT\" is also unrelated
-    as it could mean a fast run or a piece of metal used for fastening, which has
-    no connection with crucifix. Lastly, \"MOUTH\" is not related as it refers to
-    the opening in the face used for eating and speaking, which has no connection
-    with a crucifix."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 131,
-    "completion_tokens": 236, "total_tokens": 367}}'
+  clue: BURGLAR
+  details: {tokens: 105}
   words: [THIEF, CROSS]
 5754771b-dd37-4bc2-869c-74cd9629bb5c:
   clue: TROPICAL
-  details: '{"id": "chatcmpl-7ywPFF3sl4GFYHsOv1klMDQ08zjMr", "object": "chat.completion",
-    "created": 1694758549, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: TROPICAL\nWords: BERMUDA, PALM\nExplanation:
-    The clue isn''t related to ''AMERICA'' because even though parts of America are
-    tropical, the term ''America'' encompasses a wide range of climates, not just
-    tropical. ''MINT'' is a type of plant or flavor and has no specific connection
-    to the tropics. ''CHURCH'' is a religious institution and has no inherent connection
-    to a tropical climate. ''FORCE'' is a general term that can refer to many things,
-    none of which are inherently tropical. ''BOTTLE'' is a container and has no inherent
-    connection to a tropical climate. ''CRICKET'' is a sport or an insect, neither
-    of which are specifically tropical."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    132, "completion_tokens": 151, "total_tokens": 283}}'
+  details: {tokens: 106}
   words: [BERMUDA, PALM]
 617c798c-03db-451e-9230-e668418c1eda:
-  clue: Garden
-  details: '{"id": "chatcmpl-7ywPWRxpiG94coL4vvzZwL0isAZJH", "object": "chat.completion",
-    "created": 1694758566, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Garden\nWords: ROSE, SLUG\nExplanation:
-    The clue \"Garden\" is not related to the negative words because \"MOON\" is a
-    celestial body and not typically associated with gardens, \"NAIL\" is a tool or
-    body part and not typically found in gardens, \"GREECE\" is a country and not
-    directly related to the concept of a garden, \"GHOST\" is a supernatural entity
-    and not typically associated with gardens, and \"STATE\" is a political entity
-    or condition and not directly related to gardens. \"COVER\" could potentially
-    be related to a garden cover, but it''s not a direct association like with the
-    positive words."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 128,
-    "completion_tokens": 136, "total_tokens": 264}}'
+  clue: GARDEN
+  details: {tokens: 101}
   words: [ROSE, SLUG]
 69e9a665-9d9d-4588-b65b-9e299685b00a:
-  clue: Law
-  details: '{"id": "chatcmpl-7ywPlm2EP8AgkY3s8qrqJeX3oUF3N", "object": "chat.completion",
-    "created": 1694758581, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Law\nWords: POLICE, FORCE\nExplanation:
-    The clue \"Law\" is not related to \"PART\" as part does not have a specific connection
-    to law. \"KIWI\" is a fruit or a nickname for New Zealanders, which has no direct
-    relation to law. \"DIAMOND\" is a type of gemstone and does not have a specific
-    connection to law. \"ENGINE\" is a machine with moving parts that converts power
-    into motion, which is not related to law. \"SUPERHERO\" and \"PIRATE\" are characters
-    often found in fiction and their existence or actions do not necessarily pertain
-    to law."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 130, "completion_tokens":
-    132, "total_tokens": 262}}'
+  clue: LAW
+  details: {tokens: 102}
   words: [POLICE, FORCE]
 756e0a13-c9f3-4584-ad7a-f16d0c68ea96:
-  clue: Orbit
-  details: '{"id": "chatcmpl-7ywPxVJLLCLCe5zdoTwhirDkhex1i", "object": "chat.completion",
-    "created": 1694758593, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Orbit\nWords: SATELLITE, HOOK\nExplanation:
-    The clue ''Orbit'' is related to ''SATELLITE'' as satellites orbit around the
-    earth. It is also related to ''HOOK'' as the term can be used in a metaphorical
-    sense to mean something that keeps you in a certain path or orbit. The clue ''Orbit''
-    is not related to ''CENTER'' as the center is a fixed point and does not involve
-    movement or a path. It is not related to ''SUPERHERO'' as superheroes are fictional
-    characters and do not have a direct connection with orbits. ''SPINE'' is a part
-    of the body and has no connection with orbits. ''DANCE'' is a form of art and
-    does not involve orbits in its concept. ''PLOT'' is a narrative concept and does
-    not involve orbits. ''BLOCK'' is a solid object or a verb that means to obstruct,
-    and neither has a connection with orbits."}, "finish_reason": "stop"}], "usage":
-    {"prompt_tokens": 130, "completion_tokens": 197, "total_tokens": 327}}'
+  clue: ORBIT
+  details: {tokens: 105}
   words: [SATELLITE, HOOK]
 79dfa5cf-4784-4522-ab08-8057b4806cce:
-  clue: Delivery
-  details: '{"id": "chatcmpl-7ywQFHg2dXxawEHcBGfD8CJdCkPCz", "object": "chat.completion",
-    "created": 1694758611, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Delivery\nWords: MARCH, MAIL\nExplanation:
-    The clue \"Delivery\" is not related to the negative words because \"PORT\" is
-    a place where ships load or unload, \"WIND\" is a natural phenomenon, \"LION\"
-    is an animal, \"GREECE\" is a country, \"FALL\" is a season or action, and \"GLOVE\"
-    is a type of clothing. None of these have a direct connection to the concept of
-    \"Delivery\"."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 128, "completion_tokens":
-    100, "total_tokens": 228}}'
+  clue: DELIVER
+  details: {tokens: 100}
   words: [MARCH, MAIL]
 8ddccb64-fd16-4495-b680-2afea2ad65f7:
-  clue: Computer
-  details: '{"id": "chatcmpl-7ywQOy8j0DUN7FAcgJCOX5pXmYkvr", "object": "chat.completion",
-    "created": 1694758620, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Computer\nWords: STOCK, SCREEN\nExplanation:
-    The clue \"Computer\" is related to \"STOCK\" and \"SCREEN\" as stocks can be
-    traded online using a computer and a computer has a screen. The clue is not related
-    to \"WATCH\" as a watch is a timepiece worn on the wrist, not a computer component.
-    \"LOG\" is not related as it refers to a piece of cut tree, not a computer term.
-    \"SCHOOL\" is a place of learning and not directly related to a computer. \"EGYPT\"
-    and \"ROME\" are geographical locations and have no direct relation to a computer.
-    \"SPINE\" is a part of the human body and not related to a computer."}, "finish_reason":
-    "stop"}], "usage": {"prompt_tokens": 125, "completion_tokens": 148, "total_tokens":
-    273}}'
+  clue: COMPUTER
+  details: {tokens: 96}
   words: [STOCK, SCREEN]
 8e0fbfac-8722-41b1-b62a-437c6af86ffd:
-  clue: Beak
-  details: '{"id": "chatcmpl-7ywQbQLJBQ7VjPk2U341XAzdfqCcH", "object": "chat.completion",
-    "created": 1694758633, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Beak\nWords: MOUTH, PENGUIN\nExplanation:
-    The clue \"Beak\" is not related to the negative words because \"FLUTE\" is a
-    musical instrument and has no connection with a beak, \"CHECK\" is a financial
-    term or a pattern and has no relation to a beak, \"KNIGHT\" is a title or a chess
-    piece and has no connection with a beak, \"FOOT\" is a body part or a unit of
-    measurement and has no relation to a beak, and \"IRON\" is a metal or a tool for
-    pressing clothes and has no connection with a beak."}, "finish_reason": "stop"}],
-    "usage": {"prompt_tokens": 128, "completion_tokens": 132, "total_tokens": 260}}'
+  clue: BEAK
+  details: {tokens: 104}
   words: [MOUTH, PENGUIN]
 9abdc4fd-baf6-42ec-b2a1-2477ca5a3e2c:
-  clue: Hospital
-  details: '{"id": "chatcmpl-7ywQn93E7RgcMgWVCKmymbUOpSOj0", "object": "chat.completion",
-    "created": 1694758645, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Hospital\nWords: DOCTOR, BOARD\nExplanation:
-    The clue \"Hospital\" is related to the word \"DOCTOR\" because doctors work in
-    hospitals. It is also related to the word \"BOARD\" as hospitals often have a
-    board of directors. The clue is not related to \"OLYMPUS\" which is a mountain
-    in Greece and a brand of cameras, \"RACKET\" which is a tool used in sports or
-    a loud disturbance, \"OIL\" which is a viscous liquid derived from petroleum,
-    used for fuel and lubrication, \"TABLET\" which is a flat slab or a portable computer,
-    \"ANGEL\" which is a spiritual being or a kind person, and \"STADIUM\" which is
-    a venue for outdoor sports and concerts. None of these have a direct connection
-    to a hospital."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 132, "completion_tokens":
-    169, "total_tokens": 301}}'
+  clue: MEDICAL
+  details: {tokens: 104}
   words: [DOCTOR, BOARD]
 b46494c5-0293-4d42-940d-22436eb44bf5:
-  clue: Investigation
-  details: '{"id": "chatcmpl-7ywR3LmW5J9CiSiCj8vC1RP4hwHb7", "object": "chat.completion",
-    "created": 1694758661, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Investigation\nWords: PLOT, POLICE\nExplanation:
-    The clue ''Investigation'' is related to ''PLOT'' and ''POLICE'' as investigations
-    are often a key part of police work and are frequently the central plot in crime
-    dramas or novels. The clue is not related to ''GRACE'' which refers to elegance
-    or smoothness of movement, ''LITTER'' which refers to trash or a group of young
-    animals, ''GAME'' which refers to a form of play or sport, ''TABLE'' which is
-    a piece of furniture, ''MOSCOW'' which is a city, and ''LASER'' which is a device
-    that emits light through a process of optical amplification. None of these have
-    a direct connection to the concept of an investigation."}, "finish_reason": "stop"}],
-    "usage": {"prompt_tokens": 128, "completion_tokens": 157, "total_tokens": 285}}'
+  clue: INVESTIGATION
+  details: {tokens: 101}
   words: [PLOT, POLICE]
 bc9ea454-2435-45fd-9bd7-e2b651e30f14:
-  clue: Japan
-  details: '{"id": "chatcmpl-7ywRJ6GetrU5Ubn6gLaFKzH6GKCo8", "object": "chat.completion",
-    "created": 1694758677, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Japan\nWords: TOKYO, JAM\nExplanation:
-    The clue \"Japan\" is related to \"TOKYO\" because Tokyo is the capital city of
-    Japan. It is also related to \"JAM\" because Japan is known for its fruit jams,
-    especially those made from locally grown fruits. The clue is not related to \"COURT\"
-    as it doesn''t specify any judicial or sports context. \"SHAKESPEARE\" is unrelated
-    as he was an English playwright and his works have no specific connection to Japan.
-    \"WATER\" is too general and doesn''t have a specific connection to Japan. \"DISEASE\"
-    is a negative term and doesn''t have a direct link to Japan. \"OLIVE\" is a type
-    of fruit that is not specifically associated with Japan. \"NURSE\" is a profession
-    and doesn''t have a specific connection to Japan."}, "finish_reason": "stop"}],
-    "usage": {"prompt_tokens": 133, "completion_tokens": 181, "total_tokens": 314}}'
+  clue: JAPAN
+  details: {tokens: 106}
   words: [TOKYO, JAM]
 bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
-  clue: Robin
-  details: '{"id": "chatcmpl-7ywRafoZY8rQiBBnHEsmHHzXeRWz9", "object": "chat.completion",
-    "created": 1694758694, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Robin\nWords: FLY, HOOD\nExplanation:
-    The clue \"Robin\" is related to the words \"FLY\" and \"HOOD\". Robins are a
-    type of bird and birds can fly. Robin Hood is a legendary character known for
-    his skill in archery and for robbing the rich to give to the poor. The clue is
-    not related to \"CHINA\" as Robin is not a term specifically associated with this
-    country. It''s not related to \"NOTE\" as Robin doesn''t imply any musical or
-    written note. It''s not related to \"SHARK\" as Robin is a bird, not a marine
-    creature. It''s not related to \"DWARF\" as Robin doesn''t imply any size or stature.
-    It''s not related to \"QUEEN\" as Robin doesn''t imply any royalty or gender.
-    It''s not related to \"COVER\" as Robin doesn''t imply any form of covering or
-    protection."}, "finish_reason": "stop"}], "usage": {"prompt_tokens": 128, "completion_tokens":
-    191, "total_tokens": 319}}'
+  clue: ROBIN
+  details: {tokens: 101}
   words: [FLY, HOOD]
 c627b3ae-ec53-4865-93ac-f148ca00bed8:
-  clue: Hole
-  details: '{"id": "chatcmpl-7ywRrzE09bWsUXVilFII0RXctL3Q4", "object": "chat.completion",
-    "created": 1694758711, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Hole\nWords: LITTER, DRILL\nExplanation:
-    The clue \"Hole\" is related to \"Litter\" and \"Drill\" because litter can refer
-    to a hole or burrow where animals live, and a drill is used to make holes. The
-    clue is not related to \"Bolt\" because a bolt is a type of fastener and has no
-    connection to a hole. \"Dinosaur\" is not related because dinosaurs are a type
-    of extinct animal and have no direct connection to holes. \"Foot\" is not related
-    because it is a unit of measurement or a part of the body, and while it can step
-    into a hole, it is not inherently connected to the concept of a hole. \"Maple\"
-    is a type of tree and while it can have holes in it, it is not inherently connected
-    to the concept of a hole. \"Marble\" is a type of stone or a small spherical toy,
-    and while it can be placed in a hole, it is not inherently connected to the concept
-    of a hole. \"Web\" is a structure made by spiders or a term for the internet,
-    and has no connection to a hole."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    128, "completion_tokens": 238, "total_tokens": 366}}'
+  clue: HOLE
+  details: {tokens: 101}
   words: [LITTER, DRILL]
 c8ae890a-83b0-4316-ad27-955615bc3d08:
-  clue: Cinema
-  details: '{"id": "chatcmpl-7ywSHa7AuZb4noGmgVTNMpWVLtAb7", "object": "chat.completion",
-    "created": 1694758737, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Cinema\nWords: FILM, TRACK\nExplanation:
-    The clue \"Cinema\" is related to \"FILM\" as films are often watched in a cinema.
-    It is also related to \"TRACK\" as in soundtrack, which is an important part of
-    a film. The clue is not related to \"STREAM\" as it refers to a natural flowing
-    watercourse, not a method of watching films. \"KETCHUP\" is a condiment and has
-    no connection to cinema. \"FOREST\" is a large area covered chiefly with trees
-    and undergrowth, not a place where films are shown or made. \"FLUTE\" is a musical
-    instrument and while it may be used in a film''s soundtrack, it does not have
-    a direct connection to the concept of cinema. \"SATELLITE\" is a celestial body,
-    or a device used for communication, it doesn''t have a direct link to cinema.
-    \"AZTEC\" refers to an ancient civilization, not a film or a part of cinema."},
-    "finish_reason": "stop"}], "usage": {"prompt_tokens": 131, "completion_tokens":
-    207, "total_tokens": 338}}'
+  clue: CINEMA
+  details: {tokens: 103}
   words: [FILM, TRACK]
 c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
-  clue: Aviation
-  details: '{"id": "chatcmpl-7ywSfa0TVDq7woctmrLOigKCfyLHo", "object": "chat.completion",
-    "created": 1694758761, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Aviation\nWords: PILOT, LASER\nExplanation:
-    The clue ''Aviation'' is related to ''PILOT'' as pilots are directly involved
-    in aviation, flying aircrafts. ''LASER'' is also related as lasers are used in
-    aviation for various purposes like speed detection, range finding, and in-flight
-    communication. The clue is not related to ''MAMMOTH'' as it is a prehistoric animal
-    and has no connection with aviation. ''UNDERTAKER'' is not related as it refers
-    to a person who prepares the dead for burial, which has no connection with aviation.
-    ''RING'' is not related as it generally refers to a circular band, which has no
-    direct connection with aviation. ''BILL'' is not related as it refers to a payment
-    or legislation, which is not directly connected to aviation. ''SHOT'' is not related
-    as it refers to a bullet fired from a gun or a try in a game, which has no direct
-    connection with aviation. ''CROSS'' is not related as it refers to a symbol or
-    an act of crossing, which has no direct connection with aviation."}, "finish_reason":
-    "stop"}], "usage": {"prompt_tokens": 130, "completion_tokens": 226, "total_tokens":
-    356}}'
+  clue: AVIATION
+  details: {tokens: 103}
   words: [PILOT, LASER]
 d604cf86-4697-423b-9761-c281bb312a23:
-  clue: Online
-  details: '{"id": "chatcmpl-7ywT1705OMFvym2M7ZTo3Ounmdu0L", "object": "chat.completion",
-    "created": 1694758783, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Online\nWords: MAIL, GAME\nExplanation:
-    The clue \"Online\" is related to \"MAIL\" and \"GAME\" because you can send and
-    receive mail online and you can also play games online. The clue isn''t related
-    to \"IVORY\" because ivory is a material from elephant tusks and has no direct
-    connection to being online. \"WATER\" is a natural resource and doesn''t have
-    a direct connection to being online. \"EGYPT\" is a country and while it has internet,
-    the clue \"online\" doesn''t directly relate to it. \"CHAIR\" is a piece of furniture
-    and has no direct connection to being online. \"STATE\" can refer to a condition
-    or a political entity, neither of which have a direct connection to being online.
-    \"LITTER\" refers to trash or a group of newborn animals, neither of which have
-    a direct connection to being online."}, "finish_reason": "stop"}], "usage": {"prompt_tokens":
-    126, "completion_tokens": 184, "total_tokens": 310}}'
+  clue: POSTMAN
+  details: {tokens: 98}
   words: [MAIL, GAME]
 e31b7942-1342-4eda-b6e0-e8e072b0cedf:
-  clue: BOXING
-  details: '{"id": "chatcmpl-7ywTHZEkXGqjW9MLQagJBAUuG1nsV", "object": "chat.completion",
-    "created": 1694758799, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: BOXING\nWords: FIGHTER, POINT\nExplanation:
-    The clue \"BOXING\" is related to \"FIGHTER\" as a fighter can refer to a person
-    who fights, especially a professional boxer. \"POINT\" is also related as points
-    are scored in boxing matches. The clue is not related to \"CRICKET\" as it is
-    a different sport. \"ROUND\" and \"OLIVE\" are not related as they are not typically
-    associated with boxing. \"DRESS\" is not related as it refers to a piece of clothing,
-    not a sport. \"CAPITAL\" is not related as it refers to a city or town that is
-    the official seat of government in a country or state, or a financial term. \"EYE\"
-    is not related as it refers to the organ of sight, although it can be affected
-    in a boxing match, it''s not a direct association."}, "finish_reason": "stop"}],
-    "usage": {"prompt_tokens": 128, "completion_tokens": 184, "total_tokens": 312}}'
+  clue: BOXER
+  details: {tokens: 102}
   words: [FIGHTER, POINT]
 ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
-  clue: Tennis
-  details: '{"id": "chatcmpl-7ywTab0S9U5StNlzC4ZI2quGf8lLY", "object": "chat.completion",
-    "created": 1694758818, "model": "gpt-4-0613", "choices": [{"index": 0, "message":
-    {"role": "assistant", "content": "Clue: Tennis\nWords: RACKET, LITTER\nExplanation:
-    The clue \"Tennis\" is related to the word \"RACKET\" because a racket is used
-    to play tennis. It is also related to \"LITTER\" because litter can refer to a
-    group of puppies, and puppies is a term used for new, inexperienced players in
-    a game, including tennis. The clue is not related to \"SPACE\" because tennis
-    is a terrestrial sport and has no direct connection to outer space. It is not
-    related to \"TEACHER\", \"BUG\", \"MOLE\", \"NURSE\", or \"GLASS\" as none of
-    these have a direct connection to the sport of tennis."}, "finish_reason": "stop"}],
-    "usage": {"prompt_tokens": 128, "completion_tokens": 140, "total_tokens": 268}}'
+  clue: TENNIS
+  details: {tokens: 101}
   words: [RACKET, LITTER]

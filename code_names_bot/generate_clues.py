@@ -7,6 +7,9 @@ from .clue_generator.manual_clue import manual_clue
 from .clue_generator.target_all_clue import target_all_clue
 from .clue_generator.immediate_clue import immediate_clue
 from .clue_generator.propose_rank import propose_rank_clue
+from .clue_generator.propose_rank_prefilter import propose_rank_prefilter_clue
+
+yaml.Dumper.ignore_aliases = lambda *args: True
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -26,16 +29,31 @@ def get_generator(generator):
         return immediate_clue
     if generator == "propose-rank":
         return propose_rank_clue
+    if generator == "propose-rank-prefilter":
+        return propose_rank_prefilter_clue
 
 
 def main():
+    data = dict()
+    data["details"] = {
+        "tokens": 10
+    }
+    print(yaml.dump(data, default_flow_style=None))
+
+
     scenarios_name, generator_name, scenario_id = parse_args()
     path = os.path.join(SCENARIOS_DIR, f"{scenarios_name}.yaml")
+    output_path = os.path.join(CLUES_DIR, f"{scenarios_name}_{generator_name}.yaml")
 
     with open(path, "r") as file:
         scenarios = yaml.safe_load(file.read())
 
-    clues = {}
+    if os.path.isfile(output_path):
+        with open(output_path, "r") as file:
+            clues = yaml.safe_load(file.read())
+    else:
+        clues = {}
+    
     generator = get_generator(generator_name)
 
     if scenario_id is not None:
@@ -45,6 +63,9 @@ def main():
 
     for i, (scenario_id, scenario) in scenario_items:
         print(f"=== {i} / {len(scenarios)} ===")
+
+        if scenario_id in clues:
+            continue
 
         clue, clue_words, details = generator(scenario["pos"], scenario["neg"])
         output = {
@@ -57,13 +78,11 @@ def main():
         if details is not None:
             output["details"] = details
         
+        print(output)
         clues[scenario_id] = output
 
-    
-    output_path = os.path.join(CLUES_DIR, f"{scenarios_name}_{generator_name}.yaml")
-
-    with open(output_path, "w+") as file:
-        file.write(yaml.dump(clues, default_flow_style=None))
+        with open(output_path, "w+") as file:
+            file.write(yaml.dump(clues, default_flow_style=None))
 
 
 if __name__ == "__main__":

@@ -1,8 +1,6 @@
-1. Generate a single-world clue that is related to as many of the positive words as possible. The clue does not have to be related to all of the positive words, and must be related to none of the negative words.
-2. List the positive words that the clue is related to.
-3. Explain why the clue isn't related to each of the negative words.
-        
+1. Generate a single-world clue that is related to as many of the positive words as possible, but none of the negative words.
+2. List the positive words that the clue pertains to.
+
 Output Format:
 Clue: ...
 Words: ...
-Explanation: ..."

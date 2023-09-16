@@ -4,7 +4,7 @@ from code_names_bot.util.get_completion import get_completion
 import random
 
 proposal_prompt = read_prompt("propose_5")
-rank_prompt = read_prompt("rank")
+rank_prompt = read_prompt("filter_rank")
 
 def _get_proposals(pos_words, neg_words):
     pos_words_str = ", ".join(pos_words)
@@ -29,15 +29,18 @@ def _get_proposal_ranked_words(pos_words, neg_words, proposal):
     words_str = ", ".join(words)
     user_msg = f"Clue: {proposal}\nWords: {words_str}"
     completion, token_count = get_completion(rank_prompt, user_msg)
-    words_ranked = completion.split(", ")
+    lines = completion.splitlines()
+    related = lines[0].removeprefix("Related: ").split(", ")
+    words_ranked = lines[1].removeprefix("Ranked: ").split(", ")
 
     details = {
+        "related": related,
         "words_ranked": words_ranked,
         "tokens": token_count
     }
     return words_ranked, details
 
-def propose_rank_clue(pos_words, neg_words):
+def propose_rank_prefilter_clue(pos_words, neg_words):
     proposals, token_count = _get_proposals(pos_words, neg_words)
 
     details = {

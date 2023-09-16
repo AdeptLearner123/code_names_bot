@@ -1,1 +1,4 @@
 Generate a single-word clue that is related to the positive words and none of the negative words.
+
+Output format
+Clue: ...
