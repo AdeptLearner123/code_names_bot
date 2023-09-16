@@ -26,6 +26,7 @@ def evaluate(guesses_name, mode):
         if mode == "count_neg":
             pos_count = sum([ word in scenario["pos"] for word in guess_words])
             neg_count = sum([ word in scenario["neg"] for word in guess_words])
+            print(pos_count, neg_count)
             score += pos_count - neg_count
 
     print(f"{guesses_name}: {score} / {len(guesses)} = {score / len(guesses)}")

@@ -33,7 +33,6 @@ def _get_proposal_ranked_words(pos_words, neg_words, proposal):
     words_ranked = completion.split(", ")
 
     details = {
-        "words": words,
         "words_ranked": words_ranked,
         "tokens": token_count
     }
