@@ -1,6 +1,7 @@
 import os
 import yaml
 import argparse
+from collections import Counter
 
 from config import GUESSES_DIR, SCENARIOS_DIR
 
@@ -19,6 +20,7 @@ def evaluate(guesses_name, mode):
         scenarios = yaml.safe_load(file.read())
 
     score = 0
+    score_dist = Counter()
 
     for scenario_id, guess_words in guesses.items():
         scenario = scenarios[scenario_id]
@@ -26,10 +28,11 @@ def evaluate(guesses_name, mode):
         if mode == "count_neg":
             pos_count = sum([ word in scenario["pos"] for word in guess_words])
             neg_count = sum([ word in scenario["neg"] for word in guess_words])
-            print(pos_count, neg_count)
+            score_dist[pos_count - neg_count] += 1
             score += pos_count - neg_count
 
     print(f"{guesses_name}: {score} / {len(guesses)} = {score / len(guesses)}")
+    print(score_dist)
 
 
 def main():

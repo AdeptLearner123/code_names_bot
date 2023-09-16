@@ -1,1 +1,5 @@
-Rank the given words based on how related they are to the clue as a comma-separated list
+Determine which of the given words are related to the given clue. Then rank the selected words by how related they are to the clue as a comma-separated list.
+
+Output format:
+Related: ...
+Ranked: ...
