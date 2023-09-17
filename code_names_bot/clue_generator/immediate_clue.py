@@ -1,13 +1,11 @@
-from code_names_bot.util.read_prompt import read_prompt
-from code_names_bot.util.get_completion import get_completion
+from code_names_bot.util.prompts import read_prompt, get_scenario_str
+from code_names_bot.util.completions import get_completion
 
 prompt = read_prompt("immediate")
 
 def immediate_clue(pos_words, neg_words):
-    pos_words_str = ", ".join(pos_words)
-    neg_words_str = ", ".join(neg_words)
-    user_msg = f"Positive words: {pos_words_str}\nNegative words:{neg_words_str}"
-    completion, tokens = get_completion(prompt, user_msg)
+    scenario_str = get_scenario_str(pos_words, neg_words)
+    completion, tokens = get_completion(prompt, scenario_str)
 
     lines = completion.splitlines()
     clue = lines[0].removeprefix("Clue: ").upper()

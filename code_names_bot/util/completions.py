@@ -1,4 +1,4 @@
-from code_names_bot.util.read_prompt import read_prompt
+from code_names_bot.util.prompts import read_prompt
 
 import openai
 import os
@@ -19,3 +19,10 @@ def get_completion(system, user):
     token_count = int(response["usage"]["total_tokens"])
 
     return message, token_count
+
+
+def get_completion_as_word_list(system, user):
+    completion, token_count = get_completion(system, user)
+    words = completion.split(", ")
+    words = [ word.upper() for word in words ]
+    return words, token_count

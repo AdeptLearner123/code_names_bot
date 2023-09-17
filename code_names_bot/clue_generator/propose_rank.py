@@ -1,63 +1,23 @@
-from code_names_bot.util.read_prompt import read_prompt
-from code_names_bot.util.get_completion import get_completion
+from code_names_bot.util.propose_rank import get_proposals, get_ranked_words, select_clue
+from code_names_bot.util.dict import split_by_column, merge
 
 import random
 
-proposal_prompt = read_prompt("propose_5")
-rank_prompt = read_prompt("rank")
-
-def _get_proposals(pos_words, neg_words):
-    pos_words_str = ", ".join(pos_words)
-    neg_words_str = ", ".join(neg_words)
-    user_msg = f"Positive words: {pos_words_str}\nNegative words:{neg_words_str}"
-    completion, token_count = get_completion(proposal_prompt, user_msg)
-    proposals = completion.split(", ")
-    proposals = [ proposal.upper() for proposal in proposals ]
-    return proposals, token_count
-
-
-def _get_guessable_words(words_ranked, pos_words):
-    for i, word in enumerate(words_ranked):
-        if word not in pos_words:
-            return words_ranked[:i]
-    return words_ranked
-
-
-def _get_proposal_ranked_words(pos_words, neg_words, proposal):
+def propose_rank_clue(pos_words, neg_words):
+    proposals, token_count = get_proposals(pos_words, neg_words)    
     words = pos_words + neg_words
     random.Random(0).shuffle(words)
-    words_str = ", ".join(words)
-    user_msg = f"Clue: {proposal}\nWords: {words_str}"
-    completion, token_count = get_completion(rank_prompt, user_msg)
-    words_ranked = completion.split(", ")
-
-    details = {
-        "words_ranked": words_ranked,
-        "tokens": token_count
-    }
-    return words_ranked, details
-
-def propose_rank_clue(pos_words, neg_words):
-    proposals, token_count = _get_proposals(pos_words, neg_words)
+    proposal_ranked_words = { proposal: get_ranked_words(words, proposal) for proposal in proposals }
+    proposal_ranked_words, proposal_tokens = split_by_column(proposal_ranked_words)
+    proposal_details = merge(("ranked_words", proposal_ranked_words), ("tokens", proposal_tokens))
+    token_count += sum(proposal_tokens.values())
+    clue, clue_words = select_clue(proposal_ranked_words, pos_words)
 
     details = {
         "proposals": proposals,
-        "proposal_word_details": {},
+        "words": words,
+        "proposal_details": proposal_details,
         "tokens": token_count
     }
-    best_clue = None
-    clue_words = None
 
-    for proposal in proposals:
-        words_ranked, proposal_word_details = _get_proposal_ranked_words(pos_words, neg_words, proposal)
-
-        details["proposal_word_details"][proposal] = proposal_word_details
-        details["tokens"] += proposal_word_details["tokens"]
-
-        proposal_words = _get_guessable_words(words_ranked, pos_words)
-
-        if best_clue is None or len(clue_words) < len(proposal_words):
-            best_clue = proposal
-            clue_words = proposal_words
-
-    return best_clue, clue_words, details
+    return clue, clue_words, details
