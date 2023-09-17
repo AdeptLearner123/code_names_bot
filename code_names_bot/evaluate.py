@@ -11,8 +11,8 @@ def parse_args():
     args = parser.parse_args()
     return args.mode
 
-def evaluate(guesses_name, mode):
-    with open(os.path.join(CLUES_DIR, f"{guesses_name}.yaml"), "r") as file:
+def evaluate(clues_name, mode):
+    with open(os.path.join(CLUES_DIR, f"{clues_name}.yaml"), "r") as file:
         clues = yaml.safe_load(file.read())
 
     score = 0
@@ -26,7 +26,7 @@ def evaluate(guesses_name, mode):
             score_dist[pos_count - neg_count] += 1
             score += pos_count - neg_count
 
-    print(f"{guesses_name}: {score} / {len(guesses)} = {score / len(guesses)}")
+    print(f"{clues_name}: {score} / {len(clues)} = {score / len(clues)}")
     print(score_dist)
 
 
