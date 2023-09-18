@@ -1,0 +1,905 @@
+02e42c49-c027-4568-b656-c78bc4a6ad47:
+  pos: [AMAZON, IRON]
+  neg: [POLE, RING, FLUTE, COLD, HAND, LIMOUSINE]
+  clue: JUNGLE
+  words: [AMAZON]
+  details:
+    proposals: [JUNGLE, RIVER, METAL, ELEMENT, E-COMMERCE]
+    words: [AMAZON, IRON, POLE, RING, FLUTE, COLD, HAND, LIMOUSINE]
+    proposal_details:
+      JUNGLE:
+        word_scores: {AMAZON: 3, POLE: 6, FLUTE: 11, HAND: 15, RING: 13, LIMOUSINE: 20,
+          COLD: 18, IRON: 22}
+        ranked_words: [AMAZON, POLE, FLUTE, RING, HAND, COLD, LIMOUSINE, IRON]
+        tokens: 261
+      RIVER:
+        word_scores: {AMAZON: 3, POLE: 6, COLD: 9, FLUTE: 14, RING: 13, HAND: 20,
+          LIMOUSINE: 20, IRON: 23}
+        ranked_words: [AMAZON, POLE, COLD, RING, FLUTE, HAND, LIMOUSINE, IRON]
+        tokens: 258
+      METAL:
+        word_scores: {IRON: 3, RING: 6, POLE: 9, FLUTE: 13, COLD: 15, LIMOUSINE: 17,
+          HAND: 21, AMAZON: 24}
+        ranked_words: [IRON, RING, POLE, FLUTE, COLD, LIMOUSINE, HAND, AMAZON]
+        tokens: 252
+      ELEMENT:
+        word_scores: {IRON: 3, RING: 8, POLE: 11, COLD: 8, AMAZON: 21, FLUTE: 17,
+          LIMOUSINE: 21, HAND: 19}
+        ranked_words: [IRON, RING, COLD, POLE, FLUTE, HAND, LIMOUSINE, AMAZON]
+        tokens: 249
+      E-COMMERCE:
+        word_scores: {AMAZON: 3, RING: 6, HAND: 13, LIMOUSINE: 12, POLE: 13, FLUTE: 17,
+          IRON: 20, COLD: 24}
+        ranked_words: [AMAZON, RING, LIMOUSINE, HAND, POLE, FLUTE, IRON, COLD]
+        tokens: 267
+    tokens: 1362
+  guesses: [AMAZON]
+0cf1ceae-7b10-4ce8-b90e-074b2c5e1c24:
+  pos: [KING, PLOT]
+  neg: [CRANE, SCREEN, SHARK, TICK, BERMUDA, ORGAN]
+  clue: THRONE
+  words: [KING, PLOT]
+  details:
+    proposals: [THRONE, STORY, ROYALTY, SCHEME, CROWN]
+    words: [KING, PLOT, CRANE, SCREEN, SHARK, TICK, BERMUDA, ORGAN]
+    proposal_details:
+      THRONE:
+        word_scores: {KING: 3, PLOT: 6, SCREEN: 9, ORGAN: 13, CRANE: 14, SHARK: 19,
+          TICK: 20, BERMUDA: 24}
+        ranked_words: [KING, PLOT, SCREEN, ORGAN, CRANE, SHARK, TICK, BERMUDA]
+        tokens: 240
+      STORY:
+        word_scores: {PLOT: 3, KING: 8, SCREEN: 7, SHARK: 12, BERMUDA: 17, CRANE: 18,
+          ORGAN: 23, TICK: 20}
+        ranked_words: [PLOT, SCREEN, KING, SHARK, BERMUDA, CRANE, TICK, ORGAN]
+        tokens: 234
+      ROYALTY:
+        word_scores: {KING: 3, PLOT: 7, BERMUDA: 8, ORGAN: 18, SCREEN: 15, CRANE: 16,
+          SHARK: 17, TICK: 24}
+        ranked_words: [KING, PLOT, BERMUDA, SCREEN, CRANE, SHARK, ORGAN, TICK]
+        tokens: 246
+      SCHEME:
+        word_scores: {PLOT: 3, SCHEME: 4, BERMUDA: 10, SHARK: 13, SCREEN: 11, KING: 19,
+          CRANE: 20, TICK: 21, ORGAN: 7}
+        ranked_words: [PLOT, SCHEME, ORGAN, BERMUDA, SCREEN, SHARK, KING, CRANE, TICK]
+        tokens: 237
+      CROWN:
+        word_scores: {KING: 3, BERMUDA: 12, CRANE: 12, PLOT: 12, SHARK: 18, SCREEN: 12,
+          ORGAN: 20, TICK: 19}
+        ranked_words: [KING, BERMUDA, CRANE, SCREEN, PLOT, SHARK, TICK, ORGAN]
+        tokens: 240
+    tokens: 1273
+  guesses: [KING, PLOT]
+15d1e84b-9b94-4d13-bc8e-e4838b2e9dfa:
+  pos: [PORT, ORANGE]
+  neg: [TRIP, RACKET, TORCH, THEATER, HOLLYWOOD, LOG]
+  clue: CITRUS
+  words: [ORANGE, PORT]
+  details:
+    proposals: [HARBOR, CITRUS, DOCK, VITAMIN, PEEL]
+    words: [PORT, ORANGE, TRIP, RACKET, TORCH, THEATER, HOLLYWOOD, LOG]
+    proposal_details:
+      HARBOR:
+        word_scores: {PORT: 3, TRIP: 6, LOG: 9, TORCH: 14, RACKET: 15, HOLLYWOOD: 21,
+          THEATER: 17, ORANGE: 23}
+        ranked_words: [PORT, TRIP, LOG, TORCH, RACKET, THEATER, HOLLYWOOD, ORANGE]
+        tokens: 246
+      CITRUS:
+        word_scores: {ORANGE: 3, HOLLYWOOD: 18, LOG: 14, RACKET: 15, PORT: 11, TRIP: 12,
+          THEATER: 21, TORCH: 14}
+        ranked_words: [ORANGE, PORT, TRIP, LOG, TORCH, RACKET, HOLLYWOOD, THEATER]
+        tokens: 246
+      DOCK:
+        word_scores: {PORT: 3, LOG: 7, TRIP: 8, RACKET: 14, TORCH: 15, HOLLYWOOD: 22,
+          THEATER: 20, ORANGE: 19}
+        ranked_words: [PORT, LOG, TRIP, RACKET, TORCH, ORANGE, THEATER, HOLLYWOOD]
+        tokens: 243
+      VITAMIN:
+        word_scores: {ORANGE: 3, HOLLYWOOD: 15, LOG: 15, RACKET: 14, PORT: 17, TRIP: 13,
+          THEATER: 17, TORCH: 14}
+        ranked_words: [ORANGE, TRIP, RACKET, TORCH, HOLLYWOOD, LOG, THEATER, PORT]
+        tokens: 249
+      PEEL:
+        word_scores: {ORANGE: 3, LOG: 10, RACKET: 9, TORCH: 14, TRIP: 13, PORT: 19,
+          THEATER: 22, HOLLYWOOD: 25, PEEL: 2}
+        ranked_words: [PEEL, ORANGE, RACKET, LOG, TRIP, TORCH, PORT, THEATER, HOLLYWOOD]
+        tokens: 246
+    tokens: 1303
+  guesses: [ORANGE, LOG]
+1fbb4775-8b66-4e2b-aed6-481c309fb00f:
+  pos: [COMIC, EMBASSY]
+  neg: [BOARD, BUFFALO, PLATE, LASER, WAVE, ANTARCTICA]
+  clue: HUMOR
+  words: [COMIC]
+  details:
+    proposals: [HUMOR, DIPLOMACY, STRIP, CONSULATE, CARTOON]
+    words: [COMIC, EMBASSY, BOARD, BUFFALO, PLATE, LASER, WAVE, ANTARCTICA]
+    proposal_details:
+      HUMOR:
+        word_scores: {COMIC: 3, WAVE: 6, BOARD: 9, PLATE: 15, LASER: 13, BUFFALO: 19,
+          EMBASSY: 19, ANTARCTICA: 24}
+        ranked_words: [COMIC, WAVE, BOARD, LASER, PLATE, BUFFALO, EMBASSY, ANTARCTICA]
+        tokens: 276
+      DIPLOMACY:
+        word_scores: {EMBASSY: 3, BOARD: 6, WAVE: 9, PLATE: 14, COMIC: 14, LASER: 17,
+          BUFFALO: 23, ANTARCTICA: 22}
+        ranked_words: [EMBASSY, BOARD, WAVE, PLATE, COMIC, LASER, ANTARCTICA, BUFFALO]
+        tokens: 282
+      STRIP:
+        word_scores: {COMIC: 3, BOARD: 7, PLATE: 11, LASER: 11, WAVE: 13, BUFFALO: 20,
+          EMBASSY: 19, ANTARCTICA: 24}
+        ranked_words: [COMIC, BOARD, PLATE, LASER, WAVE, EMBASSY, BUFFALO, ANTARCTICA]
+        tokens: 273
+      CONSULATE:
+        word_scores: {EMBASSY: 3, BOARD: 6, PLATE: 10, WAVE: 14, ANTARCTICA: 20, BUFFALO: 21,
+          COMIC: 14, LASER: 20}
+        ranked_words: [EMBASSY, BOARD, PLATE, WAVE, COMIC, ANTARCTICA, LASER, BUFFALO]
+        tokens: 273
+      CARTOON:
+        word_scores: {COMIC: 3, BOARD: 8, WAVE: 9, LASER: 10, PLATE: 16, BUFFALO: 17,
+          ANTARCTICA: 23, EMBASSY: 22}
+        ranked_words: [COMIC, BOARD, WAVE, LASER, PLATE, BUFFALO, EMBASSY, ANTARCTICA]
+        tokens: 276
+    tokens: 1460
+  guesses: [COMIC]
+2afb7e7d-fe6b-44d7-9932-da2418712628:
+  pos: [SINK, HELICOPTER]
+  neg: [FENCE, LIGHT, GERMANY, TOWER, STREAM, BAND]
+  clue: PLUMBING
+  words: [SINK]
+  details:
+    proposals: [PLUMBING, AVIATION, DRAIN, ROTOR, ALTITUDE]
+    words: [SINK, HELICOPTER, FENCE, LIGHT, GERMANY, TOWER, STREAM, BAND]
+    proposal_details:
+      PLUMBING:
+        word_scores: {SINK: 3, STREAM: 6, TOWER: 12, BAND: 17, FENCE: 12, LIGHT: 14,
+          HELICOPTER: 20, GERMANY: 24}
+        ranked_words: [SINK, STREAM, TOWER, FENCE, LIGHT, BAND, HELICOPTER, GERMANY]
+        tokens: 258
+      AVIATION:
+        word_scores: {HELICOPTER: 3, TOWER: 6, LIGHT: 9, STREAM: 13, BAND: 17, FENCE: 19,
+          SINK: 23, GERMANY: 18}
+        ranked_words: [HELICOPTER, TOWER, LIGHT, STREAM, BAND, GERMANY, FENCE, SINK]
+        tokens: 258
+      DRAIN:
+        word_scores: {SINK: 3, STREAM: 6, BAND: 13, FENCE: 10, LIGHT: 15, TOWER: 16,
+          HELICOPTER: 21, GERMANY: 24}
+        ranked_words: [SINK, STREAM, FENCE, BAND, LIGHT, TOWER, HELICOPTER, GERMANY]
+        tokens: 255
+      ROTOR:
+        word_scores: {HELICOPTER: 3, TOWER: 6, STREAM: 14, BAND: 11, LIGHT: 12, SINK: 19,
+          FENCE: 19, GERMANY: 24}
+        ranked_words: [HELICOPTER, TOWER, BAND, LIGHT, STREAM, FENCE, SINK, GERMANY]
+        tokens: 255
+      ALTITUDE:
+        word_scores: {HELICOPTER: 3, TOWER: 6, LIGHT: 9, FENCE: 15, BAND: 18, STREAM: 14,
+          SINK: 19, GERMANY: 24}
+        ranked_words: [HELICOPTER, TOWER, LIGHT, STREAM, FENCE, BAND, SINK, GERMANY]
+        tokens: 255
+    tokens: 1356
+  guesses: [SINK]
+38df3256-a635-4dc3-bdb0-b804b8566a4d:
+  pos: [TABLET, UNICORN]
+  neg: [PLAY, KING, HELICOPTER, LAB, PIE, DUCK]
+  clue: FANTASY
+  words: [UNICORN]
+  details:
+    proposals: [FANTASY, TECHNOLOGY, MYTHICAL, PORTABLE, HORNED]
+    words: [TABLET, UNICORN, PLAY, KING, HELICOPTER, LAB, PIE, DUCK]
+    proposal_details:
+      FANTASY:
+        word_scores: {UNICORN: 3, KING: 6, PLAY: 9, HELICOPTER: 14, TABLET: 19, DUCK: 16,
+          LAB: 17, PIE: 24}
+        ranked_words: [UNICORN, KING, PLAY, HELICOPTER, DUCK, LAB, TABLET, PIE]
+        tokens: 246
+      TECHNOLOGY:
+        word_scores: {TABLET: 3, LAB: 7, HELICOPTER: 8, PLAY: 12, KING: 17, UNICORN: 19,
+          DUCK: 18, PIE: 24}
+        ranked_words: [TABLET, LAB, HELICOPTER, PLAY, KING, DUCK, UNICORN, PIE]
+        tokens: 243
+      MYTHICAL:
+        word_scores: {UNICORN: 3, KING: 6, PLAY: 9, HELICOPTER: 14, TABLET: 18, DUCK: 16,
+          LAB: 18, PIE: 24}
+        ranked_words: [UNICORN, KING, PLAY, HELICOPTER, DUCK, LAB, TABLET, PIE]
+        tokens: 246
+      PORTABLE:
+        word_scores: {TABLET: 3, HELICOPTER: 8, PIE: 15, PLAY: 11, LAB: 10, DUCK: 17,
+          KING: 23, UNICORN: 21}
+        ranked_words: [TABLET, HELICOPTER, LAB, PLAY, PIE, DUCK, UNICORN, KING]
+        tokens: 243
+      HORNED:
+        word_scores: {UNICORN: 3, DUCK: 6, KING: 9, HELICOPTER: 12, PLAY: 18, LAB: 16,
+          TABLET: 20, PIE: 24}
+        ranked_words: [UNICORN, DUCK, KING, HELICOPTER, LAB, PLAY, TABLET, PIE]
+        tokens: 246
+    tokens: 1298
+  guesses: [UNICORN]
+3aea0278-1d10-4148-b6ff-420412b72587:
+  pos: [GLOVE, GLASS]
+  neg: [GIANT, HOTEL, TAG, ATLANTIS, JET, HOSPITAL]
+  clue: TRANSPARENT
+  words: [GLASS, GLOVE]
+  details:
+    proposals: [HAND, TRANSPARENT, PROTECTION, DRINKWARE, LEATHER]
+    words: [GLOVE, GLASS, GIANT, HOTEL, TAG, ATLANTIS, JET, HOSPITAL]
+    proposal_details:
+      HAND:
+        word_scores: {GLOVE: 3, TAG: 6, HOSPITAL: 12, GLASS: 11, HOTEL: 16, GIANT: 16,
+          JET: 20, ATLANTIS: 24}
+        ranked_words: [GLOVE, TAG, GLASS, HOSPITAL, HOTEL, GIANT, JET, ATLANTIS]
+        tokens: 258
+      TRANSPARENT:
+        word_scores: {GLASS: 3, GLOVE: 9, TAG: 13, JET: 11, HOTEL: 14, HOSPITAL: 21,
+          GIANT: 20, ATLANTIS: 17}
+        ranked_words: [GLASS, GLOVE, JET, TAG, HOTEL, ATLANTIS, GIANT, HOSPITAL]
+        tokens: 261
+      PROTECTION:
+        word_scores: {GLOVE: 3, HOSPITAL: 6, GLASS: 11, HOTEL: 10, TAG: 18, JET: 18,
+          GIANT: 21, ATLANTIS: 21}
+        ranked_words: [GLOVE, HOSPITAL, HOTEL, GLASS, TAG, JET, GIANT, ATLANTIS]
+        tokens: 261
+      DRINKWARE:
+        word_scores: {GLASS: 3, HOTEL: 6, TAG: 11, JET: 16, HOSPITAL: 17, GLOVE: 14,
+          GIANT: 17, ATLANTIS: 24}
+        ranked_words: [GLASS, HOTEL, TAG, GLOVE, JET, HOSPITAL, GIANT, ATLANTIS]
+        tokens: 264
+      LEATHER:
+        word_scores: {GLOVE: 3, TAG: 6, HOTEL: 10, GLASS: 15, JET: 16, GIANT: 16,
+          HOSPITAL: 18, ATLANTIS: 24}
+        ranked_words: [GLOVE, TAG, HOTEL, GLASS, JET, GIANT, HOSPITAL, ATLANTIS]
+        tokens: 261
+    tokens: 1380
+  guesses: [GLASS, JET]
+466843ee-d24e-45c9-b209-391f7ce61062:
+  pos: [THIEF, CROSS]
+  neg: [STRIKE, NIGHT, POUND, HORSESHOE, BOLT, MOUTH]
+  clue: STEAL
+  words: [THIEF]
+  details:
+    proposals: [STEAL, CRUCIFIX, BURGLAR, RELIGION, ROBBER]
+    words: [THIEF, CROSS, STRIKE, NIGHT, POUND, HORSESHOE, BOLT, MOUTH]
+    proposal_details:
+      STEAL:
+        word_scores: {THIEF: 3, BOLT: 7, STRIKE: 10, NIGHT: 10, CROSS: 15, POUND: 19,
+          HORSESHOE: 20, MOUTH: 24}
+        ranked_words: [THIEF, BOLT, STRIKE, NIGHT, CROSS, POUND, HORSESHOE, MOUTH]
+        tokens: 255
+      CRUCIFIX:
+        word_scores: {CROSS: 3, THIEF: 13, STRIKE: 11, BOLT: 12, POUND: 16, HORSESHOE: 12,
+          NIGHT: 17, MOUTH: 24}
+        ranked_words: [CROSS, STRIKE, BOLT, HORSESHOE, THIEF, POUND, NIGHT, MOUTH]
+        tokens: 264
+      BURGLAR:
+        word_scores: {THIEF: 3, NIGHT: 6, BOLT: 9, STRIKE: 12, CROSS: 15, POUND: 18,
+          HORSESHOE: 21, MOUTH: 24}
+        ranked_words: [THIEF, NIGHT, BOLT, STRIKE, CROSS, POUND, HORSESHOE, MOUTH]
+        tokens: 261
+      RELIGION:
+        word_scores: {CROSS: 3, POUND: 17, NIGHT: 9, HORSESHOE: 10, STRIKE: 14, THIEF: 16,
+          MOUTH: 16, BOLT: 23}
+        ranked_words: [CROSS, NIGHT, HORSESHOE, STRIKE, MOUTH, THIEF, POUND, BOLT]
+        tokens: 261
+      ROBBER:
+        word_scores: {THIEF: 3, NIGHT: 6, STRIKE: 11, CROSS: 13, POUND: 17, BOLT: 13,
+          HORSESHOE: 21, MOUTH: 24}
+        ranked_words: [THIEF, NIGHT, STRIKE, BOLT, CROSS, POUND, HORSESHOE, MOUTH]
+        tokens: 258
+    tokens: 1377
+  guesses: [THIEF]
+5754771b-dd37-4bc2-869c-74cd9629bb5c:
+  pos: [BERMUDA, PALM]
+  neg: [AMERICA, MINT, CHURCH, FORCE, BOTTLE, CRICKET]
+  clue: ISLAND
+  words: [BERMUDA, PALM]
+  details:
+    proposals: [ISLAND, TROPICAL, SHORTS, COCONUT, ATLANTIC]
+    words: [BERMUDA, PALM, AMERICA, MINT, CHURCH, FORCE, BOTTLE, CRICKET]
+    proposal_details:
+      ISLAND:
+        word_scores: {BERMUDA: 3, PALM: 6, AMERICA: 9, CHURCH: 13, CRICKET: 16, MINT: 21,
+          BOTTLE: 17, FORCE: 23}
+        ranked_words: [BERMUDA, PALM, AMERICA, CHURCH, CRICKET, BOTTLE, MINT, FORCE]
+        tokens: 267
+      TROPICAL:
+        word_scores: {BERMUDA: 4, PALM: 5, AMERICA: 9, CRICKET: 13, BOTTLE: 16, MINT: 17,
+          CHURCH: 21, FORCE: 23}
+        ranked_words: [BERMUDA, PALM, AMERICA, CRICKET, BOTTLE, MINT, CHURCH, FORCE]
+        tokens: 270
+      SHORTS:
+        word_scores: {BERMUDA: 3, CRICKET: 6, PALM: 9, AMERICA: 18, CHURCH: 21, MINT: 14,
+          FORCE: 18, BOTTLE: 19}
+        ranked_words: [BERMUDA, CRICKET, PALM, MINT, AMERICA, FORCE, BOTTLE, CHURCH]
+        tokens: 267
+      COCONUT:
+        word_scores: {PALM: 3, BERMUDA: 8, BOTTLE: 8, MINT: 11, AMERICA: 16, CRICKET: 17,
+          CHURCH: 23, FORCE: 22}
+        ranked_words: [PALM, BOTTLE, BERMUDA, MINT, AMERICA, CRICKET, FORCE, CHURCH]
+        tokens: 270
+      ATLANTIC:
+        word_scores: {AMERICA: 5, BERMUDA: 4, PALM: 9, BOTTLE: 13, FORCE: 16, CHURCH: 20,
+          MINT: 19, CRICKET: 22}
+        ranked_words: [BERMUDA, AMERICA, PALM, BOTTLE, FORCE, MINT, CHURCH, CRICKET]
+        tokens: 270
+    tokens: 1420
+  guesses: [BERMUDA, PALM]
+617c798c-03db-451e-9230-e668418c1eda:
+  pos: [ROSE, SLUG]
+  neg: [MOON, NAIL, GREECE, GHOST, STATE, COVER]
+  clue: PETALS
+  words: [ROSE]
+  details:
+    proposals: [PETALS, GARDEN, SNAIL, FRAGRANCE, MOLLUSK]
+    words: [ROSE, SLUG, MOON, NAIL, GREECE, GHOST, STATE, COVER]
+    proposal_details:
+      PETALS:
+        word_scores: {ROSE: 3, COVER: 7, STATE: 17, NAIL: 14, SLUG: 15, MOON: 15,
+          GHOST: 17, GREECE: 20}
+        ranked_words: [ROSE, COVER, NAIL, MOON, SLUG, STATE, GHOST, GREECE]
+        tokens: 243
+      GARDEN:
+        word_scores: {ROSE: 3, SLUG: 6, GARDEN: 3, COVER: 14, NAIL: 13, MOON: 12,
+          GHOST: 19, STATE: 23, GREECE: 24}
+        ranked_words: [GARDEN, ROSE, SLUG, MOON, NAIL, COVER, GHOST, STATE, GREECE]
+        tokens: 250
+      SNAIL:
+        word_scores: {SLUG: 3, COVER: 8, NAIL: 7, ROSE: 12, MOON: 16, GHOST: 17, STATE: 21,
+          GREECE: 24}
+        ranked_words: [SLUG, NAIL, COVER, ROSE, MOON, GHOST, STATE, GREECE]
+        tokens: 243
+      FRAGRANCE:
+        word_scores: {ROSE: 3, FRAGRANCE: 4, GHOST: 8, COVER: 12, NAIL: 14, MOON: 16,
+          SLUG: 21, STATE: 23, GREECE: 25}
+        ranked_words: [ROSE, FRAGRANCE, GHOST, COVER, NAIL, MOON, SLUG, STATE, GREECE]
+        tokens: 254
+      MOLLUSK:
+        word_scores: {SLUG: 3, NAIL: 7, COVER: 14, MOON: 10, GREECE: 21, ROSE: 13,
+          GHOST: 18, STATE: 22}
+        ranked_words: [SLUG, NAIL, MOON, ROSE, COVER, GHOST, GREECE, STATE]
+        tokens: 249
+    tokens: 1315
+  guesses: [ROSE]
+69e9a665-9d9d-4588-b65b-9e299685b00a:
+  pos: [POLICE, FORCE]
+  neg: [PART, KIWI, DIAMOND, ENGINE, SUPERHERO, PIRATE]
+  clue: LAW
+  words: [POLICE, FORCE]
+  details:
+    proposals: [LAW, PATROL, SECURITY, UNIFORM, ARREST]
+    words: [POLICE, FORCE, PART, KIWI, DIAMOND, ENGINE, SUPERHERO, PIRATE]
+    proposal_details:
+      LAW:
+        word_scores: {POLICE: 3, FORCE: 7, PART: 12, SUPERHERO: 10, PIRATE: 13, ENGINE: 19,
+          DIAMOND: 20, KIWI: 24}
+        ranked_words: [POLICE, FORCE, SUPERHERO, PART, PIRATE, ENGINE, DIAMOND, KIWI]
+        tokens: 252
+      PATROL:
+        word_scores: {POLICE: 3, FORCE: 7, SUPERHERO: 8, PIRATE: 12, PART: 15, ENGINE: 18,
+          DIAMOND: 21, KIWI: 24}
+        ranked_words: [POLICE, FORCE, SUPERHERO, PIRATE, PART, ENGINE, DIAMOND, KIWI]
+        tokens: 255
+      SECURITY:
+        word_scores: {POLICE: 3, FORCE: 7, SUPERHERO: 8, DIAMOND: 16, PIRATE: 14,
+          PART: 19, ENGINE: 21, KIWI: 25, SECURITY: 4}
+        ranked_words: [POLICE, SECURITY, FORCE, SUPERHERO, PIRATE, DIAMOND, PART,
+          ENGINE, KIWI]
+        tokens: 254
+      UNIFORM:
+        word_scores: {POLICE: 3, SUPERHERO: 6, PIRATE: 9, FORCE: 12, PART: 16, DIAMOND: 21,
+          ENGINE: 20, KIWI: 25, UNIFORM: 5}
+        ranked_words: [POLICE, UNIFORM, SUPERHERO, PIRATE, FORCE, PART, ENGINE, DIAMOND,
+          KIWI]
+        tokens: 258
+      ARREST:
+        word_scores: {POLICE: 3, FORCE: 6, PIRATE: 11, SUPERHERO: 10, PART: 15, ENGINE: 18,
+          DIAMOND: 21, KIWI: 24}
+        ranked_words: [POLICE, FORCE, SUPERHERO, PIRATE, PART, ENGINE, DIAMOND, KIWI]
+        tokens: 255
+    tokens: 1347
+  guesses: [POLICE, SUPERHERO]
+756e0a13-c9f3-4584-ad7a-f16d0c68ea96:
+  pos: [SATELLITE, HOOK]
+  neg: [CENTER, SUPERHERO, SPINE, DANCE, PLOT, BLOCK]
+  clue: ORBIT
+  words: [SATELLITE]
+  details:
+    proposals: [ORBIT, FISHING, SPACE, LURE, TRANSMISSION]
+    words: [SATELLITE, HOOK, CENTER, SUPERHERO, SPINE, DANCE, PLOT, BLOCK]
+    proposal_details:
+      ORBIT:
+        word_scores: {SATELLITE: 3, CENTER: 6, PLOT: 9, DANCE: 13, BLOCK: 14, HOOK: 18,
+          SPINE: 21, SUPERHERO: 24}
+        ranked_words: [SATELLITE, CENTER, PLOT, DANCE, BLOCK, HOOK, SPINE, SUPERHERO]
+        tokens: 255
+      FISHING:
+        word_scores: {HOOK: 3, PLOT: 8, BLOCK: 10, CENTER: 11, SPINE: 17, DANCE: 18,
+          SUPERHERO: 23, SATELLITE: 18}
+        ranked_words: [HOOK, PLOT, BLOCK, CENTER, SPINE, DANCE, SATELLITE, SUPERHERO]
+        tokens: 255
+      SPACE:
+        word_scores: {SATELLITE: 3, CENTER: 8, PLOT: 7, BLOCK: 12, SPINE: 17, DANCE: 17,
+          HOOK: 20, SUPERHERO: 24}
+        ranked_words: [SATELLITE, PLOT, CENTER, BLOCK, SPINE, DANCE, HOOK, SUPERHERO]
+        tokens: 252
+      LURE:
+        word_scores: {HOOK: 3, PLOT: 6, DANCE: 9, CENTER: 14, BLOCK: 14, SPINE: 21,
+          SUPERHERO: 20, SATELLITE: 21}
+        ranked_words: [HOOK, PLOT, DANCE, CENTER, BLOCK, SUPERHERO, SPINE, SATELLITE]
+        tokens: 252
+      TRANSMISSION:
+        word_scores: {SATELLITE: 3, CENTER: 6, BLOCK: 9, HOOK: 14, SPINE: 16, PLOT: 16,
+          DANCE: 20, SUPERHERO: 24}
+        ranked_words: [SATELLITE, CENTER, BLOCK, HOOK, SPINE, PLOT, DANCE, SUPERHERO]
+        tokens: 261
+    tokens: 1355
+  guesses: [SATELLITE]
+79dfa5cf-4784-4522-ab08-8057b4806cce:
+  pos: [MARCH, MAIL]
+  neg: [PORT, WIND, LION, GREECE, FALL, GLOVE]
+  clue: PARADE
+  words: [MARCH]
+  details:
+    proposals: [PARADE, ENVELOPE, DELIVER, PROTEST, STAMP]
+    words: [MARCH, MAIL, PORT, WIND, LION, GREECE, FALL, GLOVE]
+    proposal_details:
+      PARADE:
+        word_scores: {MARCH: 3, LION: 7, WIND: 11, FALL: 13, PORT: 15, MAIL: 18, GLOVE: 17,
+          GREECE: 24}
+        ranked_words: [MARCH, LION, WIND, FALL, PORT, GLOVE, MAIL, GREECE]
+        tokens: 243
+      ENVELOPE:
+        word_scores: {MAIL: 3, GLOVE: 6, PORT: 10, WIND: 13, MARCH: 14, FALL: 17,
+          LION: 21, GREECE: 24}
+        ranked_words: [MAIL, GLOVE, PORT, WIND, MARCH, FALL, LION, GREECE]
+        tokens: 246
+      DELIVER:
+        word_scores: {MAIL: 3, PORT: 6, GREECE: 19, MARCH: 10, GLOVE: 15, WIND: 15,
+          FALL: 18, LION: 22}
+        ranked_words: [MAIL, PORT, MARCH, GLOVE, WIND, FALL, GREECE, LION]
+        tokens: 243
+      PROTEST:
+        word_scores: {MARCH: 3, PORT: 9, FALL: 12, MAIL: 13, GLOVE: 11, WIND: 16,
+          LION: 20, GREECE: 24}
+        ranked_words: [MARCH, PORT, GLOVE, FALL, MAIL, WIND, LION, GREECE]
+        tokens: 243
+      STAMP:
+        word_scores: {MAIL: 3, MARCH: 9, PORT: 7, GLOVE: 13, FALL: 17, WIND: 18, LION: 17,
+          GREECE: 24}
+        ranked_words: [MAIL, PORT, MARCH, GLOVE, FALL, LION, WIND, GREECE]
+        tokens: 243
+    tokens: 1291
+  guesses: [MARCH]
+8ddccb64-fd16-4495-b680-2afea2ad65f7:
+  pos: [STOCK, SCREEN]
+  neg: [WATCH, LOG, SCHOOL, EGYPT, SPINE, ROME]
+  clue: SHARES
+  words: [STOCK, SCREEN]
+  details:
+    proposals: [EXCHANGE, DISPLAY, MARKET, MONITOR, SHARES]
+    words: [STOCK, SCREEN, WATCH, LOG, SCHOOL, EGYPT, SPINE, ROME]
+    proposal_details:
+      EXCHANGE:
+        word_scores: {STOCK: 3, SCREEN: 7, WATCH: 10, SCHOOL: 13, SPINE: 20, LOG: 23,
+          ROME: 18, EGYPT: 21, EXCHANGE: 2}
+        ranked_words: [EXCHANGE, STOCK, SCREEN, WATCH, SCHOOL, ROME, SPINE, EGYPT,
+          LOG]
+        tokens: 231
+      DISPLAY:
+        word_scores: {SCREEN: 3, WATCH: 6, STOCK: 9, SCHOOL: 15, LOG: 13, SPINE: 17,
+          ROME: 21, EGYPT: 24}
+        ranked_words: [SCREEN, WATCH, STOCK, LOG, SCHOOL, SPINE, ROME, EGYPT]
+        tokens: 222
+      MARKET:
+        word_scores: {STOCK: 3, WATCH: 6, SCREEN: 9, SCHOOL: 12, ROME: 16, EGYPT: 20,
+          LOG: 19, SPINE: 23}
+        ranked_words: [STOCK, WATCH, SCREEN, SCHOOL, ROME, LOG, EGYPT, SPINE]
+        tokens: 228
+      MONITOR:
+        word_scores: {WATCH: 5, SCREEN: 4, LOG: 9, SCHOOL: 13, STOCK: 14, SPINE: 18,
+          ROME: 21, EGYPT: 24}
+        ranked_words: [SCREEN, WATCH, LOG, SCHOOL, STOCK, SPINE, ROME, EGYPT]
+        tokens: 225
+      SHARES:
+        word_scores: {STOCK: 3, SCREEN: 6, WATCH: 10, SCHOOL: 14, SPINE: 17, LOG: 13,
+          ROME: 21, EGYPT: 24}
+        ranked_words: [STOCK, SCREEN, WATCH, LOG, SCHOOL, SPINE, ROME, EGYPT]
+        tokens: 225
+    tokens: 1199
+  guesses: [STOCK]
+8e0fbfac-8722-41b1-b62a-437c6af86ffd:
+  pos: [MOUTH, PENGUIN]
+  neg: [FLUTE, CHECK, KNIGHT, FOOT, ROW, IRON]
+  clue: BEAK
+  words: [PENGUIN, MOUTH]
+  details:
+    proposals: [BEAK, ANTARCTICA, SPEAK, WADDLE, BIRD]
+    words: [MOUTH, PENGUIN, FLUTE, CHECK, KNIGHT, FOOT, ROW, IRON]
+    proposal_details:
+      BEAK:
+        word_scores: {PENGUIN: 3, MOUTH: 6, FLUTE: 9, FOOT: 13, KNIGHT: 16, ROW: 19,
+          CHECK: 23, IRON: 19}
+        ranked_words: [PENGUIN, MOUTH, FLUTE, FOOT, KNIGHT, ROW, IRON, CHECK]
+        tokens: 243
+      ANTARCTICA:
+        word_scores: {PENGUIN: 3, FOOT: 6, KNIGHT: 16, ROW: 13, IRON: 11, CHECK: 19,
+          MOUTH: 18, FLUTE: 22}
+        ranked_words: [PENGUIN, FOOT, IRON, ROW, KNIGHT, MOUTH, CHECK, FLUTE]
+        tokens: 249
+      SPEAK:
+        word_scores: {MOUTH: 3, FLUTE: 11, ROW: 10, KNIGHT: 15, CHECK: 15, FOOT: 22,
+          PENGUIN: 15, IRON: 24, SPEAK: 2}
+        ranked_words: [SPEAK, MOUTH, ROW, FLUTE, KNIGHT, CHECK, PENGUIN, FOOT, IRON]
+        tokens: 246
+      WADDLE:
+        word_scores: {PENGUIN: 3, FOOT: 6, ROW: 9, KNIGHT: 15, FLUTE: 18, MOUTH: 16,
+          CHECK: 18, IRON: 23}
+        ranked_words: [PENGUIN, FOOT, ROW, KNIGHT, MOUTH, FLUTE, CHECK, IRON]
+        tokens: 246
+      BIRD:
+        word_scores: {PENGUIN: 3, FLUTE: 6, FOOT: 10, MOUTH: 13, ROW: 17, KNIGHT: 16,
+          IRON: 19, CHECK: 24}
+        ranked_words: [PENGUIN, FLUTE, FOOT, MOUTH, KNIGHT, ROW, IRON, CHECK]
+        tokens: 243
+    tokens: 1300
+  guesses: [PENGUIN, MOUTH]
+9abdc4fd-baf6-42ec-b2a1-2477ca5a3e2c:
+  pos: [DOCTOR, BOARD]
+  neg: [OLYMPUS, RACKET, OIL, TABLET, ANGEL, STADIUM]
+  clue: DIRECTOR
+  words: [BOARD, DOCTOR]
+  details:
+    proposals: [HOSPITAL, MEDICAL, DIRECTOR, EXAMINATION, GOVERNANCE]
+    words: [DOCTOR, BOARD, OLYMPUS, RACKET, OIL, TABLET, ANGEL, STADIUM]
+    proposal_details:
+      HOSPITAL:
+        word_scores: {DOCTOR: 3, TABLET: 6, BOARD: 9, ANGEL: 12, OIL: 18, STADIUM: 19,
+          RACKET: 20, OLYMPUS: 21}
+        ranked_words: [DOCTOR, TABLET, BOARD, ANGEL, OIL, STADIUM, RACKET, OLYMPUS]
+        tokens: 270
+      MEDICAL:
+        word_scores: {DOCTOR: 3, TABLET: 6, OIL: 11, BOARD: 12, ANGEL: 15, OLYMPUS: 17,
+          STADIUM: 20, RACKET: 24}
+        ranked_words: [DOCTOR, TABLET, OIL, BOARD, ANGEL, OLYMPUS, STADIUM, RACKET]
+        tokens: 267
+      DIRECTOR:
+        word_scores: {BOARD: 4, DOCTOR: 6, OLYMPUS: 16, TABLET: 9, STADIUM: 16, OIL: 17,
+          RACKET: 21, ANGEL: 19}
+        ranked_words: [BOARD, DOCTOR, TABLET, OLYMPUS, STADIUM, OIL, ANGEL, RACKET]
+        tokens: 267
+      EXAMINATION:
+        word_scores: {DOCTOR: 3, TABLET: 7, BOARD: 8, RACKET: 13, OIL: 18, STADIUM: 16,
+          OLYMPUS: 21, ANGEL: 22}
+        ranked_words: [DOCTOR, TABLET, BOARD, RACKET, STADIUM, OIL, OLYMPUS, ANGEL]
+        tokens: 270
+      GOVERNANCE:
+        word_scores: {BOARD: 3, TABLET: 6, OIL: 9, DOCTOR: 13, RACKET: 14, STADIUM: 18,
+          OLYMPUS: 21, ANGEL: 24}
+        ranked_words: [BOARD, TABLET, OIL, DOCTOR, RACKET, STADIUM, OLYMPUS, ANGEL]
+        tokens: 270
+    tokens: 1419
+  guesses: [BOARD, DOCTOR]
+b46494c5-0293-4d42-940d-22436eb44bf5:
+  pos: [PLOT, POLICE]
+  neg: [GRACE, LITTER, GAME, TABLE, MOSCOW, LASER]
+  clue: INVESTIGATION
+  words: [POLICE, PLOT]
+  details:
+    proposals: [STORY, LAW, INVESTIGATION, SCHEME, OFFICER]
+    words: [PLOT, POLICE, GRACE, LITTER, GAME, TABLE, MOSCOW, LASER]
+    proposal_details:
+      STORY:
+        word_scores: {PLOT: 3, GAME: 6, POLICE: 9, TABLE: 13, GRACE: 14, LITTER: 20,
+          LASER: 20, MOSCOW: 23}
+        ranked_words: [PLOT, GAME, POLICE, TABLE, GRACE, LITTER, LASER, MOSCOW]
+        tokens: 240
+      LAW:
+        word_scores: {POLICE: 3, PLOT: 8, GAME: 7, TABLE: 12, LASER: 17, GRACE: 20,
+          LITTER: 17, MOSCOW: 24}
+        ranked_words: [POLICE, GAME, PLOT, TABLE, LASER, LITTER, GRACE, MOSCOW]
+        tokens: 240
+      INVESTIGATION:
+        word_scores: {POLICE: 3, PLOT: 6, GAME: 9, LASER: 15, TABLE: 13, GRACE: 21,
+          LITTER: 20, MOSCOW: 21}
+        ranked_words: [POLICE, PLOT, GAME, TABLE, LASER, LITTER, GRACE, MOSCOW]
+        tokens: 246
+      SCHEME:
+        word_scores: {PLOT: 3, GAME: 6, POLICE: 9, LASER: 14, TABLE: 14, GRACE: 17,
+          LITTER: 21, MOSCOW: 24}
+        ranked_words: [PLOT, GAME, POLICE, LASER, TABLE, GRACE, LITTER, MOSCOW]
+        tokens: 243
+      OFFICER:
+        word_scores: {POLICE: 3, PLOT: 10, GAME: 9, TABLE: 8, LASER: 17, GRACE: 20,
+          LITTER: 17, MOSCOW: 24}
+        ranked_words: [POLICE, TABLE, GAME, PLOT, LASER, LITTER, GRACE, MOSCOW]
+        tokens: 246
+    tokens: 1292
+  guesses: [POLICE, PLOT]
+bc9ea454-2435-45fd-9bd7-e2b651e30f14:
+  pos: [TOKYO, JAM]
+  neg: [COURT, SHAKESPEARE, WATER, DISEASE, OLIVE, NURSE]
+  clue: JAPAN
+  words: [TOKYO]
+  details:
+    proposals: [JAPAN, SPREAD, METROPOLIS, PRESERVE, BREAD]
+    words: [TOKYO, JAM, COURT, SHAKESPEARE, WATER, DISEASE, OLIVE, NURSE]
+    proposal_details:
+      JAPAN:
+        word_scores: {TOKYO: 3, JAM: 10, WATER: 8, OLIVE: 17, NURSE: 13, COURT: 14,
+          SHAKESPEARE: 22, DISEASE: 21}
+        ranked_words: [TOKYO, WATER, JAM, NURSE, COURT, OLIVE, DISEASE, SHAKESPEARE]
+        tokens: 273
+      SPREAD:
+        word_scores: {JAM: 3, DISEASE: 6, OLIVE: 9, WATER: 14, COURT: 18, SHAKESPEARE: 19,
+          NURSE: 15, TOKYO: 24}
+        ranked_words: [JAM, DISEASE, OLIVE, WATER, NURSE, COURT, SHAKESPEARE, TOKYO]
+        tokens: 267
+      METROPOLIS:
+        word_scores: {TOKYO: 3, COURT: 6, WATER: 13, NURSE: 13, SHAKESPEARE: 17, JAM: 14,
+          OLIVE: 19, DISEASE: 23}
+        ranked_words: [TOKYO, COURT, WATER, NURSE, JAM, SHAKESPEARE, OLIVE, DISEASE]
+        tokens: 276
+      PRESERVE:
+        word_scores: {JAM: 3, OLIVE: 7, WATER: 10, NURSE: 10, DISEASE: 16, COURT: 17,
+          SHAKESPEARE: 21, TOKYO: 24}
+        ranked_words: [JAM, OLIVE, WATER, NURSE, DISEASE, COURT, SHAKESPEARE, TOKYO]
+        tokens: 267
+      BREAD:
+        word_scores: {JAM: 3, OLIVE: 6, WATER: 9, NURSE: 13, COURT: 14, DISEASE: 20,
+          SHAKESPEARE: 20, TOKYO: 23}
+        ranked_words: [JAM, OLIVE, WATER, NURSE, COURT, DISEASE, SHAKESPEARE, TOKYO]
+        tokens: 267
+    tokens: 1434
+  guesses: [TOKYO]
+bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
+  pos: [FLY, HOOD]
+  neg: [CHINA, NOTE, SHARK, DWARF, QUEEN, COVER]
+  clue: ROBIN
+  words: [HOOD, FLY]
+  details:
+    proposals: [AIRPLANE, ROBIN, FEATHER, JACKET, BIRD]
+    words: [FLY, HOOD, CHINA, NOTE, SHARK, DWARF, QUEEN, COVER]
+    proposal_details:
+      AIRPLANE:
+        word_scores: {FLY: 3, COVER: 7, QUEEN: 16, NOTE: 9, CHINA: 13, SHARK: 16,
+          HOOD: 20, DWARF: 24}
+        ranked_words: [FLY, COVER, NOTE, CHINA, QUEEN, SHARK, HOOD, DWARF]
+        tokens: 246
+      ROBIN:
+        word_scores: {HOOD: 3, FLY: 6, NOTE: 9, SHARK: 17, COVER: 16, QUEEN: 15, DWARF: 18,
+          CHINA: 24}
+        ranked_words: [HOOD, FLY, NOTE, QUEEN, COVER, SHARK, DWARF, CHINA]
+        tokens: 243
+      FEATHER:
+        word_scores: {FLY: 3, COVER: 7, HOOD: 8, SHARK: 16, QUEEN: 15, NOTE: 15, DWARF: 20,
+          CHINA: 24}
+        ranked_words: [FLY, COVER, HOOD, QUEEN, NOTE, SHARK, DWARF, CHINA]
+        tokens: 243
+      JACKET:
+        word_scores: {COVER: 4, HOOD: 5, FLY: 11, NOTE: 12, SHARK: 16, QUEEN: 15,
+          DWARF: 21, CHINA: 24}
+        ranked_words: [COVER, HOOD, FLY, NOTE, QUEEN, SHARK, DWARF, CHINA]
+        tokens: 243
+      BIRD:
+        word_scores: {FLY: 3, HOOD: 8, SHARK: 12, NOTE: 8, QUEEN: 16, COVER: 18, DWARF: 19,
+          CHINA: 24}
+        ranked_words: [FLY, NOTE, HOOD, SHARK, QUEEN, COVER, DWARF, CHINA]
+        tokens: 243
+    tokens: 1290
+  guesses: [FLY, HOOD]
+c627b3ae-ec53-4865-93ac-f148ca00bed8:
+  pos: [LITTER, DRILL]
+  neg: [BOLT, DINOSAUR, FOOT, MAPLE, MARBLE, WEB]
+  clue: TRASH
+  words: [LITTER]
+  details:
+    proposals: [TRASH, BOREHOLE, DEBRIS, EXCAVATE, REFUSE]
+    words: [LITTER, DRILL, BOLT, DINOSAUR, FOOT, MAPLE, MARBLE, WEB]
+    proposal_details:
+      TRASH:
+        word_scores: {LITTER: 3, DRILL: 13, FOOT: 12, BOLT: 10, WEB: 11, DINOSAUR: 21,
+          MAPLE: 20, MARBLE: 18}
+        ranked_words: [LITTER, BOLT, WEB, FOOT, DRILL, MARBLE, MAPLE, DINOSAUR]
+        tokens: 249
+      BOREHOLE:
+        word_scores: {DRILL: 3, BOLT: 6, FOOT: 9, MARBLE: 12, MAPLE: 15, WEB: 19,
+          LITTER: 20, DINOSAUR: 24}
+        ranked_words: [DRILL, BOLT, FOOT, MARBLE, MAPLE, WEB, LITTER, DINOSAUR]
+        tokens: 255
+      DEBRIS:
+        word_scores: {LITTER: 3, DRILL: 12, BOLT: 10, MARBLE: 8, WEB: 12, MAPLE: 18,
+          FOOT: 21, DINOSAUR: 24}
+        ranked_words: [LITTER, MARBLE, BOLT, WEB, DRILL, MAPLE, FOOT, DINOSAUR]
+        tokens: 252
+      EXCAVATE:
+        word_scores: {DRILL: 3, DINOSAUR: 6, MARBLE: 10, FOOT: 12, MAPLE: 18, LITTER: 17,
+          BOLT: 18, WEB: 24}
+        ranked_words: [DRILL, DINOSAUR, MARBLE, FOOT, LITTER, MAPLE, BOLT, WEB]
+        tokens: 255
+      REFUSE:
+        word_scores: {LITTER: 3, BOLT: 6, DRILL: 13, FOOT: 15, MARBLE: 17, WEB: 13,
+          DINOSAUR: 22, MAPLE: 19}
+        ranked_words: [LITTER, BOLT, WEB, DRILL, FOOT, MARBLE, MAPLE, DINOSAUR]
+        tokens: 249
+    tokens: 1337
+  guesses: [LITTER]
+c8ae890a-83b0-4316-ad27-955615bc3d08:
+  pos: [FILM, TRACK]
+  neg: [STREAM, KETCHUP, FOREST, FLUTE, SATELLITE, AZTEC]
+  clue: DISC
+  words: [FILM, TRACK]
+  details:
+    proposals: [CINEMA, RACE, MOVIE, RUN, DISC]
+    words: [FILM, TRACK, STREAM, KETCHUP, FOREST, FLUTE, SATELLITE, AZTEC]
+    proposal_details:
+      CINEMA:
+        word_scores: {FILM: 3, STREAM: 6, TRACK: 9, SATELLITE: 12, FOREST: 19, FLUTE: 19,
+          KETCHUP: 20, AZTEC: 20}
+        ranked_words: [FILM, STREAM, TRACK, SATELLITE, FOREST, FLUTE, KETCHUP, AZTEC]
+        tokens: 267
+      RACE:
+        word_scores: {TRACK: 3, AZTEC: 7, STREAM: 9, FOREST: 16, SATELLITE: 13, FILM: 15,
+          FLUTE: 21, KETCHUP: 24}
+        ranked_words: [TRACK, AZTEC, STREAM, SATELLITE, FILM, FOREST, FLUTE, KETCHUP]
+        tokens: 261
+      MOVIE:
+        word_scores: {FILM: 3, STREAM: 6, TRACK: 9, FOREST: 15, SATELLITE: 13, AZTEC: 17,
+          FLUTE: 21, KETCHUP: 24}
+        ranked_words: [FILM, STREAM, TRACK, SATELLITE, FOREST, AZTEC, FLUTE, KETCHUP]
+        tokens: 264
+      RUN:
+        word_scores: {TRACK: 3, STREAM: 6, RUN: 3, FILM: 10, FOREST: 14, FLUTE: 19,
+          KETCHUP: 18, SATELLITE: 19, AZTEC: 25}
+        ranked_words: [RUN, TRACK, STREAM, FILM, FOREST, KETCHUP, FLUTE, SATELLITE,
+          AZTEC]
+        tokens: 260
+      DISC:
+        word_scores: {FILM: 5, TRACK: 6, SATELLITE: 7, AZTEC: 14, STREAM: 13, FOREST: 20,
+          FLUTE: 19, KETCHUP: 24}
+        ranked_words: [FILM, TRACK, SATELLITE, STREAM, AZTEC, FLUTE, FOREST, KETCHUP]
+        tokens: 263
+    tokens: 1390
+  guesses: [TRACK, FILM]
+c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
+  pos: [PILOT, LASER]
+  neg: [MAMMOTH, UNDERTAKER, RING, BILL, SHOT, CROSS]
+  clue: AIRCRAFT
+  words: [PILOT, LASER]
+  details:
+    proposals: [AIRCRAFT, BEAM, NAVIGATION, LIGHT, TECHNOLOGY]
+    words: [PILOT, LASER, MAMMOTH, UNDERTAKER, RING, BILL, SHOT, CROSS]
+    proposal_details:
+      AIRCRAFT:
+        word_scores: {PILOT: 3, LASER: 6, SHOT: 11, RING: 15, CROSS: 13, BILL: 15,
+          UNDERTAKER: 21, MAMMOTH: 24}
+        ranked_words: [PILOT, LASER, SHOT, CROSS, RING, BILL, UNDERTAKER, MAMMOTH]
+        tokens: 264
+      BEAM:
+        word_scores: {LASER: 3, SHOT: 8, CROSS: 7, PILOT: 15, RING: 14, BILL: 17,
+          MAMMOTH: 23, UNDERTAKER: 21}
+        ranked_words: [LASER, CROSS, SHOT, RING, PILOT, BILL, UNDERTAKER, MAMMOTH]
+        tokens: 261
+      NAVIGATION:
+        word_scores: {PILOT: 3, LASER: 8, CROSS: 7, RING: 13, SHOT: 14, BILL: 19,
+          MAMMOTH: 23, UNDERTAKER: 21}
+        ranked_words: [PILOT, CROSS, LASER, RING, SHOT, BILL, UNDERTAKER, MAMMOTH]
+        tokens: 261
+      LIGHT:
+        word_scores: {LASER: 3, PILOT: 6, LIGHT: 6, RING: 11, SHOT: 15, CROSS: 16,
+          BILL: 20, UNDERTAKER: 24, MAMMOTH: 25}
+        ranked_words: [LASER, LIGHT, PILOT, RING, SHOT, CROSS, BILL, UNDERTAKER, MAMMOTH]
+        tokens: 262
+      TECHNOLOGY:
+        word_scores: {LASER: 3, PILOT: 6, RING: 10, BILL: 12, SHOT: 14, CROSS: 19,
+          MAMMOTH: 23, UNDERTAKER: 21}
+        ranked_words: [LASER, PILOT, RING, BILL, SHOT, CROSS, UNDERTAKER, MAMMOTH]
+        tokens: 261
+    tokens: 1383
+  guesses: [PILOT, SHOT]
+d604cf86-4697-423b-9761-c281bb312a23:
+  pos: [MAIL, GAME]
+  neg: [IVORY, WATER, EGYPT, CHAIR, STATE, LITTER]
+  clue: MULTIPLAYER
+  words: [GAME, MAIL]
+  details:
+    proposals: [LETTER, PLAY, ENVELOPE, SCORE, MULTIPLAYER]
+    words: [MAIL, GAME, IVORY, WATER, EGYPT, CHAIR, STATE, LITTER]
+    proposal_details:
+      LETTER:
+        word_scores: {MAIL: 3, LITTER: 6, WATER: 11, GAME: 15, STATE: 16, CHAIR: 17,
+          IVORY: 17, EGYPT: 23}
+        ranked_words: [MAIL, LITTER, WATER, GAME, STATE, CHAIR, IVORY, EGYPT]
+        tokens: 228
+      PLAY:
+        word_scores: {GAME: 3, CHAIR: 6, STATE: 14, MAIL: 13, WATER: 15, LITTER: 18,
+          IVORY: 16, EGYPT: 23}
+        ranked_words: [GAME, CHAIR, MAIL, STATE, WATER, IVORY, LITTER, EGYPT]
+        tokens: 228
+      ENVELOPE:
+        word_scores: {MAIL: 3, LITTER: 6, STATE: 12, GAME: 13, WATER: 18, CHAIR: 15,
+          IVORY: 17, EGYPT: 24}
+        ranked_words: [MAIL, LITTER, STATE, GAME, CHAIR, IVORY, WATER, EGYPT]
+        tokens: 234
+      SCORE:
+        word_scores: {GAME: 3, STATE: 6, MAIL: 9, WATER: 13, CHAIR: 14, EGYPT: 22,
+          IVORY: 20, LITTER: 21}
+        ranked_words: [GAME, STATE, MAIL, WATER, CHAIR, IVORY, LITTER, EGYPT]
+        tokens: 228
+      MULTIPLAYER:
+        word_scores: {GAME: 3, MAIL: 6, STATE: 9, WATER: 15, LITTER: 16, CHAIR: 14,
+          IVORY: 22, EGYPT: 23}
+        ranked_words: [GAME, MAIL, STATE, CHAIR, WATER, LITTER, IVORY, EGYPT]
+        tokens: 231
+    tokens: 1220
+  guesses: [GAME, STATE]
+e31b7942-1342-4eda-b6e0-e8e072b0cedf:
+  pos: [FIGHTER, POINT]
+  neg: [CRICKET, ROUND, OLIVE, DRESS, CAPITAL, EYE]
+  clue: ARROW
+  words: [POINT, FIGHTER]
+  details:
+    proposals: [BOXER, SHARP, COMBATANT, SCORE, ARROW]
+    words: [FIGHTER, POINT, CRICKET, ROUND, OLIVE, DRESS, CAPITAL, EYE]
+    proposal_details:
+      BOXER:
+        word_scores: {FIGHTER: 3, ROUND: 6, EYE: 9, POINT: 16, CRICKET: 15, OLIVE: 18,
+          DRESS: 17, CAPITAL: 24}
+        ranked_words: [FIGHTER, ROUND, EYE, CRICKET, POINT, DRESS, OLIVE, CAPITAL]
+        tokens: 243
+      SHARP:
+        word_scores: {POINT: 3, EYE: 6, FIGHTER: 12, DRESS: 10, OLIVE: 14, CRICKET: 19,
+          ROUND: 20, CAPITAL: 24}
+        ranked_words: [POINT, EYE, DRESS, FIGHTER, OLIVE, CRICKET, ROUND, CAPITAL]
+        tokens: 243
+      COMBATANT:
+        word_scores: {FIGHTER: 3, ROUND: 6, POINT: 10, CRICKET: 14, OLIVE: 20, CAPITAL: 18,
+          DRESS: 17, EYE: 20}
+        ranked_words: [FIGHTER, ROUND, POINT, CRICKET, DRESS, CAPITAL, OLIVE, EYE]
+        tokens: 246
+      SCORE:
+        word_scores: {CRICKET: 3, POINT: 6, FIGHTER: 11, ROUND: 10, CAPITAL: 16, OLIVE: 21,
+          DRESS: 22, EYE: 19}
+        ranked_words: [CRICKET, POINT, ROUND, FIGHTER, CAPITAL, EYE, OLIVE, DRESS]
+        tokens: 240
+      ARROW:
+        word_scores: {POINT: 3, FIGHTER: 6, EYE: 10, CRICKET: 14, OLIVE: 19, ROUND: 13,
+          DRESS: 19, CAPITAL: 24}
+        ranked_words: [POINT, FIGHTER, EYE, ROUND, CRICKET, OLIVE, DRESS, CAPITAL]
+        tokens: 243
+    tokens: 1288
+  guesses: [POINT, FIGHTER]
+ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
+  pos: [RACKET, LITTER]
+  neg: [SPACE, TEACHER, BUG, MOLE, NURSE, GLASS]
+  clue: TENNIS
+  words: [RACKET]
+  details:
+    proposals: [TENNIS, TRASH, NOISE, KITTENS, POLLUTION]
+    words: [RACKET, LITTER, SPACE, TEACHER, BUG, MOLE, NURSE, GLASS]
+    proposal_details:
+      TENNIS:
+        word_scores: {RACKET: 3, TEACHER: 6, NURSE: 10, GLASS: 12, SPACE: 18, LITTER: 16,
+          BUG: 21, MOLE: 22}
+        ranked_words: [RACKET, TEACHER, NURSE, GLASS, LITTER, SPACE, BUG, MOLE]
+        tokens: 246
+      TRASH:
+        word_scores: {LITTER: 3, BUG: 6, RACKET: 9, GLASS: 12, NURSE: 19, TEACHER: 22,
+          SPACE: 18, MOLE: 19}
+        ranked_words: [LITTER, BUG, RACKET, GLASS, SPACE, NURSE, MOLE, TEACHER]
+        tokens: 243
+      NOISE:
+        word_scores: {RACKET: 3, BUG: 6, LITTER: 11, NURSE: 15, TEACHER: 18, GLASS: 14,
+          MOLE: 22, SPACE: 19}
+        ranked_words: [RACKET, BUG, LITTER, GLASS, NURSE, TEACHER, SPACE, MOLE]
+        tokens: 243
+      KITTENS:
+        word_scores: {LITTER: 3, MOLE: 10, BUG: 11, NURSE: 8, GLASS: 18, TEACHER: 14,
+          RACKET: 20, SPACE: 24}
+        ranked_words: [LITTER, NURSE, MOLE, BUG, TEACHER, GLASS, RACKET, SPACE]
+        tokens: 246
+      POLLUTION:
+        word_scores: {LITTER: 3, BUG: 10, SPACE: 10, GLASS: 13, NURSE: 19, TEACHER: 22,
+          RACKET: 19, MOLE: 8, POLLUTION: 4}
+        ranked_words: [LITTER, POLLUTION, MOLE, BUG, SPACE, GLASS, NURSE, RACKET,
+          TEACHER]
+        tokens: 243
+    tokens: 1294
+  guesses: [RACKET]
