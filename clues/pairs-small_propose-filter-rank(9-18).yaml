@@ -21,6 +21,7 @@
       JUNGLE: [AMAZON]
     proposal_ranked_words_tokens: {JUNGLE: 0}
     tokens: 373
+  guesses: [AMAZON]
 0cf1ceae-7b10-4ce8-b90e-074b2c5e1c24:
   pos: [KING, PLOT]
   neg: [CRANE, SCREEN, SHARK, TICK, BERMUDA, ORGAN]
@@ -45,6 +46,7 @@
       STORY: [PLOT, SCREEN, KING]
     proposal_ranked_words_tokens: {THRONE: 0, STORY: 44}
     tokens: 395
+  guesses: [KING]
 15d1e84b-9b94-4d13-bc8e-e4838b2e9dfa:
   pos: [PORT, ORANGE]
   neg: [TRIP, RACKET, TORCH, THEATER, HOLLYWOOD, LOG]
@@ -68,6 +70,7 @@
       CITRUS: [ORANGE]
     proposal_ranked_words_tokens: {CITRUS: 0}
     tokens: 358
+  guesses: [ORANGE]
 1fbb4775-8b66-4e2b-aed6-481c309fb00f:
   pos: [COMIC, EMBASSY]
   neg: [BOARD, BUFFALO, PLATE, LASER, WAVE, ANTARCTICA]
@@ -91,6 +94,7 @@
       HUMOR: [COMIC]
     proposal_ranked_words_tokens: {HUMOR: 0}
     tokens: 397
+  guesses: [COMIC]
 2afb7e7d-fe6b-44d7-9932-da2418712628:
   pos: [SINK, HELICOPTER]
   neg: [FENCE, LIGHT, GERMANY, TOWER, STREAM, BAND]
@@ -114,6 +118,7 @@
       ROTOR: [HELICOPTER]
     proposal_ranked_words_tokens: {ROTOR: 0}
     tokens: 374
+  guesses: [HELICOPTER]
 38df3256-a635-4dc3-bdb0-b804b8566a4d:
   pos: [TABLET, UNICORN]
   neg: [PLAY, KING, HELICOPTER, LAB, PIE, DUCK]
@@ -137,6 +142,7 @@
       MYTHICAL: [UNICORN]
     proposal_ranked_words_tokens: {MYTHICAL: 0}
     tokens: 366
+  guesses: [UNICORN]
 3aea0278-1d10-4148-b6ff-420412b72587:
   pos: [GLOVE, GLASS]
   neg: [GIANT, HOTEL, TAG, ATLANTIS, JET, HOSPITAL]
@@ -162,6 +168,7 @@
       TRANSPARENT: [GLASS]
     proposal_ranked_words_tokens: {TRANSPARENT: 0}
     tokens: 378
+  guesses: [GLASS]
 466843ee-d24e-45c9-b209-391f7ce61062:
   pos: [THIEF, CROSS]
   neg: [STRIKE, NIGHT, POUND, HORSESHOE, BOLT, MOUTH]
@@ -185,6 +192,7 @@
       CRUCIFIX: [CROSS]
     proposal_ranked_words_tokens: {CRUCIFIX: 0}
     tokens: 383
+  guesses: [CROSS]
 5754771b-dd37-4bc2-869c-74cd9629bb5c:
   pos: [BERMUDA, PALM]
   neg: [AMERICA, MINT, CHURCH, FORCE, BOTTLE, CRICKET]
@@ -204,6 +212,7 @@
       TROPICAL: [PALM, BERMUDA]
     proposal_ranked_words_tokens: {TROPICAL: 0}
     tokens: 206
+  guesses: [BERMUDA, PALM]
 617c798c-03db-451e-9230-e668418c1eda:
   pos: [ROSE, SLUG]
   neg: [MOON, NAIL, GREECE, GHOST, STATE, COVER]
@@ -223,6 +232,7 @@
       GARDEN: [SLUG, ROSE]
     proposal_ranked_words_tokens: {GARDEN: 0}
     tokens: 192
+  guesses: [SLUG, ROSE]
 69e9a665-9d9d-4588-b65b-9e299685b00a:
   pos: [POLICE, FORCE]
   neg: [PART, KIWI, DIAMOND, ENGINE, SUPERHERO, PIRATE]
@@ -241,6 +251,7 @@
       LAW: [FORCE, POLICE]
     proposal_ranked_words_tokens: {LAW: 0}
     tokens: 131
+  guesses: [POLICE, SUPERHERO]
 756e0a13-c9f3-4584-ad7a-f16d0c68ea96:
   pos: [SATELLITE, HOOK]
   neg: [CENTER, SUPERHERO, SPINE, DANCE, PLOT, BLOCK]
@@ -264,6 +275,7 @@
       SPACECRAFT: [SATELLITE]
     proposal_ranked_words_tokens: {SPACECRAFT: 0}
     tokens: 376
+  guesses: [SATELLITE]
 79dfa5cf-4784-4522-ab08-8057b4806cce:
   pos: [MARCH, MAIL]
   neg: [PORT, WIND, LION, GREECE, FALL, GLOVE]
@@ -287,6 +299,7 @@
       PARADE: [MARCH]
     proposal_ranked_words_tokens: {PARADE: 0}
     tokens: 348
+  guesses: [MARCH]
 8ddccb64-fd16-4495-b680-2afea2ad65f7:
   pos: [STOCK, SCREEN]
   neg: [WATCH, LOG, SCHOOL, EGYPT, SPINE, ROME]
@@ -311,6 +324,7 @@
       DISPLAY: [SCREEN, WATCH, STOCK]
     proposal_ranked_words_tokens: {EXCHANGE: 0, DISPLAY: 42}
     tokens: 374
+  guesses: [STOCK]
 8e0fbfac-8722-41b1-b62a-437c6af86ffd:
   pos: [MOUTH, PENGUIN]
   neg: [FLUTE, CHECK, KNIGHT, FOOT, ROW, IRON]
@@ -329,6 +343,7 @@
       BEAK: [PENGUIN, MOUTH]
     proposal_ranked_words_tokens: {BEAK: 0}
     tokens: 133
+  guesses: [MOUTH, PENGUIN]
 9abdc4fd-baf6-42ec-b2a1-2477ca5a3e2c:
   pos: [DOCTOR, BOARD]
   neg: [OLYMPUS, RACKET, OIL, TABLET, ANGEL, STADIUM]
@@ -352,6 +367,7 @@
       DIRECTOR: [BOARD]
     proposal_ranked_words_tokens: {DIRECTOR: 0}
     tokens: 381
+  guesses: [BOARD]
 b46494c5-0293-4d42-940d-22436eb44bf5:
   pos: [PLOT, POLICE]
   neg: [GRACE, LITTER, GAME, TABLE, MOSCOW, LASER]
@@ -372,6 +388,7 @@ b46494c5-0293-4d42-940d-22436eb44bf5:
       INVESTIGATION: [POLICE, PLOT]
     proposal_ranked_words_tokens: {INVESTIGATION: 0}
     tokens: 243
+  guesses: [POLICE, PLOT]
 bc9ea454-2435-45fd-9bd7-e2b651e30f14:
   pos: [TOKYO, JAM]
   neg: [COURT, SHAKESPEARE, WATER, DISEASE, OLIVE, NURSE]
@@ -395,6 +412,7 @@ bc9ea454-2435-45fd-9bd7-e2b651e30f14:
       JAPAN: [TOKYO]
     proposal_ranked_words_tokens: {JAPAN: 0}
     tokens: 396
+  guesses: [TOKYO]
 bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
   pos: [FLY, HOOD]
   neg: [CHINA, NOTE, SHARK, DWARF, QUEEN, COVER]
@@ -414,6 +432,7 @@ bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
       ROBIN: [HOOD, FLY]
     proposal_ranked_words_tokens: {ROBIN: 0}
     tokens: 186
+  guesses: [HOOD, FLY]
 c627b3ae-ec53-4865-93ac-f148ca00bed8:
   pos: [LITTER, DRILL]
   neg: [BOLT, DINOSAUR, FOOT, MAPLE, MARBLE, WEB]
@@ -436,6 +455,7 @@ c627b3ae-ec53-4865-93ac-f148ca00bed8:
       TRASH: [LITTER]
     proposal_ranked_words_tokens: {TRASH: 0}
     tokens: 368
+  guesses: [LITTER]
 c8ae890a-83b0-4316-ad27-955615bc3d08:
   pos: [FILM, TRACK]
   neg: [STREAM, KETCHUP, FOREST, FLUTE, SATELLITE, AZTEC]
@@ -460,6 +480,7 @@ c8ae890a-83b0-4316-ad27-955615bc3d08:
       REEL: [FILM, STREAM, TRACK]
     proposal_ranked_words_tokens: {CINEMA: 0, RUN: 44, REEL: 46}
     tokens: 469
+  guesses: [FILM]
 c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
   pos: [PILOT, LASER]
   neg: [MAMMOTH, UNDERTAKER, RING, BILL, SHOT, CROSS]
@@ -478,6 +499,7 @@ c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
       AIRCRAFT: [LASER, PILOT]
     proposal_ranked_words_tokens: {AIRCRAFT: 0}
     tokens: 136
+  guesses: [PILOT, CROSS]
 d604cf86-4697-423b-9761-c281bb312a23:
   pos: [MAIL, GAME]
   neg: [IVORY, WATER, EGYPT, CHAIR, STATE, LITTER]
@@ -501,6 +523,7 @@ d604cf86-4697-423b-9761-c281bb312a23:
       ENVELOPE: [MAIL]
     proposal_ranked_words_tokens: {ENVELOPE: 0}
     tokens: 330
+  guesses: [MAIL]
 e31b7942-1342-4eda-b6e0-e8e072b0cedf:
   pos: [FIGHTER, POINT]
   neg: [CRICKET, ROUND, OLIVE, DRESS, CAPITAL, EYE]
@@ -520,6 +543,7 @@ e31b7942-1342-4eda-b6e0-e8e072b0cedf:
       SWORD: [POINT, FIGHTER]
     proposal_ranked_words_tokens: {SWORD: 0}
     tokens: 188
+  guesses: [FIGHTER, POINT]
 ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
   pos: [RACKET, LITTER]
   neg: [SPACE, TEACHER, BUG, MOLE, NURSE, GLASS]
@@ -543,3 +567,4 @@ ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
       TENNIS: [RACKET]
     proposal_ranked_words_tokens: {TENNIS: 0}
     tokens: 348
+  guesses: [RACKET]

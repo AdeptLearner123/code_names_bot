@@ -4,147 +4,172 @@
   clue: JUNGLE
   words: [AMAZON, IRON]
   details: {tokens: 73}
+  guesses: [AMAZON, FLUTE]
 0cf1ceae-7b10-4ce8-b90e-074b2c5e1c24:
   pos: [KING, PLOT]
   neg: [CRANE, SCREEN, SHARK, TICK, BERMUDA, ORGAN]
   clue: THRONE
   words: [KING, PLOT]
   details: {tokens: 69}
+  guesses: [KING, PLOT]
 15d1e84b-9b94-4d13-bc8e-e4838b2e9dfa:
   pos: [PORT, ORANGE]
   neg: [TRIP, RACKET, TORCH, THEATER, HOLLYWOOD, LOG]
   clue: FRUIT
   words: [PORT, ORANGE]
   details: {tokens: 69}
+  guesses: [ORANGE, LOG]
 1fbb4775-8b66-4e2b-aed6-481c309fb00f:
   pos: [COMIC, EMBASSY]
   neg: [BOARD, BUFFALO, PLATE, LASER, WAVE, ANTARCTICA]
   clue: DIPLOMACY
   words: [COMIC, EMBASSY]
   details: {tokens: 76}
+  guesses: [EMBASSY, ANTARCTICA]
 2afb7e7d-fe6b-44d7-9932-da2418712628:
   pos: [SINK, HELICOPTER]
   neg: [FENCE, LIGHT, GERMANY, TOWER, STREAM, BAND]
   clue: FLIGHT
   words: [SINK, HELICOPTER]
   details: {tokens: 70}
+  guesses: [HELICOPTER, LIGHT]
 38df3256-a635-4dc3-bdb0-b804b8566a4d:
   pos: [TABLET, UNICORN]
   neg: [PLAY, KING, HELICOPTER, LAB, PIE, DUCK]
   clue: MYTHICAL
   words: [TABLET, UNICORN]
   details: {tokens: 71}
+  guesses: [UNICORN, KING]
 3aea0278-1d10-4148-b6ff-420412b72587:
   pos: [GLOVE, GLASS]
   neg: [GIANT, HOTEL, TAG, ATLANTIS, JET, HOSPITAL]
   clue: HANDHELD
   words: [GLOVE, GLASS]
   details: {tokens: 73}
+  guesses: [GLOVE, GLASS]
 466843ee-d24e-45c9-b209-391f7ce61062:
   pos: [THIEF, CROSS]
   neg: [STRIKE, NIGHT, POUND, HORSESHOE, BOLT, MOUTH]
   clue: BURGLAR
   words: [THIEF, CROSS]
   details: {tokens: 73}
+  guesses: [THIEF, NIGHT]
 5754771b-dd37-4bc2-869c-74cd9629bb5c:
   pos: [BERMUDA, PALM]
   neg: [AMERICA, MINT, CHURCH, FORCE, BOTTLE, CRICKET]
   clue: TROPICS
   words: [BERMUDA, PALM]
   details: {tokens: 75}
+  guesses: [BERMUDA, PALM]
 617c798c-03db-451e-9230-e668418c1eda:
   pos: [ROSE, SLUG]
   neg: [MOON, NAIL, GREECE, GHOST, STATE, COVER]
   clue: GARDEN
   words: [ROSE, SLUG]
   details: {tokens: 69}
+  guesses: [SLUG, ROSE]
 69e9a665-9d9d-4588-b65b-9e299685b00a:
   pos: [POLICE, FORCE]
   neg: [PART, KIWI, DIAMOND, ENGINE, SUPERHERO, PIRATE]
   clue: LAW
   words: [POLICE, FORCE]
   details: {tokens: 71}
+  guesses: [POLICE, SUPERHERO]
 756e0a13-c9f3-4584-ad7a-f16d0c68ea96:
   pos: [SATELLITE, HOOK]
   neg: [CENTER, SUPERHERO, SPINE, DANCE, PLOT, BLOCK]
   clue: ORBIT
   words: [SATELLITE, HOOK]
   details: {tokens: 72}
+  guesses: [SATELLITE, CENTER]
 79dfa5cf-4784-4522-ab08-8057b4806cce:
   pos: [MARCH, MAIL]
   neg: [PORT, WIND, LION, GREECE, FALL, GLOVE]
   clue: DELIVER
   words: [MARCH, MAIL]
   details: {tokens: 70}
+  guesses: [PORT, MAIL]
 8ddccb64-fd16-4495-b680-2afea2ad65f7:
   pos: [STOCK, SCREEN]
   neg: [WATCH, LOG, SCHOOL, EGYPT, SPINE, ROME]
   clue: COMPUTER
   words: [STOCK, SCREEN]
   details: {tokens: 66}
+  guesses: [SCREEN, SCHOOL]
 8e0fbfac-8722-41b1-b62a-437c6af86ffd:
   pos: [MOUTH, PENGUIN]
   neg: [FLUTE, CHECK, KNIGHT, FOOT, ROW, IRON]
   clue: BEAK
   words: [MOUTH, PENGUIN]
   details: {tokens: 70}
+  guesses: [MOUTH, PENGUIN]
 9abdc4fd-baf6-42ec-b2a1-2477ca5a3e2c:
   pos: [DOCTOR, BOARD]
   neg: [OLYMPUS, RACKET, OIL, TABLET, ANGEL, STADIUM]
   clue: MEDICAL
   words: [DOCTOR, BOARD]
   details: {tokens: 74}
+  guesses: [DOCTOR, ANGEL]
 b46494c5-0293-4d42-940d-22436eb44bf5:
   pos: [PLOT, POLICE]
   neg: [GRACE, LITTER, GAME, TABLE, MOSCOW, LASER]
   clue: INVESTIGATION
   words: [PLOT, POLICE]
   details: {tokens: 69}
+  guesses: [POLICE, PLOT]
 bc9ea454-2435-45fd-9bd7-e2b651e30f14:
   pos: [TOKYO, JAM]
   neg: [COURT, SHAKESPEARE, WATER, DISEASE, OLIVE, NURSE]
   clue: JAPAN
   words: [TOKYO, JAM]
   details: {tokens: 76}
+  guesses: [TOKYO, WATER]
 bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
   pos: [FLY, HOOD]
   neg: [CHINA, NOTE, SHARK, DWARF, QUEEN, COVER]
   clue: AIRPLANE
   words: [FLY, HOOD]
   details: {tokens: 71}
+  guesses: [FLY, COVER]
 c627b3ae-ec53-4865-93ac-f148ca00bed8:
   pos: [LITTER, DRILL]
   neg: [BOLT, DINOSAUR, FOOT, MAPLE, MARBLE, WEB]
   clue: BORE
   words: [LITTER, DRILL]
   details: {tokens: 70}
+  guesses: [DRILL, MARBLE]
 c8ae890a-83b0-4316-ad27-955615bc3d08:
   pos: [FILM, TRACK]
   neg: [STREAM, KETCHUP, FOREST, FLUTE, SATELLITE, AZTEC]
   clue: CINEMA
   words: [FILM, TRACK]
   details: {tokens: 74}
+  guesses: [FILM, STREAM]
 c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
   pos: [PILOT, LASER]
   neg: [MAMMOTH, UNDERTAKER, RING, BILL, SHOT, CROSS]
   clue: TECHNOLOGY
   words: [PILOT, LASER]
   details: {tokens: 71}
+  guesses: [LASER, PILOT]
 d604cf86-4697-423b-9761-c281bb312a23:
   pos: [MAIL, GAME]
   neg: [IVORY, WATER, EGYPT, CHAIR, STATE, LITTER]
   clue: PLAY
   words: [MAIL, GAME]
   details: {tokens: 67}
+  guesses: [GAME, STATE]
 e31b7942-1342-4eda-b6e0-e8e072b0cedf:
   pos: [FIGHTER, POINT]
   neg: [CRICKET, ROUND, OLIVE, DRESS, CAPITAL, EYE]
   clue: BOXING
   words: [FIGHTER, POINT]
   details: {tokens: 70}
+  guesses: [FIGHTER, ROUND]
 ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
   pos: [RACKET, LITTER]
   neg: [SPACE, TEACHER, BUG, MOLE, NURSE, GLASS]
   clue: CLEANING
   words: [RACKET, LITTER]
   details: {tokens: 70}
+  guesses: [NURSE, LITTER]

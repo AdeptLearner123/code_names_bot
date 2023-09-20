@@ -33,6 +33,7 @@
         ranked_words: [AMAZON, RING, LIMOUSINE, HAND, POLE, FLUTE, IRON, COLD]
         tokens: 267
     tokens: 1362
+  guesses: [AMAZON]
 0cf1ceae-7b10-4ce8-b90e-074b2c5e1c24:
   pos: [KING, PLOT]
   neg: [CRANE, SCREEN, SHARK, TICK, BERMUDA, ORGAN]
@@ -68,6 +69,7 @@
         ranked_words: [KING, BERMUDA, CRANE, SCREEN, PLOT, SHARK, TICK, ORGAN]
         tokens: 240
     tokens: 1273
+  guesses: [KING, PLOT]
 15d1e84b-9b94-4d13-bc8e-e4838b2e9dfa:
   pos: [PORT, ORANGE]
   neg: [TRIP, RACKET, TORCH, THEATER, HOLLYWOOD, LOG]
@@ -103,6 +105,7 @@
         ranked_words: [PEEL, ORANGE, RACKET, LOG, TRIP, TORCH, PORT, THEATER, HOLLYWOOD]
         tokens: 246
     tokens: 1303
+  guesses: [ORANGE, TRIP]
 1fbb4775-8b66-4e2b-aed6-481c309fb00f:
   pos: [COMIC, EMBASSY]
   neg: [BOARD, BUFFALO, PLATE, LASER, WAVE, ANTARCTICA]
@@ -138,6 +141,7 @@
         ranked_words: [COMIC, BOARD, WAVE, LASER, PLATE, BUFFALO, EMBASSY, ANTARCTICA]
         tokens: 276
     tokens: 1460
+  guesses: [COMIC]
 2afb7e7d-fe6b-44d7-9932-da2418712628:
   pos: [SINK, HELICOPTER]
   neg: [FENCE, LIGHT, GERMANY, TOWER, STREAM, BAND]
@@ -173,6 +177,7 @@
         ranked_words: [HELICOPTER, TOWER, LIGHT, STREAM, FENCE, BAND, SINK, GERMANY]
         tokens: 255
     tokens: 1356
+  guesses: [SINK]
 38df3256-a635-4dc3-bdb0-b804b8566a4d:
   pos: [TABLET, UNICORN]
   neg: [PLAY, KING, HELICOPTER, LAB, PIE, DUCK]
@@ -208,6 +213,7 @@
         ranked_words: [UNICORN, DUCK, KING, HELICOPTER, LAB, PLAY, TABLET, PIE]
         tokens: 246
     tokens: 1298
+  guesses: [UNICORN]
 3aea0278-1d10-4148-b6ff-420412b72587:
   pos: [GLOVE, GLASS]
   neg: [GIANT, HOTEL, TAG, ATLANTIS, JET, HOSPITAL]
@@ -243,6 +249,7 @@
         ranked_words: [GLOVE, TAG, HOTEL, GLASS, JET, GIANT, HOSPITAL, ATLANTIS]
         tokens: 261
     tokens: 1380
+  guesses: [GLASS, HOTEL]
 466843ee-d24e-45c9-b209-391f7ce61062:
   pos: [THIEF, CROSS]
   neg: [STRIKE, NIGHT, POUND, HORSESHOE, BOLT, MOUTH]
@@ -278,6 +285,7 @@
         ranked_words: [THIEF, NIGHT, STRIKE, BOLT, CROSS, POUND, HORSESHOE, MOUTH]
         tokens: 258
     tokens: 1377
+  guesses: [THIEF]
 5754771b-dd37-4bc2-869c-74cd9629bb5c:
   pos: [BERMUDA, PALM]
   neg: [AMERICA, MINT, CHURCH, FORCE, BOTTLE, CRICKET]
@@ -313,6 +321,7 @@
         ranked_words: [BERMUDA, AMERICA, PALM, BOTTLE, FORCE, MINT, CHURCH, CRICKET]
         tokens: 270
     tokens: 1420
+  guesses: [BERMUDA, PALM]
 617c798c-03db-451e-9230-e668418c1eda:
   pos: [ROSE, SLUG]
   neg: [MOON, NAIL, GREECE, GHOST, STATE, COVER]
@@ -348,6 +357,7 @@
         ranked_words: [SLUG, NAIL, MOON, ROSE, COVER, GHOST, GREECE, STATE]
         tokens: 249
     tokens: 1315
+  guesses: [ROSE]
 69e9a665-9d9d-4588-b65b-9e299685b00a:
   pos: [POLICE, FORCE]
   neg: [PART, KIWI, DIAMOND, ENGINE, SUPERHERO, PIRATE]
@@ -385,6 +395,7 @@
         ranked_words: [POLICE, FORCE, SUPERHERO, PIRATE, PART, ENGINE, DIAMOND, KIWI]
         tokens: 255
     tokens: 1347
+  guesses: [POLICE, SUPERHERO]
 756e0a13-c9f3-4584-ad7a-f16d0c68ea96:
   pos: [SATELLITE, HOOK]
   neg: [CENTER, SUPERHERO, SPINE, DANCE, PLOT, BLOCK]
@@ -420,6 +431,7 @@
         ranked_words: [SATELLITE, CENTER, BLOCK, HOOK, SPINE, PLOT, DANCE, SUPERHERO]
         tokens: 261
     tokens: 1355
+  guesses: [SATELLITE]
 79dfa5cf-4784-4522-ab08-8057b4806cce:
   pos: [MARCH, MAIL]
   neg: [PORT, WIND, LION, GREECE, FALL, GLOVE]
@@ -455,6 +467,7 @@
         ranked_words: [MAIL, PORT, MARCH, GLOVE, FALL, LION, WIND, GREECE]
         tokens: 243
     tokens: 1291
+  guesses: [MARCH]
 8ddccb64-fd16-4495-b680-2afea2ad65f7:
   pos: [STOCK, SCREEN]
   neg: [WATCH, LOG, SCHOOL, EGYPT, SPINE, ROME]
@@ -491,6 +504,7 @@
         ranked_words: [STOCK, SCREEN, WATCH, LOG, SCHOOL, SPINE, ROME, EGYPT]
         tokens: 225
     tokens: 1199
+  guesses: [STOCK, WATCH]
 8e0fbfac-8722-41b1-b62a-437c6af86ffd:
   pos: [MOUTH, PENGUIN]
   neg: [FLUTE, CHECK, KNIGHT, FOOT, ROW, IRON]
@@ -526,6 +540,7 @@
         ranked_words: [PENGUIN, FLUTE, FOOT, MOUTH, KNIGHT, ROW, IRON, CHECK]
         tokens: 243
     tokens: 1300
+  guesses: [MOUTH, PENGUIN]
 9abdc4fd-baf6-42ec-b2a1-2477ca5a3e2c:
   pos: [DOCTOR, BOARD]
   neg: [OLYMPUS, RACKET, OIL, TABLET, ANGEL, STADIUM]
@@ -561,6 +576,7 @@
         ranked_words: [BOARD, TABLET, OIL, DOCTOR, RACKET, STADIUM, OLYMPUS, ANGEL]
         tokens: 270
     tokens: 1419
+  guesses: [DOCTOR, BOARD]
 b46494c5-0293-4d42-940d-22436eb44bf5:
   pos: [PLOT, POLICE]
   neg: [GRACE, LITTER, GAME, TABLE, MOSCOW, LASER]
@@ -596,6 +612,7 @@ b46494c5-0293-4d42-940d-22436eb44bf5:
         ranked_words: [POLICE, TABLE, GAME, PLOT, LASER, LITTER, GRACE, MOSCOW]
         tokens: 246
     tokens: 1292
+  guesses: [POLICE, PLOT]
 bc9ea454-2435-45fd-9bd7-e2b651e30f14:
   pos: [TOKYO, JAM]
   neg: [COURT, SHAKESPEARE, WATER, DISEASE, OLIVE, NURSE]
@@ -631,6 +648,7 @@ bc9ea454-2435-45fd-9bd7-e2b651e30f14:
         ranked_words: [JAM, OLIVE, WATER, NURSE, COURT, DISEASE, SHAKESPEARE, TOKYO]
         tokens: 267
     tokens: 1434
+  guesses: [TOKYO]
 bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
   pos: [FLY, HOOD]
   neg: [CHINA, NOTE, SHARK, DWARF, QUEEN, COVER]
@@ -666,6 +684,7 @@ bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
         ranked_words: [FLY, NOTE, HOOD, SHARK, QUEEN, COVER, DWARF, CHINA]
         tokens: 243
     tokens: 1290
+  guesses: [HOOD, FLY]
 c627b3ae-ec53-4865-93ac-f148ca00bed8:
   pos: [LITTER, DRILL]
   neg: [BOLT, DINOSAUR, FOOT, MAPLE, MARBLE, WEB]
@@ -701,6 +720,7 @@ c627b3ae-ec53-4865-93ac-f148ca00bed8:
         ranked_words: [LITTER, BOLT, WEB, DRILL, FOOT, MARBLE, MAPLE, DINOSAUR]
         tokens: 249
     tokens: 1337
+  guesses: [LITTER]
 c8ae890a-83b0-4316-ad27-955615bc3d08:
   pos: [FILM, TRACK]
   neg: [STREAM, KETCHUP, FOREST, FLUTE, SATELLITE, AZTEC]
@@ -737,6 +757,7 @@ c8ae890a-83b0-4316-ad27-955615bc3d08:
         ranked_words: [FILM, TRACK, SATELLITE, STREAM, AZTEC, FLUTE, FOREST, KETCHUP]
         tokens: 263
     tokens: 1390
+  guesses: [FILM, TRACK]
 c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
   pos: [PILOT, LASER]
   neg: [MAMMOTH, UNDERTAKER, RING, BILL, SHOT, CROSS]
@@ -772,6 +793,7 @@ c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
         ranked_words: [LASER, PILOT, RING, BILL, SHOT, CROSS, UNDERTAKER, MAMMOTH]
         tokens: 261
     tokens: 1383
+  guesses: [PILOT, CROSS]
 d604cf86-4697-423b-9761-c281bb312a23:
   pos: [MAIL, GAME]
   neg: [IVORY, WATER, EGYPT, CHAIR, STATE, LITTER]
@@ -807,6 +829,7 @@ d604cf86-4697-423b-9761-c281bb312a23:
         ranked_words: [GAME, MAIL, STATE, CHAIR, WATER, LITTER, IVORY, EGYPT]
         tokens: 231
     tokens: 1220
+  guesses: [GAME, STATE]
 e31b7942-1342-4eda-b6e0-e8e072b0cedf:
   pos: [FIGHTER, POINT]
   neg: [CRICKET, ROUND, OLIVE, DRESS, CAPITAL, EYE]
@@ -842,6 +865,7 @@ e31b7942-1342-4eda-b6e0-e8e072b0cedf:
         ranked_words: [POINT, FIGHTER, EYE, ROUND, CRICKET, OLIVE, DRESS, CAPITAL]
         tokens: 243
     tokens: 1288
+  guesses: [POINT, EYE]
 ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
   pos: [RACKET, LITTER]
   neg: [SPACE, TEACHER, BUG, MOLE, NURSE, GLASS]
@@ -878,3 +902,4 @@ ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
           TEACHER]
         tokens: 243
     tokens: 1294
+  guesses: [RACKET]
