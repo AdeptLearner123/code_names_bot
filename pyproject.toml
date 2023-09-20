@@ -18,6 +18,8 @@ guess-clues = "code_names_bot.guess_clues:main"
 evaluate = "code_names_bot.evaluate:main"
 migrate = "code_names_bot.migrate:main"
 
+check-propose-filter-rank = "code_names_bot.checks.check_propose_filter_rank:main"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

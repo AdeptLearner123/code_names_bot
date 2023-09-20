@@ -13,6 +13,6 @@ def get_scenario_str(pos_words, neg_words):
     return f"Positive words: {pos_words_str}\nNegative words:{neg_words_str}"
 
 
-def get_clue_words_str(clue, words):
+def get_words_msg(words):
     words_str = ", ".join(words)
-    return f"Clue: {clue}\nWords: {words_str}"
+    return f"Words: {words_str}"

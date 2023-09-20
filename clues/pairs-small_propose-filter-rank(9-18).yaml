@@ -4,24 +4,23 @@
   clue: JUNGLE
   words: [AMAZON]
   details:
-    proposals: [JUNGLE, RIVER, METAL, E-COMMERCE, STRENGTH]
+    proposals: [JUNGLE, RIVER, METAL, ELEMENT, RETAIL]
     words: [FLUTE, IRON, COLD, POLE, AMAZON, RING, LIMOUSINE, HAND]
     proposal_related_words:
       JUNGLE: [AMAZON]
       RIVER: [AMAZON]
       METAL: [FLUTE, IRON, POLE, RING]
-      E-COMMERCE: [AMAZON]
-      STRENGTH: [IRON, AMAZON, HAND]
-    proposal_related_words_tokens: {JUNGLE: 59, RIVER: 58, METAL: 66, E-COMMERCE: 61,
-      STRENGTH: 62}
-    proposal_min_score: {JUNGLE: 1, RIVER: 1, METAL: 0, E-COMMERCE: 1, STRENGTH: 0}
-    proposal_max_score: {JUNGLE: 1, RIVER: 1, METAL: 1, E-COMMERCE: 1, STRENGTH: 2}
-    candidate_proposals: [JUNGLE, STRENGTH]
+      ELEMENT: [IRON, COLD]
+      RETAIL: [AMAZON]
+    proposal_related_words_tokens: {JUNGLE: 59, RIVER: 58, METAL: 66, ELEMENT: 58,
+      RETAIL: 58}
+    proposal_min_score: {JUNGLE: 1, RIVER: 1, METAL: 0, ELEMENT: 0, RETAIL: 1}
+    proposal_max_score: {JUNGLE: 1, RIVER: 1, METAL: 1, ELEMENT: 1, RETAIL: 1}
+    candidate_proposals: [JUNGLE]
     proposal_ranked_words:
       JUNGLE: [AMAZON]
-      STRENGTH: [IRON, HAND, AMAZON]
-    proposal_ranked_words_tokens: {JUNGLE: 0, STRENGTH: 47}
-    tokens: 428
+    proposal_ranked_words_tokens: {JUNGLE: 0}
+    tokens: 373
 0cf1ceae-7b10-4ce8-b90e-074b2c5e1c24:
   pos: [KING, PLOT]
   neg: [CRANE, SCREEN, SHARK, TICK, BERMUDA, ORGAN]
@@ -49,25 +48,26 @@
 15d1e84b-9b94-4d13-bc8e-e4838b2e9dfa:
   pos: [PORT, ORANGE]
   neg: [TRIP, RACKET, TORCH, THEATER, HOLLYWOOD, LOG]
-  clue: FRUIT
+  clue: CITRUS
   words: [ORANGE]
   details:
-    proposals: [FRUIT, DOCK, CITRUS, SHIP, PEEL]
+    proposals: [HARBOR, CITRUS, DOCK, VITAMIN, PEEL]
     words: [TORCH, ORANGE, THEATER, TRIP, PORT, RACKET, LOG, HOLLYWOOD]
     proposal_related_words:
-      FRUIT: [ORANGE]
-      DOCK: [PORT, TRIP, LOG]
+      HARBOR: [PORT, TRIP]
       CITRUS: [ORANGE]
-      SHIP: [TRIP, PORT, LOG]
+      DOCK: [PORT, TRIP, LOG]
+      VITAMIN: [ORANGE]
       PEEL: [ORANGE]
-    proposal_related_words_tokens: {FRUIT: 55, DOCK: 59, CITRUS: 56, SHIP: 59, PEEL: 55}
-    proposal_min_score: {FRUIT: 1, DOCK: 0, CITRUS: 1, SHIP: 0, PEEL: 1}
-    proposal_max_score: {FRUIT: 1, DOCK: 1, CITRUS: 1, SHIP: 1, PEEL: 1}
-    candidate_proposals: [FRUIT]
+    proposal_related_words_tokens: {HARBOR: 58, CITRUS: 56, DOCK: 59, VITAMIN: 57,
+      PEEL: 55}
+    proposal_min_score: {HARBOR: 0, CITRUS: 1, DOCK: 0, VITAMIN: 1, PEEL: 1}
+    proposal_max_score: {HARBOR: 1, CITRUS: 1, DOCK: 1, VITAMIN: 1, PEEL: 1}
+    candidate_proposals: [CITRUS]
     proposal_ranked_words:
-      FRUIT: [ORANGE]
-    proposal_ranked_words_tokens: {FRUIT: 0}
-    tokens: 357
+      CITRUS: [ORANGE]
+    proposal_ranked_words_tokens: {CITRUS: 0}
+    tokens: 358
 1fbb4775-8b66-4e2b-aed6-481c309fb00f:
   pos: [COMIC, EMBASSY]
   neg: [BOARD, BUFFALO, PLATE, LASER, WAVE, ANTARCTICA]
@@ -94,72 +94,74 @@
 2afb7e7d-fe6b-44d7-9932-da2418712628:
   pos: [SINK, HELICOPTER]
   neg: [FENCE, LIGHT, GERMANY, TOWER, STREAM, BAND]
-  clue: PLUMBING
-  words: [SINK]
+  clue: ROTOR
+  words: [HELICOPTER]
   details:
-    proposals: [PLUMBING, AVIATION, DRAIN, ROTOR, ALTITUDE]
+    proposals: [DRAIN, ROTOR, PLUMBING, AVIATION, HOVERING]
     words: [GERMANY, HELICOPTER, TOWER, FENCE, SINK, LIGHT, BAND, STREAM]
     proposal_related_words:
-      PLUMBING: [SINK]
-      AVIATION: [HELICOPTER, TOWER]
       DRAIN: [SINK, STREAM]
       ROTOR: [HELICOPTER]
-      ALTITUDE: [HELICOPTER, TOWER]
-    proposal_related_words_tokens: {PLUMBING: 58, AVIATION: 63, DRAIN: 59, ROTOR: 59,
-      ALTITUDE: 62}
-    proposal_min_score: {PLUMBING: 1, AVIATION: 0, DRAIN: 0, ROTOR: 1, ALTITUDE: 0}
-    proposal_max_score: {PLUMBING: 1, AVIATION: 1, DRAIN: 1, ROTOR: 1, ALTITUDE: 1}
-    candidate_proposals: [PLUMBING]
-    proposal_ranked_words:
       PLUMBING: [SINK]
-    proposal_ranked_words_tokens: {PLUMBING: 0}
-    tokens: 376
+      AVIATION: [HELICOPTER, TOWER]
+      HOVERING: [HELICOPTER]
+    proposal_related_words_tokens: {DRAIN: 59, ROTOR: 59, PLUMBING: 58, AVIATION: 63,
+      HOVERING: 60}
+    proposal_min_score: {DRAIN: 0, ROTOR: 1, PLUMBING: 1, AVIATION: 0, HOVERING: 1}
+    proposal_max_score: {DRAIN: 1, ROTOR: 1, PLUMBING: 1, AVIATION: 1, HOVERING: 1}
+    candidate_proposals: [ROTOR]
+    proposal_ranked_words:
+      ROTOR: [HELICOPTER]
+    proposal_ranked_words_tokens: {ROTOR: 0}
+    tokens: 374
 38df3256-a635-4dc3-bdb0-b804b8566a4d:
   pos: [TABLET, UNICORN]
   neg: [PLAY, KING, HELICOPTER, LAB, PIE, DUCK]
   clue: MYTHICAL
   words: [UNICORN]
   details:
-    proposals: [MYTHICAL, TECHNOLOGY, HORN, PORTABLE, FANTASY]
+    proposals: [FANTASY, TECHNOLOGY, MYTHICAL, PORTABLE, HORNED]
     words: [HELICOPTER, UNICORN, LAB, PLAY, TABLET, KING, DUCK, PIE]
     proposal_related_words:
-      MYTHICAL: [UNICORN]
-      TECHNOLOGY: [HELICOPTER, LAB, TABLET]
-      HORN: [UNICORN]
-      PORTABLE: [TABLET, LAB]
       FANTASY: [UNICORN, KING]
-    proposal_related_words_tokens: {MYTHICAL: 57, TECHNOLOGY: 62, HORN: 56, PORTABLE: 57,
-      FANTASY: 59}
-    proposal_min_score: {MYTHICAL: 1, TECHNOLOGY: 0, HORN: 1, PORTABLE: 0, FANTASY: 0}
-    proposal_max_score: {MYTHICAL: 1, TECHNOLOGY: 1, HORN: 1, PORTABLE: 1, FANTASY: 1}
+      TECHNOLOGY: [HELICOPTER, LAB, TABLET]
+      MYTHICAL: [UNICORN]
+      PORTABLE: [TABLET, LAB]
+      HORNED: [UNICORN]
+    proposal_related_words_tokens: {FANTASY: 59, TECHNOLOGY: 62, MYTHICAL: 57, PORTABLE: 57,
+      HORNED: 57}
+    proposal_min_score: {FANTASY: 0, TECHNOLOGY: 0, MYTHICAL: 1, PORTABLE: 0, HORNED: 1}
+    proposal_max_score: {FANTASY: 1, TECHNOLOGY: 1, MYTHICAL: 1, PORTABLE: 1, HORNED: 1}
     candidate_proposals: [MYTHICAL]
     proposal_ranked_words:
       MYTHICAL: [UNICORN]
     proposal_ranked_words_tokens: {MYTHICAL: 0}
-    tokens: 364
+    tokens: 366
 3aea0278-1d10-4148-b6ff-420412b72587:
   pos: [GLOVE, GLASS]
   neg: [GIANT, HOTEL, TAG, ATLANTIS, JET, HOSPITAL]
   clue: TRANSPARENT
   words: [GLASS]
   details:
-    proposals: [LEATHER, TRANSPARENT, HAND, DRINKWARE, PROTECTION]
+    proposals: [LEATHER, TRANSPARENT, PROTECTION, DRINKWARE, HANDWEAR]
     words: [TAG, GLASS, ATLANTIS, GIANT, GLOVE, HOTEL, HOSPITAL, JET]
     proposal_related_words:
       LEATHER: [TAG, GLOVE]
       TRANSPARENT: [GLASS]
-      HAND: [TAG, GLOVE]
-      DRINKWARE: [GLASS]
       PROTECTION: [GLOVE, HOSPITAL]
-    proposal_related_words_tokens: {LEATHER: 61, TRANSPARENT: 58, HAND: 60, DRINKWARE: 59,
-      PROTECTION: 63}
-    proposal_min_score: {LEATHER: 0, TRANSPARENT: 1, HAND: 0, DRINKWARE: 1, PROTECTION: 0}
-    proposal_max_score: {LEATHER: 1, TRANSPARENT: 1, HAND: 1, DRINKWARE: 1, PROTECTION: 1}
+      DRINKWARE: [GLASS]
+      HANDWEAR: [GLOVE]
+    proposal_related_words_tokens: {LEATHER: 61, TRANSPARENT: 58, PROTECTION: 63,
+      DRINKWARE: 59, HANDWEAR: 60}
+    proposal_min_score: {LEATHER: 0, TRANSPARENT: 1, PROTECTION: 0, DRINKWARE: 1,
+      HANDWEAR: 1}
+    proposal_max_score: {LEATHER: 1, TRANSPARENT: 1, PROTECTION: 1, DRINKWARE: 1,
+      HANDWEAR: 1}
     candidate_proposals: [TRANSPARENT]
     proposal_ranked_words:
       TRANSPARENT: [GLASS]
     proposal_ranked_words_tokens: {TRANSPARENT: 0}
-    tokens: 377
+    tokens: 378
 466843ee-d24e-45c9-b209-391f7ce61062:
   pos: [THIEF, CROSS]
   neg: [STRIKE, NIGHT, POUND, HORSESHOE, BOLT, MOUTH]
@@ -173,34 +175,35 @@
       CRUCIFIX: [CROSS]
       BURGLAR: [THIEF, NIGHT, BOLT]
       RELIGION: [CROSS]
-      ROBBER: [THIEF, NIGHT, BOLT]
+      ROBBER: [THIEF, BOLT]
     proposal_related_words_tokens: {STEAL: 61, CRUCIFIX: 59, BURGLAR: 65, RELIGION: 58,
-      ROBBER: 64}
+      ROBBER: 62}
     proposal_min_score: {STEAL: 0, CRUCIFIX: 1, BURGLAR: 0, RELIGION: 1, ROBBER: 0}
     proposal_max_score: {STEAL: 1, CRUCIFIX: 1, BURGLAR: 1, RELIGION: 1, ROBBER: 1}
     candidate_proposals: [CRUCIFIX]
     proposal_ranked_words:
       CRUCIFIX: [CROSS]
     proposal_ranked_words_tokens: {CRUCIFIX: 0}
-    tokens: 385
+    tokens: 383
 5754771b-dd37-4bc2-869c-74cd9629bb5c:
   pos: [BERMUDA, PALM]
   neg: [AMERICA, MINT, CHURCH, FORCE, BOTTLE, CRICKET]
-  clue: ISLAND
+  clue: TROPICAL
   words: [PALM, BERMUDA]
   details:
-    proposals: [ISLAND, TROPICAL, SHORTS, COCONUT, ATLANTIC]
+    proposals: [ISLAND, TROPICAL, SHORTS, COCONUT, BEACH]
     words: [CHURCH, PALM, FORCE, AMERICA, BERMUDA, MINT, CRICKET, BOTTLE]
     proposal_related_words:
-      ISLAND: [PALM, BERMUDA]
-    proposal_related_words_tokens: {ISLAND: 63}
-    proposal_min_score: {ISLAND: 2}
-    proposal_max_score: {ISLAND: 2}
-    candidate_proposals: [ISLAND]
+      ISLAND: [PALM, BERMUDA, AMERICA]
+      TROPICAL: [PALM, BERMUDA]
+    proposal_related_words_tokens: {ISLAND: 66, TROPICAL: 64}
+    proposal_min_score: {ISLAND: 0, TROPICAL: 2}
+    proposal_max_score: {ISLAND: 2, TROPICAL: 2}
+    candidate_proposals: [TROPICAL]
     proposal_ranked_words:
-      ISLAND: [PALM, BERMUDA]
-    proposal_ranked_words_tokens: {ISLAND: 0}
-    tokens: 139
+      TROPICAL: [PALM, BERMUDA]
+    proposal_ranked_words_tokens: {TROPICAL: 0}
+    tokens: 206
 617c798c-03db-451e-9230-e668418c1eda:
   pos: [ROSE, SLUG]
   neg: [MOON, NAIL, GREECE, GHOST, STATE, COVER]
@@ -226,7 +229,7 @@
   clue: LAW
   words: [FORCE, POLICE]
   details:
-    proposals: [LAW, PATROL, SECURITY, UNIFORM, ARREST]
+    proposals: [LAW, PATROL, UNIFORM, ARREST, SECURITY]
     words: [DIAMOND, FORCE, ENGINE, PART, POLICE, KIWI, PIRATE, SUPERHERO]
     proposal_related_words:
       LAW: [FORCE, POLICE]
@@ -314,7 +317,7 @@
   clue: BEAK
   words: [PENGUIN, MOUTH]
   details:
-    proposals: [BEAK, ANTARCTICA, TALK, BIRD, SWIM]
+    proposals: [BEAK, ANTARCTICA, SPEAK, WADDLE, BIRD]
     words: [KNIGHT, PENGUIN, FOOT, FLUTE, MOUTH, CHECK, IRON, ROW]
     proposal_related_words:
       BEAK: [PENGUIN, MOUTH]
@@ -325,7 +328,7 @@
     proposal_ranked_words:
       BEAK: [PENGUIN, MOUTH]
     proposal_ranked_words_tokens: {BEAK: 0}
-    tokens: 138
+    tokens: 133
 9abdc4fd-baf6-42ec-b2a1-2477ca5a3e2c:
   pos: [DOCTOR, BOARD]
   neg: [OLYMPUS, RACKET, OIL, TABLET, ANGEL, STADIUM]
@@ -335,7 +338,7 @@
     proposals: [HOSPITAL, MEDICAL, DIRECTOR, EXAMINATION, GOVERNANCE]
     words: [OIL, BOARD, TABLET, OLYMPUS, DOCTOR, RACKET, STADIUM, ANGEL]
     proposal_related_words:
-      HOSPITAL: [TABLET, DOCTOR, ANGEL]
+      HOSPITAL: [DOCTOR, TABLET, ANGEL]
       MEDICAL: [TABLET, DOCTOR]
       DIRECTOR: [BOARD]
       EXAMINATION: [DOCTOR]
@@ -381,9 +384,9 @@ bc9ea454-2435-45fd-9bd7-e2b651e30f14:
       JAPAN: [TOKYO]
       FRUIT: [JAM, OLIVE]
       CAPITAL: [COURT, TOKYO]
-      SPREAD: [JAM, DISEASE]
+      SPREAD: [JAM, DISEASE, OLIVE]
       METROPOLIS: [TOKYO]
-    proposal_related_words_tokens: {JAPAN: 61, FRUIT: 62, CAPITAL: 62, SPREAD: 63,
+    proposal_related_words_tokens: {JAPAN: 61, FRUIT: 62, CAPITAL: 62, SPREAD: 66,
       METROPOLIS: 62}
     proposal_min_score: {JAPAN: 1, FRUIT: 0, CAPITAL: 0, SPREAD: 0, METROPOLIS: 1}
     proposal_max_score: {JAPAN: 1, FRUIT: 1, CAPITAL: 1, SPREAD: 1, METROPOLIS: 1}
@@ -391,7 +394,7 @@ bc9ea454-2435-45fd-9bd7-e2b651e30f14:
     proposal_ranked_words:
       JAPAN: [TOKYO]
     proposal_ranked_words_tokens: {JAPAN: 0}
-    tokens: 393
+    tokens: 396
 bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
   pos: [FLY, HOOD]
   neg: [CHINA, NOTE, SHARK, DWARF, QUEEN, COVER]
@@ -436,8 +439,8 @@ c627b3ae-ec53-4865-93ac-f148ca00bed8:
 c8ae890a-83b0-4316-ad27-955615bc3d08:
   pos: [FILM, TRACK]
   neg: [STREAM, KETCHUP, FOREST, FLUTE, SATELLITE, AZTEC]
-  clue: REEL
-  words: [FILM, TRACK]
+  clue: CINEMA
+  words: [FILM]
   details:
     proposals: [CINEMA, RACE, MOVIE, RUN, REEL]
     words: [FOREST, TRACK, FLUTE, STREAM, FILM, KETCHUP, AZTEC, SATELLITE]
@@ -445,100 +448,98 @@ c8ae890a-83b0-4316-ad27-955615bc3d08:
       CINEMA: [FILM]
       RACE: [TRACK, STREAM]
       MOVIE: [FILM, STREAM]
-      RUN: [TRACK, STREAM]
+      RUN: [TRACK, STREAM, FILM]
       REEL: [TRACK, STREAM, FILM]
-    proposal_related_words_tokens: {CINEMA: 60, RACE: 59, MOVIE: 61, RUN: 58, REEL: 62}
+    proposal_related_words_tokens: {CINEMA: 60, RACE: 59, MOVIE: 61, RUN: 61, REEL: 62}
     proposal_min_score: {CINEMA: 1, RACE: 0, MOVIE: 0, RUN: 0, REEL: 0}
-    proposal_max_score: {CINEMA: 1, RACE: 1, MOVIE: 1, RUN: 1, REEL: 2}
-    candidate_proposals: [CINEMA, REEL]
+    proposal_max_score: {CINEMA: 1, RACE: 1, MOVIE: 1, RUN: 2, REEL: 2}
+    candidate_proposals: [CINEMA, RUN, REEL]
     proposal_ranked_words:
       CINEMA: [FILM]
-      REEL: [FILM, TRACK, STREAM]
-    proposal_ranked_words_tokens: {CINEMA: 0, REEL: 46}
-    tokens: 422
+      RUN: [TRACK, STREAM, FILM]
+      REEL: [FILM, STREAM, TRACK]
+    proposal_ranked_words_tokens: {CINEMA: 0, RUN: 44, REEL: 46}
+    tokens: 469
 c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
   pos: [PILOT, LASER]
   neg: [MAMMOTH, UNDERTAKER, RING, BILL, SHOT, CROSS]
-  clue: LIGHT
+  clue: AIRCRAFT
   words: [LASER, PILOT]
   details:
-    proposals: [AIRCRAFT, BEAM, NAVIGATION, LIGHT, PRECISION]
+    proposals: [AIRCRAFT, BEAM, NAVIGATION, LIGHT, TECHNOLOGY]
     words: [RING, LASER, BILL, MAMMOTH, PILOT, UNDERTAKER, CROSS, SHOT]
     proposal_related_words:
-      AIRCRAFT: [PILOT]
-      BEAM: [LASER, CROSS]
-      NAVIGATION: [LASER, PILOT, CROSS]
-      LIGHT: [LASER, PILOT]
-    proposal_related_words_tokens: {AIRCRAFT: 59, BEAM: 60, NAVIGATION: 63, LIGHT: 60}
-    proposal_min_score: {AIRCRAFT: 1, BEAM: 0, NAVIGATION: 0, LIGHT: 2}
-    proposal_max_score: {AIRCRAFT: 1, BEAM: 1, NAVIGATION: 2, LIGHT: 2}
-    candidate_proposals: [LIGHT]
+      AIRCRAFT: [LASER, PILOT]
+    proposal_related_words_tokens: {AIRCRAFT: 62}
+    proposal_min_score: {AIRCRAFT: 2}
+    proposal_max_score: {AIRCRAFT: 2}
+    candidate_proposals: [AIRCRAFT]
     proposal_ranked_words:
-      LIGHT: [LASER, PILOT]
-    proposal_ranked_words_tokens: {LIGHT: 0}
-    tokens: 316
+      AIRCRAFT: [LASER, PILOT]
+    proposal_ranked_words_tokens: {AIRCRAFT: 0}
+    tokens: 136
 d604cf86-4697-423b-9761-c281bb312a23:
   pos: [MAIL, GAME]
   neg: [IVORY, WATER, EGYPT, CHAIR, STATE, LITTER]
   clue: ENVELOPE
   words: [MAIL]
   details:
-    proposals: [ENVELOPE, CONTROLLER, POSTAGE, MULTIPLAYER, SCOREBOARD]
+    proposals: [ENVELOPE, PLAY, POSTAGE, SCORE, MULTIPLAYER]
     words: [EGYPT, GAME, CHAIR, IVORY, MAIL, WATER, LITTER, STATE]
     proposal_related_words:
       ENVELOPE: [MAIL]
-      CONTROLLER: [GAME, STATE]
+      PLAY: [GAME]
       POSTAGE: [MAIL]
+      SCORE: [GAME]
       MULTIPLAYER: [GAME]
-      SCOREBOARD: [GAME]
-    proposal_related_words_tokens: {ENVELOPE: 53, CONTROLLER: 54, POSTAGE: 52, MULTIPLAYER: 52,
-      SCOREBOARD: 52}
-    proposal_min_score: {ENVELOPE: 1, CONTROLLER: 0, POSTAGE: 1, MULTIPLAYER: 1, SCOREBOARD: 1}
-    proposal_max_score: {ENVELOPE: 1, CONTROLLER: 1, POSTAGE: 1, MULTIPLAYER: 1, SCOREBOARD: 1}
+    proposal_related_words_tokens: {ENVELOPE: 53, PLAY: 51, POSTAGE: 52, SCORE: 51,
+      MULTIPLAYER: 52}
+    proposal_min_score: {ENVELOPE: 1, PLAY: 1, POSTAGE: 1, SCORE: 1, MULTIPLAYER: 1}
+    proposal_max_score: {ENVELOPE: 1, PLAY: 1, POSTAGE: 1, SCORE: 1, MULTIPLAYER: 1}
     candidate_proposals: [ENVELOPE]
     proposal_ranked_words:
       ENVELOPE: [MAIL]
     proposal_ranked_words_tokens: {ENVELOPE: 0}
-    tokens: 335
+    tokens: 330
 e31b7942-1342-4eda-b6e0-e8e072b0cedf:
   pos: [FIGHTER, POINT]
   neg: [CRICKET, ROUND, OLIVE, DRESS, CAPITAL, EYE]
   clue: SWORD
   words: [POINT, FIGHTER]
   details:
-    proposals: [BOXING, SWORD, SHARP, COMBAT, DIRECTION]
+    proposals: [BOXING, SWORD, SHARP, ARROW, COMBAT]
     words: [OLIVE, POINT, DRESS, CRICKET, FIGHTER, ROUND, EYE, CAPITAL]
     proposal_related_words:
-      BOXING: [FIGHTER, ROUND, EYE]
+      BOXING: [FIGHTER, ROUND]
       SWORD: [POINT, FIGHTER]
-    proposal_related_words_tokens: {BOXING: 61, SWORD: 58}
+    proposal_related_words_tokens: {BOXING: 58, SWORD: 58}
     proposal_min_score: {BOXING: 0, SWORD: 2}
     proposal_max_score: {BOXING: 1, SWORD: 2}
     candidate_proposals: [SWORD]
     proposal_ranked_words:
       SWORD: [POINT, FIGHTER]
     proposal_ranked_words_tokens: {SWORD: 0}
-    tokens: 191
+    tokens: 188
 ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
   pos: [RACKET, LITTER]
   neg: [SPACE, TEACHER, BUG, MOLE, NURSE, GLASS]
   clue: TENNIS
   words: [RACKET]
   details:
-    proposals: [TENNIS, TRASH, NOISE, KITTENS, DEBRIS]
+    proposals: [TENNIS, TRASH, NOISE, POLLUTION, CONTAINER]
     words: [BUG, LITTER, MOLE, SPACE, RACKET, TEACHER, GLASS, NURSE]
     proposal_related_words:
       TENNIS: [RACKET]
       TRASH: [LITTER]
       NOISE: [RACKET]
-      KITTENS: [LITTER]
-      DEBRIS: [LITTER]
-    proposal_related_words_tokens: {TENNIS: 56, TRASH: 55, NOISE: 55, KITTENS: 56,
-      DEBRIS: 56}
-    proposal_min_score: {TENNIS: 1, TRASH: 1, NOISE: 1, KITTENS: 1, DEBRIS: 1}
-    proposal_max_score: {TENNIS: 1, TRASH: 1, NOISE: 1, KITTENS: 1, DEBRIS: 1}
+      POLLUTION: [LITTER]
+      CONTAINER: [GLASS]
+    proposal_related_words_tokens: {TENNIS: 56, TRASH: 55, NOISE: 55, POLLUTION: 55,
+      CONTAINER: 55}
+    proposal_min_score: {TENNIS: 1, TRASH: 1, NOISE: 1, POLLUTION: 1, CONTAINER: 0}
+    proposal_max_score: {TENNIS: 1, TRASH: 1, NOISE: 1, POLLUTION: 1, CONTAINER: 0}
     candidate_proposals: [TENNIS]
     proposal_ranked_words:
       TENNIS: [RACKET]
     proposal_ranked_words_tokens: {TENNIS: 0}
-    tokens: 352
+    tokens: 348

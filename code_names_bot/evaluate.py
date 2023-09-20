@@ -17,17 +17,20 @@ def evaluate(clues_name, mode):
 
     score = 0
     score_dist = Counter()
+    tokens = 0
 
-    for scenario_id, clue_scenario in clues.items():
+    for _, clue_scenario in clues.items():
         if mode == "count_neg":
             guesses = clue_scenario["guesses"]
             pos_count = sum([ word in clue_scenario["pos"] for word in guesses])
             neg_count = sum([ word in clue_scenario["neg"] for word in guesses])
             score_dist[pos_count - neg_count] += 1
             score += pos_count - neg_count
+            tokens += clue_scenario["details"]["tokens"]
 
     print(f"{clues_name}: {score} / {len(clues)} = {score / len(clues)}")
-    print(score_dist)
+    print("Scores:", score_dist)
+    print("Tokens:", tokens / len(clues))
 
 
 def main():

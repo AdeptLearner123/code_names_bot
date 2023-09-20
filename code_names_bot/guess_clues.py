@@ -3,7 +3,7 @@ import yaml
 import os
 import random
 
-from config import CLUES_DIR
+from config import CLUES_DIR, SCENARIOS_DIR
 from code_names_bot.util.select_words import select_words
 
 

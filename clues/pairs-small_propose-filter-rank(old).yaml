@@ -1,0 +1,900 @@
+02e42c49-c027-4568-b656-c78bc4a6ad47:
+  pos: [AMAZON, IRON]
+  neg: [POLE, RING, FLUTE, COLD, HAND, LIMOUSINE]
+  clue: JUNGLE
+  words: [AMAZON]
+  details:
+    proposals: [JUNGLE, METAL, RIVER, ELEMENT, RETAIL]
+    words: [FLUTE, IRON, COLD, POLE, AMAZON, RING, LIMOUSINE, HAND]
+    proposal_details:
+      JUNGLE:
+        related_words: [AMAZON]
+        related_words_tokens: 64
+        ranked_words: [AMAZON]
+        ranked_words_tokens: 43
+      METAL:
+        related_words: [IRON, RING, POLE]
+        related_words_tokens: 67
+        ranked_words: [IRON, RING, POLE]
+        ranked_words_tokens: 52
+      RIVER:
+        related_words: [AMAZON]
+        related_words_tokens: 63
+        ranked_words: [AMAZON]
+        ranked_words_tokens: 42
+      ELEMENT:
+        related_words: [IRON]
+        related_words_tokens: 60
+        ranked_words: [IRON]
+        ranked_words_tokens: 39
+      RETAIL:
+        related_words: [AMAZON, RING]
+        related_words_tokens: 66
+        ranked_words: [AMAZON, RING]
+        ranked_words_tokens: 48
+    tokens: 618
+  guesses: [AMAZON]
+0cf1ceae-7b10-4ce8-b90e-074b2c5e1c24:
+  pos: [KING, PLOT]
+  neg: [CRANE, SCREEN, SHARK, TICK, BERMUDA, ORGAN]
+  clue: THRONE
+  words: [KING]
+  details:
+    proposals: [THRONE, STORY, ROYALTY, SCHEME, CROWN]
+    words: [SHARK, PLOT, TICK, CRANE, KING, SCREEN, ORGAN, BERMUDA]
+    proposal_details:
+      THRONE:
+        related_words: [KING]
+        related_words_tokens: 59
+        ranked_words: [KING]
+        ranked_words_tokens: 40
+      STORY:
+        related_words: [PLOT, KING, SCREEN]
+        related_words_tokens: 62
+        ranked_words: [PLOT, STORY, KING]
+        ranked_words_tokens: 48
+      ROYALTY:
+        related_words: [KING]
+        related_words_tokens: 61
+        ranked_words: [KING]
+        ranked_words_tokens: 42
+      SCHEME:
+        related_words: [PLOT]
+        related_words_tokens: 59
+        ranked_words: [PLOT]
+        ranked_words_tokens: 41
+      CROWN:
+        related_words: [KING]
+        related_words_tokens: 59
+        ranked_words: [KING]
+        ranked_words_tokens: 40
+    tokens: 587
+  guesses: [KING]
+15d1e84b-9b94-4d13-bc8e-e4838b2e9dfa:
+  pos: [PORT, ORANGE]
+  neg: [TRIP, RACKET, TORCH, THEATER, HOLLYWOOD, LOG]
+  clue: HARBOR
+  words: [PORT]
+  details:
+    proposals: [HARBOR, CITRUS, DOCK, PEEL, VITAMINC]
+    words: [TORCH, ORANGE, THEATER, TRIP, PORT, RACKET, LOG, HOLLYWOOD]
+    proposal_details:
+      HARBOR:
+        related_words: [PORT]
+        related_words_tokens: 60
+        ranked_words: [PORT]
+        ranked_words_tokens: 40
+      CITRUS:
+        related_words: [ORANGE]
+        related_words_tokens: 61
+        ranked_words: [ORANGE]
+        ranked_words_tokens: 42
+      DOCK:
+        related_words: [PORT, TRIP]
+        related_words_tokens: 62
+        ranked_words: [PORT, TRIP]
+        ranked_words_tokens: 45
+      PEEL:
+        related_words: [ORANGE]
+        related_words_tokens: 60
+        ranked_words: [ORANGE]
+        ranked_words_tokens: 41
+      VITAMINC:
+        related_words: [ORANGE]
+        related_words_tokens: 62
+        ranked_words: [ORANGE]
+        ranked_words_tokens: 43
+    tokens: 590
+  guesses: [PORT]
+1fbb4775-8b66-4e2b-aed6-481c309fb00f:
+  pos: [COMIC, EMBASSY]
+  neg: [BOARD, BUFFALO, PLATE, LASER, WAVE, ANTARCTICA]
+  clue: HUMOR
+  words: [COMIC]
+  details:
+    proposals: [HUMOR, DIPLOMACY, CARTOON, CONSULATE, INTERNATIONAL]
+    words: [PLATE, EMBASSY, LASER, BOARD, COMIC, BUFFALO, ANTARCTICA, WAVE]
+    proposal_details:
+      HUMOR:
+        related_words: [COMIC]
+        related_words_tokens: 66
+        ranked_words: [COMIC]
+        ranked_words_tokens: 42
+      DIPLOMACY:
+        related_words: [EMBASSY]
+        related_words_tokens: 70
+        ranked_words: [EMBASSY]
+        ranked_words_tokens: 48
+      CARTOON:
+        related_words: [COMIC, BOARD]
+        related_words_tokens: 68
+        ranked_words: [COMIC, BOARD]
+        ranked_words_tokens: 46
+      CONSULATE:
+        related_words: [EMBASSY]
+        related_words_tokens: 67
+        ranked_words: [EMBASSY]
+        ranked_words_tokens: 45
+      INTERNATIONAL:
+        related_words: [EMBASSY, ANTARCTICA]
+        related_words_tokens: 71
+        ranked_words: [EMBASSY, ANTARCTICA]
+        ranked_words_tokens: 54
+    tokens: 657
+  guesses: [COMIC]
+2afb7e7d-fe6b-44d7-9932-da2418712628:
+  pos: [SINK, HELICOPTER]
+  neg: [FENCE, LIGHT, GERMANY, TOWER, STREAM, BAND]
+  clue: PLUMBING
+  words: [SINK]
+  details:
+    proposals: [PLUMBING, AVIATION, DRAIN, ROTOR, ALTITUDE]
+    words: [GERMANY, HELICOPTER, TOWER, FENCE, SINK, LIGHT, BAND, STREAM]
+    proposal_details:
+      PLUMBING:
+        related_words: [SINK, STREAM]
+        related_words_tokens: 65
+        ranked_words: [SINK, STREAM]
+        ranked_words_tokens: 46
+      AVIATION:
+        related_words: [HELICOPTER, TOWER]
+        related_words_tokens: 68
+        ranked_words: [HELICOPTER, TOWER]
+        ranked_words_tokens: 52
+      DRAIN:
+        related_words: [SINK, STREAM]
+        related_words_tokens: 64
+        ranked_words: [SINK, STREAM]
+        ranked_words_tokens: 45
+      ROTOR:
+        related_words: [HELICOPTER]
+        related_words_tokens: 64
+        ranked_words: [HELICOPTER]
+        ranked_words_tokens: 45
+      ALTITUDE:
+        related_words: [HELICOPTER, TOWER]
+        related_words_tokens: 67
+        ranked_words: [HELICOPTER, TOWER]
+        ranked_words_tokens: 51
+    tokens: 642
+  guesses: [SINK]
+38df3256-a635-4dc3-bdb0-b804b8566a4d:
+  pos: [TABLET, UNICORN]
+  neg: [PLAY, KING, HELICOPTER, LAB, PIE, DUCK]
+  clue: FANTASY
+  words: [UNICORN]
+  details:
+    proposals: [FANTASY, TECHNOLOGY, MYTHICAL, PORTABLE, HORNED]
+    words: [HELICOPTER, UNICORN, LAB, PLAY, TABLET, KING, DUCK, PIE]
+    proposal_details:
+      FANTASY:
+        related_words: [UNICORN, KING]
+        related_words_tokens: 64
+        ranked_words: [UNICORN, KING]
+        ranked_words_tokens: 48
+      TECHNOLOGY:
+        related_words: [HELICOPTER, LAB, TABLET]
+        related_words_tokens: 67
+        ranked_words: [TABLET, LAB, HELICOPTER]
+        ranked_words_tokens: 55
+      MYTHICAL:
+        related_words: [UNICORN]
+        related_words_tokens: 62
+        ranked_words: [UNICORN]
+        ranked_words_tokens: 44
+      PORTABLE:
+        related_words: [HELICOPTER, LAB, TABLET]
+        related_words_tokens: 67
+        ranked_words: [TABLET, LAB, HELICOPTER]
+        ranked_words_tokens: 55
+      HORNED:
+        related_words: [UNICORN]
+        related_words_tokens: 62
+        ranked_words: [UNICORN]
+        ranked_words_tokens: 44
+    tokens: 642
+  guesses: [UNICORN]
+3aea0278-1d10-4148-b6ff-420412b72587:
+  pos: [GLOVE, GLASS]
+  neg: [GIANT, HOTEL, TAG, ATLANTIS, JET, HOSPITAL]
+  clue: INSULATION
+  words: [GLOVE, GLASS]
+  details:
+    proposals: [LEATHER, TRANSPARENT, HAND, DRINKWARE, INSULATION]
+    words: [TAG, GLASS, ATLANTIS, GIANT, GLOVE, HOTEL, HOSPITAL, JET]
+    proposal_details:
+      LEATHER:
+        related_words: [TAG, GLOVE]
+        related_words_tokens: 66
+        ranked_words: [GLOVE, TAG]
+        ranked_words_tokens: 47
+      TRANSPARENT:
+        related_words: [GLASS]
+        related_words_tokens: 63
+        ranked_words: [GLASS]
+        ranked_words_tokens: 41
+      HAND:
+        related_words: [GLOVE]
+        related_words_tokens: 63
+        ranked_words: [GLOVE]
+        ranked_words_tokens: 42
+      DRINKWARE:
+        related_words: [GLASS]
+        related_words_tokens: 64
+        ranked_words: [GLASS]
+        ranked_words_tokens: 42
+      INSULATION:
+        related_words: [GLASS, GLOVE]
+        related_words_tokens: 67
+        ranked_words: [GLOVE, GLASS]
+        ranked_words_tokens: 49
+    tokens: 621
+  guesses: [GLOVE, GLASS]
+466843ee-d24e-45c9-b209-391f7ce61062:
+  pos: [THIEF, CROSS]
+  neg: [STRIKE, NIGHT, POUND, HORSESHOE, BOLT, MOUTH]
+  clue: STEAL
+  words: [THIEF]
+  details:
+    proposals: [STEAL, CRUCIFIX, BURGLAR, RELIGION, SACRIFICE]
+    words: [POUND, CROSS, HORSESHOE, STRIKE, THIEF, NIGHT, MOUTH, BOLT]
+    proposal_details:
+      STEAL:
+        related_words: [THIEF, BOLT]
+        related_words_tokens: 66
+        ranked_words: [THIEF, BOLT]
+        ranked_words_tokens: 49
+      CRUCIFIX:
+        related_words: [CROSS]
+        related_words_tokens: 64
+        ranked_words: [CROSS]
+        ranked_words_tokens: 42
+      BURGLAR:
+        related_words: [THIEF, NIGHT, BOLT]
+        related_words_tokens: 70
+        ranked_words: [THIEF, NIGHT, BOLT]
+        ranked_words_tokens: 55
+      RELIGION:
+        related_words: [CROSS]
+        related_words_tokens: 63
+        ranked_words: [CROSS]
+        ranked_words_tokens: 41
+      SACRIFICE:
+        related_words: [CROSS]
+        related_words_tokens: 64
+        ranked_words: [CROSS]
+        ranked_words_tokens: 42
+    tokens: 634
+  guesses: [THIEF]
+5754771b-dd37-4bc2-869c-74cd9629bb5c:
+  pos: [BERMUDA, PALM]
+  neg: [AMERICA, MINT, CHURCH, FORCE, BOTTLE, CRICKET]
+  clue: ISLAND
+  words: [BERMUDA, PALM]
+  details:
+    proposals: [ISLAND, TROPICAL, SHORTS, COCONUT, ATLANTIC]
+    words: [CHURCH, PALM, FORCE, AMERICA, BERMUDA, MINT, CRICKET, BOTTLE]
+    proposal_details:
+      ISLAND:
+        related_words: [PALM, BERMUDA]
+        related_words_tokens: 68
+        ranked_words: [BERMUDA, PALM]
+        ranked_words_tokens: 49
+      TROPICAL:
+        related_words: [PALM, BERMUDA]
+        related_words_tokens: 69
+        ranked_words: [PALM, BERMUDA]
+        ranked_words_tokens: 50
+      SHORTS:
+        related_words: [BERMUDA, CRICKET]
+        related_words_tokens: 69
+        ranked_words: [BERMUDA, CRICKET]
+        ranked_words_tokens: 51
+      COCONUT:
+        related_words: [PALM, BOTTLE]
+        related_words_tokens: 69
+        ranked_words: [PALM, BOTTLE]
+        ranked_words_tokens: 50
+      ATLANTIC:
+        related_words: [AMERICA, BERMUDA]
+        related_words_tokens: 69
+        ranked_words: [BERMUDA, AMERICA]
+        ranked_words_tokens: 50
+    tokens: 670
+  guesses: [BERMUDA, PALM]
+617c798c-03db-451e-9230-e668418c1eda:
+  pos: [ROSE, SLUG]
+  neg: [MOON, NAIL, GREECE, GHOST, STATE, COVER]
+  clue: GARDEN
+  words: [ROSE, SLUG]
+  details:
+    proposals: [PETALS, GARDEN, SNAIL, FRAGRANCE, MOLLUSK]
+    words: [GREECE, SLUG, GHOST, MOON, ROSE, NAIL, COVER, STATE]
+    proposal_details:
+      PETALS:
+        related_words: [ROSE]
+        related_words_tokens: 60
+        ranked_words: [ROSE]
+        ranked_words_tokens: 41
+      GARDEN:
+        related_words: [SLUG, ROSE]
+        related_words_tokens: 64
+        ranked_words: [ROSE, SLUG]
+        ranked_words_tokens: 48
+      SNAIL:
+        related_words: [SLUG, NAIL]
+        related_words_tokens: 63
+        ranked_words: [SLUG, NAIL]
+        ranked_words_tokens: 47
+      FRAGRANCE:
+        related_words: [ROSE]
+        related_words_tokens: 61
+        ranked_words: [ROSE]
+        ranked_words_tokens: 42
+      MOLLUSK:
+        related_words: [SLUG]
+        related_words_tokens: 62
+        ranked_words: [SLUG]
+        ranked_words_tokens: 43
+    tokens: 607
+  guesses: [ROSE, SLUG]
+69e9a665-9d9d-4588-b65b-9e299685b00a:
+  pos: [POLICE, FORCE]
+  neg: [PART, KIWI, DIAMOND, ENGINE, SUPERHERO, PIRATE]
+  clue: SECURITY
+  words: [POLICE, FORCE]
+  details:
+    proposals: [LAW, PATROL, SECURITY, UNIFORM, ARREST]
+    words: [DIAMOND, FORCE, ENGINE, PART, POLICE, KIWI, PIRATE, SUPERHERO]
+    proposal_details:
+      LAW:
+        related_words: [FORCE, POLICE, PART]
+        related_words_tokens: 65
+        ranked_words: [POLICE, LAW, PART]
+        ranked_words_tokens: 48
+      PATROL:
+        related_words: [FORCE, POLICE, SUPERHERO]
+        related_words_tokens: 68
+        ranked_words: [POLICE, PATROL, SUPERHERO]
+        ranked_words_tokens: 54
+      SECURITY:
+        related_words: [FORCE, POLICE, SUPERHERO]
+        related_words_tokens: 67
+        ranked_words: [POLICE, FORCE, SUPERHERO]
+        ranked_words_tokens: 52
+      UNIFORM:
+        related_words: [POLICE, SUPERHERO]
+        related_words_tokens: 66
+        ranked_words: [POLICE, SUPERHERO]
+        ranked_words_tokens: 49
+      ARREST:
+        related_words: [FORCE, POLICE]
+        related_words_tokens: 64
+        ranked_words: [POLICE, FORCE]
+        ranked_words_tokens: 45
+    tokens: 651
+  guesses: [POLICE, FORCE]
+756e0a13-c9f3-4584-ad7a-f16d0c68ea96:
+  pos: [SATELLITE, HOOK]
+  neg: [CENTER, SUPERHERO, SPINE, DANCE, PLOT, BLOCK]
+  clue: ORBIT
+  words: [SATELLITE]
+  details:
+    proposals: [ORBIT, FISHING, SPACE, LURE, TRANSMISSION]
+    words: [SPINE, HOOK, DANCE, CENTER, SATELLITE, SUPERHERO, BLOCK, PLOT]
+    proposal_details:
+      ORBIT:
+        related_words: [CENTER, SATELLITE]
+        related_words_tokens: 66
+        ranked_words: [SATELLITE, CENTER]
+        ranked_words_tokens: 49
+      FISHING:
+        related_words: [HOOK]
+        related_words_tokens: 62
+        ranked_words: [HOOK]
+        ranked_words_tokens: 41
+      SPACE:
+        related_words: [CENTER, SATELLITE]
+        related_words_tokens: 65
+        ranked_words: [SATELLITE, CENTER]
+        ranked_words_tokens: 48
+      LURE:
+        related_words: [HOOK, PLOT]
+        related_words_tokens: 64
+        ranked_words: [HOOK, PLOT]
+        ranked_words_tokens: 46
+      TRANSMISSION:
+        related_words: [SATELLITE, CENTER]
+        related_words_tokens: 68
+        ranked_words: [SATELLITE, CENTER]
+        ranked_words_tokens: 51
+    tokens: 640
+  guesses: [SATELLITE]
+79dfa5cf-4784-4522-ab08-8057b4806cce:
+  pos: [MARCH, MAIL]
+  neg: [PORT, WIND, LION, GREECE, FALL, GLOVE]
+  clue: PARADE
+  words: [MARCH]
+  details:
+    proposals: [PARADE, ENVELOPE, DELIVER, PROTEST, STAMP]
+    words: [LION, MAIL, GREECE, PORT, MARCH, WIND, GLOVE, FALL]
+    proposal_details:
+      PARADE:
+        related_words: [MARCH]
+        related_words_tokens: 60
+        ranked_words: [MARCH]
+        ranked_words_tokens: 41
+      ENVELOPE:
+        related_words: [MAIL]
+        related_words_tokens: 60
+        ranked_words: [MAIL]
+        ranked_words_tokens: 40
+      DELIVER:
+        related_words: [MAIL, PORT]
+        related_words_tokens: 61
+        ranked_words: [MAIL, PORT]
+        ranked_words_tokens: 43
+      PROTEST:
+        related_words: [MARCH]
+        related_words_tokens: 60
+        ranked_words: [MARCH]
+        ranked_words_tokens: 41
+      STAMP:
+        related_words: [MAIL]
+        related_words_tokens: 59
+        ranked_words: [MAIL]
+        ranked_words_tokens: 39
+    tokens: 577
+  guesses: [MARCH]
+8ddccb64-fd16-4495-b680-2afea2ad65f7:
+  pos: [STOCK, SCREEN]
+  neg: [WATCH, LOG, SCHOOL, EGYPT, SPINE, ROME]
+  clue: EXCHANGE
+  words: [STOCK]
+  details:
+    proposals: [EXCHANGE, DISPLAY, MARKET, PROJECTOR, SHARES]
+    words: [SCHOOL, SCREEN, EGYPT, WATCH, STOCK, LOG, ROME, SPINE]
+    proposal_details:
+      EXCHANGE:
+        related_words: [STOCK]
+        related_words_tokens: 57
+        ranked_words: [STOCK]
+        ranked_words_tokens: 40
+      DISPLAY:
+        related_words: [SCREEN, WATCH, STOCK]
+        related_words_tokens: 59
+        ranked_words: [SCREEN, WATCH, STOCK]
+        ranked_words_tokens: 46
+      MARKET:
+        related_words: [STOCK]
+        related_words_tokens: 57
+        ranked_words: [STOCK]
+        ranked_words_tokens: 40
+      PROJECTOR:
+        related_words: [SCHOOL, SCREEN]
+        related_words_tokens: 59
+        ranked_words: [SCREEN, SCHOOL]
+        ranked_words_tokens: 43
+      SHARES:
+        related_words: [STOCK]
+        related_words_tokens: 56
+        ranked_words: [STOCK]
+        ranked_words_tokens: 39
+    tokens: 565
+  guesses: [STOCK]
+8e0fbfac-8722-41b1-b62a-437c6af86ffd:
+  pos: [MOUTH, PENGUIN]
+  neg: [FLUTE, CHECK, KNIGHT, FOOT, ROW, IRON]
+  clue: BEAK
+  words: [PENGUIN, MOUTH]
+  details:
+    proposals: [BEAK, ANTARCTICA, SPEAK, WADDLE, BIRD]
+    words: [KNIGHT, PENGUIN, FOOT, FLUTE, MOUTH, CHECK, IRON, ROW]
+    proposal_details:
+      BEAK:
+        related_words: [PENGUIN, MOUTH]
+        related_words_tokens: 65
+        ranked_words: [PENGUIN, MOUTH]
+        ranked_words_tokens: 51
+      ANTARCTICA:
+        related_words: [PENGUIN]
+        related_words_tokens: 64
+        ranked_words: [PENGUIN]
+        ranked_words_tokens: 47
+      SPEAK:
+        related_words: [MOUTH]
+        related_words_tokens: 60
+        ranked_words: [MOUTH]
+        ranked_words_tokens: 41
+      WADDLE:
+        related_words: [PENGUIN, FOOT]
+        related_words_tokens: 65
+        ranked_words: [PENGUIN, FOOT]
+        ranked_words_tokens: 50
+      BIRD:
+        related_words: [PENGUIN]
+        related_words_tokens: 62
+        ranked_words: [PENGUIN]
+        ranked_words_tokens: 45
+    tokens: 623
+  guesses: [PENGUIN, MOUTH]
+9abdc4fd-baf6-42ec-b2a1-2477ca5a3e2c:
+  pos: [DOCTOR, BOARD]
+  neg: [OLYMPUS, RACKET, OIL, TABLET, ANGEL, STADIUM]
+  clue: HOSPITAL
+  words: [DOCTOR]
+  details:
+    proposals: [HOSPITAL, MEDICAL, DIRECTOR, EXECUTIVE, CHESS]
+    words: [OIL, BOARD, TABLET, OLYMPUS, DOCTOR, RACKET, STADIUM, ANGEL]
+    proposal_details:
+      HOSPITAL:
+        related_words: [DOCTOR, TABLET]
+        related_words_tokens: 68
+        ranked_words: [DOCTOR, TABLET]
+        ranked_words_tokens: 48
+      MEDICAL:
+        related_words: [TABLET, DOCTOR]
+        related_words_tokens: 67
+        ranked_words: [DOCTOR, TABLET]
+        ranked_words_tokens: 47
+      DIRECTOR:
+        related_words: [BOARD]
+        related_words_tokens: 63
+        ranked_words: [BOARD]
+        ranked_words_tokens: 39
+      EXECUTIVE:
+        related_words: [BOARD]
+        related_words_tokens: 64
+        ranked_words: [BOARD]
+        ranked_words_tokens: 40
+      CHESS:
+        related_words: [BOARD]
+        related_words_tokens: 63
+        ranked_words: [BOARD]
+        ranked_words_tokens: 39
+    tokens: 613
+  guesses: [DOCTOR]
+b46494c5-0293-4d42-940d-22436eb44bf5:
+  pos: [PLOT, POLICE]
+  neg: [GRACE, LITTER, GAME, TABLE, MOSCOW, LASER]
+  clue: INVESTIGATION
+  words: [POLICE, PLOT]
+  details:
+    proposals: [STORY, LAW, INVESTIGATION, SCHEME, PATROL]
+    words: [GAME, POLICE, TABLE, GRACE, PLOT, LITTER, LASER, MOSCOW]
+    proposal_details:
+      STORY:
+        related_words: [PLOT]
+        related_words_tokens: 59
+        ranked_words: [PLOT]
+        ranked_words_tokens: 40
+      LAW:
+        related_words: [POLICE]
+        related_words_tokens: 59
+        ranked_words: [POLICE]
+        ranked_words_tokens: 40
+      INVESTIGATION:
+        related_words: [POLICE, PLOT]
+        related_words_tokens: 64
+        ranked_words: [POLICE, PLOT]
+        ranked_words_tokens: 48
+      SCHEME:
+        related_words: [GAME, PLOT]
+        related_words_tokens: 62
+        ranked_words: [PLOT, GAME]
+        ranked_words_tokens: 45
+      PATROL:
+        related_words: [POLICE]
+        related_words_tokens: 60
+        ranked_words: [POLICE]
+        ranked_words_tokens: 41
+    tokens: 594
+  guesses: [POLICE, PLOT]
+bc9ea454-2435-45fd-9bd7-e2b651e30f14:
+  pos: [TOKYO, JAM]
+  neg: [COURT, SHAKESPEARE, WATER, DISEASE, OLIVE, NURSE]
+  clue: JAPAN
+  words: [TOKYO]
+  details:
+    proposals: [JAPAN, SPREAD, CITY, PRESERVE, METROPOLIS]
+    words: [WATER, JAM, DISEASE, COURT, TOKYO, SHAKESPEARE, NURSE, OLIVE]
+    proposal_details:
+      JAPAN:
+        related_words: [TOKYO]
+        related_words_tokens: 66
+        ranked_words: [TOKYO]
+        ranked_words_tokens: 43
+      SPREAD:
+        related_words: [JAM, DISEASE, OLIVE]
+        related_words_tokens: 71
+        ranked_words: [JAM, DISEASE, OLIVE]
+        ranked_words_tokens: 55
+      CITY:
+        related_words: [JAM, COURT, TOKYO]
+        related_words_tokens: 68
+        ranked_words: [TOKYO, COURT, JAM]
+        ranked_words_tokens: 51
+      PRESERVE:
+        related_words: [JAM, NURSE, OLIVE]
+        related_words_tokens: 71
+        ranked_words: [JAM, OLIVE, NURSE]
+        ranked_words_tokens: 55
+      METROPOLIS:
+        related_words: [JAM, TOKYO, COURT]
+        related_words_tokens: 71
+        ranked_words: [TOKYO, COURT, JAM]
+        ranked_words_tokens: 54
+    tokens: 688
+  guesses: [TOKYO]
+bca5656e-f65f-4bc9-83eb-dd2b1d5050db:
+  pos: [FLY, HOOD]
+  neg: [CHINA, NOTE, SHARK, DWARF, QUEEN, COVER]
+  clue: ROBIN
+  words: [HOOD, FLY]
+  details:
+    proposals: [AIRPLANE, ROBIN, FEATHER, JACKET, BIRD]
+    words: [SHARK, HOOD, DWARF, CHINA, FLY, NOTE, COVER, QUEEN]
+    proposal_details:
+      AIRPLANE:
+        related_words: [FLY]
+        related_words_tokens: 61
+        ranked_words: [FLY]
+        ranked_words_tokens: 42
+      ROBIN:
+        related_words: [HOOD, FLY]
+        related_words_tokens: 63
+        ranked_words: [HOOD, FLY]
+        ranked_words_tokens: 47
+      FEATHER:
+        related_words: [FLY, COVER]
+        related_words_tokens: 62
+        ranked_words: [FLY, COVER]
+        ranked_words_tokens: 45
+      JACKET:
+        related_words: [HOOD, COVER]
+        related_words_tokens: 62
+        ranked_words: [HOOD, COVER]
+        ranked_words_tokens: 45
+      BIRD:
+        related_words: [FLY]
+        related_words_tokens: 60
+        ranked_words: [FLY]
+        ranked_words_tokens: 41
+    tokens: 600
+  guesses: [FLY, HOOD]
+c627b3ae-ec53-4865-93ac-f148ca00bed8:
+  pos: [LITTER, DRILL]
+  neg: [BOLT, DINOSAUR, FOOT, MAPLE, MARBLE, WEB]
+  clue: TRASH
+  words: [LITTER]
+  details:
+    proposals: [TRASH, BORE, DEBRIS, TOOL, EXCAVATE]
+    words: [FOOT, DRILL, MAPLE, BOLT, LITTER, DINOSAUR, WEB, MARBLE]
+    proposal_details:
+      TRASH:
+        related_words: [LITTER]
+        related_words_tokens: 61
+        ranked_words: [LITTER]
+        ranked_words_tokens: 41
+      BORE:
+        related_words: [DRILL, BOLT]
+        related_words_tokens: 64
+        ranked_words: [DRILL, BOLT]
+        ranked_words_tokens: 47
+      DEBRIS:
+        related_words: [LITTER]
+        related_words_tokens: 62
+        ranked_words: [LITTER]
+        ranked_words_tokens: 42
+      TOOL:
+        related_words: [DRILL, BOLT]
+        related_words_tokens: 63
+        ranked_words: [DRILL, BOLT]
+        ranked_words_tokens: 46
+      EXCAVATE:
+        related_words: [DRILL, DINOSAUR]
+        related_words_tokens: 68
+        ranked_words: [DRILL, DINOSAUR]
+        ranked_words_tokens: 53
+    tokens: 622
+  guesses: [LITTER]
+c8ae890a-83b0-4316-ad27-955615bc3d08:
+  pos: [FILM, TRACK]
+  neg: [STREAM, KETCHUP, FOREST, FLUTE, SATELLITE, AZTEC]
+  clue: CINEMA
+  words: [FILM]
+  details:
+    proposals: [CINEMA, RACE, MOVIE, RUN, REEL]
+    words: [FOREST, TRACK, FLUTE, STREAM, FILM, KETCHUP, AZTEC, SATELLITE]
+    proposal_details:
+      CINEMA:
+        related_words: [FILM]
+        related_words_tokens: 65
+        ranked_words: [FILM]
+        ranked_words_tokens: 43
+      RACE:
+        related_words: [TRACK, STREAM, AZTEC]
+        related_words_tokens: 68
+        ranked_words: [TRACK, AZTEC, STREAM]
+        ranked_words_tokens: 51
+      MOVIE:
+        related_words: [FILM, STREAM]
+        related_words_tokens: 66
+        ranked_words: [FILM, STREAM]
+        ranked_words_tokens: 46
+      RUN:
+        related_words: [FOREST, TRACK, STREAM, FILM]
+        related_words_tokens: 69
+        ranked_words: [TRACK, STREAM, FOREST, FILM]
+        ranked_words_tokens: 54
+      REEL:
+        related_words: [TRACK, STREAM, FILM]
+        related_words_tokens: 67
+        ranked_words: [FILM, STREAM, TRACK]
+        ranked_words_tokens: 50
+    tokens: 655
+  guesses: [FILM]
+c90e0dfd-3044-4ea9-ba39-eb5c570b5ee2:
+  pos: [PILOT, LASER]
+  neg: [MAMMOTH, UNDERTAKER, RING, BILL, SHOT, CROSS]
+  clue: LIGHT
+  words: [LASER, PILOT]
+  details:
+    proposals: [AIRCRAFT, BEAM, NAVIGATION, LIGHT, TECHNOLOGY]
+    words: [RING, LASER, BILL, MAMMOTH, PILOT, UNDERTAKER, CROSS, SHOT]
+    proposal_details:
+      AIRCRAFT:
+        related_words: [PILOT]
+        related_words_tokens: 64
+        ranked_words: [PILOT]
+        ranked_words_tokens: 42
+      BEAM:
+        related_words: [LASER, CROSS]
+        related_words_tokens: 65
+        ranked_words: [LASER, CROSS]
+        ranked_words_tokens: 45
+      NAVIGATION:
+        related_words: [PILOT, CROSS]
+        related_words_tokens: 65
+        ranked_words: [PILOT, CROSS]
+        ranked_words_tokens: 45
+      LIGHT:
+        related_words: [LASER, PILOT]
+        related_words_tokens: 65
+        ranked_words: [LASER, PILOT]
+        ranked_words_tokens: 46
+      TECHNOLOGY:
+        related_words: [LASER, PILOT]
+        related_words_tokens: 66
+        ranked_words: [LASER, PILOT]
+        ranked_words_tokens: 47
+    tokens: 624
+  guesses: [LASER, RING]
+d604cf86-4697-423b-9761-c281bb312a23:
+  pos: [MAIL, GAME]
+  neg: [IVORY, WATER, EGYPT, CHAIR, STATE, LITTER]
+  clue: ENVELOPE
+  words: [MAIL]
+  details:
+    proposals: [ENVELOPE, PLAY, POSTAGE, SCORE, MULTIPLAYER]
+    words: [EGYPT, GAME, CHAIR, IVORY, MAIL, WATER, LITTER, STATE]
+    proposal_details:
+      ENVELOPE:
+        related_words: [MAIL]
+        related_words_tokens: 58
+        ranked_words: [MAIL]
+        ranked_words_tokens: 40
+      PLAY:
+        related_words: [GAME]
+        related_words_tokens: 56
+        ranked_words: [GAME]
+        ranked_words_tokens: 38
+      POSTAGE:
+        related_words: [MAIL]
+        related_words_tokens: 57
+        ranked_words: [MAIL]
+        ranked_words_tokens: 39
+      SCORE:
+        related_words: [GAME]
+        related_words_tokens: 56
+        ranked_words: [GAME]
+        ranked_words_tokens: 38
+      MULTIPLAYER:
+        related_words: [GAME]
+        related_words_tokens: 57
+        ranked_words: [GAME]
+        ranked_words_tokens: 39
+    tokens: 549
+  guesses: [MAIL]
+e31b7942-1342-4eda-b6e0-e8e072b0cedf:
+  pos: [FIGHTER, POINT]
+  neg: [CRICKET, ROUND, OLIVE, DRESS, CAPITAL, EYE]
+  clue: SWORD
+  words: [FIGHTER, POINT]
+  details:
+    proposals: [BOXING, SWORD, SHARP, COMBAT, ARROW]
+    words: [OLIVE, POINT, DRESS, CRICKET, FIGHTER, ROUND, EYE, CAPITAL]
+    proposal_details:
+      BOXING:
+        related_words: [FIGHTER, ROUND]
+        related_words_tokens: 63
+        ranked_words: [FIGHTER, ROUND]
+        ranked_words_tokens: 47
+      SWORD:
+        related_words: [POINT, FIGHTER]
+        related_words_tokens: 63
+        ranked_words: [FIGHTER, POINT]
+        ranked_words_tokens: 47
+      SHARP:
+        related_words: [POINT, FIGHTER]
+        related_words_tokens: 63
+        ranked_words: [POINT, FIGHTER]
+        ranked_words_tokens: 47
+      COMBAT:
+        related_words: [FIGHTER, ROUND]
+        related_words_tokens: 63
+        ranked_words: [FIGHTER, ROUND]
+        ranked_words_tokens: 47
+      ARROW:
+        related_words: [POINT]
+        related_words_tokens: 59
+        ranked_words: [POINT]
+        ranked_words_tokens: 39
+    tokens: 610
+  guesses: [POINT, FIGHTER]
+ed12a21a-5f9b-4bd2-9553-9caf473dfb0e:
+  pos: [RACKET, LITTER]
+  neg: [SPACE, TEACHER, BUG, MOLE, NURSE, GLASS]
+  clue: TRASH
+  words: [LITTER, RACKET]
+  details:
+    proposals: [TENNIS, TRASH, NOISE, POLLUTION, CLEANUP]
+    words: [BUG, LITTER, MOLE, SPACE, RACKET, TEACHER, GLASS, NURSE]
+    proposal_details:
+      TENNIS:
+        related_words: [RACKET]
+        related_words_tokens: 61
+        ranked_words: [RACKET]
+        ranked_words_tokens: 42
+      TRASH:
+        related_words: [LITTER, RACKET]
+        related_words_tokens: 63
+        ranked_words: [LITTER, RACKET]
+        ranked_words_tokens: 47
+      NOISE:
+        related_words: [RACKET]
+        related_words_tokens: 60
+        ranked_words: [RACKET]
+        ranked_words_tokens: 41
+      POLLUTION:
+        related_words: [LITTER]
+        related_words_tokens: 60
+        ranked_words: [LITTER]
+        ranked_words_tokens: 41
+      CLEANUP:
+        related_words: [LITTER, SPACE]
+        related_words_tokens: 62
+        ranked_words: [LITTER, SPACE]
+        ranked_words_tokens: 45
+    tokens: 594
+  guesses: [LITTER, SPACE]
