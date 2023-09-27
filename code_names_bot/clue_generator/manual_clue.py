@@ -5,4 +5,4 @@ def manual_clue(pos_words, neg_words):
     print("Neg:", ", ".join(neg_words))
     clue = input("Clue: ")
     words = select_words(pos_words)
-    return clue, words, None
+    return clue, words, { "tokens": 0 }

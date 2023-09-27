@@ -1,0 +1,698 @@
+048924b9-2771-41ae-bf44-3bc54088d759:
+  pos: [HEART, PILOT, FOOT, PLANE, LITTER, SNOWMAN, BERLIN, AUSTRALIA, SOCK]
+  neg: [HOOD, IRON, INDIA, TURKEY, RACKET, MAPLE, RULER, SINK, LONDON, BELT, HELICOPTER,
+    VACUUM, MAIL, DAY, HOLE, EAGLE]
+  clue: KANGAROO
+  words: [AUSTRALIA, FOOT]
+  details:
+    proposals: [KANGAROO, FROSTY, AVIATION, ANKLE, RECYCLING]
+    words: [MAPLE, HEART, HOLE, BELT, BERLIN, SNOWMAN, AUSTRALIA, IRON, DAY, VACUUM,
+      LITTER, FOOT, MAIL, PLANE, LONDON, INDIA, HELICOPTER, HOOD, EAGLE, RULER, SINK,
+      SOCK, PILOT, RACKET, TURKEY]
+    proposal_related_words:
+      KANGAROO: [AUSTRALIA, FOOT]
+      FROSTY: [SNOWMAN]
+      AVIATION: [PLANE, HELICOPTER, PILOT, EAGLE]
+      ANKLE: [FOOT, SOCK]
+      RECYCLING: [LITTER, IRON]
+    proposal_related_words_tokens: {KANGAROO: 118, FROSTY: 115, AVIATION: 125, ANKLE: 115,
+      RECYCLING: 117}
+    proposal_min_score: {KANGAROO: 2, FROSTY: 1, AVIATION: 0, ANKLE: 2, RECYCLING: 0}
+    proposal_max_score: {KANGAROO: 2, FROSTY: 1, AVIATION: 2, ANKLE: 2, RECYCLING: 1}
+    candidate_proposals: [KANGAROO]
+    proposal_ranked_words:
+      KANGAROO: [AUSTRALIA, FOOT]
+    proposal_ranked_words_tokens: {KANGAROO: 0}
+    tokens: 722
+  guesses: [AUSTRALIA, FOOT]
+314a9384-7b40-45cf-9d25-7c3a359805e0:
+  pos: [SWING, APPLE, ROW, SPOT, BEAT, SLIP, GHOST, MASS, DINOSAUR]
+  neg: [DECK, CAST, LEPRECHAUN, BOTTLE, TRIP, BED, CHICK, RING, MINE, TRUNK, SHOP,
+    TICK, PUMPKIN, BATTERY, LAB, HOSPITAL]
+  clue: POLKA
+  words: [SWING, BEAT, SPOT]
+  details:
+    proposals: [PLAYGROUND, FRUIT, PADDLE, POLKA, EXTINCT]
+    words: [BED, SWING, LAB, TRUNK, GHOST, SLIP, MASS, CAST, BATTERY, TICK, BEAT,
+      ROW, PUMPKIN, SPOT, MINE, LEPRECHAUN, SHOP, DECK, HOSPITAL, CHICK, RING, DINOSAUR,
+      APPLE, TRIP, BOTTLE]
+    proposal_related_words:
+      PLAYGROUND: [SWING]
+      FRUIT: [PUMPKIN, APPLE]
+      PADDLE: [ROW, TRIP]
+      POLKA: [SWING, BEAT, SPOT]
+      EXTINCT: [DINOSAUR, GHOST]
+    proposal_related_words_tokens: {PLAYGROUND: 108, FRUIT: 112, PADDLE: 111, POLKA: 114,
+      EXTINCT: 114}
+    proposal_min_score: {PLAYGROUND: 1, FRUIT: 0, PADDLE: 0, POLKA: 3, EXTINCT: 2}
+    proposal_max_score: {PLAYGROUND: 1, FRUIT: 1, PADDLE: 1, POLKA: 3, EXTINCT: 2}
+    candidate_proposals: [POLKA]
+    proposal_ranked_words:
+      POLKA: [SWING, BEAT, SPOT]
+    proposal_ranked_words_tokens: {POLKA: 0}
+    tokens: 687
+  guesses: [BEAT, SWING, CHICK]
+390b0641-d136-40a8-b4e4-c4f4d13b4079:
+  pos: [COOK, CHARGE, MISSILE, BALL, LITTER, BATTERY, CARROT, LEPRECHAUN, TAG]
+  neg: [LONDON, ENGLAND, SCHOOL, DWARF, BAR, PRESS, AUSTRALIA, NEEDLE, YARD, BOTTLE,
+    BAT, HOTEL, SHOE, ANGEL, MOON, FALL]
+  clue: RABBIT
+  words: [CARROT, LITTER]
+  details:
+    proposals: [KITCHEN, LAUNCH, RABBIT, GOLD, RECYCLE]
+    words: [PRESS, COOK, MOON, BOTTLE, CARROT, BATTERY, LEPRECHAUN, ENGLAND, ANGEL,
+      HOTEL, LITTER, MISSILE, SHOE, BALL, YARD, SCHOOL, BAT, LONDON, FALL, AUSTRALIA,
+      NEEDLE, TAG, CHARGE, BAR, DWARF]
+    proposal_related_words:
+      KITCHEN: [COOK, BOTTLE, CARROT]
+      LAUNCH: [PRESS, MOON, MISSILE]
+      RABBIT: [CARROT, LITTER]
+      GOLD: [LEPRECHAUN, AUSTRALIA, BAR, DWARF]
+      RECYCLE: [PRESS, BOTTLE, BATTERY, LITTER]
+    proposal_related_words_tokens: {KITCHEN: 117, LAUNCH: 114, RABBIT: 113, GOLD: 121,
+      RECYCLE: 119}
+    proposal_min_score: {KITCHEN: 0, LAUNCH: 0, RABBIT: 2, GOLD: 0, RECYCLE: 0}
+    proposal_max_score: {KITCHEN: 2, LAUNCH: 1, RABBIT: 2, GOLD: 1, RECYCLE: 2}
+    candidate_proposals: [RABBIT]
+    proposal_ranked_words:
+      RABBIT: [CARROT, LITTER]
+    proposal_ranked_words_tokens: {RABBIT: 0}
+    tokens: 709
+  guesses: [CARROT, LITTER]
+40e5c7bd-a6f0-478c-9062-1e8b125f27db:
+  pos: [GHOST, AMBULANCE, ROUND, UNDERTAKER, WATCH, TOOTH, POLE, MOUTH, SNOW]
+  neg: [WASHINGTON, MINE, LASER, MOLE, FIELD, STADIUM, EGYPT, TRUNK, GLASS, PYRAMID,
+    COMIC, LIGHT, GROUND, KNIFE, DANCE, CAP]
+  clue: ARCTIC
+  words: [POLE, SNOW]
+  details:
+    proposals: [SPECTRAL, EMERGENCY, CIRCULAR, DENTISTRY, ARCTIC]
+    words: [STADIUM, GHOST, DANCE, PYRAMID, POLE, TOOTH, MOUTH, MINE, KNIFE, LIGHT,
+      WATCH, ROUND, GROUND, UNDERTAKER, GLASS, LASER, COMIC, WASHINGTON, CAP, EGYPT,
+      TRUNK, SNOW, AMBULANCE, FIELD, MOLE]
+    proposal_related_words:
+      SPECTRAL: [GHOST, LIGHT, LASER]
+      EMERGENCY: [AMBULANCE, KNIFE]
+      CIRCULAR: [ROUND]
+      DENTISTRY: [TOOTH, MOUTH, CAP]
+      ARCTIC: [POLE, SNOW]
+    proposal_related_words_tokens: {SPECTRAL: 115, EMERGENCY: 114, CIRCULAR: 109,
+      DENTISTRY: 115, ARCTIC: 113}
+    proposal_min_score: {SPECTRAL: 0, EMERGENCY: 0, CIRCULAR: 1, DENTISTRY: 0, ARCTIC: 2}
+    proposal_max_score: {SPECTRAL: 1, EMERGENCY: 1, CIRCULAR: 1, DENTISTRY: 2, ARCTIC: 2}
+    candidate_proposals: [ARCTIC]
+    proposal_ranked_words:
+      ARCTIC: [POLE, SNOW]
+    proposal_ranked_words_tokens: {ARCTIC: 0}
+    tokens: 692
+  guesses: [POLE, SNOW]
+4162db8b-a45b-468f-8599-d6d70b719e6c:
+  pos: [DAY, PITCH, CYCLE, GREEN, PLOT, BOLT, FISH, GLOVE, MOLE]
+  neg: [LION, THIEF, STAFF, CLIFF, TOKYO, DIAMOND, BEAR, ARM, POINT, WASHINGTON, HORSESHOE,
+    HOLE, TELESCOPE, AIR, COPPER, TABLET]
+  clue: GARDEN
+  words: [PLOT, GREEN, MOLE]
+  details:
+    proposals: [GARDEN, BASEBALL, DAYLIGHT, AQUATIC, FASTENER]
+    words: [DIAMOND, DAY, COPPER, WASHINGTON, FISH, BOLT, GLOVE, THIEF, AIR, HOLE,
+      PLOT, CYCLE, TELESCOPE, GREEN, POINT, STAFF, HORSESHOE, LION, TABLET, BEAR,
+      ARM, MOLE, PITCH, TOKYO, CLIFF]
+    proposal_related_words:
+      GARDEN: [PLOT, GREEN, MOLE]
+      BASEBALL: [DIAMOND, GLOVE, PITCH]
+      DAYLIGHT: [DAY, CYCLE]
+      AQUATIC: [FISH]
+      FASTENER: [BOLT, HORSESHOE]
+    proposal_related_words_tokens: {GARDEN: 114, BASEBALL: 116, DAYLIGHT: 110, AQUATIC: 109,
+      FASTENER: 113}
+    proposal_min_score: {GARDEN: 3, BASEBALL: 0, DAYLIGHT: 2, AQUATIC: 1, FASTENER: 0}
+    proposal_max_score: {GARDEN: 3, BASEBALL: 2, DAYLIGHT: 2, AQUATIC: 1, FASTENER: 1}
+    candidate_proposals: [GARDEN]
+    proposal_ranked_words:
+      GARDEN: [PLOT, GREEN, MOLE]
+    proposal_ranked_words_tokens: {GARDEN: 0}
+    tokens: 689
+  guesses: [PLOT, GREEN, GLOVE]
+4c741c36-8cd7-4718-8eac-dcfea56aa372:
+  pos: [CANADA, CHICK, DRAFT, STREAM, BOX, ORGAN, LEMON, GOLD, SKYSCRAPER]
+  neg: [STICK, BOLT, CLUB, DRILL, WITCH, TEACHER, THUMB, HORN, WAVE, TRAIN, CAP, HOTEL,
+    TIME, SINK, NINJA, MAMMOTH]
+  clue: COUNTRY
+  words: [CANADA]
+  details:
+    proposals: [COUNTRY, BIRD, RIVER, CITRUS, BUILDING]
+    words: [TEACHER, CANADA, NINJA, TRAIN, LEMON, ORGAN, GOLD, BOLT, SINK, HOTEL,
+      BOX, DRAFT, TIME, STREAM, WAVE, CLUB, CAP, STICK, MAMMOTH, THUMB, HORN, SKYSCRAPER,
+      CHICK, WITCH, DRILL]
+    proposal_related_words:
+      COUNTRY: [CANADA]
+      BIRD: [CHICK]
+      RIVER: [STREAM, WAVE]
+      CITRUS: [LEMON]
+      BUILDING: [HOTEL, SKYSCRAPER]
+    proposal_related_words_tokens: {COUNTRY: 105, BIRD: 105, RIVER: 107, CITRUS: 106,
+      BUILDING: 111}
+    proposal_min_score: {COUNTRY: 1, BIRD: 1, RIVER: 0, CITRUS: 1, BUILDING: 0}
+    proposal_max_score: {COUNTRY: 1, BIRD: 1, RIVER: 1, CITRUS: 1, BUILDING: 1}
+    candidate_proposals: [COUNTRY]
+    proposal_ranked_words:
+      COUNTRY: [CANADA]
+    proposal_ranked_words_tokens: {COUNTRY: 0}
+    tokens: 661
+  guesses: [CANADA]
+5906a30d-7a6c-43e5-8bf9-275f43e78b48:
+  pos: [IRON, HAWK, GLOVE, LITTER, FIELD, HOSPITAL, PASTE, HONEY, SHIP]
+  neg: [CHOCOLATE, AGENT, CARROT, LIMOUSINE, SERVER, BUGLE, ALIEN, MOUNT, AFRICA,
+    GLASS, CYCLE, KNIFE, GERMANY, SEAL, CHEST, ROOT]
+  clue: BIRD
+  words: [HAWK]
+  details:
+    proposals: [METAL, BIRD, HANDWEAR, TRASH, VESSEL]
+    words: [BUGLE, IRON, CHEST, GLASS, PASTE, HOSPITAL, HONEY, AGENT, SEAL, KNIFE,
+      FIELD, GLOVE, GERMANY, LITTER, AFRICA, CARROT, CYCLE, CHOCOLATE, ROOT, ALIEN,
+      MOUNT, SHIP, HAWK, SERVER, LIMOUSINE]
+    proposal_related_words:
+      METAL: [BUGLE, IRON, KNIFE]
+      BIRD: [HAWK]
+      HANDWEAR: [GLOVE]
+      TRASH: [LITTER]
+      VESSEL: [SHIP, LIMOUSINE]
+    proposal_related_words_tokens: {METAL: 119, BIRD: 114, HANDWEAR: 115, TRASH: 113,
+      VESSEL: 118}
+    proposal_min_score: {METAL: 0, BIRD: 1, HANDWEAR: 1, TRASH: 1, VESSEL: 0}
+    proposal_max_score: {METAL: 1, BIRD: 1, HANDWEAR: 1, TRASH: 1, VESSEL: 1}
+    candidate_proposals: [BIRD]
+    proposal_ranked_words:
+      BIRD: [HAWK]
+    proposal_ranked_words_tokens: {BIRD: 0}
+    tokens: 710
+  guesses: [HAWK]
+5b2edf0a-e009-4297-9809-e39440f4686c:
+  pos: [VAN, FIELD, FISH, DRILL, NUT, PASS, DECK, VET, PITCH]
+  neg: [ENGLAND, BELT, MARCH, FIGHTER, NIGHT, MINE, NAIL, PIRATE, PIN, THEATER, EYE,
+    BARK, CARROT, SERVER, CROSS, CIRCLE]
+  clue: CARD
+  words: [DECK, PASS]
+  details:
+    proposals: [VEHICLE, AGRICULTURE, SEAFOOD, TOOL, CARD]
+    words: [MINE, VAN, CROSS, THEATER, DECK, PASS, VET, BELT, SERVER, BARK, NUT, FISH,
+      CARROT, DRILL, PIN, MARCH, EYE, ENGLAND, CIRCLE, NAIL, PIRATE, PITCH, FIELD,
+      NIGHT, FIGHTER]
+    proposal_related_words:
+      VEHICLE: [VAN]
+      AGRICULTURE: [VET, NUT, FISH, CARROT, FIELD]
+      SEAFOOD: [FISH, PIRATE]
+      TOOL: [DRILL, PIN, NAIL]
+      CARD: [DECK, PASS]
+    proposal_related_words_tokens: {VEHICLE: 103, AGRICULTURE: 117, SEAFOOD: 108,
+      TOOL: 107, CARD: 104}
+    proposal_min_score: {VEHICLE: 1, AGRICULTURE: 0, SEAFOOD: 0, TOOL: 0, CARD: 2}
+    proposal_max_score: {VEHICLE: 1, AGRICULTURE: 4, SEAFOOD: 1, TOOL: 1, CARD: 2}
+    candidate_proposals: [CARD, AGRICULTURE]
+    proposal_ranked_words:
+      CARD: [DECK, PASS]
+      AGRICULTURE: [FIELD, CARROT, VET, NUT, FISH]
+    proposal_ranked_words_tokens: {CARD: 0, AGRICULTURE: 62}
+    tokens: 721
+  guesses: [DECK, PASS]
+5b4317bf-befa-42d3-8e6b-ff4e37610ab0:
+  pos: [PIRATE, CAP, PILOT, FORK, COTTON, PANTS, SPACE, GOLD, CRICKET]
+  neg: [JAM, DEGREE, EMBASSY, BOOT, BOLT, ALPS, BRUSH, EYE, BEACH, ORANGE, WITCH,
+    CALF, BOTTLE, MASS, DICE, HOLE]
+  clue: TREASURE
+  words: [GOLD, PIRATE]
+  details:
+    proposals: [TREASURE, FABRIC, HEADWEAR, GALAXY, SPORTS]
+    words: [ALPS, PIRATE, DICE, ORANGE, SPACE, PANTS, GOLD, DEGREE, MASS, CALF, COTTON,
+      PILOT, BOTTLE, FORK, BEACH, EMBASSY, WITCH, JAM, HOLE, BRUSH, EYE, CRICKET,
+      CAP, BOLT, BOOT]
+    proposal_related_words:
+      TREASURE: [PIRATE, GOLD, BEACH]
+      FABRIC: [PANTS, COTTON, BOLT]
+      HEADWEAR: [CAP]
+      GALAXY: [SPACE, MASS, PILOT, HOLE]
+      SPORTS: [CRICKET, CAP, BOLT, BOOT]
+    proposal_related_words_tokens: {TREASURE: 113, FABRIC: 116, HEADWEAR: 108, GALAXY: 116,
+      SPORTS: 116}
+    proposal_min_score: {TREASURE: 0, FABRIC: 0, HEADWEAR: 1, GALAXY: 0, SPORTS: 0}
+    proposal_max_score: {TREASURE: 2, FABRIC: 2, HEADWEAR: 1, GALAXY: 2, SPORTS: 2}
+    candidate_proposals: [HEADWEAR, TREASURE, FABRIC, GALAXY, SPORTS]
+    proposal_ranked_words:
+      HEADWEAR: [CAP]
+      TREASURE: [GOLD, PIRATE, BEACH]
+      FABRIC: [COTTON, BOLT, PANTS]
+      GALAXY: [SPACE, MASS, HOLE, PILOT]
+      SPORTS: [CRICKET, CAP, BOOT, BOLT]
+    proposal_ranked_words_tokens: {HEADWEAR: 0, TREASURE: 50, FABRIC: 52, GALAXY: 52,
+      SPORTS: 53}
+    tokens: 902
+  guesses: [GOLD, PIRATE]
+5e4e138c-dcec-444a-b4a7-674c66c8e41b:
+  pos: [SNOW, PART, CYCLE, HEAD, SLUG, SHAKESPEARE, ALPS, TAIL, CROSS]
+  neg: [BUCK, DINOSAUR, DOCTOR, CRASH, GENIUS, DRAFT, COMPOUND, BOOM, EGYPT, PIT,
+    CHURCH, BOND, QUEEN, JAM, LUCK, PORT]
+  clue: MOUNTAIN
+  words: [SNOW, ALPS]
+  details:
+    proposals: [MOUNTAIN, PLAYWRIGHT, MOLLUSK, SNOWFALL, BICYCLE]
+    words: [DRAFT, SNOW, LUCK, PIT, ALPS, SHAKESPEARE, TAIL, DINOSAUR, JAM, BOND,
+      SLUG, CYCLE, QUEEN, HEAD, EGYPT, DOCTOR, CHURCH, BUCK, PORT, COMPOUND, BOOM,
+      CROSS, PART, GENIUS, CRASH]
+    proposal_related_words:
+      MOUNTAIN: [SNOW, ALPS]
+      PLAYWRIGHT: [DRAFT, SHAKESPEARE, GENIUS]
+      MOLLUSK: [SLUG]
+      SNOWFALL: [SNOW, ALPS]
+      BICYCLE: [CYCLE, CRASH]
+    proposal_related_words_tokens: {MOUNTAIN: 115, PLAYWRIGHT: 122, MOLLUSK: 113,
+      SNOWFALL: 116, BICYCLE: 115}
+    proposal_min_score: {MOUNTAIN: 2, PLAYWRIGHT: 0, MOLLUSK: 1, SNOWFALL: 2, BICYCLE: 0}
+    proposal_max_score: {MOUNTAIN: 2, PLAYWRIGHT: 1, MOLLUSK: 1, SNOWFALL: 2, BICYCLE: 1}
+    candidate_proposals: [MOUNTAIN]
+    proposal_ranked_words:
+      MOUNTAIN: [SNOW, ALPS]
+    proposal_ranked_words_tokens: {MOUNTAIN: 0}
+    tokens: 712
+  guesses: [SNOW, ALPS]
+5ec6c374-f93e-4833-9c20-fc2378038294:
+  pos: [KING, TUBE, UNICORN, WAR, TRACK, TRIP, TAG, JUPITER, DRAGON]
+  neg: [SPACE, SATELLITE, LEMON, BEACH, COLD, SPINE, SCUBA DIVER, BOW, SPRING, NOTE,
+    GIANT, PILOT, BUTTON, CAT, PLOT, BERLIN]
+  clue: MYTHICAL
+  words: [UNICORN, DRAGON]
+  details:
+    proposals: [MONARCH, MYTHICAL, PLANET, JOURNEY, RACE]
+    words: [SPINE, KING, PLOT, NOTE, TAG, TRIP, JUPITER, SATELLITE, CAT, PILOT, TRACK,
+      UNICORN, BUTTON, WAR, SPRING, LEMON, GIANT, SPACE, BERLIN, SCUBA DIVER, BOW,
+      DRAGON, TUBE, COLD, BEACH]
+    proposal_related_words:
+      MONARCH: [KING]
+      MYTHICAL: [JUPITER, UNICORN, GIANT, DRAGON]
+      PLANET: [JUPITER, SATELLITE, SPACE]
+      JOURNEY: [TRIP, PILOT, TRACK]
+      RACE: [PILOT, TRACK]
+    proposal_related_words_tokens: {MONARCH: 106, MYTHICAL: 118, PLANET: 114, JOURNEY: 112,
+      RACE: 108}
+    proposal_min_score: {MONARCH: 1, MYTHICAL: 0, PLANET: 0, JOURNEY: 0, RACE: 0}
+    proposal_max_score: {MONARCH: 1, MYTHICAL: 3, PLANET: 1, JOURNEY: 2, RACE: 1}
+    candidate_proposals: [MONARCH, MYTHICAL, JOURNEY]
+    proposal_ranked_words:
+      MONARCH: [KING]
+      MYTHICAL: [UNICORN, DRAGON, GIANT, JUPITER]
+      JOURNEY: [TRIP, PILOT, TRACK]
+    proposal_ranked_words_tokens: {MONARCH: 0, MYTHICAL: 60, JOURNEY: 48}
+    tokens: 790
+  guesses: [UNICORN, DRAGON]
+6059961f-14ed-44e1-939c-217f29875b33:
+  pos: [CAPITAL, NUT, LAB, PLATE, SPIDER, DEATH, MARCH, HONEY, PLOT]
+  neg: [BUFFALO, SUPERHERO, CROSS, HOLLYWOOD, THUMB, DUCK, LIFE, SMUGGLER, FILM, ROOT,
+    GLASS, ROME, SATELLITE, LEAD, OPERA, CLIFF]
+  clue: ALMOND
+  words: [NUT, HONEY]
+  details:
+    proposals: [CAPITOL, ALMOND, EXPERIMENT, DISH, WEB]
+    words: [DUCK, CAPITAL, OPERA, ROOT, MARCH, DEATH, HONEY, SUPERHERO, LEAD, ROME,
+      SPIDER, LAB, SATELLITE, PLATE, FILM, CROSS, GLASS, BUFFALO, CLIFF, LIFE, SMUGGLER,
+      PLOT, NUT, THUMB, HOLLYWOOD]
+    proposal_related_words:
+      CAPITOL: [CAPITAL, ROME, HOLLYWOOD]
+      ALMOND: [NUT, HONEY]
+      EXPERIMENT: [LAB, PLOT]
+      DISH: [SATELLITE, PLATE]
+      WEB: [SPIDER, SUPERHERO, PLOT, FILM, OPERA]
+    proposal_related_words_tokens: {CAPITOL: 117, ALMOND: 113, EXPERIMENT: 111, DISH: 114,
+      WEB: 121}
+    proposal_min_score: {CAPITOL: 0, ALMOND: 2, EXPERIMENT: 2, DISH: 0, WEB: 0}
+    proposal_max_score: {CAPITOL: 1, ALMOND: 2, EXPERIMENT: 2, DISH: 1, WEB: 2}
+    candidate_proposals: [ALMOND]
+    proposal_ranked_words:
+      ALMOND: [NUT, HONEY]
+    proposal_ranked_words_tokens: {ALMOND: 0}
+    tokens: 707
+  guesses: [NUT, PLATE]
+633fa940-dada-4eaf-82c1-ff8bd7a0596e:
+  pos: [BOND, FIELD, ALPS, PARACHUTE, WORM, FORK, HOOK, EGYPT, STAR]
+  neg: [WAKE, SOLDIER, WAR, BACK, HOSPITAL, CZECH, CASINO, BRUSH, ROULETTE, JACK,
+    TOWER, PORT, BED, SMUGGLER, AFRICA, ROSE]
+  clue: SKYDIVING
+  words: [PARACHUTE, ALPS]
+  details:
+    proposals: [FISHING, HIKING, SKYDIVING, ASTRONOMY, ARCHAEOLOGY]
+    words: [CZECH, BOND, AFRICA, JACK, HOOK, FORK, EGYPT, SOLDIER, SMUGGLER, PORT,
+      WORM, ALPS, BED, PARACHUTE, ROULETTE, WAR, TOWER, WAKE, ROSE, CASINO, BRUSH,
+      STAR, FIELD, HOSPITAL, BACK]
+    proposal_related_words:
+      FISHING: [HOOK, PORT, WORM]
+      HIKING: [ALPS, BACK]
+      SKYDIVING: [PARACHUTE, ALPS]
+      ASTRONOMY: [STAR, FIELD]
+      ARCHAEOLOGY: [AFRICA, EGYPT, BRUSH, FIELD]
+    proposal_related_words_tokens: {FISHING: 114, HIKING: 112, SKYDIVING: 115, ASTRONOMY: 113,
+      ARCHAEOLOGY: 121}
+    proposal_min_score: {FISHING: 0, HIKING: 0, SKYDIVING: 2, ASTRONOMY: 2, ARCHAEOLOGY: 0}
+    proposal_max_score: {FISHING: 2, HIKING: 1, SKYDIVING: 2, ASTRONOMY: 2, ARCHAEOLOGY: 2}
+    candidate_proposals: [SKYDIVING]
+    proposal_ranked_words:
+      SKYDIVING: [PARACHUTE, ALPS]
+    proposal_ranked_words_tokens: {SKYDIVING: 0}
+    tokens: 705
+  guesses: [PARACHUTE, TOWER]
+6998678a-0c56-42b6-80b0-3810fe77c327:
+  pos: [SOUL, DAY, PART, DEATH, HONEY, TABLE, ICE CREAM, SPACE, DUCK]
+  neg: [PIE, NAIL, SCIENTIST, MOUNT, PIN, GAS, FLUTE, HORSESHOE, MAPLE, REVOLUTION,
+    BEAT, FORCE, GRASS, THUMB, LOCH NESS, HIMALAYAS]
+  clue: LIFE
+  words: [SOUL, DEATH, DAY, DUCK]
+  details:
+    proposals: [SWEET, FURNITURE, ASTRAL, POULTRY, LIFE]
+    words: [GAS, SOUL, LOCH NESS, REVOLUTION, ICE CREAM, TABLE, SPACE, NAIL, THUMB,
+      FORCE, HONEY, PART, GRASS, DEATH, MAPLE, SCIENTIST, BEAT, PIE, HIMALAYAS, FLUTE,
+      HORSESHOE, DUCK, DAY, PIN, MOUNT]
+    proposal_related_words:
+      SWEET: [ICE CREAM, HONEY, MAPLE, PIE]
+      FURNITURE: [TABLE, NAIL]
+      ASTRAL: [SOUL, SPACE, REVOLUTION]
+      POULTRY: [DUCK]
+      LIFE: [SOUL, DEATH, DAY, GRASS, DUCK]
+    proposal_related_words_tokens: {SWEET: 117, FURNITURE: 111, ASTRAL: 113, POULTRY: 108,
+      LIFE: 117}
+    proposal_min_score: {SWEET: 0, FURNITURE: 0, ASTRAL: 0, POULTRY: 1, LIFE: 0}
+    proposal_max_score: {SWEET: 2, FURNITURE: 1, ASTRAL: 2, POULTRY: 1, LIFE: 4}
+    candidate_proposals: [POULTRY, SWEET, ASTRAL, LIFE]
+    proposal_ranked_words:
+      POULTRY: [DUCK]
+      SWEET: [HONEY, ICE CREAM, PIE, MAPLE]
+      ASTRAL: [SPACE, SOUL, REVOLUTION]
+      LIFE: [SOUL, DEATH, DAY, DUCK, GRASS]
+    proposal_ranked_words_tokens: {POULTRY: 0, SWEET: 56, ASTRAL: 48, LIFE: 58}
+    tokens: 854
+  guesses: [SOUL, DEATH, SCIENTIST, FORCE]
+6fc87442-0721-4d2c-a398-da01bed12b6a:
+  pos: [SEAL, SOUND, FORK, AIR, SPY, YARD, MARCH, MOUTH, CHURCH]
+  neg: [COLD, ORANGE, LIGHT, PRINCESS, BELT, MATCH, JAM, BED, ROCK, PLATYPUS, MISSILE,
+    DAY, FOREST, TORCH, STRAW, ORGAN]
+  clue: BREATH
+  words: [AIR, MOUTH]
+  details:
+    proposals: [MARINE, NOISE, UTENSIL, BREATH, ESPIONAGE]
+    words: [MATCH, SEAL, STRAW, PLATYPUS, MARCH, YARD, MOUTH, ORANGE, TORCH, DAY,
+      SPY, FORK, FOREST, AIR, ROCK, LIGHT, MISSILE, COLD, ORGAN, JAM, BED, CHURCH,
+      SOUND, BELT, PRINCESS]
+    proposal_related_words:
+      MARINE: [SEAL, MISSILE]
+      NOISE: [SOUND]
+      UTENSIL: [STRAW, FORK]
+      BREATH: [STRAW, MOUTH, AIR]
+      ESPIONAGE: [SPY]
+    proposal_related_words_tokens: {MARINE: 106, NOISE: 103, UTENSIL: 107, BREATH: 108,
+      ESPIONAGE: 104}
+    proposal_min_score: {MARINE: 0, NOISE: 1, UTENSIL: 0, BREATH: 0, ESPIONAGE: 1}
+    proposal_max_score: {MARINE: 1, NOISE: 1, UTENSIL: 1, BREATH: 2, ESPIONAGE: 1}
+    candidate_proposals: [NOISE, BREATH]
+    proposal_ranked_words:
+      NOISE: [SOUND]
+      BREATH: [AIR, MOUTH, STRAW]
+    proposal_ranked_words_tokens: {NOISE: 0, BREATH: 47}
+    tokens: 697
+  guesses: [MOUTH, AIR]
+7ff1d6cc-7662-4e66-b559-e8e32ee53cab:
+  pos: [MAIL, STRING, STRIKE, BEAR, GREECE, POISON, PLASTIC, SKYSCRAPER, FRANCE]
+  neg: [SOLDIER, SATURN, CODE, WAKE, SLUG, COLD, AMERICA, REVOLUTION, SHIP, PLATYPUS,
+    COMPOUND, LEPRECHAUN, CARD, GRASS, AMBULANCE, DICE]
+  clue: EIFFEL
+  words: [FRANCE, SKYSCRAPER]
+  details:
+    proposals: [ENVELOPE, NYLON, BASEBALL, TEDDY, EIFFEL]
+    words: [COLD, MAIL, AMBULANCE, PLATYPUS, PLASTIC, POISON, SKYSCRAPER, SATURN,
+      GRASS, LEPRECHAUN, GREECE, STRIKE, CARD, BEAR, SHIP, CODE, COMPOUND, SOLDIER,
+      DICE, AMERICA, REVOLUTION, FRANCE, STRING, SLUG, WAKE]
+    proposal_related_words:
+      ENVELOPE: [MAIL, CARD]
+      NYLON: [PLASTIC, COMPOUND, STRING]
+      BASEBALL: [STRIKE, CARD, GRASS, AMERICA, SLUG]
+      TEDDY: [BEAR]
+      EIFFEL: [FRANCE, SKYSCRAPER]
+    proposal_related_words_tokens: {ENVELOPE: 117, NYLON: 123, BASEBALL: 127, TEDDY: 115,
+      EIFFEL: 121}
+    proposal_min_score: {ENVELOPE: 0, NYLON: 0, BASEBALL: 0, TEDDY: 1, EIFFEL: 2}
+    proposal_max_score: {ENVELOPE: 1, NYLON: 2, BASEBALL: 1, TEDDY: 1, EIFFEL: 2}
+    candidate_proposals: [EIFFEL]
+    proposal_ranked_words:
+      EIFFEL: [FRANCE, SKYSCRAPER]
+    proposal_ranked_words_tokens: {EIFFEL: 0}
+    tokens: 736
+  guesses: [FRANCE, SKYSCRAPER]
+84aca7f8-0e41-48d4-bafe-f9913a7f69a8:
+  pos: [LAB, ROME, SINK, BALL, SERVER, DRAFT, HOSPITAL, STAR, CROSS]
+  neg: [CHICK, SCHOOL, NEW YORK, ENGINE, MARBLE, HOLE, MARCH, BOX, GREECE, HELICOPTER,
+    FENCE, SHARK, SCREEN, NIGHT, BATTERY, LONDON]
+  clue: PATIENT
+  words: [LAB, HOSPITAL]
+  details:
+    proposals: [EXPERIMENT, ITALY, VOLLEY, PATIENT, RELIGION]
+    words: [HOLE, LAB, BATTERY, HELICOPTER, HOSPITAL, DRAFT, STAR, SCHOOL, NIGHT,
+      SHARK, SERVER, SINK, SCREEN, BALL, GREECE, NEW YORK, FENCE, CHICK, LONDON, MARCH,
+      BOX, CROSS, ROME, MARBLE, ENGINE]
+    proposal_related_words:
+      EXPERIMENT: [LAB, BATTERY, DRAFT, SCREEN, BOX]
+      ITALY: [ROME, MARBLE, GREECE]
+      VOLLEY: [SERVER, BALL, FENCE]
+      PATIENT: [LAB, HOSPITAL]
+      RELIGION: [CROSS, ROME]
+    proposal_related_words_tokens: {EXPERIMENT: 110, ITALY: 108, VOLLEY: 105, PATIENT: 104,
+      RELIGION: 105}
+    proposal_min_score: {EXPERIMENT: 0, ITALY: 0, VOLLEY: 0, PATIENT: 2, RELIGION: 2}
+    proposal_max_score: {EXPERIMENT: 2, ITALY: 1, VOLLEY: 2, PATIENT: 2, RELIGION: 2}
+    candidate_proposals: [PATIENT]
+    proposal_ranked_words:
+      PATIENT: [LAB, HOSPITAL]
+    proposal_ranked_words_tokens: {PATIENT: 0}
+    tokens: 649
+  guesses: [HOSPITAL, LAB]
+9951eea1-7380-44d7-bb94-8eb29c971492:
+  pos: [MOUNT, CONCERT, GLASS, FORK, PYRAMID, PIANO, CALF, AGENT, SNOWMAN]
+  neg: [TOOTH, FRANCE, REVOLUTION, SPOT, MOON, SINK, COVER, MOUSE, FIGURE, BAT, BUGLE,
+    AMAZON, AIR, VET, PRINCESS, ROULETTE]
+  clue: DINING
+  words: [FORK, GLASS]
+  details:
+    proposals: [EGYPT, MUSIC, DINING, WINTER, SPY]
+    words: [SINK, MOUNT, PRINCESS, BAT, CALF, PIANO, AGENT, FRANCE, VET, AMAZON, PYRAMID,
+      GLASS, AIR, FORK, FIGURE, REVOLUTION, BUGLE, TOOTH, ROULETTE, COVER, MOUSE,
+      SNOWMAN, CONCERT, MOON, SPOT]
+    proposal_related_words:
+      EGYPT: [PYRAMID, REVOLUTION]
+      MUSIC: [PIANO, BUGLE, CONCERT]
+      DINING: [SINK, GLASS, FORK]
+      WINTER: [SNOWMAN, COVER]
+      SPY: [AGENT, COVER, SPOT]
+    proposal_related_words_tokens: {EGYPT: 114, MUSIC: 114, DINING: 115, WINTER: 112,
+      SPY: 113}
+    proposal_min_score: {EGYPT: 0, MUSIC: 0, DINING: 0, WINTER: 0, SPY: 0}
+    proposal_max_score: {EGYPT: 1, MUSIC: 2, DINING: 2, WINTER: 1, SPY: 1}
+    candidate_proposals: [EGYPT, EGYPT, MUSIC, DINING, WINTER, SPY]
+    proposal_ranked_words:
+      EGYPT: [PYRAMID, REVOLUTION]
+      MUSIC: [PIANO, BUGLE, CONCERT]
+      DINING: [FORK, GLASS, SINK]
+      WINTER: [SNOWMAN, COVER]
+      SPY: [AGENT, COVER, SPOT]
+    proposal_ranked_words_tokens: {EGYPT: 46, MUSIC: 49, DINING: 49, WINTER: 43, SPY: 46}
+    tokens: 926
+  guesses: [FORK, FRANCE]
+ae3bd682-b66a-40b7-9bb8-79310de11f2e:
+  pos: [NOTE, HEART, HOTEL, DAY, MISSILE, SINK, POINT, FIELD, WAR]
+  neg: [SKYSCRAPER, CONTRACT, TAP, LEPRECHAUN, BEIJING, CRICKET, SCIENTIST, ALIEN,
+    HAND, PLANE, PRESS, MAPLE, EGYPT, WATCH, MAIL, POST]
+  clue: BATTLEFIELD
+  words: [FIELD, MISSILE, WAR]
+  details:
+    proposals: [LAUNCH, LOVE, ACCOMMODATION, NOTATION, BATTLEFIELD]
+    words: [CRICKET, NOTE, MAIL, PLANE, POINT, SINK, FIELD, CONTRACT, WATCH, MAPLE,
+      MISSILE, HOTEL, EGYPT, DAY, HAND, TAP, PRESS, SKYSCRAPER, POST, SCIENTIST, ALIEN,
+      WAR, HEART, BEIJING, LEPRECHAUN]
+    proposal_related_words:
+      LAUNCH: [PLANE, MISSILE, PRESS]
+      LOVE: [HEART]
+      ACCOMMODATION: [HOTEL, SKYSCRAPER]
+      NOTATION: [NOTE, CONTRACT]
+      BATTLEFIELD: [FIELD, MISSILE, WAR]
+    proposal_related_words_tokens: {LAUNCH: 111, LOVE: 105, ACCOMMODATION: 114, NOTATION: 107,
+      BATTLEFIELD: 111}
+    proposal_min_score: {LAUNCH: 0, LOVE: 1, ACCOMMODATION: 0, NOTATION: 0, BATTLEFIELD: 3}
+    proposal_max_score: {LAUNCH: 1, LOVE: 1, ACCOMMODATION: 1, NOTATION: 1, BATTLEFIELD: 3}
+    candidate_proposals: [BATTLEFIELD]
+    proposal_ranked_words:
+      BATTLEFIELD: [FIELD, MISSILE, WAR]
+    proposal_ranked_words_tokens: {BATTLEFIELD: 0}
+    tokens: 672
+  guesses: [MISSILE, WAR, FIELD]
+b9a652df-b307-47c9-92fa-44c3f729d366:
+  pos: [BOW, CLOAK, INDIA, PILOT, FISH, PALM, BANK, DINOSAUR, VAN]
+  neg: [GROUND, JAM, NIGHT, CLUB, BED, LUCK, CASINO, HAND, TICK, MOLE, PORT, FILE,
+    SHOP, DECK, FOREST, SQUARE]
+  clue: INVISIBLE
+  words: [CLOAK]
+  details:
+    proposals: [ARCHERY, INVISIBLE, BOLLYWOOD, AIRPLANE, JURASSIC]
+    words: [LUCK, BOW, FOREST, MOLE, BANK, PALM, DINOSAUR, JAM, DECK, FILE, FISH,
+      INDIA, SHOP, PILOT, TICK, NIGHT, PORT, GROUND, SQUARE, CASINO, HAND, VAN, CLOAK,
+      BED, CLUB]
+    proposal_related_words:
+      ARCHERY: [BOW, FOREST]
+      INVISIBLE: [CLOAK]
+      BOLLYWOOD: [INDIA]
+      AIRPLANE: [PILOT, PORT, GROUND]
+      JURASSIC: [DINOSAUR]
+    proposal_related_words_tokens: {ARCHERY: 102, INVISIBLE: 100, BOLLYWOOD: 101,
+      AIRPLANE: 105, JURASSIC: 104}
+    proposal_min_score: {ARCHERY: 0, INVISIBLE: 1, BOLLYWOOD: 1, AIRPLANE: 0, JURASSIC: 1}
+    proposal_max_score: {ARCHERY: 1, INVISIBLE: 1, BOLLYWOOD: 1, AIRPLANE: 1, JURASSIC: 1}
+    candidate_proposals: [INVISIBLE]
+    proposal_ranked_words:
+      INVISIBLE: [CLOAK]
+    proposal_ranked_words_tokens: {INVISIBLE: 0}
+    tokens: 628
+  guesses: [CLOAK]
+c3109b81-f50c-45fc-8d8d-bbfb606fa7bc:
+  pos: [DROP, HOLLYWOOD, CLUB, BANK, WIND, NAIL, CONTRACT, IVORY, ROW]
+  neg: [PISTOL, BELT, NUT, DEGREE, SOUL, CHEST, DUCK, FOREST, DRILL, MODEL, BARK,
+    NEW YORK, MOLE, INDIA, PIPE, SWING]
+  clue: HAMMER
+  words: [NAIL, CLUB]
+  details:
+    proposals: [FILM, DEPOSIT, ELEPHANT, HAMMER, AGREEMENT]
+    words: [CHEST, DROP, PIPE, MODEL, CONTRACT, NAIL, IVORY, BELT, INDIA, NEW YORK,
+      WIND, CLUB, MOLE, BANK, DRILL, NUT, BARK, PISTOL, SWING, DUCK, FOREST, ROW,
+      HOLLYWOOD, SOUL, DEGREE]
+    proposal_related_words:
+      FILM: [HOLLYWOOD, NEW YORK]
+      DEPOSIT: [CHEST, DROP, BANK, DRILL]
+      ELEPHANT: [IVORY, INDIA, FOREST]
+      HAMMER: [NAIL, CLUB, DRILL, SWING]
+      AGREEMENT: [CONTRACT]
+    proposal_related_words_tokens: {FILM: 107, DEPOSIT: 109, ELEPHANT: 110, HAMMER: 111,
+      AGREEMENT: 102}
+    proposal_min_score: {FILM: 0, DEPOSIT: 0, ELEPHANT: 0, HAMMER: 0, AGREEMENT: 1}
+    proposal_max_score: {FILM: 1, DEPOSIT: 2, ELEPHANT: 1, HAMMER: 2, AGREEMENT: 1}
+    candidate_proposals: [AGREEMENT, DEPOSIT, HAMMER]
+    proposal_ranked_words:
+      AGREEMENT: [CONTRACT]
+      DEPOSIT: [BANK, CHEST, DROP, DRILL]
+      HAMMER: [NAIL, CLUB, SWING, DRILL]
+    proposal_ranked_words_tokens: {AGREEMENT: 0, DEPOSIT: 52, HAMMER: 54}
+    tokens: 763
+  guesses: [NAIL, SWING]
+d505f1b3-bcfa-4500-b2a6-904e6ad6145a:
+  pos: [STRIKE, DAY, ANGEL, KNIGHT, CHECK, TAG, DRAFT, BOMB, TURKEY]
+  neg: [TRACK, AMBULANCE, ATLANTIS, SUIT, DICE, COLD, ORGAN, AFRICA, DINOSAUR, GREECE,
+    SLIP, CRANE, KANGAROO, FENCE, HAWK, PIPE]
+  clue: CHESS
+  words: [CHECK, KNIGHT]
+  details:
+    proposals: [BASEBALL, CHESS, MEDIEVAL, THANKSGIVING, HALO]
+    words: [COLD, STRIKE, HAWK, GREECE, DRAFT, TAG, BOMB, AMBULANCE, FENCE, CRANE,
+      CHECK, ANGEL, KANGAROO, KNIGHT, DINOSAUR, ATLANTIS, SLIP, TRACK, PIPE, ORGAN,
+      AFRICA, TURKEY, DAY, DICE, SUIT]
+    proposal_related_words:
+      BASEBALL: [STRIKE, TAG, FENCE]
+      CHESS: [CHECK, KNIGHT]
+      MEDIEVAL: [KNIGHT]
+      THANKSGIVING: [TURKEY, DAY]
+      HALO: [ANGEL]
+    proposal_related_words_tokens: {BASEBALL: 120, CHESS: 116, MEDIEVAL: 115, THANKSGIVING: 118,
+      HALO: 114}
+    proposal_min_score: {BASEBALL: 0, CHESS: 2, MEDIEVAL: 1, THANKSGIVING: 2, HALO: 1}
+    proposal_max_score: {BASEBALL: 2, CHESS: 2, MEDIEVAL: 1, THANKSGIVING: 2, HALO: 1}
+    candidate_proposals: [CHESS]
+    proposal_ranked_words:
+      CHESS: [CHECK, KNIGHT]
+    proposal_ranked_words_tokens: {CHESS: 0}
+    tokens: 714
+  guesses: [CHECK, KNIGHT]
+dbfc9a59-f2f0-4011-86ec-e77bf7f8320e:
+  pos: [OIL, DOG, STAR, SCALE, HORN, SPY, WAKE, ATLANTIS, NOVEL]
+  neg: [BARK, EMBASSY, BAT, KNIGHT, RULER, CRICKET, PASTE, KID, ROBIN, SOCK, ENGLAND,
+    POLE, OLYMPUS, WHIP, APPLE, REVOLUTION]
+  clue: PETROLEUM
+  words: [OIL]
+  details:
+    proposals: [PETROLEUM, CANINE, GALAXY, BALANCE, UNDERCOVER]
+    words: [CRICKET, OIL, APPLE, SOCK, WAKE, SPY, ATLANTIS, EMBASSY, WHIP, POLE, HORN,
+      STAR, OLYMPUS, SCALE, ROBIN, BAT, ENGLAND, BARK, REVOLUTION, PASTE, KID, NOVEL,
+      DOG, RULER, KNIGHT]
+    proposal_related_words:
+      PETROLEUM: [OIL]
+      CANINE: [BARK, DOG]
+      GALAXY: [STAR, REVOLUTION]
+      BALANCE: [SCALE, POLE, RULER]
+      UNDERCOVER: [SPY, EMBASSY]
+    proposal_related_words_tokens: {PETROLEUM: 110, CANINE: 112, GALAXY: 112, BALANCE: 114,
+      UNDERCOVER: 114}
+    proposal_min_score: {PETROLEUM: 1, CANINE: 0, GALAXY: 0, BALANCE: 0, UNDERCOVER: 0}
+    proposal_max_score: {PETROLEUM: 1, CANINE: 1, GALAXY: 1, BALANCE: 1, UNDERCOVER: 1}
+    candidate_proposals: [PETROLEUM]
+    proposal_ranked_words:
+      PETROLEUM: [OIL]
+    proposal_ranked_words_tokens: {PETROLEUM: 0}
+    tokens: 689
+  guesses: [OIL]
+ee0ecac8-e6a6-4079-9612-f2a8be01fabb:
+  pos: [PRINCESS, SPOT, POUND, APPLE, PYRAMID, FRANCE, WITCH, MATCH, CAST]
+  neg: [BUTTON, SOLDIER, LEMON, SHOP, TOKYO, MISSILE, STAFF, CONDUCTOR, TABLE, RACKET,
+    VAN, GRACE, AZTEC, TIME, WAKE, MILLIONAIRE]
+  clue: ROYALTY
+  words: [PRINCESS]
+  details:
+    proposals: [ROYALTY, LANDMARK, FRUIT, MAGIC, GAME]
+    words: [MISSILE, PRINCESS, WAKE, RACKET, WITCH, FRANCE, MATCH, SOLDIER, TIME,
+      GRACE, PYRAMID, POUND, AZTEC, APPLE, TABLE, LEMON, VAN, BUTTON, MILLIONAIRE,
+      STAFF, CONDUCTOR, CAST, SPOT, TOKYO, SHOP]
+    proposal_related_words:
+      ROYALTY: [PRINCESS, FRANCE, GRACE]
+      LANDMARK: [FRANCE, PYRAMID, AZTEC, TOKYO]
+      FRUIT: [APPLE, LEMON]
+      MAGIC: [WITCH, STAFF, CAST]
+      GAME: [RACKET, MATCH, CAST, SPOT]
+    proposal_related_words_tokens: {ROYALTY: 114, LANDMARK: 116, FRUIT: 107, MAGIC: 109,
+      GAME: 111}
+    proposal_min_score: {ROYALTY: 0, LANDMARK: 0, FRUIT: 0, MAGIC: 0, GAME: 0}
+    proposal_max_score: {ROYALTY: 2, LANDMARK: 2, FRUIT: 1, MAGIC: 2, GAME: 3}
+    candidate_proposals: [ROYALTY, ROYALTY, LANDMARK, FRUIT, MAGIC, GAME]
+    proposal_ranked_words:
+      ROYALTY: [PRINCESS, GRACE, FRANCE]
+      LANDMARK: [PYRAMID, AZTEC, TOKYO, FRANCE]
+      FRUIT: [APPLE, LEMON]
+      MAGIC: [WITCH, STAFF, CAST]
+      GAME: [MATCH, RACKET, SPOT, CAST]
+    proposal_ranked_words_tokens: {ROYALTY: 53, LANDMARK: 59, FRUIT: 41, MAGIC: 46,
+      GAME: 50}
+    tokens: 929
+  guesses: [PRINCESS]
+f45f7668-ebbb-428e-8ad3-0462f7db3438:
+  pos: [PART, WELL, HOOD, FOREST, ROULETTE, COLD, JAM, CANADA, GROUND]
+  neg: [CHICK, FILE, LITTER, SPACE, NIGHT, CRICKET, RABBIT, STADIUM, SATELLITE, COVER,
+    STOCK, GAME, DECK, SWITCH, JACK, PENGUIN]
+  clue: MAPLE
+  words: [CANADA, FOREST, JAM]
+  details:
+    proposals: [MAPLE, GREEN, SNOW, ROBIN, LUCK]
+    words: [CRICKET, PART, JACK, COVER, JAM, COLD, CANADA, FILE, SWITCH, GAME, ROULETTE,
+      HOOD, DECK, FOREST, SATELLITE, LITTER, STOCK, CHICK, PENGUIN, RABBIT, STADIUM,
+      GROUND, WELL, NIGHT, SPACE]
+    proposal_related_words:
+      MAPLE: [CANADA, FOREST, JAM]
+      GREEN: [FOREST, GROUND]
+      SNOW: [COLD, CANADA, PENGUIN, GROUND]
+      ROBIN: [HOOD, FOREST, CHICK, PENGUIN]
+      LUCK: [ROULETTE, RABBIT]
+    proposal_related_words_tokens: {MAPLE: 112, GREEN: 108, SNOW: 117, ROBIN: 117,
+      LUCK: 112}
+    proposal_min_score: {MAPLE: 3, GREEN: 2, SNOW: 0, ROBIN: 0, LUCK: 0}
+    proposal_max_score: {MAPLE: 3, GREEN: 2, SNOW: 3, ROBIN: 2, LUCK: 1}
+    candidate_proposals: [MAPLE]
+    proposal_ranked_words:
+      MAPLE: [CANADA, FOREST, JAM]
+    proposal_ranked_words_tokens: {MAPLE: 0}
+    tokens: 689
+  guesses: [FOREST, CANADA, JAM]

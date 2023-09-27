@@ -4,7 +4,7 @@ import os
 import random
 
 from config import CLUES_DIR, SCENARIOS_DIR
-from code_names_bot.util.select_words import select_words
+from code_names_bot.generator.guess_generator import generate_guess
 
 
 def parse_args():
@@ -12,23 +12,6 @@ def parse_args():
     parser.add_argument("-c", "--clues", type=str, required=True)
     args = parser.parse_args()
     return args.clues
-
-
-def get_guesses(scenarios, scenario_id, clue, num):
-    scenario = scenarios[scenario_id]
-    clue_key = f"{clue}_{num}"
-
-    if "guesses" not in scenario:
-        scenario["guesses"] = {}
-
-    if clue_key not in scenario["guesses"]:
-        words = scenario["pos"] + scenario["neg"]
-        random.shuffle(words)
-        print(f"Clue: {clue} {num}")
-        guess_words = select_words(words, num)
-        scenario["guesses"][clue_key] = guess_words
-    
-    return scenario["guesses"][clue_key]
 
 
 def main():
@@ -45,13 +28,10 @@ def main():
 
     for i, (scenario_id, clue_item) in enumerate(clues.items()):
         print(f"=== {i} / {len(clues)} ===")
-        words = clue_item["pos"] + clue_item["neg"]
-        random.shuffle(words)
-
         clue = clue_item["clue"]
         num = len(clue_item["words"])
 
-        clue_item["guesses"] = get_guesses(scenarios, scenario_id, clue, num)
+        clue_item["guesses"] = generate_guess(clue_item["pos"], clue_item["neg"], clue, num)
         clues[scenario_id] = clue_item
     
     with open(clues_path, "w") as file:
