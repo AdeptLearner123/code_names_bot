@@ -1,25 +1,14 @@
 import random
 
-from code_names_bot.util.cache import get_cache_list, put_cache_list
+from code_names_bot.util.caches import get_cache, put_cache
+from code_names_bot.util.prompts import read_prompt, get_words_msg
+from code_names_bot.util.completions import get_completion_as_dict
 
-CACHE_NAME = "scores"
-cache = get_cache_list(CACHE_NAME)
+cache = get_cache("scores")
+prompt = read_prompt("score")
 
-
-def _get_key(pos_words, neg_words, clue):
-    pos_str = ",".join(pos_words)
-    neg_str = ",".join(neg_words)
-    return pos_str + "|" + neg_str + "|" + clue
-
-
-def generate_scores(pos_words, neg_words, clue):
-    key = _get_key(pos_words, neg_words, clue)
-    if key in cache:
-        return cache[key]
-
-    words = pos_words + neg_words
-    random.shuffle(words)
-    guesses = select_words(words, num)
-
-    cache[key] = guesses
-    put_cache_list(CACHE_NAME, cache)
+def get_scores(words, clue):
+    system_msg = prompt.replace("###", clue)
+    user_msg = get_words_msg(words)
+    scores, tokens = get_completion_as_dict(system_msg, user_msg)
+    return scores, tokens

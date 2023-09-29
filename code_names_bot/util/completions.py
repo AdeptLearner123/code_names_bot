@@ -26,3 +26,11 @@ def get_completion_as_word_list(system, user):
     words = completion.split(", ")
     words = [ word.upper() for word in words ]
     return words, token_count
+
+
+def get_completion_as_dict(system, user):
+    completion, token_count = get_completion(system, user)
+    lines = completion.splitlines()
+    lines_split = [ line.split(": ") for line in lines ]
+    dictionary = { parts[0]: parts[1] for parts in lines_split }
+    return dictionary, token_count

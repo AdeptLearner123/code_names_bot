@@ -1,16 +1,11 @@
-from .prompts import read_prompt, get_scenario_str, get_words_msg
+from .prompts import read_prompt, get_words_msg
 from .completions import get_completion_as_word_list
 from .dict import split_by_column
 
 import random
 from collections import Counter
 
-proposal_prompt = read_prompt("propose_5")
 rank_prompt = read_prompt("rank")
-
-def get_proposals(pos_words, neg_words):
-    scenario_str = get_scenario_str(pos_words, neg_words)
-    return get_completion_as_word_list(proposal_prompt, scenario_str)
 
 
 def get_ranked_words(words, proposal):

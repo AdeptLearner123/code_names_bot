@@ -2,25 +2,30 @@ import os
 import yaml
 import json
 
-from code_names_bot.util.cache import get_cache, put_cache
-
-
-def get_key(pos, neg):
-    return str(hash(",".join(sorted(pos)) + "|" + ",".join(sorted(neg))))
-
 
 def main():
-    with open("caches/guesses_old.yaml", "r") as file:
-        old_cache = yaml.safe_load(file.read())
+    with open("clues/full-boards_propose-filter-rank.yaml", "r") as file:
+        clues = yaml.safe_load(file.read())
+    
+    cache = dict()
 
-    new_cache = {}
-    for key, item in old_cache.items():
-        new_key = ",".join(item["pos"]) + "_" + ",".join(item["neg"])
+    for scenario_id, clue in clues.items():
+        pos = clue["pos"]
+        neg = clue["neg"]
+        proposals = clue["details"]["proposals"]
+        
+        related_words_tokens = sum(clue["details"]["proposal_related_words_tokens"].values())
+        ranked_words_tokens = sum(clue["details"]["proposal_ranked_words_tokens"].values())
+        total_tokens = clue["details"]["tokens"]
 
-        new_cache[new_key] = {}
+        propsoals_tokens = total_tokens - related_words_tokens - ranked_words_tokens
 
-        for guess_key, guesses in item["guesses"].items():
-            new_cache[new_key][guess_key] = guesses
-
-    with open("caches/guesses.yaml", "w+") as file:
-        file.write(json.dumps(new_cache, indent=4))
+        cache[",".join(pos) + "|" + ",".join(neg)] = {
+            str(len(proposals)): {
+                "proposals": proposals,
+                "tokens": propsoals_tokens
+            }
+        }
+    
+    with open("caches/proposals.json", "w+") as file:
+        file.write(json.dumps(cache, indent=4))
