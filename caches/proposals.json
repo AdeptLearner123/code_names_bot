@@ -298,5 +298,305 @@
             ],
             "tokens": 123
         }
+    },
+    "AMAZON,IRON|POLE,RING,FLUTE,COLD,HAND,LIMOUSINE": {
+        "5": {
+            "proposals": [
+                "JUNGLE",
+                "RIVER",
+                "METAL",
+                "E-COMMERCE",
+                "STRENGTH"
+            ],
+            "tokens": 75
+        }
+    },
+    "KING,PLOT|CRANE,SCREEN,SHARK,TICK,BERMUDA,ORGAN": {
+        "5": {
+            "proposals": [
+                "THRONE",
+                "STORY",
+                "ROYALTY",
+                "SCHEME",
+                "CROWN"
+            ],
+            "tokens": 76
+        }
+    },
+    "PORT,ORANGE|TRIP,RACKET,TORCH,THEATER,HOLLYWOOD,LOG": {
+        "5": {
+            "proposals": [
+                "FRUIT",
+                "DOCK",
+                "CITRUS",
+                "SHIP",
+                "PEEL"
+            ],
+            "tokens": 73
+        }
+    },
+    "COMIC,EMBASSY|BOARD,BUFFALO,PLATE,LASER,WAVE,ANTARCTICA": {
+        "5": {
+            "proposals": [
+                "HUMOR",
+                "DIPLOMACY",
+                "CARTOON",
+                "CONSULATE",
+                "INTERNATIONAL"
+            ],
+            "tokens": 80
+        }
+    },
+    "SINK,HELICOPTER|FENCE,LIGHT,GERMANY,TOWER,STREAM,BAND": {
+        "5": {
+            "proposals": [
+                "PLUMBING",
+                "AVIATION",
+                "DRAIN",
+                "ROTOR",
+                "ALTITUDE"
+            ],
+            "tokens": 75
+        }
+    },
+    "TABLET,UNICORN|PLAY,KING,HELICOPTER,LAB,PIE,DUCK": {
+        "5": {
+            "proposals": [
+                "MYTHICAL",
+                "TECHNOLOGY",
+                "HORN",
+                "PORTABLE",
+                "FANTASY"
+            ],
+            "tokens": 73
+        }
+    },
+    "GLOVE,GLASS|GIANT,HOTEL,TAG,ATLANTIS,JET,HOSPITAL": {
+        "5": {
+            "proposals": [
+                "LEATHER",
+                "TRANSPARENT",
+                "HAND",
+                "DRINKWARE",
+                "PROTECTION"
+            ],
+            "tokens": 76
+        }
+    },
+    "THIEF,CROSS|STRIKE,NIGHT,POUND,HORSESHOE,BOLT,MOUTH": {
+        "5": {
+            "proposals": [
+                "STEAL",
+                "CRUCIFIX",
+                "BURGLAR",
+                "RELIGION",
+                "ROBBER"
+            ],
+            "tokens": 78
+        }
+    },
+    "BERMUDA,PALM|AMERICA,MINT,CHURCH,FORCE,BOTTLE,CRICKET": {
+        "5": {
+            "proposals": [
+                "ISLAND",
+                "TROPICAL",
+                "SHORTS",
+                "COCONUT",
+                "ATLANTIC"
+            ],
+            "tokens": 76
+        }
+    },
+    "ROSE,SLUG|MOON,NAIL,GREECE,GHOST,STATE,COVER": {
+        "5": {
+            "proposals": [
+                "PETALS",
+                "GARDEN",
+                "SNAIL",
+                "FRAGRANCE",
+                "MOLLUSK"
+            ],
+            "tokens": 76
+        }
+    },
+    "POLICE,FORCE|PART,KIWI,DIAMOND,ENGINE,SUPERHERO,PIRATE": {
+        "5": {
+            "proposals": [
+                "LAW",
+                "PATROL",
+                "SECURITY",
+                "UNIFORM",
+                "ARREST"
+            ],
+            "tokens": 73
+        }
+    },
+    "SATELLITE,HOOK|CENTER,SUPERHERO,SPINE,DANCE,PLOT,BLOCK": {
+        "5": {
+            "proposals": [
+                "ORBIT",
+                "LURE",
+                "SPACECRAFT",
+                "FISHERMAN",
+                "TRANSMISSION"
+            ],
+            "tokens": 77
+        }
+    },
+    "MARCH,MAIL|PORT,WIND,LION,GREECE,FALL,GLOVE": {
+        "5": {
+            "proposals": [
+                "PARADE",
+                "ENVELOPE",
+                "DELIVER",
+                "PROTEST",
+                "STAMP"
+            ],
+            "tokens": 73
+        }
+    },
+    "STOCK,SCREEN|WATCH,LOG,SCHOOL,EGYPT,SPINE,ROME": {
+        "5": {
+            "proposals": [
+                "EXCHANGE",
+                "DISPLAY",
+                "MARKET",
+                "PROJECTOR",
+                "SHARES"
+            ],
+            "tokens": 69
+        }
+    },
+    "MOUTH,PENGUIN|FLUTE,CHECK,KNIGHT,FOOT,ROW,IRON": {
+        "5": {
+            "proposals": [
+                "BEAK",
+                "ANTARCTICA",
+                "TALK",
+                "BIRD",
+                "SWIM"
+            ],
+            "tokens": 78
+        }
+    },
+    "DOCTOR,BOARD|OLYMPUS,RACKET,OIL,TABLET,ANGEL,STADIUM": {
+        "5": {
+            "proposals": [
+                "HOSPITAL",
+                "MEDICAL",
+                "DIRECTOR",
+                "EXAMINATION",
+                "GOVERNANCE"
+            ],
+            "tokens": 75
+        }
+    },
+    "PLOT,POLICE|GRACE,LITTER,GAME,TABLE,MOSCOW,LASER": {
+        "5": {
+            "proposals": [
+                "STORY",
+                "LAW",
+                "INVESTIGATION",
+                "SCHEME",
+                "PATROL"
+            ],
+            "tokens": 76
+        }
+    },
+    "TOKYO,JAM|COURT,SHAKESPEARE,WATER,DISEASE,OLIVE,NURSE": {
+        "5": {
+            "proposals": [
+                "JAPAN",
+                "FRUIT",
+                "CAPITAL",
+                "SPREAD",
+                "METROPOLIS"
+            ],
+            "tokens": 83
+        }
+    },
+    "FLY,HOOD|CHINA,NOTE,SHARK,DWARF,QUEEN,COVER": {
+        "5": {
+            "proposals": [
+                "AIRPLANE",
+                "ROBIN",
+                "FEATHER",
+                "JACKET",
+                "BIRD"
+            ],
+            "tokens": 72
+        }
+    },
+    "LITTER,DRILL|BOLT,DINOSAUR,FOOT,MAPLE,MARBLE,WEB": {
+        "5": {
+            "proposals": [
+                "TRASH",
+                "BORE",
+                "DEBRIS",
+                "TOOL",
+                "EXCAVATE"
+            ],
+            "tokens": 75
+        }
+    },
+    "FILM,TRACK|STREAM,KETCHUP,FOREST,FLUTE,SATELLITE,AZTEC": {
+        "5": {
+            "proposals": [
+                "CINEMA",
+                "RACE",
+                "MOVIE",
+                "RUN",
+                "REEL"
+            ],
+            "tokens": 76
+        }
+    },
+    "PILOT,LASER|MAMMOTH,UNDERTAKER,RING,BILL,SHOT,CROSS": {
+        "5": {
+            "proposals": [
+                "AIRCRAFT",
+                "BEAM",
+                "NAVIGATION",
+                "LIGHT",
+                "PRECISION"
+            ],
+            "tokens": 74
+        }
+    },
+    "MAIL,GAME|IVORY,WATER,EGYPT,CHAIR,STATE,LITTER": {
+        "5": {
+            "proposals": [
+                "ENVELOPE",
+                "CONTROLLER",
+                "POSTAGE",
+                "MULTIPLAYER",
+                "SCOREBOARD"
+            ],
+            "tokens": 72
+        }
+    },
+    "FIGHTER,POINT|CRICKET,ROUND,OLIVE,DRESS,CAPITAL,EYE": {
+        "5": {
+            "proposals": [
+                "BOXING",
+                "SWORD",
+                "SHARP",
+                "COMBAT",
+                "DIRECTION"
+            ],
+            "tokens": 72
+        }
+    },
+    "RACKET,LITTER|SPACE,TEACHER,BUG,MOLE,NURSE,GLASS": {
+        "5": {
+            "proposals": [
+                "TENNIS",
+                "TRASH",
+                "NOISE",
+                "KITTENS",
+                "DEBRIS"
+            ],
+            "tokens": 74
+        }
     }
 }

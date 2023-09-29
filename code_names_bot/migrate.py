@@ -4,10 +4,11 @@ import json
 
 
 def main():
-    with open("clues/full-boards_propose-filter-rank.yaml", "r") as file:
+    with open("clues/pairs-small_propose-filter-rank.yaml", "r") as file:
         clues = yaml.safe_load(file.read())
     
-    cache = dict()
+    with open("caches/proposals.json", "r") as file:
+        cache = json.loads(file.read())
 
     for scenario_id, clue in clues.items():
         pos = clue["pos"]
