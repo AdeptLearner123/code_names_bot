@@ -1,0 +1,676 @@
+- guesses:
+  - clue: JUNGLE
+    guesses: [AMAZON]
+    num: 1
+  - clue: JUNGLE
+    guesses: [AMAZON, FLUTE]
+    num: 2
+  - clue: STEEL
+    guesses: [IRON]
+    num: 1
+  neg: [POLE, RING, FLUTE, COLD, HAND, LIMOUSINE]
+  pos: [AMAZON, IRON]
+- guesses:
+  - clue: COLD
+    guesses: [SNOWMAN, VACUUM, SOCK, LONDON, HOOD]
+    num: 5
+  - clue: KANGAROO
+    guesses: [AUSTRALIA, FOOT]
+    num: 2
+  - clue: LUFTWAFFE
+    guesses: [PLANE, BERLIN, PILOT]
+    num: 3
+  neg: [HOOD, IRON, INDIA, TURKEY, RACKET, MAPLE, RULER, SINK, LONDON, BELT, HELICOPTER,
+    VACUUM, MAIL, DAY, HOLE, EAGLE]
+  pos: [HEART, PILOT, FOOT, PLANE, LITTER, SNOWMAN, BERLIN, AUSTRALIA, SOCK]
+- guesses:
+  - clue: REGICIDE
+    guesses: [PLOT, KING]
+    num: 2
+  - clue: THRONE
+    guesses: [KING]
+    num: 1
+  - clue: THRONE
+    guesses: [KING, PLOT]
+    num: 2
+  neg: [CRANE, SCREEN, SHARK, TICK, BERMUDA, ORGAN]
+  pos: [KING, PLOT]
+- guesses:
+  - clue: APPLE
+    guesses: [ORANGE]
+    num: 1
+  - clue: CITRUS
+    guesses: [ORANGE]
+    num: 1
+  - clue: CITRUS
+    guesses: [ORANGE, TRIP]
+    num: 2
+  - clue: FRUIT
+    guesses: [ORANGE]
+    num: 1
+  - clue: FRUIT
+    guesses: [ORANGE, LOG]
+    num: 2
+  - clue: HARBOR
+    guesses: [PORT]
+    num: 1
+  neg: [TRIP, RACKET, TORCH, THEATER, HOLLYWOOD, LOG]
+  pos: [PORT, ORANGE]
+- guesses:
+  - clue: DIPLOMACY
+    guesses: [EMBASSY, ANTARCTICA]
+    num: 2
+  - clue: DIPLOMAT
+    guesses: [EMBASSY]
+    num: 1
+  - clue: HUMOR
+    guesses: [COMIC]
+    num: 1
+  neg: [BOARD, BUFFALO, PLATE, LASER, WAVE, ANTARCTICA]
+  pos: [COMIC, EMBASSY]
+- guesses:
+  - clue: DRAINAGE
+    guesses: [SINK, STREAM]
+    num: 2
+  - clue: FLIGHT
+    guesses: [HELICOPTER, LIGHT]
+    num: 2
+  - clue: FLY
+    guesses: [HELICOPTER]
+    num: 1
+  - clue: PLUMBING
+    guesses: [SINK]
+    num: 1
+  - clue: ROTOR
+    guesses: [HELICOPTER]
+    num: 1
+  neg: [FENCE, LIGHT, GERMANY, TOWER, STREAM, BAND]
+  pos: [SINK, HELICOPTER]
+- guesses:
+  - clue: NEWTON
+    guesses: [MASS, APPLE]
+    num: 2
+  - clue: PLAYGROUND
+    guesses: [SWING, SLIP, SPOT, DECK]
+    num: 4
+  - clue: POLKA
+    guesses: [BEAT, SWING, SPOT]
+    num: 3
+  neg: [DECK, CAST, LEPRECHAUN, BOTTLE, TRIP, BED, CHICK, RING, MINE, TRUNK, SHOP,
+    TICK, PUMPKIN, BATTERY, LAB, HOSPITAL]
+  pos: [SWING, APPLE, ROW, SPOT, BEAT, SLIP, GHOST, MASS, DINOSAUR]
+- guesses:
+  - clue: FANTASY
+    guesses: [UNICORN]
+    num: 1
+  - clue: HORSE
+    guesses: [UNICORN]
+    num: 1
+  - clue: MYTHICAL
+    guesses: [UNICORN]
+    num: 1
+  - clue: MYTHICAL
+    guesses: [UNICORN, KING]
+    num: 2
+  neg: [PLAY, KING, HELICOPTER, LAB, PIE, DUCK]
+  pos: [TABLET, UNICORN]
+- guesses:
+  - clue: ELECTRONIC
+    guesses: [CHARGE, MISSILE, BATTERY]
+    num: 3
+  - clue: ENERGY
+    guesses: [BATTERY, CHARGE, AUSTRALIA, FALL]
+    num: 4
+  - clue: RABBIT
+    guesses: [CARROT, LITTER]
+    num: 2
+  neg: [LONDON, ENGLAND, SCHOOL, DWARF, BAR, PRESS, AUSTRALIA, NEEDLE, YARD, BOTTLE,
+    BAT, HOTEL, SHOE, ANGEL, MOON, FALL]
+  pos: [COOK, CHARGE, MISSILE, BALL, LITTER, BATTERY, CARROT, LEPRECHAUN, TAG]
+- guesses:
+  - clue: HANDHELD
+    guesses: [GLOVE, GLASS]
+    num: 2
+  - clue: HANDWEAR
+    guesses: [GLOVE]
+    num: 1
+  - clue: HAND
+    guesses: [GLOVE]
+    num: 1
+  - clue: INSULATION
+    guesses: [GLOVE, GLASS]
+    num: 2
+  - clue: LEATHER
+    guesses: [GLOVE]
+    num: 1
+  - clue: TRANSPARENT
+    guesses: [GLASS]
+    num: 1
+  - clue: TRANSPARENT
+    guesses: [GLASS, HOTEL]
+    num: 2
+  neg: [GIANT, HOTEL, TAG, ATLANTIS, JET, HOSPITAL]
+  pos: [GLOVE, GLASS]
+- guesses:
+  - clue: ARCTIC
+    guesses: [POLE, SNOW]
+    num: 2
+  - clue: CIRCLE
+    guesses: [ROUND, STADIUM, WATCH]
+    num: 3
+  - clue: WHITE
+    guesses: [SNOW, TOOTH, GHOST]
+    num: 3
+  neg: [WASHINGTON, MINE, LASER, MOLE, FIELD, STADIUM, EGYPT, TRUNK, GLASS, PYRAMID,
+    COMIC, LIGHT, GROUND, KNIFE, DANCE, CAP]
+  pos: [GHOST, AMBULANCE, ROUND, UNDERTAKER, WATCH, TOOTH, POLE, MOUTH, SNOW]
+- guesses:
+  - clue: CATCH
+    guesses: [PITCH, GLOVE]
+    num: 2
+  - clue: GARDEN
+    guesses: [PLOT, GREEN, GLOVE]
+    num: 3
+  - clue: GRASS
+    guesses: [GREEN, PLOT, WASHINGTON, LION, HOLE]
+    num: 5
+  neg: [LION, THIEF, STAFF, CLIFF, TOKYO, DIAMOND, BEAR, ARM, POINT, WASHINGTON, HORSESHOE,
+    HOLE, TELESCOPE, AIR, COPPER, TABLET]
+  pos: [DAY, PITCH, CYCLE, GREEN, PLOT, BOLT, FISH, GLOVE, MOLE]
+- guesses:
+  - clue: BURGLAR
+    guesses: [THIEF, NIGHT]
+    num: 2
+  - clue: CRUCIFIX
+    guesses: [CROSS]
+    num: 1
+  - clue: STEAL
+    guesses: [THIEF]
+    num: 1
+  neg: [STRIKE, NIGHT, POUND, HORSESHOE, BOLT, MOUTH]
+  pos: [THIEF, CROSS]
+- guesses:
+  - clue: CONTAINER
+    guesses: [TRAIN, BOX, SKYSCRAPER, HOTEL, BOLT, SINK, ORGAN, HORN, GOLD]
+    num: 9
+  - clue: COUNTRY
+    guesses: [CANADA]
+    num: 1
+  - clue: YELLOW
+    guesses: [LEMON, GOLD]
+    num: 2
+  neg: [STICK, BOLT, CLUB, DRILL, WITCH, TEACHER, THUMB, HORN, WAVE, TRAIN, CAP, HOTEL,
+    TIME, SINK, NINJA, MAMMOTH]
+  pos: [CANADA, CHICK, DRAFT, STREAM, BOX, ORGAN, LEMON, GOLD, SKYSCRAPER]
+- guesses:
+  - clue: BEACH
+    guesses: [PALM, BERMUDA]
+    num: 2
+  - clue: ISLAND
+    guesses: [BERMUDA, PALM]
+    num: 2
+  - clue: TROPICAL
+    guesses: [BERMUDA, PALM]
+    num: 2
+  - clue: TROPICS
+    guesses: [BERMUDA, PALM]
+    num: 2
+  neg: [AMERICA, MINT, CHURCH, FORCE, BOTTLE, CRICKET]
+  pos: [BERMUDA, PALM]
+- guesses:
+  - clue: BIRD
+    guesses: [HAWK]
+    num: 1
+  - clue: CONTAINER
+    guesses: [CHEST, SERVER, GLASS, SEAL, IRON]
+    num: 5
+  - clue: TITANIC
+    guesses: [IRON, SHIP]
+    num: 2
+  neg: [CHOCOLATE, AGENT, CARROT, LIMOUSINE, SERVER, BUGLE, ALIEN, MOUNT, AFRICA,
+    GLASS, CYCLE, KNIFE, GERMANY, SEAL, CHEST, ROOT]
+  pos: [IRON, HAWK, GLOVE, LITTER, FIELD, HOSPITAL, PASTE, HONEY, SHIP]
+- guesses:
+  - clue: BASEBALL
+    guesses: [FIELD, PITCH]
+    num: 2
+  - clue: CARD
+    guesses: [DECK, PASS]
+    num: 2
+  - clue: OUTDOOR
+    guesses: [FIELD, DECK, THEATER, VAN, FISH]
+    num: 5
+  neg: [ENGLAND, BELT, MARCH, FIGHTER, NIGHT, MINE, NAIL, PIRATE, PIN, THEATER, EYE,
+    BARK, CARROT, SERVER, CROSS, CIRCLE]
+  pos: [VAN, FIELD, FISH, DRILL, NUT, PASS, DECK, VET, PITCH]
+- guesses:
+  - clue: CAPTAIN
+    guesses: [CAP, SPACE, PIRATE, PILOT, BOOT]
+    num: 5
+  - clue: FABRIC
+    guesses: [COTTON, PANTS, CAP]
+    num: 3
+  - clue: TREASURE
+    guesses: [GOLD, PIRATE]
+    num: 2
+  neg: [JAM, DEGREE, EMBASSY, BOOT, BOLT, ALPS, BRUSH, EYE, BEACH, ORANGE, WITCH,
+    CALF, BOTTLE, MASS, DICE, HOLE]
+  pos: [PIRATE, CAP, PILOT, FORK, COTTON, PANTS, SPACE, GOLD, CRICKET]
+- guesses:
+  - clue: MOUNTAIN
+    guesses: [SNOW, ALPS]
+    num: 2
+  - clue: WINTER
+    guesses: [SNOW, CYCLE]
+    num: 2
+  neg: [BUCK, DINOSAUR, DOCTOR, CRASH, GENIUS, DRAFT, COMPOUND, BOOM, EGYPT, PIT,
+    CHURCH, BOND, QUEEN, JAM, LUCK, PORT]
+  pos: [SNOW, PART, CYCLE, HEAD, SLUG, SHAKESPEARE, ALPS, TAIL, CROSS]
+- guesses:
+  - clue: FANTASY
+    guesses: [DRAGON, UNICORN, KING, GIANT]
+    num: 4
+  - clue: MYTHICAL
+    guesses: [UNICORN, DRAGON]
+    num: 2
+  - clue: MYTHOLOGY
+    guesses: [JUPITER, DRAGON, UNICORN, KING]
+    num: 4
+  neg: [SPACE, SATELLITE, LEMON, BEACH, COLD, SPINE, SCUBA DIVER, BOW, SPRING, NOTE,
+    GIANT, PILOT, BUTTON, CAT, PLOT, BERLIN]
+  pos: [KING, TUBE, UNICORN, WAR, TRACK, TRIP, TAG, JUPITER, DRAGON]
+- guesses:
+  - clue: ALMOND
+    guesses: [NUT, PLATE]
+    num: 2
+  - clue: BEE
+    guesses: [HONEY, MARCH, DEATH, SPIDER, LAB]
+    num: 5
+  - clue: SNACK
+    guesses: [PLATE, HONEY, NUT]
+    num: 3
+  neg: [BUFFALO, SUPERHERO, CROSS, HOLLYWOOD, THUMB, DUCK, LIFE, SMUGGLER, FILM, ROOT,
+    GLASS, ROME, SATELLITE, LEAD, OPERA, CLIFF]
+  pos: [CAPITAL, NUT, LAB, PLATE, SPIDER, DEATH, MARCH, HONEY, PLOT]
+- guesses:
+  - clue: GARDEN
+    guesses: [SLUG, ROSE]
+    num: 2
+  - clue: PETALS
+    guesses: [ROSE]
+    num: 1
+  neg: [MOON, NAIL, GREECE, GHOST, STATE, COVER]
+  pos: [ROSE, SLUG]
+- guesses:
+  - clue: ADVENTURE
+    guesses: [SMUGGLER, EGYPT, STAR, FIELD, ALPS, AFRICA]
+    num: 6
+  - clue: SKYDIVING
+    guesses: [PARACHUTE, TOWER]
+    num: 2
+  - clue: SKY
+    guesses: [STAR, PARACHUTE]
+    num: 2
+  neg: [WAKE, SOLDIER, WAR, BACK, HOSPITAL, CZECH, CASINO, BRUSH, ROULETTE, JACK,
+    TOWER, PORT, BED, SMUGGLER, AFRICA, ROSE]
+  pos: [BOND, FIELD, ALPS, PARACHUTE, WORM, FORK, HOOK, EGYPT, STAR]
+- guesses:
+  - clue: AFTERLIFE
+    guesses: [SOUL, DEATH, PART]
+    num: 3
+  - clue: DINNER
+    guesses: [ICE CREAM, TABLE, DUCK, HONEY, MAPLE, PIE, DAY, SOUL]
+    num: 8
+  - clue: LIFE
+    guesses: [SOUL, DEATH, SCIENTIST, FORCE]
+    num: 4
+  neg: [PIE, NAIL, SCIENTIST, MOUNT, PIN, GAS, FLUTE, HORSESHOE, MAPLE, REVOLUTION,
+    BEAT, FORCE, GRASS, THUMB, LOCH NESS, HIMALAYAS]
+  pos: [SOUL, DAY, PART, DEATH, HONEY, TABLE, ICE CREAM, SPACE, DUCK]
+- guesses:
+  - clue: LAW
+    guesses: [POLICE, SUPERHERO]
+    num: 2
+  - clue: NYPD
+    guesses: [FORCE, POLICE]
+    num: 2
+  - clue: SECURITY
+    guesses: [POLICE, FORCE]
+    num: 2
+  neg: [PART, KIWI, DIAMOND, ENGINE, SUPERHERO, PIRATE]
+  pos: [POLICE, FORCE]
+- guesses:
+  - clue: BARK
+    guesses: [SEAL, SOUND]
+    num: 2
+  - clue: BREATH
+    guesses: [MOUTH, AIR]
+    num: 2
+  - clue: NAVY
+    guesses: [MISSILE, SPY, YARD, SEAL, PLATYPUS, LIGHT]
+    num: 6
+  neg: [COLD, ORANGE, LIGHT, PRINCESS, BELT, MATCH, JAM, BED, ROCK, PLATYPUS, MISSILE,
+    DAY, FOREST, TORCH, STRAW, ORGAN]
+  pos: [SEAL, SOUND, FORK, AIR, SPY, YARD, MARCH, MOUTH, CHURCH]
+- guesses:
+  - clue: ORBIT
+    guesses: [SATELLITE]
+    num: 1
+  - clue: ORBIT
+    guesses: [SATELLITE, CENTER]
+    num: 2
+  - clue: SPACECRAFT
+    guesses: [SATELLITE]
+    num: 1
+  - clue: SPACE
+    guesses: [SATELLITE]
+    num: 1
+  neg: [CENTER, SUPERHERO, SPINE, DANCE, PLOT, BLOCK]
+  pos: [SATELLITE, HOOK]
+- guesses:
+  - clue: DELIVER
+    guesses: [PORT, MAIL]
+    num: 2
+  - clue: MONTH
+    guesses: [MARCH]
+    num: 1
+  - clue: PARADE
+    guesses: [MARCH]
+    num: 1
+  neg: [PORT, WIND, LION, GREECE, FALL, GLOVE]
+  pos: [MARCH, MAIL]
+- guesses:
+  - clue: EIFFEL
+    guesses: [FRANCE, SKYSCRAPER]
+    num: 2
+  - clue: EUROPE
+    guesses: ['']
+    num: 2
+  neg: [SOLDIER, SATURN, CODE, WAKE, SLUG, COLD, AMERICA, REVOLUTION, SHIP, PLATYPUS,
+    COMPOUND, LEPRECHAUN, CARD, GRASS, AMBULANCE, DICE]
+  pos: [MAIL, STRING, STRIKE, BEAR, GREECE, POISON, PLASTIC, SKYSCRAPER, FRANCE]
+- guesses:
+  - clue: BUILDING
+    guesses: [LAB, HOSPITAL, SCHOOL]
+    num: 3
+  - clue: NURSE
+    guesses: [HOSPITAL, LAB]
+    num: 2
+  - clue: PATIENT
+    guesses: [HOSPITAL, LAB]
+    num: 2
+  neg: [CHICK, SCHOOL, NEW YORK, ENGINE, MARBLE, HOLE, MARCH, BOX, GREECE, HELICOPTER,
+    FENCE, SHARK, SCREEN, NIGHT, BATTERY, LONDON]
+  pos: [LAB, ROME, SINK, BALL, SERVER, DRAFT, HOSPITAL, STAR, CROSS]
+- guesses:
+  - clue: COMPUTER
+    guesses: [SCREEN, SCHOOL]
+    num: 2
+  - clue: EXCHANGE
+    guesses: [STOCK]
+    num: 1
+  - clue: MONEY
+    guesses: [STOCK]
+    num: 1
+  - clue: SHARES
+    guesses: [STOCK, WATCH]
+    num: 2
+  neg: [WATCH, LOG, SCHOOL, EGYPT, SPINE, ROME]
+  pos: [STOCK, SCREEN]
+- guesses:
+  - clue: BEAK
+    guesses: [MOUTH, PENGUIN]
+    num: 2
+  neg: [FLUTE, CHECK, KNIGHT, FOOT, ROW, IRON]
+  pos: [MOUTH, PENGUIN]
+- guesses:
+  - clue: DINING
+    guesses: [FORK, FRANCE]
+    num: 2
+  - clue: OBJECT
+    guesses: [BAT, FORK, PIANO, MOUSE, BUGLE, GLASS, MOUNT, COVER, SINK]
+    num: 9
+  - clue: VIOLIN
+    guesses: [PIANO, CONCERT]
+    num: 2
+  neg: [TOOTH, FRANCE, REVOLUTION, SPOT, MOON, SINK, COVER, MOUSE, FIGURE, BAT, BUGLE,
+    AMAZON, AIR, VET, PRINCESS, ROULETTE]
+  pos: [MOUNT, CONCERT, GLASS, FORK, PYRAMID, PIANO, CALF, AGENT, SNOWMAN]
+- guesses:
+  - clue: DIRECTOR
+    guesses: [BOARD]
+    num: 1
+  - clue: DIRECTOR
+    guesses: [DOCTOR, BOARD]
+    num: 2
+  - clue: HOSPITAL
+    guesses: [DOCTOR]
+    num: 1
+  - clue: MEDICAL
+    guesses: [DOCTOR, ANGEL]
+    num: 2
+  - clue: STRETCHER
+    guesses: [BOARD, DOCTOR]
+    num: 2
+  neg: [OLYMPUS, RACKET, OIL, TABLET, ANGEL, STADIUM]
+  pos: [DOCTOR, BOARD]
+- guesses:
+  - clue: BATTLEFIELD
+    guesses: [MISSILE, WAR, FIELD]
+    num: 3
+  - clue: BATTLEFIELD
+    guesses: [FIELD, PLANE, MISSILE, WAR, BEIJING, WATCH, EGYPT, ALIEN, POINT]
+    num: 9
+  - clue: BATTLESHIP
+    guesses: [WAR, SINK, MISSILE]
+    num: 3
+  neg: [SKYSCRAPER, CONTRACT, TAP, LEPRECHAUN, BEIJING, CRICKET, SCIENTIST, ALIEN,
+    HAND, PLANE, PRESS, MAPLE, EGYPT, WATCH, MAIL, POST]
+  pos: [NOTE, HEART, HOTEL, DAY, MISSILE, SINK, POINT, FIELD, WAR]
+- guesses:
+  - clue: INVESTIGATION
+    guesses: [POLICE, PLOT]
+    num: 2
+  - clue: LAW
+    guesses: [POLICE, GRACE]
+    num: 2
+  - clue: TERRORIST
+    guesses: [POLICE, PLOT]
+    num: 2
+  neg: [GRACE, LITTER, GAME, TABLE, MOSCOW, LASER]
+  pos: [PLOT, POLICE]
+- guesses:
+  - clue: INVISIBLE
+    guesses: [CLOAK]
+    num: 1
+  - clue: RUPEE
+    guesses: [BANK, INDIA]
+    num: 2
+  - clue: THINGS
+    guesses: [CLOAK, JAM, SHOP, FILE, DECK, BOW, CLUB, BED, SQUARE]
+    num: 9
+  neg: [GROUND, JAM, NIGHT, CLUB, BED, LUCK, CASINO, HAND, TICK, MOLE, PORT, FILE,
+    SHOP, DECK, FOREST, SQUARE]
+  pos: [BOW, CLOAK, INDIA, PILOT, FISH, PALM, BANK, DINOSAUR, VAN]
+- guesses:
+  - clue: JAPAN
+    guesses: [TOKYO]
+    num: 1
+  - clue: JAPAN
+    guesses: [TOKYO, WATER]
+    num: 2
+  - clue: TRAFFIC
+    guesses: [TOKYO, JAM]
+    num: 2
+  neg: [COURT, SHAKESPEARE, WATER, DISEASE, OLIVE, NURSE]
+  pos: [TOKYO, JAM]
+- guesses:
+  - clue: AIRPLANE
+    guesses: [FLY, COVER]
+    num: 2
+  - clue: ROBIN
+    guesses: [HOOD, FLY]
+    num: 2
+  neg: [CHINA, NOTE, SHARK, DWARF, QUEEN, COVER]
+  pos: [FLY, HOOD]
+- guesses:
+  - clue: DUBSTEP
+    guesses: [DROP, CLUB]
+    num: 2
+  - clue: HAMMER
+    guesses: [NAIL, SWING]
+    num: 2
+  - clue: STRIP
+    guesses: [CLUB, SWING, BELT, PIPE, CHEST, WIND]
+    num: 6
+  neg: [PISTOL, BELT, NUT, DEGREE, SOUL, CHEST, DUCK, FOREST, DRILL, MODEL, BARK,
+    NEW YORK, MOLE, INDIA, PIPE, SWING]
+  pos: [DROP, HOLLYWOOD, CLUB, BANK, WIND, NAIL, CONTRACT, IVORY, ROW]
+- guesses:
+  - clue: BORE
+    guesses: [DRILL, MARBLE]
+    num: 2
+  - clue: HOLE
+    guesses: [DRILL, FOOT]
+    num: 2
+  - clue: TRASH
+    guesses: [LITTER]
+    num: 1
+  neg: [BOLT, DINOSAUR, FOOT, MAPLE, MARBLE, WEB]
+  pos: [LITTER, DRILL]
+- guesses:
+  - clue: CINEMA
+    guesses: [FILM]
+    num: 1
+  - clue: CINEMA
+    guesses: [FILM, STREAM]
+    num: 2
+  - clue: DISC
+    guesses: [FILM, TRACK]
+    num: 2
+  - clue: REEL
+    guesses: [TRACK, FILM]
+    num: 2
+  neg: [STREAM, KETCHUP, FOREST, FLUTE, SATELLITE, AZTEC]
+  pos: [FILM, TRACK]
+- guesses:
+  - clue: AIRCRAFT
+    guesses: [PILOT, CROSS]
+    num: 2
+  - clue: AVIATION
+    guesses: [PILOT, CROSS]
+    num: 2
+  - clue: LIGHT
+    guesses: [LASER, RING]
+    num: 2
+  - clue: PLANE
+    guesses: [PILOT]
+    num: 1
+  - clue: TECHNOLOGY
+    guesses: [LASER, PILOT]
+    num: 2
+  neg: [MAMMOTH, UNDERTAKER, RING, BILL, SHOT, CROSS]
+  pos: [PILOT, LASER]
+- guesses:
+  - clue: BATTLE
+    guesses: [KNIGHT, BOMB, STRIKE]
+    num: 3
+  - clue: BOWLING
+    guesses: [TRACK, SLIP, STRIKE, CHECK, SUIT, DICE, TAG]
+    num: 7
+  - clue: CHESS
+    guesses: [CHECK, KNIGHT]
+    num: 2
+  neg: [TRACK, AMBULANCE, ATLANTIS, SUIT, DICE, COLD, ORGAN, AFRICA, DINOSAUR, GREECE,
+    SLIP, CRANE, KANGAROO, FENCE, HAWK, PIPE]
+  pos: [STRIKE, DAY, ANGEL, KNIGHT, CHECK, TAG, DRAFT, BOMB, TURKEY]
+- guesses:
+  - clue: DELIVER
+    guesses: [MAIL]
+    num: 1
+  - clue: ENVELOPE
+    guesses: [MAIL]
+    num: 1
+  - clue: MULTIPLAYER
+    guesses: [GAME, STATE]
+    num: 2
+  - clue: PLAY
+    guesses: [GAME, STATE]
+    num: 2
+  - clue: POSTMAN
+    guesses: [MAIL, STATE]
+    num: 2
+  neg: [IVORY, WATER, EGYPT, CHAIR, STATE, LITTER]
+  pos: [MAIL, GAME]
+- guesses:
+  - clue: KERATIN
+    guesses: [HORN, SCALE]
+    num: 2
+  - clue: MOBY-DICK
+    guesses: [WAKE, ATLANTIS, NOVEL, SCALE, STAR, DOG, ENGLAND]
+    num: 7
+  - clue: PETROLEUM
+    guesses: [OIL]
+    num: 1
+  neg: [BARK, EMBASSY, BAT, KNIGHT, RULER, CRICKET, PASTE, KID, ROBIN, SOCK, ENGLAND,
+    POLE, OLYMPUS, WHIP, APPLE, REVOLUTION]
+  pos: [OIL, DOG, STAR, SCALE, HORN, SPY, WAKE, ATLANTIS, NOVEL]
+- guesses:
+  - clue: ARROW
+    guesses: [POINT, EYE]
+    num: 2
+  - clue: BOXER
+    guesses: [FIGHTER, ROUND]
+    num: 2
+  - clue: BOXING
+    guesses: [FIGHTER, ROUND]
+    num: 2
+  - clue: JET
+    guesses: [FIGHTER]
+    num: 1
+  - clue: SWORD
+    guesses: [FIGHTER, POINT]
+    num: 2
+  neg: [CRICKET, ROUND, OLIVE, DRESS, CAPITAL, EYE]
+  pos: [FIGHTER, POINT]
+- guesses:
+  - clue: CLEANING
+    guesses: [NURSE, LITTER]
+    num: 2
+  - clue: TENNIS
+    guesses: [RACKET]
+    num: 1
+  - clue: TENNIS
+    guesses: [RACKET, TEACHER]
+    num: 2
+  - clue: TRASH
+    guesses: [LITTER, SPACE]
+    num: 2
+  neg: [SPACE, TEACHER, BUG, MOLE, NURSE, GLASS]
+  pos: [RACKET, LITTER]
+- guesses:
+  - clue: ROYALTY
+    guesses: [PRINCESS]
+    num: 1
+  - clue: SNOWWHITE
+    guesses: [PRINCESS, WITCH, FRANCE, STAFF, SOLDIER, SHOP, MATCH]
+    num: 7
+  - clue: WOMAN
+    guesses: [PRINCESS, WITCH]
+    num: 2
+  neg: [BUTTON, SOLDIER, LEMON, SHOP, TOKYO, MISSILE, STAFF, CONDUCTOR, TABLE, RACKET,
+    VAN, GRACE, AZTEC, TIME, WAKE, MILLIONAIRE]
+  pos: [PRINCESS, SPOT, POUND, APPLE, PYRAMID, FRANCE, WITCH, MATCH, CAST]
+- guesses:
+  - clue: AQUIFER
+    guesses: [WELL, GROUND]
+    num: 2
+  - clue: MAPLE
+    guesses: [FOREST, CANADA, JAM]
+    num: 3
+  - clue: ROBIN
+    guesses: [RABBIT, CRICKET, PENGUIN, CHICK, HOOD, FOREST]
+    num: 6
+  neg: [CHICK, FILE, LITTER, SPACE, NIGHT, CRICKET, RABBIT, STADIUM, SATELLITE, COVER,
+    STOCK, GAME, DECK, SWITCH, JACK, PENGUIN]
+  pos: [PART, WELL, HOOD, FOREST, ROULETTE, COLD, JAM, CANADA, GROUND]

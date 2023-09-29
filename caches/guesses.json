@@ -1,0 +1,832 @@
+{
+    "AMAZON,IRON_POLE,RING,FLUTE,COLD,HAND,LIMOUSINE": {
+        "JUNGLE_1": [
+            "AMAZON"
+        ],
+        "JUNGLE_2": [
+            "AMAZON",
+            "FLUTE"
+        ],
+        "STEEL_1": [
+            "IRON"
+        ]
+    },
+    "HEART,PILOT,FOOT,PLANE,LITTER,SNOWMAN,BERLIN,AUSTRALIA,SOCK_HOOD,IRON,INDIA,TURKEY,RACKET,MAPLE,RULER,SINK,LONDON,BELT,HELICOPTER,VACUUM,MAIL,DAY,HOLE,EAGLE": {
+        "COLD_5": [
+            "SNOWMAN",
+            "VACUUM",
+            "SOCK",
+            "LONDON",
+            "HOOD"
+        ],
+        "KANGAROO_2": [
+            "AUSTRALIA",
+            "FOOT"
+        ],
+        "LUFTWAFFE_3": [
+            "PLANE",
+            "BERLIN",
+            "PILOT"
+        ]
+    },
+    "KING,PLOT_CRANE,SCREEN,SHARK,TICK,BERMUDA,ORGAN": {
+        "REGICIDE_2": [
+            "PLOT",
+            "KING"
+        ],
+        "THRONE_1": [
+            "KING"
+        ],
+        "THRONE_2": [
+            "KING",
+            "PLOT"
+        ]
+    },
+    "PORT,ORANGE_TRIP,RACKET,TORCH,THEATER,HOLLYWOOD,LOG": {
+        "APPLE_1": [
+            "ORANGE"
+        ],
+        "CITRUS_1": [
+            "ORANGE"
+        ],
+        "CITRUS_2": [
+            "ORANGE",
+            "TRIP"
+        ],
+        "FRUIT_1": [
+            "ORANGE"
+        ],
+        "FRUIT_2": [
+            "ORANGE",
+            "LOG"
+        ],
+        "HARBOR_1": [
+            "PORT"
+        ]
+    },
+    "COMIC,EMBASSY_BOARD,BUFFALO,PLATE,LASER,WAVE,ANTARCTICA": {
+        "DIPLOMACY_2": [
+            "EMBASSY",
+            "ANTARCTICA"
+        ],
+        "DIPLOMAT_1": [
+            "EMBASSY"
+        ],
+        "HUMOR_1": [
+            "COMIC"
+        ]
+    },
+    "SINK,HELICOPTER_FENCE,LIGHT,GERMANY,TOWER,STREAM,BAND": {
+        "DRAINAGE_2": [
+            "SINK",
+            "STREAM"
+        ],
+        "FLIGHT_2": [
+            "HELICOPTER",
+            "LIGHT"
+        ],
+        "FLY_1": [
+            "HELICOPTER"
+        ],
+        "PLUMBING_1": [
+            "SINK"
+        ],
+        "ROTOR_1": [
+            "HELICOPTER"
+        ]
+    },
+    "SWING,APPLE,ROW,SPOT,BEAT,SLIP,GHOST,MASS,DINOSAUR_DECK,CAST,LEPRECHAUN,BOTTLE,TRIP,BED,CHICK,RING,MINE,TRUNK,SHOP,TICK,PUMPKIN,BATTERY,LAB,HOSPITAL": {
+        "NEWTON_2": [
+            "MASS",
+            "APPLE"
+        ],
+        "PLAYGROUND_4": [
+            "SWING",
+            "SLIP",
+            "SPOT",
+            "DECK"
+        ],
+        "POLKA_3": [
+            "BEAT",
+            "SWING",
+            "SPOT"
+        ]
+    },
+    "TABLET,UNICORN_PLAY,KING,HELICOPTER,LAB,PIE,DUCK": {
+        "FANTASY_1": [
+            "UNICORN"
+        ],
+        "HORSE_1": [
+            "UNICORN"
+        ],
+        "MYTHICAL_1": [
+            "UNICORN"
+        ],
+        "MYTHICAL_2": [
+            "UNICORN",
+            "KING"
+        ]
+    },
+    "COOK,CHARGE,MISSILE,BALL,LITTER,BATTERY,CARROT,LEPRECHAUN,TAG_LONDON,ENGLAND,SCHOOL,DWARF,BAR,PRESS,AUSTRALIA,NEEDLE,YARD,BOTTLE,BAT,HOTEL,SHOE,ANGEL,MOON,FALL": {
+        "ELECTRONIC_3": [
+            "CHARGE",
+            "MISSILE",
+            "BATTERY"
+        ],
+        "ENERGY_4": [
+            "BATTERY",
+            "CHARGE",
+            "AUSTRALIA",
+            "FALL"
+        ],
+        "RABBIT_2": [
+            "CARROT",
+            "LITTER"
+        ]
+    },
+    "GLOVE,GLASS_GIANT,HOTEL,TAG,ATLANTIS,JET,HOSPITAL": {
+        "HANDHELD_2": [
+            "GLOVE",
+            "GLASS"
+        ],
+        "HANDWEAR_1": [
+            "GLOVE"
+        ],
+        "HAND_1": [
+            "GLOVE"
+        ],
+        "INSULATION_2": [
+            "GLOVE",
+            "GLASS"
+        ],
+        "LEATHER_1": [
+            "GLOVE"
+        ],
+        "TRANSPARENT_1": [
+            "GLASS"
+        ],
+        "TRANSPARENT_2": [
+            "GLASS",
+            "HOTEL"
+        ]
+    },
+    "GHOST,AMBULANCE,ROUND,UNDERTAKER,WATCH,TOOTH,POLE,MOUTH,SNOW_WASHINGTON,MINE,LASER,MOLE,FIELD,STADIUM,EGYPT,TRUNK,GLASS,PYRAMID,COMIC,LIGHT,GROUND,KNIFE,DANCE,CAP": {
+        "ARCTIC_2": [
+            "POLE",
+            "SNOW"
+        ],
+        "CIRCLE_3": [
+            "ROUND",
+            "STADIUM",
+            "WATCH"
+        ],
+        "WHITE_3": [
+            "SNOW",
+            "TOOTH",
+            "GHOST"
+        ]
+    },
+    "DAY,PITCH,CYCLE,GREEN,PLOT,BOLT,FISH,GLOVE,MOLE_LION,THIEF,STAFF,CLIFF,TOKYO,DIAMOND,BEAR,ARM,POINT,WASHINGTON,HORSESHOE,HOLE,TELESCOPE,AIR,COPPER,TABLET": {
+        "CATCH_2": [
+            "PITCH",
+            "GLOVE"
+        ],
+        "GARDEN_3": [
+            "PLOT",
+            "GREEN",
+            "GLOVE"
+        ],
+        "GRASS_5": [
+            "GREEN",
+            "PLOT",
+            "WASHINGTON",
+            "LION",
+            "HOLE"
+        ]
+    },
+    "THIEF,CROSS_STRIKE,NIGHT,POUND,HORSESHOE,BOLT,MOUTH": {
+        "BURGLAR_2": [
+            "THIEF",
+            "NIGHT"
+        ],
+        "CRUCIFIX_1": [
+            "CROSS"
+        ],
+        "STEAL_1": [
+            "THIEF"
+        ]
+    },
+    "CANADA,CHICK,DRAFT,STREAM,BOX,ORGAN,LEMON,GOLD,SKYSCRAPER_STICK,BOLT,CLUB,DRILL,WITCH,TEACHER,THUMB,HORN,WAVE,TRAIN,CAP,HOTEL,TIME,SINK,NINJA,MAMMOTH": {
+        "CONTAINER_9": [
+            "TRAIN",
+            "BOX",
+            "SKYSCRAPER",
+            "HOTEL",
+            "BOLT",
+            "SINK",
+            "ORGAN",
+            "HORN",
+            "GOLD"
+        ],
+        "COUNTRY_1": [
+            "CANADA"
+        ],
+        "YELLOW_2": [
+            "LEMON",
+            "GOLD"
+        ]
+    },
+    "BERMUDA,PALM_AMERICA,MINT,CHURCH,FORCE,BOTTLE,CRICKET": {
+        "BEACH_2": [
+            "PALM",
+            "BERMUDA"
+        ],
+        "ISLAND_2": [
+            "BERMUDA",
+            "PALM"
+        ],
+        "TROPICAL_2": [
+            "BERMUDA",
+            "PALM"
+        ],
+        "TROPICS_2": [
+            "BERMUDA",
+            "PALM"
+        ]
+    },
+    "IRON,HAWK,GLOVE,LITTER,FIELD,HOSPITAL,PASTE,HONEY,SHIP_CHOCOLATE,AGENT,CARROT,LIMOUSINE,SERVER,BUGLE,ALIEN,MOUNT,AFRICA,GLASS,CYCLE,KNIFE,GERMANY,SEAL,CHEST,ROOT": {
+        "BIRD_1": [
+            "HAWK"
+        ],
+        "CONTAINER_5": [
+            "CHEST",
+            "SERVER",
+            "GLASS",
+            "SEAL",
+            "IRON"
+        ],
+        "TITANIC_2": [
+            "IRON",
+            "SHIP"
+        ]
+    },
+    "VAN,FIELD,FISH,DRILL,NUT,PASS,DECK,VET,PITCH_ENGLAND,BELT,MARCH,FIGHTER,NIGHT,MINE,NAIL,PIRATE,PIN,THEATER,EYE,BARK,CARROT,SERVER,CROSS,CIRCLE": {
+        "BASEBALL_2": [
+            "FIELD",
+            "PITCH"
+        ],
+        "CARD_2": [
+            "DECK",
+            "PASS"
+        ],
+        "OUTDOOR_5": [
+            "FIELD",
+            "DECK",
+            "THEATER",
+            "VAN",
+            "FISH"
+        ]
+    },
+    "PIRATE,CAP,PILOT,FORK,COTTON,PANTS,SPACE,GOLD,CRICKET_JAM,DEGREE,EMBASSY,BOOT,BOLT,ALPS,BRUSH,EYE,BEACH,ORANGE,WITCH,CALF,BOTTLE,MASS,DICE,HOLE": {
+        "CAPTAIN_5": [
+            "CAP",
+            "SPACE",
+            "PIRATE",
+            "PILOT",
+            "BOOT"
+        ],
+        "FABRIC_3": [
+            "COTTON",
+            "PANTS",
+            "CAP"
+        ],
+        "TREASURE_2": [
+            "GOLD",
+            "PIRATE"
+        ]
+    },
+    "SNOW,PART,CYCLE,HEAD,SLUG,SHAKESPEARE,ALPS,TAIL,CROSS_BUCK,DINOSAUR,DOCTOR,CRASH,GENIUS,DRAFT,COMPOUND,BOOM,EGYPT,PIT,CHURCH,BOND,QUEEN,JAM,LUCK,PORT": {
+        "MOUNTAIN_2": [
+            "SNOW",
+            "ALPS"
+        ],
+        "WINTER_2": [
+            "SNOW",
+            "CYCLE"
+        ]
+    },
+    "KING,TUBE,UNICORN,WAR,TRACK,TRIP,TAG,JUPITER,DRAGON_SPACE,SATELLITE,LEMON,BEACH,COLD,SPINE,SCUBA DIVER,BOW,SPRING,NOTE,GIANT,PILOT,BUTTON,CAT,PLOT,BERLIN": {
+        "FANTASY_4": [
+            "DRAGON",
+            "UNICORN",
+            "KING",
+            "GIANT"
+        ],
+        "MYTHICAL_2": [
+            "UNICORN",
+            "DRAGON"
+        ],
+        "MYTHOLOGY_4": [
+            "JUPITER",
+            "DRAGON",
+            "UNICORN",
+            "KING"
+        ]
+    },
+    "CAPITAL,NUT,LAB,PLATE,SPIDER,DEATH,MARCH,HONEY,PLOT_BUFFALO,SUPERHERO,CROSS,HOLLYWOOD,THUMB,DUCK,LIFE,SMUGGLER,FILM,ROOT,GLASS,ROME,SATELLITE,LEAD,OPERA,CLIFF": {
+        "ALMOND_2": [
+            "NUT",
+            "PLATE"
+        ],
+        "BEE_5": [
+            "HONEY",
+            "MARCH",
+            "DEATH",
+            "SPIDER",
+            "LAB"
+        ],
+        "SNACK_3": [
+            "PLATE",
+            "HONEY",
+            "NUT"
+        ]
+    },
+    "ROSE,SLUG_MOON,NAIL,GREECE,GHOST,STATE,COVER": {
+        "GARDEN_2": [
+            "SLUG",
+            "ROSE"
+        ],
+        "PETALS_1": [
+            "ROSE"
+        ]
+    },
+    "BOND,FIELD,ALPS,PARACHUTE,WORM,FORK,HOOK,EGYPT,STAR_WAKE,SOLDIER,WAR,BACK,HOSPITAL,CZECH,CASINO,BRUSH,ROULETTE,JACK,TOWER,PORT,BED,SMUGGLER,AFRICA,ROSE": {
+        "ADVENTURE_6": [
+            "SMUGGLER",
+            "EGYPT",
+            "STAR",
+            "FIELD",
+            "ALPS",
+            "AFRICA"
+        ],
+        "SKYDIVING_2": [
+            "PARACHUTE",
+            "TOWER"
+        ],
+        "SKY_2": [
+            "STAR",
+            "PARACHUTE"
+        ]
+    },
+    "SOUL,DAY,PART,DEATH,HONEY,TABLE,ICE CREAM,SPACE,DUCK_PIE,NAIL,SCIENTIST,MOUNT,PIN,GAS,FLUTE,HORSESHOE,MAPLE,REVOLUTION,BEAT,FORCE,GRASS,THUMB,LOCH NESS,HIMALAYAS": {
+        "AFTERLIFE_3": [
+            "SOUL",
+            "DEATH",
+            "PART"
+        ],
+        "DINNER_8": [
+            "ICE CREAM",
+            "TABLE",
+            "DUCK",
+            "HONEY",
+            "MAPLE",
+            "PIE",
+            "DAY",
+            "SOUL"
+        ],
+        "LIFE_4": [
+            "SOUL",
+            "DEATH",
+            "SCIENTIST",
+            "FORCE"
+        ]
+    },
+    "POLICE,FORCE_PART,KIWI,DIAMOND,ENGINE,SUPERHERO,PIRATE": {
+        "LAW_2": [
+            "POLICE",
+            "SUPERHERO"
+        ],
+        "NYPD_2": [
+            "FORCE",
+            "POLICE"
+        ],
+        "SECURITY_2": [
+            "POLICE",
+            "FORCE"
+        ]
+    },
+    "SEAL,SOUND,FORK,AIR,SPY,YARD,MARCH,MOUTH,CHURCH_COLD,ORANGE,LIGHT,PRINCESS,BELT,MATCH,JAM,BED,ROCK,PLATYPUS,MISSILE,DAY,FOREST,TORCH,STRAW,ORGAN": {
+        "BARK_2": [
+            "SEAL",
+            "SOUND"
+        ],
+        "BREATH_2": [
+            "MOUTH",
+            "AIR"
+        ],
+        "NAVY_6": [
+            "MISSILE",
+            "SPY",
+            "YARD",
+            "SEAL",
+            "PLATYPUS",
+            "LIGHT"
+        ]
+    },
+    "SATELLITE,HOOK_CENTER,SUPERHERO,SPINE,DANCE,PLOT,BLOCK": {
+        "ORBIT_1": [
+            "SATELLITE"
+        ],
+        "ORBIT_2": [
+            "SATELLITE",
+            "CENTER"
+        ],
+        "SPACECRAFT_1": [
+            "SATELLITE"
+        ],
+        "SPACE_1": [
+            "SATELLITE"
+        ]
+    },
+    "MARCH,MAIL_PORT,WIND,LION,GREECE,FALL,GLOVE": {
+        "DELIVER_2": [
+            "PORT",
+            "MAIL"
+        ],
+        "MONTH_1": [
+            "MARCH"
+        ],
+        "PARADE_1": [
+            "MARCH"
+        ]
+    },
+    "MAIL,STRING,STRIKE,BEAR,GREECE,POISON,PLASTIC,SKYSCRAPER,FRANCE_SOLDIER,SATURN,CODE,WAKE,SLUG,COLD,AMERICA,REVOLUTION,SHIP,PLATYPUS,COMPOUND,LEPRECHAUN,CARD,GRASS,AMBULANCE,DICE": {
+        "EIFFEL_2": [
+            "FRANCE",
+            "SKYSCRAPER"
+        ],
+        "EUROPE_2": [
+            ""
+        ]
+    },
+    "LAB,ROME,SINK,BALL,SERVER,DRAFT,HOSPITAL,STAR,CROSS_CHICK,SCHOOL,NEW YORK,ENGINE,MARBLE,HOLE,MARCH,BOX,GREECE,HELICOPTER,FENCE,SHARK,SCREEN,NIGHT,BATTERY,LONDON": {
+        "BUILDING_3": [
+            "LAB",
+            "HOSPITAL",
+            "SCHOOL"
+        ],
+        "NURSE_2": [
+            "HOSPITAL",
+            "LAB"
+        ],
+        "PATIENT_2": [
+            "HOSPITAL",
+            "LAB"
+        ]
+    },
+    "STOCK,SCREEN_WATCH,LOG,SCHOOL,EGYPT,SPINE,ROME": {
+        "COMPUTER_2": [
+            "SCREEN",
+            "SCHOOL"
+        ],
+        "EXCHANGE_1": [
+            "STOCK"
+        ],
+        "MONEY_1": [
+            "STOCK"
+        ],
+        "SHARES_2": [
+            "STOCK",
+            "WATCH"
+        ]
+    },
+    "MOUTH,PENGUIN_FLUTE,CHECK,KNIGHT,FOOT,ROW,IRON": {
+        "BEAK_2": [
+            "MOUTH",
+            "PENGUIN"
+        ]
+    },
+    "MOUNT,CONCERT,GLASS,FORK,PYRAMID,PIANO,CALF,AGENT,SNOWMAN_TOOTH,FRANCE,REVOLUTION,SPOT,MOON,SINK,COVER,MOUSE,FIGURE,BAT,BUGLE,AMAZON,AIR,VET,PRINCESS,ROULETTE": {
+        "DINING_2": [
+            "FORK",
+            "FRANCE"
+        ],
+        "OBJECT_9": [
+            "BAT",
+            "FORK",
+            "PIANO",
+            "MOUSE",
+            "BUGLE",
+            "GLASS",
+            "MOUNT",
+            "COVER",
+            "SINK"
+        ],
+        "VIOLIN_2": [
+            "PIANO",
+            "CONCERT"
+        ]
+    },
+    "DOCTOR,BOARD_OLYMPUS,RACKET,OIL,TABLET,ANGEL,STADIUM": {
+        "DIRECTOR_1": [
+            "BOARD"
+        ],
+        "DIRECTOR_2": [
+            "DOCTOR",
+            "BOARD"
+        ],
+        "HOSPITAL_1": [
+            "DOCTOR"
+        ],
+        "MEDICAL_2": [
+            "DOCTOR",
+            "ANGEL"
+        ],
+        "STRETCHER_2": [
+            "BOARD",
+            "DOCTOR"
+        ]
+    },
+    "NOTE,HEART,HOTEL,DAY,MISSILE,SINK,POINT,FIELD,WAR_SKYSCRAPER,CONTRACT,TAP,LEPRECHAUN,BEIJING,CRICKET,SCIENTIST,ALIEN,HAND,PLANE,PRESS,MAPLE,EGYPT,WATCH,MAIL,POST": {
+        "BATTLEFIELD_3": [
+            "MISSILE",
+            "WAR",
+            "FIELD"
+        ],
+        "BATTLEFIELD_9": [
+            "FIELD",
+            "PLANE",
+            "MISSILE",
+            "WAR",
+            "BEIJING",
+            "WATCH",
+            "EGYPT",
+            "ALIEN",
+            "POINT"
+        ],
+        "BATTLESHIP_3": [
+            "WAR",
+            "SINK",
+            "MISSILE"
+        ]
+    },
+    "PLOT,POLICE_GRACE,LITTER,GAME,TABLE,MOSCOW,LASER": {
+        "INVESTIGATION_2": [
+            "POLICE",
+            "PLOT"
+        ],
+        "LAW_2": [
+            "POLICE",
+            "GRACE"
+        ],
+        "TERRORIST_2": [
+            "POLICE",
+            "PLOT"
+        ]
+    },
+    "BOW,CLOAK,INDIA,PILOT,FISH,PALM,BANK,DINOSAUR,VAN_GROUND,JAM,NIGHT,CLUB,BED,LUCK,CASINO,HAND,TICK,MOLE,PORT,FILE,SHOP,DECK,FOREST,SQUARE": {
+        "INVISIBLE_1": [
+            "CLOAK"
+        ],
+        "RUPEE_2": [
+            "BANK",
+            "INDIA"
+        ],
+        "THINGS_9": [
+            "CLOAK",
+            "JAM",
+            "SHOP",
+            "FILE",
+            "DECK",
+            "BOW",
+            "CLUB",
+            "BED",
+            "SQUARE"
+        ]
+    },
+    "TOKYO,JAM_COURT,SHAKESPEARE,WATER,DISEASE,OLIVE,NURSE": {
+        "JAPAN_1": [
+            "TOKYO"
+        ],
+        "JAPAN_2": [
+            "TOKYO",
+            "WATER"
+        ],
+        "TRAFFIC_2": [
+            "TOKYO",
+            "JAM"
+        ]
+    },
+    "FLY,HOOD_CHINA,NOTE,SHARK,DWARF,QUEEN,COVER": {
+        "AIRPLANE_2": [
+            "FLY",
+            "COVER"
+        ],
+        "ROBIN_2": [
+            "HOOD",
+            "FLY"
+        ]
+    },
+    "DROP,HOLLYWOOD,CLUB,BANK,WIND,NAIL,CONTRACT,IVORY,ROW_PISTOL,BELT,NUT,DEGREE,SOUL,CHEST,DUCK,FOREST,DRILL,MODEL,BARK,NEW YORK,MOLE,INDIA,PIPE,SWING": {
+        "DUBSTEP_2": [
+            "DROP",
+            "CLUB"
+        ],
+        "HAMMER_2": [
+            "NAIL",
+            "SWING"
+        ],
+        "STRIP_6": [
+            "CLUB",
+            "SWING",
+            "BELT",
+            "PIPE",
+            "CHEST",
+            "WIND"
+        ]
+    },
+    "LITTER,DRILL_BOLT,DINOSAUR,FOOT,MAPLE,MARBLE,WEB": {
+        "BORE_2": [
+            "DRILL",
+            "MARBLE"
+        ],
+        "HOLE_2": [
+            "DRILL",
+            "FOOT"
+        ],
+        "TRASH_1": [
+            "LITTER"
+        ]
+    },
+    "FILM,TRACK_STREAM,KETCHUP,FOREST,FLUTE,SATELLITE,AZTEC": {
+        "CINEMA_1": [
+            "FILM"
+        ],
+        "CINEMA_2": [
+            "FILM",
+            "STREAM"
+        ],
+        "DISC_2": [
+            "FILM",
+            "TRACK"
+        ],
+        "REEL_2": [
+            "TRACK",
+            "FILM"
+        ]
+    },
+    "PILOT,LASER_MAMMOTH,UNDERTAKER,RING,BILL,SHOT,CROSS": {
+        "AIRCRAFT_2": [
+            "PILOT",
+            "CROSS"
+        ],
+        "AVIATION_2": [
+            "PILOT",
+            "CROSS"
+        ],
+        "LIGHT_2": [
+            "LASER",
+            "RING"
+        ],
+        "PLANE_1": [
+            "PILOT"
+        ],
+        "TECHNOLOGY_2": [
+            "LASER",
+            "PILOT"
+        ]
+    },
+    "STRIKE,DAY,ANGEL,KNIGHT,CHECK,TAG,DRAFT,BOMB,TURKEY_TRACK,AMBULANCE,ATLANTIS,SUIT,DICE,COLD,ORGAN,AFRICA,DINOSAUR,GREECE,SLIP,CRANE,KANGAROO,FENCE,HAWK,PIPE": {
+        "BATTLE_3": [
+            "KNIGHT",
+            "BOMB",
+            "STRIKE"
+        ],
+        "BOWLING_7": [
+            "TRACK",
+            "SLIP",
+            "STRIKE",
+            "CHECK",
+            "SUIT",
+            "DICE",
+            "TAG"
+        ],
+        "CHESS_2": [
+            "CHECK",
+            "KNIGHT"
+        ]
+    },
+    "MAIL,GAME_IVORY,WATER,EGYPT,CHAIR,STATE,LITTER": {
+        "DELIVER_1": [
+            "MAIL"
+        ],
+        "ENVELOPE_1": [
+            "MAIL"
+        ],
+        "MULTIPLAYER_2": [
+            "GAME",
+            "STATE"
+        ],
+        "PLAY_2": [
+            "GAME",
+            "STATE"
+        ],
+        "POSTMAN_2": [
+            "MAIL",
+            "STATE"
+        ]
+    },
+    "OIL,DOG,STAR,SCALE,HORN,SPY,WAKE,ATLANTIS,NOVEL_BARK,EMBASSY,BAT,KNIGHT,RULER,CRICKET,PASTE,KID,ROBIN,SOCK,ENGLAND,POLE,OLYMPUS,WHIP,APPLE,REVOLUTION": {
+        "KERATIN_2": [
+            "HORN",
+            "SCALE"
+        ],
+        "MOBY-DICK_7": [
+            "WAKE",
+            "ATLANTIS",
+            "NOVEL",
+            "SCALE",
+            "STAR",
+            "DOG",
+            "ENGLAND"
+        ],
+        "PETROLEUM_1": [
+            "OIL"
+        ]
+    },
+    "FIGHTER,POINT_CRICKET,ROUND,OLIVE,DRESS,CAPITAL,EYE": {
+        "ARROW_2": [
+            "POINT",
+            "EYE"
+        ],
+        "BOXER_2": [
+            "FIGHTER",
+            "ROUND"
+        ],
+        "BOXING_2": [
+            "FIGHTER",
+            "ROUND"
+        ],
+        "JET_1": [
+            "FIGHTER"
+        ],
+        "SWORD_2": [
+            "FIGHTER",
+            "POINT"
+        ]
+    },
+    "RACKET,LITTER_SPACE,TEACHER,BUG,MOLE,NURSE,GLASS": {
+        "CLEANING_2": [
+            "NURSE",
+            "LITTER"
+        ],
+        "TENNIS_1": [
+            "RACKET"
+        ],
+        "TENNIS_2": [
+            "RACKET",
+            "TEACHER"
+        ],
+        "TRASH_2": [
+            "LITTER",
+            "SPACE"
+        ]
+    },
+    "PRINCESS,SPOT,POUND,APPLE,PYRAMID,FRANCE,WITCH,MATCH,CAST_BUTTON,SOLDIER,LEMON,SHOP,TOKYO,MISSILE,STAFF,CONDUCTOR,TABLE,RACKET,VAN,GRACE,AZTEC,TIME,WAKE,MILLIONAIRE": {
+        "ROYALTY_1": [
+            "PRINCESS"
+        ],
+        "SNOWWHITE_7": [
+            "PRINCESS",
+            "WITCH",
+            "FRANCE",
+            "STAFF",
+            "SOLDIER",
+            "SHOP",
+            "MATCH"
+        ],
+        "WOMAN_2": [
+            "PRINCESS",
+            "WITCH"
+        ]
+    },
+    "PART,WELL,HOOD,FOREST,ROULETTE,COLD,JAM,CANADA,GROUND_CHICK,FILE,LITTER,SPACE,NIGHT,CRICKET,RABBIT,STADIUM,SATELLITE,COVER,STOCK,GAME,DECK,SWITCH,JACK,PENGUIN": {
+        "AQUIFER_2": [
+            "WELL",
+            "GROUND"
+        ],
+        "MAPLE_3": [
+            "FOREST",
+            "CANADA",
+            "JAM"
+        ],
+        "ROBIN_6": [
+            "RABBIT",
+            "CRICKET",
+            "PENGUIN",
+            "CHICK",
+            "HOOD",
+            "FOREST"
+        ]
+    }
+}
