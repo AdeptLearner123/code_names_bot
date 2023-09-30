@@ -31,7 +31,7 @@ def main():
         clue = clue_item["clue"]
         num = len(clue_item["words"])
 
-        clue_item["guesses"] = generate_guess(clue_item["pos"], clue_item["neg"], clue, num)
+        clue_item["guesses"] = generate_guess(clue_item["pos"] + clue_item["neg"], clue, num)
         clues[scenario_id] = clue_item
     
     with open(clues_path, "w") as file:

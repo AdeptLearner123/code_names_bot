@@ -22,6 +22,8 @@ def get_scores(words, clue):
         return format_scores(cache_item["scores"]), cache_item["tokens"]
 
     system_msg = prompt.replace("###", clue)
+    words = sorted(words)
+    random.Random(0).shuffle(words)
     user_msg = get_words_msg(words)
     scores, tokens = get_completion_as_dict(system_msg, user_msg)
 

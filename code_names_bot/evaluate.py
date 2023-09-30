@@ -23,7 +23,7 @@ def evaluate(clues_name, mode):
     attempt_score = Counter()
     tokens = 0
 
-    for _, clue_scenario in clues.items():
+    for id, clue_scenario in clues.items():
         if mode == "count_neg":
             guesses = clue_scenario["guesses"]
             pos_count = sum([ word in clue_scenario["pos"] for word in guesses])

@@ -2,8 +2,6 @@ from code_names_bot.generator.proposal_generator import get_proposals
 from code_names_bot.generator.score_generator import get_scores
 from code_names_bot.util.dict import split_by_column
 
-import random
-
 def _get_max_neg_scores(scores, neg_words):
     return max([ scores[word] for word in neg_words ])
 
@@ -24,8 +22,6 @@ def _get_clue_scores(scores, clue_words, max_neg_score):
 def propose_score_clue(pos_words, neg_words):
     proposals, token_count = get_proposals(pos_words, neg_words, 5)
     words = pos_words + neg_words
-    random.Random(0).shuffle(words)
-
     proposal_scores = { proposal: get_scores(words, proposal) for proposal in proposals }
     proposal_scores, proposal_tokens = split_by_column(proposal_scores)
     proposal_max_neg = { proposal: _get_max_neg_scores(proposal_scores[proposal], neg_words) for proposal in proposals }

@@ -10,7 +10,7 @@ def get_scenario_key(pos_words, neg_words):
 
 
 def get_words_list_key(words):
-    return ",".join(words)
+    return ",".join(sorted(words))
 
 
 def get_cache(cache_name):
