@@ -15,7 +15,7 @@ def get_proposals(pos_words, neg_words, num):
         return cache_item["proposals"], cache_item["tokens"]
 
     scenario_str = get_scenario_str(pos_words, neg_words)
-    proposals, tokens = get_completion_as_word_list(prompt.replace("###", num), scenario_str)
+    proposals, tokens = get_completion_as_word_list(prompt.replace("###", str(num)), scenario_str)
 
     cache[scenario_key][str(num)] = {
         "proposals": proposals,
@@ -23,4 +23,4 @@ def get_proposals(pos_words, neg_words, num):
     }
     put_cache("proposals", cache)
 
-    return proposals
+    return proposals, tokens

@@ -19,8 +19,8 @@ def _get_clue_scores(scores, clue_words, max_neg_score):
     return len(clue_words), pos_neg_gap
 
 
-def propose_score_clue(pos_words, neg_words):
-    proposals, token_count = get_proposals(pos_words, neg_words, 5)
+def _propose_score_clue(pos_words, neg_words, propose_count):
+    proposals, token_count = get_proposals(pos_words, neg_words, propose_count)
     words = pos_words + neg_words
     proposal_scores = { proposal: get_scores(words, proposal) for proposal in proposals }
     proposal_scores, proposal_tokens = split_by_column(proposal_scores)
@@ -38,3 +38,11 @@ def propose_score_clue(pos_words, neg_words):
     }
 
     return clue, proposal_clue_words[clue], details
+
+
+def propose_5_score_clue(pos_words, neg_words):
+    return _propose_score_clue(pos_words, neg_words, 5)
+
+
+def propose_10_score_clue(pos_words, neg_words):
+    return _propose_score_clue(pos_words, neg_words, 10)

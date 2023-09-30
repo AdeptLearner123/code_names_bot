@@ -31,6 +31,10 @@
         "ANKLE_2": [
             "SOCK",
             "FOOT"
+        ],
+        "TOES_2": [
+            "FOOT",
+            "SOCK"
         ]
     },
     "BERMUDA,CRANE,KING,ORGAN,PLOT,SCREEN,SHARK,TICK": {
@@ -114,6 +118,10 @@
             "BEAT",
             "SWING",
             "SPOT"
+        ],
+        "PLAYGROUND_2": [
+            "SWING",
+            "TRIP"
         ]
     },
     "DUCK,HELICOPTER,KING,LAB,PIE,PLAY,TABLET,UNICORN": {
@@ -150,6 +158,13 @@
         "KITCHEN_2": [
             "COOK",
             "CARROT"
+        ],
+        "ENERGY_5": [
+            "BATTERY",
+            "CHARGE",
+            "PRESS",
+            "MISSILE",
+            "FALL"
         ]
     },
     "ATLANTIS,GIANT,GLASS,GLOVE,HOSPITAL,HOTEL,JET,TAG": {
@@ -196,6 +211,11 @@
         "DENTISTRY_2": [
             "MOUTH",
             "TOOTH"
+        ],
+        "FUNERAL_3": [
+            "UNDERTAKER",
+            "AMBULANCE",
+            "GHOST"
         ]
     },
     "AIR,ARM,BEAR,BOLT,CLIFF,COPPER,CYCLE,DAY,DIAMOND,FISH,GLOVE,GREEN,HOLE,HORSESHOE,LION,MOLE,PITCH,PLOT,POINT,STAFF,TABLET,TELESCOPE,THIEF,TOKYO,WASHINGTON": {
@@ -220,6 +240,10 @@
             "GLOVE",
             "MOLE",
             "PLOT"
+        ],
+        "BASEBALL_2": [
+            "GLOVE",
+            "PITCH"
         ]
     },
     "BOLT,CROSS,HORSESHOE,MOUTH,NIGHT,POUND,STRIKE,THIEF": {
@@ -255,6 +279,10 @@
         ],
         "BIRD_1": [
             "CHICK"
+        ],
+        "BLUEPRINT_2": [
+            "DRAFT",
+            "SKYSCRAPER"
         ]
     },
     "AMERICA,BERMUDA,BOTTLE,CHURCH,CRICKET,FORCE,MINT,PALM": {
@@ -310,6 +338,11 @@
             "THEATER",
             "VAN",
             "FISH"
+        ],
+        "OUTDOOR_3": [
+            "FIELD",
+            "FISH",
+            "DECK"
         ]
     },
     "ALPS,BEACH,BOLT,BOOT,BOTTLE,BRUSH,CALF,CAP,COTTON,CRICKET,DEGREE,DICE,EMBASSY,EYE,FORK,GOLD,HOLE,JAM,MASS,ORANGE,PANTS,PILOT,PIRATE,SPACE,WITCH": {
@@ -343,6 +376,11 @@
             "SLUG",
             "HEAD",
             "TAIL"
+        ],
+        "APPENDAGE_3": [
+            "TAIL",
+            "PART",
+            "HEAD"
         ]
     },
     "BEACH,BERLIN,BOW,BUTTON,CAT,COLD,DRAGON,GIANT,JUPITER,KING,LEMON,NOTE,PILOT,PLOT,SATELLITE,SCUBA DIVER,SPACE,SPINE,SPRING,TAG,TRACK,TRIP,TUBE,UNICORN,WAR": {
@@ -361,6 +399,11 @@
             "DRAGON",
             "UNICORN",
             "KING"
+        ],
+        "SUBWAY_3": [
+            "TRACK",
+            "BERLIN",
+            "TRIP"
         ]
     },
     "BUFFALO,CAPITAL,CLIFF,CROSS,DEATH,DUCK,FILM,GLASS,HOLLYWOOD,HONEY,LAB,LEAD,LIFE,MARCH,NUT,OPERA,PLATE,PLOT,ROME,ROOT,SATELLITE,SMUGGLER,SPIDER,SUPERHERO,THUMB": {
@@ -438,6 +481,10 @@
             "SOUL",
             "DEATH",
             "FORCE"
+        ],
+        "AFTERLIFE_2": [
+            "DEATH",
+            "SOUL"
         ]
     },
     "DIAMOND,ENGINE,FORCE,KIWI,PART,PIRATE,POLICE,SUPERHERO": {
@@ -470,6 +517,10 @@
             "SEAL",
             "PLATYPUS",
             "LIGHT"
+        ],
+        "BREATHE_2": [
+            "AIR",
+            "MOUTH"
         ]
     },
     "BLOCK,CENTER,DANCE,HOOK,PLOT,SATELLITE,SPINE,SUPERHERO": {
@@ -511,6 +562,11 @@
             "BEAR",
             "STRING",
             "AMERICA"
+        ],
+        "BOWLING_3": [
+            "STRIKE",
+            "PLASTIC",
+            "AMERICA"
         ]
     },
     "BALL,BATTERY,BOX,CHICK,CROSS,DRAFT,ENGINE,FENCE,GREECE,HELICOPTER,HOLE,HOSPITAL,LAB,LONDON,MARBLE,MARCH,NEW YORK,NIGHT,ROME,SCHOOL,SCREEN,SERVER,SHARK,SINK,STAR": {
@@ -530,6 +586,10 @@
         "VOLLEY_2": [
             "BALL",
             "SERVER"
+        ],
+        "MEDICINE_2": [
+            "HOSPITAL",
+            "LAB"
         ]
     },
     "EGYPT,LOG,ROME,SCHOOL,SCREEN,SPINE,STOCK,WATCH": {
@@ -577,6 +637,10 @@
         "MUSIC_2": [
             "PIANO",
             "CONCERT"
+        ],
+        "SUMMIT_2": [
+            "MOUNT",
+            "PYRAMID"
         ]
     },
     "ANGEL,BOARD,DOCTOR,OIL,OLYMPUS,RACKET,STADIUM,TABLET": {
@@ -657,6 +721,10 @@
         ],
         "BOLLYWOOD_1": [
             "INDIA"
+        ],
+        "VEHICLE_2": [
+            "VAN",
+            "PILOT"
         ]
     },
     "COURT,DISEASE,JAM,NURSE,OLIVE,SHAKESPEARE,TOKYO,WATER": {
@@ -702,6 +770,11 @@
         "DEPOSIT_2": [
             "BANK",
             "CONTRACT"
+        ],
+        "ARGUMENT_3": [
+            "CONTRACT",
+            "ROW",
+            "BARK"
         ]
     },
     "BOLT,DINOSAUR,DRILL,FOOT,LITTER,MAPLE,MARBLE,WEB": {
@@ -773,6 +846,10 @@
         "CHESS_2": [
             "CHECK",
             "KNIGHT"
+        ],
+        "THANKSGIVING_2": [
+            "TURKEY",
+            "DAY"
         ]
     },
     "CHAIR,EGYPT,GAME,IVORY,LITTER,MAIL,STATE,WATER": {
@@ -811,6 +888,11 @@
         ],
         "PETROLEUM_1": [
             "OIL"
+        ],
+        "ALERT_3": [
+            "HORN",
+            "WAKE",
+            "SPY"
         ]
     },
     "CAPITAL,CRICKET,DRESS,EYE,FIGHTER,OLIVE,POINT,ROUND": {
@@ -869,6 +951,10 @@
             "WITCH"
         ],
         "MAGIC_2": [
+            "WITCH",
+            "CAST"
+        ],
+        "SPELL_2": [
             "WITCH",
             "CAST"
         ]

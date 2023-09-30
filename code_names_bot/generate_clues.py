@@ -9,7 +9,7 @@ from .clue_generator.immediate_clue import immediate_clue
 from .clue_generator.propose_rank_clue import propose_rank_clue
 from .clue_generator.propose_filter_rank_clue import propose_filter_rank_clue
 from .clue_generator.propose_rank_vote_clue import propose_rank_vote
-from .clue_generator.propose_score_clue import propose_score_clue
+from .clue_generator.propose_score_clue import propose_5_score_clue, propose_10_score_clue
 
 yaml.Dumper.ignore_aliases = lambda *args: True
 
@@ -35,8 +35,10 @@ def get_generator(generator):
         return propose_filter_rank_clue
     if generator == "propose-rank-vote":
         return propose_rank_vote
-    if generator == "propose-score":
-        return propose_score_clue
+    if generator == "propose-5-score":
+        return propose_5_score_clue
+    if generator == "propose-10-score":
+        return propose_10_score_clue
 
 
 def main():

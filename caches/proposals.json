@@ -9,6 +9,21 @@
                 "RECYCLING"
             ],
             "tokens": 132
+        },
+        "10": {
+            "proposals": [
+                "CARDIOLOGY",
+                "AVIATION",
+                "TOES",
+                "JET",
+                "TRASH",
+                "FROSTY",
+                "GERMANY",
+                "KANGAROO",
+                "WOOL",
+                "ANKLE"
+            ],
+            "tokens": 143
         }
     },
     "SWING,APPLE,ROW,SPOT,BEAT,SLIP,GHOST,MASS,DINOSAUR|DECK,CAST,LEPRECHAUN,BOTTLE,TRIP,BED,CHICK,RING,MINE,TRUNK,SHOP,TICK,PUMPKIN,BATTERY,LAB,HOSPITAL": {
@@ -21,6 +36,21 @@
                 "EXTINCT"
             ],
             "tokens": 128
+        },
+        "10": {
+            "proposals": [
+                "PLAYGROUND",
+                "FRUIT",
+                "OARS",
+                "DOT",
+                "RHYTHM",
+                "BANANA",
+                "SPECTER",
+                "CHURCH",
+                "JURASSIC",
+                "SLIDE"
+            ],
+            "tokens": 138
         }
     },
     "COOK,CHARGE,MISSILE,BALL,LITTER,BATTERY,CARROT,LEPRECHAUN,TAG|LONDON,ENGLAND,SCHOOL,DWARF,BAR,PRESS,AUSTRALIA,NEEDLE,YARD,BOTTLE,BAT,HOTEL,SHOE,ANGEL,MOON,FALL": {
@@ -33,6 +63,20 @@
                 "RECYCLE"
             ],
             "tokens": 125
+        },
+        "10": {
+            "proposals": [
+                "KITCHEN",
+                "ENERGY",
+                "ROCKET",
+                "SPORTS",
+                "TRASH",
+                "POWER",
+                "VEGETABLE",
+                "IRISH",
+                "GAME"
+            ],
+            "tokens": 132
         }
     },
     "GHOST,AMBULANCE,ROUND,UNDERTAKER,WATCH,TOOTH,POLE,MOUTH,SNOW|WASHINGTON,MINE,LASER,MOLE,FIELD,STADIUM,EGYPT,TRUNK,GLASS,PYRAMID,COMIC,LIGHT,GROUND,KNIFE,DANCE,CAP": {
@@ -45,6 +89,21 @@
                 "ARCTIC"
             ],
             "tokens": 126
+        },
+        "10": {
+            "proposals": [
+                "SPECTRAL",
+                "EMERGENCY",
+                "CIRCULAR",
+                "FUNERAL",
+                "TIMEPIECE",
+                "DENTAL",
+                "ARCTIC",
+                "ORAL",
+                "FLAKES",
+                "NORTH"
+            ],
+            "tokens": 137
         }
     },
     "DAY,PITCH,CYCLE,GREEN,PLOT,BOLT,FISH,GLOVE,MOLE|LION,THIEF,STAFF,CLIFF,TOKYO,DIAMOND,BEAR,ARM,POINT,WASHINGTON,HORSESHOE,HOLE,TELESCOPE,AIR,COPPER,TABLET": {
@@ -57,6 +116,21 @@
                 "FASTENER"
             ],
             "tokens": 127
+        },
+        "10": {
+            "proposals": [
+                "SUNLIGHT",
+                "BASEBALL",
+                "BICYCLE",
+                "ECO-FRIENDLY",
+                "STORY",
+                "FASTENER",
+                "AQUARIUM",
+                "HANDWEAR",
+                "DERMATOLOGY",
+                "CHEMISTRY"
+            ],
+            "tokens": 138
         }
     },
     "CANADA,CHICK,DRAFT,STREAM,BOX,ORGAN,LEMON,GOLD,SKYSCRAPER|STICK,BOLT,CLUB,DRILL,WITCH,TEACHER,THUMB,HORN,WAVE,TRAIN,CAP,HOTEL,TIME,SINK,NINJA,MAMMOTH": {
@@ -69,6 +143,20 @@
                 "BUILDING"
             ],
             "tokens": 127
+        },
+        "10": {
+            "proposals": [
+                "MAPLE",
+                "HEN",
+                "BLUEPRINT",
+                "RIVER",
+                "PACKAGE",
+                "MUSIC",
+                "CITRUS",
+                "TREASURE",
+                "BUILDING"
+            ],
+            "tokens": 131
         }
     },
     "IRON,HAWK,GLOVE,LITTER,FIELD,HOSPITAL,PASTE,HONEY,SHIP|CHOCOLATE,AGENT,CARROT,LIMOUSINE,SERVER,BUGLE,ALIEN,MOUNT,AFRICA,GLASS,CYCLE,KNIFE,GERMANY,SEAL,CHEST,ROOT": {
@@ -81,6 +169,21 @@
                 "VESSEL"
             ],
             "tokens": 131
+        },
+        "10": {
+            "proposals": [
+                "METAL",
+                "BIRD",
+                "HANDWEAR",
+                "TRASH",
+                "MEADOW",
+                "MEDICAL",
+                "ADHESIVE",
+                "SWEET",
+                "VESSEL",
+                "MARITIME"
+            ],
+            "tokens": 142
         }
     },
     "VAN,FIELD,FISH,DRILL,NUT,PASS,DECK,VET,PITCH|ENGLAND,BELT,MARCH,FIGHTER,NIGHT,MINE,NAIL,PIRATE,PIN,THEATER,EYE,BARK,CARROT,SERVER,CROSS,CIRCLE": {
@@ -93,6 +196,20 @@
                 "CARD"
             ],
             "tokens": 120
+        },
+        "10": {
+            "proposals": [
+                "VEHICLE",
+                "AGRICULTURE",
+                "AQUATIC",
+                "TOOL",
+                "FOOD",
+                "SUCCESS",
+                "OUTDOOR",
+                "ANIMAL",
+                "BASEBALL"
+            ],
+            "tokens": 128
         }
     },
     "PIRATE,CAP,PILOT,FORK,COTTON,PANTS,SPACE,GOLD,CRICKET|JAM,DEGREE,EMBASSY,BOOT,BOLT,ALPS,BRUSH,EYE,BEACH,ORANGE,WITCH,CALF,BOTTLE,MASS,DICE,HOLE": {
@@ -105,6 +222,21 @@
                 "SPORTS"
             ],
             "tokens": 126
+        },
+        "10": {
+            "proposals": [
+                "TREASURE",
+                "FLIGHT",
+                "FABRIC",
+                "CUTLERY",
+                "GALAXY",
+                "APPAREL",
+                "HEADWEAR",
+                "PRECIOUS",
+                "SPORTS",
+                "BUCCANEER"
+            ],
+            "tokens": 140
         }
     },
     "SNOW,PART,CYCLE,HEAD,SLUG,SHAKESPEARE,ALPS,TAIL,CROSS|BUCK,DINOSAUR,DOCTOR,CRASH,GENIUS,DRAFT,COMPOUND,BOOM,EGYPT,PIT,CHURCH,BOND,QUEEN,JAM,LUCK,PORT": {
@@ -117,6 +249,20 @@
                 "BICYCLE"
             ],
             "tokens": 131
+        },
+        "10": {
+            "proposals": [
+                "WINTER",
+                "DIVIDE",
+                "ROTATE",
+                "BRAIN",
+                "MOLLUSK",
+                "PLAYWRIGHT",
+                "MOUNTAIN",
+                "APPENDAGE",
+                "INTERSECTION"
+            ],
+            "tokens": 139
         }
     },
     "KING,TUBE,UNICORN,WAR,TRACK,TRIP,TAG,JUPITER,DRAGON|SPACE,SATELLITE,LEMON,BEACH,COLD,SPINE,SCUBA DIVER,BOW,SPRING,NOTE,GIANT,PILOT,BUTTON,CAT,PLOT,BERLIN": {
@@ -129,6 +275,21 @@
                 "RACE"
             ],
             "tokens": 124
+        },
+        "10": {
+            "proposals": [
+                "CROWN",
+                "SUBWAY",
+                "MYTHICAL",
+                "CONFLICT",
+                "RACE",
+                "JOURNEY",
+                "LABEL",
+                "PLANET",
+                "FIRE-BREATHING",
+                "FANTASY"
+            ],
+            "tokens": 136
         }
     },
     "CAPITAL,NUT,LAB,PLATE,SPIDER,DEATH,MARCH,HONEY,PLOT|BUFFALO,SUPERHERO,CROSS,HOLLYWOOD,THUMB,DUCK,LIFE,SMUGGLER,FILM,ROOT,GLASS,ROME,SATELLITE,LEAD,OPERA,CLIFF": {
@@ -141,6 +302,21 @@
                 "WEB"
             ],
             "tokens": 131
+        },
+        "10": {
+            "proposals": [
+                "CAPITOL",
+                "ALMOND",
+                "EXPERIMENT",
+                "DISH",
+                "ARACHNID",
+                "FUNERAL",
+                "PARADE",
+                "BEE",
+                "SCHEME",
+                "STORY"
+            ],
+            "tokens": 148
         }
     },
     "BOND,FIELD,ALPS,PARACHUTE,WORM,FORK,HOOK,EGYPT,STAR|WAKE,SOLDIER,WAR,BACK,HOSPITAL,CZECH,CASINO,BRUSH,ROULETTE,JACK,TOWER,PORT,BED,SMUGGLER,AFRICA,ROSE": {
@@ -153,6 +329,21 @@
                 "ARCHAEOLOGY"
             ],
             "tokens": 130
+        },
+        "10": {
+            "proposals": [
+                "FISHING",
+                "HIKING",
+                "SKYDIVING",
+                "ASTRONOMY",
+                "CUTLERY",
+                "ARCHAEOLOGY",
+                "SOIL",
+                "PYRAMIDS",
+                "BONDING",
+                "MOUNTAIN"
+            ],
+            "tokens": 144
         }
     },
     "SOUL,DAY,PART,DEATH,HONEY,TABLE,ICE CREAM,SPACE,DUCK|PIE,NAIL,SCIENTIST,MOUNT,PIN,GAS,FLUTE,HORSESHOE,MAPLE,REVOLUTION,BEAT,FORCE,GRASS,THUMB,LOCH NESS,HIMALAYAS": {
@@ -165,6 +356,21 @@
                 "LIFE"
             ],
             "tokens": 126
+        },
+        "10": {
+            "proposals": [
+                "SPOON",
+                "SUNSHINE",
+                "ASTRONAUT",
+                "QUACK",
+                "BEEHIVE",
+                "FURNITURE",
+                "DESSERT",
+                "AFTERLIFE",
+                "SPIRIT",
+                "SEGMENT"
+            ],
+            "tokens": 140
         }
     },
     "SEAL,SOUND,FORK,AIR,SPY,YARD,MARCH,MOUTH,CHURCH|COLD,ORANGE,LIGHT,PRINCESS,BELT,MATCH,JAM,BED,ROCK,PLATYPUS,MISSILE,DAY,FOREST,TORCH,STRAW,ORGAN": {
@@ -177,6 +383,21 @@
                 "ESPIONAGE"
             ],
             "tokens": 122
+        },
+        "10": {
+            "proposals": [
+                "SEALIFE",
+                "NOISE",
+                "UTENSIL",
+                "BREATHE",
+                "ESPIONAGE",
+                "LAWN",
+                "PARADE",
+                "LIPS",
+                "WORSHIP",
+                "STEEPLE"
+            ],
+            "tokens": 137
         }
     },
     "MAIL,STRING,STRIKE,BEAR,GREECE,POISON,PLASTIC,SKYSCRAPER,FRANCE|SOLDIER,SATURN,CODE,WAKE,SLUG,COLD,AMERICA,REVOLUTION,SHIP,PLATYPUS,COMPOUND,LEPRECHAUN,CARD,GRASS,AMBULANCE,DICE": {
@@ -189,6 +410,21 @@
                 "EIFFEL"
             ],
             "tokens": 133
+        },
+        "10": {
+            "proposals": [
+                "ENVELOPE",
+                "TWINE",
+                "BOWLING",
+                "GRIZZLY",
+                "ATHENS",
+                "VENOM",
+                "CONTAINER",
+                "BUILDING",
+                "PARIS",
+                "MEDITERRANEAN"
+            ],
+            "tokens": 143
         }
     },
     "LAB,ROME,SINK,BALL,SERVER,DRAFT,HOSPITAL,STAR,CROSS|CHICK,SCHOOL,NEW YORK,ENGINE,MARBLE,HOLE,MARCH,BOX,GREECE,HELICOPTER,FENCE,SHARK,SCREEN,NIGHT,BATTERY,LONDON": {
@@ -201,6 +437,20 @@
                 "RELIGION"
             ],
             "tokens": 117
+        },
+        "10": {
+            "proposals": [
+                "EXPERIMENT",
+                "ITALY",
+                "FAUCET",
+                "SPORTS",
+                "INTERNET",
+                "BLUEPRINT",
+                "MEDICINE",
+                "GALAXY",
+                "RELIGION"
+            ],
+            "tokens": 126
         }
     },
     "MOUNT,CONCERT,GLASS,FORK,PYRAMID,PIANO,CALF,AGENT,SNOWMAN|TOOTH,FRANCE,REVOLUTION,SPOT,MOON,SINK,COVER,MOUSE,FIGURE,BAT,BUGLE,AMAZON,AIR,VET,PRINCESS,ROULETTE": {
@@ -213,6 +463,21 @@
                 "SPY"
             ],
             "tokens": 125
+        },
+        "10": {
+            "proposals": [
+                "SUMMIT",
+                "PERFORMANCE",
+                "TRANSPARENT",
+                "UTENSIL",
+                "EGYPT",
+                "KEYS",
+                "VEAL",
+                "SPY",
+                "WINTER",
+                "CARROT"
+            ],
+            "tokens": 140
         }
     },
     "NOTE,HEART,HOTEL,DAY,MISSILE,SINK,POINT,FIELD,WAR|SKYSCRAPER,CONTRACT,TAP,LEPRECHAUN,BEIJING,CRICKET,SCIENTIST,ALIEN,HAND,PLANE,PRESS,MAPLE,EGYPT,WATCH,MAIL,POST": {
@@ -225,6 +490,21 @@
                 "BATTLEFIELD"
             ],
             "tokens": 124
+        },
+        "10": {
+            "proposals": [
+                "LOVE",
+                "ACCOMMODATION",
+                "WEAPON",
+                "KITCHEN",
+                "DIRECTION",
+                "BATTLEFIELD",
+                "CONFLICT",
+                "PAPER",
+                "TIME",
+                "LAUNCH"
+            ],
+            "tokens": 133
         }
     },
     "BOW,CLOAK,INDIA,PILOT,FISH,PALM,BANK,DINOSAUR,VAN|GROUND,JAM,NIGHT,CLUB,BED,LUCK,CASINO,HAND,TICK,MOLE,PORT,FILE,SHOP,DECK,FOREST,SQUARE": {
@@ -237,6 +517,21 @@
                 "JURASSIC"
             ],
             "tokens": 116
+        },
+        "10": {
+            "proposals": [
+                "ARCHERY",
+                "INVISIBLE",
+                "BOLLYWOOD",
+                "AIRPLANE",
+                "AQUARIUM",
+                "TROPICAL",
+                "MONEY",
+                "JURASSIC",
+                "VEHICLE",
+                "TRANSPORT"
+            ],
+            "tokens": 126
         }
     },
     "DROP,HOLLYWOOD,CLUB,BANK,WIND,NAIL,CONTRACT,IVORY,ROW|PISTOL,BELT,NUT,DEGREE,SOUL,CHEST,DUCK,FOREST,DRILL,MODEL,BARK,NEW YORK,MOLE,INDIA,PIPE,SWING": {
@@ -249,6 +544,21 @@
                 "AGREEMENT"
             ],
             "tokens": 118
+        },
+        "10": {
+            "proposals": [
+                "RAIN",
+                "MOVIE",
+                "DANCE",
+                "MONEY",
+                "BREEZE",
+                "HAMMER",
+                "AGREEMENT",
+                "ELEPHANT",
+                "ARGUMENT",
+                "OAR"
+            ],
+            "tokens": 130
         }
     },
     "STRIKE,DAY,ANGEL,KNIGHT,CHECK,TAG,DRAFT,BOMB,TURKEY|TRACK,AMBULANCE,ATLANTIS,SUIT,DICE,COLD,ORGAN,AFRICA,DINOSAUR,GREECE,SLIP,CRANE,KANGAROO,FENCE,HAWK,PIPE": {
@@ -261,6 +571,20 @@
                 "HALO"
             ],
             "tokens": 131
+        },
+        "10": {
+            "proposals": [
+                "BASEBALL",
+                "SUNSHINE",
+                "HEAVEN",
+                "ARMOR",
+                "BANK",
+                "LABEL",
+                "SKETCH",
+                "EXPLOSION",
+                "THANKSGIVING"
+            ],
+            "tokens": 139
         }
     },
     "OIL,DOG,STAR,SCALE,HORN,SPY,WAKE,ATLANTIS,NOVEL|BARK,EMBASSY,BAT,KNIGHT,RULER,CRICKET,PASTE,KID,ROBIN,SOCK,ENGLAND,POLE,OLYMPUS,WHIP,APPLE,REVOLUTION": {
@@ -273,6 +597,21 @@
                 "UNDERCOVER"
             ],
             "tokens": 127
+        },
+        "10": {
+            "proposals": [
+                "PETROLEUM",
+                "CANINE",
+                "GALAXY",
+                "BALANCE",
+                "TRUMPET",
+                "SECRET",
+                "ALERT",
+                "MYTHOLOGY",
+                "FICTION",
+                "LITERATURE"
+            ],
+            "tokens": 138
         }
     },
     "PRINCESS,SPOT,POUND,APPLE,PYRAMID,FRANCE,WITCH,MATCH,CAST|BUTTON,SOLDIER,LEMON,SHOP,TOKYO,MISSILE,STAFF,CONDUCTOR,TABLE,RACKET,VAN,GRACE,AZTEC,TIME,WAKE,MILLIONAIRE": {
@@ -285,6 +624,21 @@
                 "GAME"
             ],
             "tokens": 123
+        },
+        "10": {
+            "proposals": [
+                "CROWN",
+                "DALMATIAN",
+                "CURRENCY",
+                "ORCHARD",
+                "PHARAOH",
+                "PARIS",
+                "BROOMSTICK",
+                "FIRE",
+                "SPELL",
+                "THEATER"
+            ],
+            "tokens": 138
         }
     },
     "PART,WELL,HOOD,FOREST,ROULETTE,COLD,JAM,CANADA,GROUND|CHICK,FILE,LITTER,SPACE,NIGHT,CRICKET,RABBIT,STADIUM,SATELLITE,COVER,STOCK,GAME,DECK,SWITCH,JACK,PENGUIN": {
@@ -297,6 +651,21 @@
                 "LUCK"
             ],
             "tokens": 123
+        },
+        "10": {
+            "proposals": [
+                "MAPLE",
+                "ROBIN",
+                "GREEN",
+                "SNOW",
+                "LUCK",
+                "DRILL",
+                "NEIGHBORHOOD",
+                "PINE",
+                "PRESERVE",
+                "CHILL"
+            ],
+            "tokens": 133
         }
     },
     "AMAZON,IRON|POLE,RING,FLUTE,COLD,HAND,LIMOUSINE": {
