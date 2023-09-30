@@ -1,4 +1,5 @@
-from code_names_bot.util.propose_rank import get_proposals, get_ranked_words, select_clue
+from code_names_bot.generator.proposal_generator import get_proposals
+from code_names_bot.util.propose_rank import select_clue
 from code_names_bot.util.dict import split_by_column, merge
 from code_names_bot.util.propose_rank import get_word_scores, word_scores_to_sorted_list
 

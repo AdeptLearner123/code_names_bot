@@ -6,9 +6,10 @@ from config import SCENARIOS_DIR, CLUES_DIR
 from .clue_generator.manual_clue import manual_clue
 from .clue_generator.target_all_clue import target_all_clue
 from .clue_generator.immediate_clue import immediate_clue
-from .clue_generator.propose_rank import propose_rank_clue
-from .clue_generator.propose_filter_rank import propose_filter_rank_clue
-from .clue_generator.propose_rank_vote import propose_rank_vote
+from .clue_generator.propose_rank_clue import propose_rank_clue
+from .clue_generator.propose_filter_rank_clue import propose_filter_rank_clue
+from .clue_generator.propose_rank_vote_clue import propose_rank_vote
+from .clue_generator.propose_score_clue import propose_score_clue
 
 yaml.Dumper.ignore_aliases = lambda *args: True
 
@@ -34,6 +35,8 @@ def get_generator(generator):
         return propose_filter_rank_clue
     if generator == "propose-rank-vote":
         return propose_rank_vote
+    if generator == "propose-score":
+        return propose_score_clue
 
 
 def main():

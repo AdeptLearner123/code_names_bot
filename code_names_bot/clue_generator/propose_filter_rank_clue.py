@@ -1,7 +1,8 @@
+from code_names_bot.generator.proposal_generator import get_proposals
 from code_names_bot.util.prompts import read_prompt, get_words_msg
 from code_names_bot.util.completions import get_completion_as_word_list
-from code_names_bot.util.propose_rank import get_proposals, get_ranked_words, select_clue
-from code_names_bot.util.dict import split_by_column, merge
+from code_names_bot.util.propose_rank import get_ranked_words, select_clue
+from code_names_bot.util.dict import split_by_column
 from code_names_bot.util.list import count_matches
 
 import random

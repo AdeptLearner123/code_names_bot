@@ -9,12 +9,16 @@ def get_scenario_key(pos_words, neg_words):
     return pos_str + "|" + neg_str
 
 
+def get_words_list_key(words):
+    return ",".join(words)
+
+
 def get_cache(cache_name):
     path = os.path.join(CACHES, f"{cache_name}.json")
 
     if os.path.isfile(path):
         with open(path) as file:
-            return json.load(file.read())
+            return json.loads(file.read())
     return {}
 
 

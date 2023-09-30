@@ -30,7 +30,12 @@ def get_completion_as_word_list(system, user):
 
 def get_completion_as_dict(system, user):
     completion, token_count = get_completion(system, user)
-    lines = completion.splitlines()
-    lines_split = [ line.split(": ") for line in lines ]
-    dictionary = { parts[0]: parts[1] for parts in lines_split }
+    
+    try:
+        lines = completion.splitlines()
+        lines_split = [ line.split(": ") for line in lines ]
+        dictionary = { parts[0]: parts[1] for parts in lines_split }
+    except:
+        print("Failed to parse completion: ", completion)
+        raise Exception()
     return dictionary, token_count
