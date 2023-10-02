@@ -7,7 +7,7 @@ from code_names_bot.util.completions import get_completion_as_dict
 cache = get_cache("scores")
 prompt = read_prompt("score")
 
-def format_scores(raw_scores):
+def _format_scores(raw_scores):
     return { word: int(raw_scores[word].split(" ")[0]) for word in raw_scores }
 
 
@@ -19,7 +19,7 @@ def get_scores(words, clue):
 
     if clue in cache[scenario_key]:
         cache_item = cache[scenario_key][clue]
-        return format_scores(cache_item["scores"]), cache_item["tokens"]
+        return _format_scores(cache_item["scores"]), cache_item["tokens"]
 
     system_msg = prompt.replace("###", clue)
     words = sorted(words)
@@ -33,4 +33,4 @@ def get_scores(words, clue):
     }
     put_cache("scores", cache)
 
-    return format_scores(scores), tokens
+    return _format_scores(scores), tokens
