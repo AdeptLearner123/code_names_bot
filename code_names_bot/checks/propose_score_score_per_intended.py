@@ -8,8 +8,11 @@ from code_names_bot.clue_generator.propose_score_clue import _get_clue_words, _g
 from code_names_bot.generator.guess_generator import generate_guess
 
 def main():
-    with open("clues/full-boards_propose-10-score.yaml", "r") as file:
+    with open("clues/full-boards_propose-5-score.yaml", "r") as file:
         clues = yaml.safe_load(file.read())
+    
+    with open("clues/full-boards_propose-10-score.yaml", "r") as file:
+        clues_2 = yaml.safe_load(file.read())
     
     intent_clues = defaultdict(lambda: [])
     intent_scores = Counter()
@@ -18,7 +21,7 @@ def main():
         details = clue_item["details"]
         pos = clue_item["pos"]
         neg = clue_item["neg"]
-        proposal_scores = details["proposal_scores"]
+        proposal_scores = details["proposal_scores"] | clues_2[scenario_id]["details"]["proposal_scores"]
         for proposal in proposal_scores:
             max_neg_score = _get_max_neg_scores(proposal_scores[proposal], neg)
             clue_words = _get_clue_words(proposal_scores[proposal], pos, max_neg_score)

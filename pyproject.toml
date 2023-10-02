@@ -18,6 +18,10 @@ guess-clues = "code_names_bot.guess_clues:main"
 evaluate = "code_names_bot.evaluate:main"
 
 check-propose-filter-rank = "code_names_bot.checks.check_propose_filter_rank:main"
+propose-score-gaps = "code_names_bot.checks.propose_score_gaps:main"
+propose-score-missed-words = "code_names_bot.checks.propose_score_missed_words:main"
+propose-score-score-per-intended = "code_names_bot.checks.propose_score_score_per_intended:main"
+propose-score-attempt-gap-comparisons = "code_names_bot.checks.propose_score_attempt_gap_comparisons:main"
 migrate = "code_names_bot.migrate:main"
 
 [build-system]

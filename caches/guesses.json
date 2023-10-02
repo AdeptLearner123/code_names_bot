@@ -165,6 +165,11 @@
             "PRESS",
             "MISSILE",
             "FALL"
+        ],
+        "POWER_3": [
+            "BATTERY",
+            "CHARGE",
+            "MISSILE"
         ]
     },
     "ATLANTIS,GIANT,GLASS,GLOVE,HOSPITAL,HOTEL,JET,TAG": {
@@ -381,6 +386,11 @@
             "TAIL",
             "PART",
             "HEAD"
+        ],
+        "ROTATE_3": [
+            "CYCLE",
+            "HEAD",
+            "PART"
         ]
     },
     "BEACH,BERLIN,BOW,BUTTON,CAT,COLD,DRAGON,GIANT,JUPITER,KING,LEMON,NOTE,PILOT,PLOT,SATELLITE,SCUBA DIVER,SPACE,SPINE,SPRING,TAG,TRACK,TRIP,TUBE,UNICORN,WAR": {
@@ -402,8 +412,13 @@
         ],
         "SUBWAY_3": [
             "TRACK",
-            "BERLIN",
+            "TUBE",
             "TRIP"
+        ],
+        "CROWN_3": [
+            "KING",
+            "PLOT",
+            "WAR"
         ]
     },
     "BUFFALO,CAPITAL,CLIFF,CROSS,DEATH,DUCK,FILM,GLASS,HOLLYWOOD,HONEY,LAB,LEAD,LIFE,MARCH,NUT,OPERA,PLATE,PLOT,ROME,ROOT,SATELLITE,SMUGGLER,SPIDER,SUPERHERO,THUMB": {
@@ -983,6 +998,12 @@
             "CANADA",
             "COLD",
             "COVER"
+        ],
+        "PINE_4": [
+            "FOREST",
+            "COLD",
+            "COVER",
+            "CANADA"
         ]
     }
 }
