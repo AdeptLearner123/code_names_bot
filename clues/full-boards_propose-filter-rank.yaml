@@ -51,7 +51,7 @@
       POLKA: [SWING, BEAT, SPOT]
     proposal_ranked_words_tokens: {POLKA: 0}
     tokens: 687
-  guesses: [BEAT, SWING, CHICK]
+  guesses: [BEAT, SWING, SPOT]
 390b0641-d136-40a8-b4e4-c4f4d13b4079:
   pos: [COOK, CHARGE, MISSILE, BALL, LITTER, BATTERY, CARROT, LEPRECHAUN, TAG]
   neg: [LONDON, ENGLAND, SCHOOL, DWARF, BAR, PRESS, AUSTRALIA, NEEDLE, YARD, BOTTLE,
@@ -499,7 +499,7 @@
       SPY: [AGENT, COVER, SPOT]
     proposal_ranked_words_tokens: {EGYPT: 46, MUSIC: 49, DINING: 49, WINTER: 43, SPY: 46}
     tokens: 926
-  guesses: [FORK, FRANCE]
+  guesses: [FORK, GLASS]
 ae3bd682-b66a-40b7-9bb8-79310de11f2e:
   pos: [NOTE, HEART, HOTEL, DAY, MISSILE, SINK, POINT, FIELD, WAR]
   neg: [SKYSCRAPER, CONTRACT, TAP, LEPRECHAUN, BEIJING, CRICKET, SCIENTIST, ALIEN,

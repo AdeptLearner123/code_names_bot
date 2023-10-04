@@ -122,6 +122,9 @@
         "PLAYGROUND_2": [
             "SWING",
             "TRIP"
+        ],
+        "PLAYGROUND_1": [
+            "SWING"
         ]
     },
     "DUCK,HELICOPTER,KING,LAB,PIE,PLAY,TABLET,UNICORN": {
@@ -148,7 +151,7 @@
         "ENERGY_4": [
             "BATTERY",
             "CHARGE",
-            "AUSTRALIA",
+            "COOK",
             "FALL"
         ],
         "RABBIT_2": [
@@ -162,7 +165,7 @@
         "ENERGY_5": [
             "BATTERY",
             "CHARGE",
-            "PRESS",
+            "COOK",
             "MISSILE",
             "FALL"
         ],
@@ -249,6 +252,9 @@
         "BASEBALL_2": [
             "GLOVE",
             "PITCH"
+        ],
+        "SUNLIGHT_1": [
+            "DAY"
         ]
     },
     "BOLT,CROSS,HORSESHOE,MOUTH,NIGHT,POUND,STRIKE,THIEF": {
@@ -437,6 +443,9 @@
             "PLATE",
             "HONEY",
             "NUT"
+        ],
+        "BEE_1": [
+            "HONEY"
         ]
     },
     "COVER,GHOST,GREECE,MOON,NAIL,ROSE,SLUG,STATE": {
@@ -536,6 +545,10 @@
         "BREATHE_2": [
             "AIR",
             "MOUTH"
+        ],
+        "NOISE_2": [
+            "SOUND",
+            "JAM"
         ]
     },
     "BLOCK,CENTER,DANCE,HOOK,PLOT,SATELLITE,SPINE,SUPERHERO": {
@@ -632,7 +645,7 @@
     "AGENT,AIR,AMAZON,BAT,BUGLE,CALF,CONCERT,COVER,FIGURE,FORK,FRANCE,GLASS,MOON,MOUNT,MOUSE,PIANO,PRINCESS,PYRAMID,REVOLUTION,ROULETTE,SINK,SNOWMAN,SPOT,TOOTH,VET": {
         "DINING_2": [
             "FORK",
-            "FRANCE"
+            "GLASS"
         ],
         "OBJECT_9": [
             "BAT",
@@ -656,6 +669,10 @@
         "SUMMIT_2": [
             "MOUNT",
             "PYRAMID"
+        ],
+        "KEYS_2": [
+            "AGENT",
+            "PIANO"
         ]
     },
     "ANGEL,BOARD,DOCTOR,OIL,OLYMPUS,RACKET,STADIUM,TABLET": {
@@ -865,6 +882,10 @@
         "THANKSGIVING_2": [
             "TURKEY",
             "DAY"
+        ],
+        "SKETCH_2": [
+            "DRAFT",
+            "CHECK"
         ]
     },
     "CHAIR,EGYPT,GAME,IVORY,LITTER,MAIL,STATE,WATER": {

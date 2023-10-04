@@ -6,14 +6,15 @@ import json
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def get_completion(system, user):
+def get_completion(system, user = None):
+    messages = [ {"role": "system", "content": system} ]
+    if user is not None:
+        messages.append({"role": "user", "content": user })
+
     response = openai.ChatCompletion.create(
         model="gpt-4",
         temperature = 0,
-        messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ]
+        messages=messages
     )
     message = response["choices"][0]["message"]["content"]
     token_count = int(response["usage"]["total_tokens"])
@@ -34,7 +35,7 @@ def get_completion_as_dict(system, user):
     try:
         lines = completion.splitlines()
         lines_split = [ line.split(": ") for line in lines ]
-        dictionary = { parts[0]: parts[1] for parts in lines_split }
+        dictionary = { parts[0].upper(): parts[1] for parts in lines_split }
     except:
         print("Failed to parse completion: ", completion)
         raise Exception()

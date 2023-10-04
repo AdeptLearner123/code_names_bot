@@ -1,0 +1,115 @@
+{
+    "AUSTRALIA,BERLIN,FOOT,HEART,LITTER,PILOT,PLANE,SNOWMAN,SOCK": {
+        "5": {
+            "5": {
+                "proposals": {
+                    "BODY": [
+                        "HEART",
+                        "FOOT",
+                        "LITTER",
+                        "SNOWMAN",
+                        "SOCK"
+                    ],
+                    "PROFESSION": [
+                        "PILOT",
+                        "HEART",
+                        "FOOT",
+                        "LITTER",
+                        "SOCK"
+                    ],
+                    "TRANSPORTATION": [
+                        "PILOT",
+                        "PLANE",
+                        "FOOT",
+                        "LITTER",
+                        "AUSTRALIA"
+                    ],
+                    "GEOGRAPHY": [
+                        "BERLIN",
+                        "AUSTRALIA",
+                        "HEART",
+                        "FOOT",
+                        "SOCK"
+                    ],
+                    "WINTER": [
+                        "SNOWMAN",
+                        "BERLIN",
+                        "HEART",
+                        "FOOT",
+                        "SOCK"
+                    ]
+                },
+                "tokens": 299
+            }
+        },
+        "4": {
+            "5": {
+                "proposals": {
+                    "TRAVEL": [
+                        "PILOT",
+                        "PLANE",
+                        "BERLIN",
+                        "AUSTRALIA"
+                    ],
+                    "BODY": [
+                        "HEART",
+                        "FOOT",
+                        "SOCK",
+                        "SNOWMAN"
+                    ],
+                    "TRANSPORTATION": [
+                        "PILOT",
+                        "PLANE",
+                        "FOOT",
+                        "SOCK"
+                    ],
+                    "GEOGRAPHY": [
+                        "BERLIN",
+                        "AUSTRALIA",
+                        "PLANE",
+                        "PILOT"
+                    ],
+                    "CLEANLINESS": [
+                        "LITTER",
+                        "SOCK",
+                        "FOOT",
+                        "PLANE"
+                    ]
+                },
+                "tokens": 261
+            }
+        },
+        "3": {
+            "5": {
+                "proposals": {
+                    "TRAVEL": [
+                        "PILOT",
+                        "PLANE",
+                        "AUSTRALIA"
+                    ],
+                    "CARDIOVASCULAR": [
+                        "HEART",
+                        "FOOT",
+                        "SOCK"
+                    ],
+                    "WINTER": [
+                        "SNOWMAN",
+                        "SOCK",
+                        "BERLIN"
+                    ],
+                    "TRANSPORTATION": [
+                        "PILOT",
+                        "PLANE",
+                        "LITTER"
+                    ],
+                    "GEOGRAPHY": [
+                        "BERLIN",
+                        "AUSTRALIA",
+                        "PLANE"
+                    ]
+                },
+                "tokens": 225
+            }
+        }
+    }
+}

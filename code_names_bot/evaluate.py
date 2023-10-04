@@ -14,6 +14,7 @@ def parse_args():
     return args.mode, args.scenarios
 
 def evaluate(clues_name, mode):
+    print("evaluating", clues_name)
     with open(os.path.join(CLUES_DIR, f"{clues_name}.yaml"), "r") as file:
         clues = yaml.safe_load(file.read())
 
