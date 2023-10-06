@@ -11,9 +11,9 @@ cache = get_cache("compares")
 def compare(clue, word1, word2):
     key = f"{clue}_{word1}|{word2}"
     if key in cache:
-        return cache[key]
+        return cache[key]["result"], cache[key]["tokens"]
 
-    sys = prompt.replace("!!!", clue).replace("###", word1).replace("???", word2)
+    sys = prompt.replace("!!!", clue).replace("???", word1).replace("###", word2)
     completion, tokens = get_completion(sys)
 
     if completion == word1:
@@ -23,8 +23,11 @@ def compare(clue, word1, word2):
     elif completion == "EQUAL":
         result = 0
     else:
-        raise RuntimeError("Invalid comparison result: " + result)
+        raise RuntimeError("Invalid comparison result: ", completion, clue, word1, word2)
 
-    cache[key] = result
+    cache[key] = {
+        "result": result,
+        "tokens": tokens
+    }
     put_cache("compares", cache)
-    return result
+    return result, tokens

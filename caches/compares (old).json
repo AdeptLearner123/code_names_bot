@@ -1,0 +1,1790 @@
+{
+    "PLAYGROUND_BEAT|APPLE": {
+        "result": -1,
+        "tokens": 27
+    },
+    "PLAYGROUND_GHOST|APPLE": {
+        "result": -1,
+        "tokens": 27
+    },
+    "PLAYGROUND_GHOST|BEAT": {
+        "result": 1,
+        "tokens": 30
+    },
+    "PLAYGROUND_MASS|APPLE": {
+        "result": -1,
+        "tokens": 26
+    },
+    "PLAYGROUND_MASS|GHOST": {
+        "result": 1,
+        "tokens": 29
+    },
+    "PLAYGROUND_ROW|APPLE": {
+        "result": 1,
+        "tokens": 25
+    },
+    "PLAYGROUND_BATTERY|ROW": {
+        "result": -1,
+        "tokens": 27
+    },
+    "PLAYGROUND_BATTERY|APPLE": {
+        "result": -1,
+        "tokens": 27
+    },
+    "PLAYGROUND_BATTERY|MASS": {
+        "result": 1,
+        "tokens": 28
+    },
+    "PLAYGROUND_BED|ROW": {
+        "result": 1,
+        "tokens": 25
+    },
+    "PLAYGROUND_BOTTLE|BED": {
+        "result": -1,
+        "tokens": 29
+    },
+    "PLAYGROUND_BOTTLE|ROW": {
+        "result": -1,
+        "tokens": 29
+    },
+    "PLAYGROUND_BOTTLE|APPLE": {
+        "result": -1,
+        "tokens": 29
+    },
+    "PLAYGROUND_BOTTLE|BATTERY": {
+        "result": 1,
+        "tokens": 33
+    },
+    "PLAYGROUND_CAST|BED": {
+        "result": 1,
+        "tokens": 25
+    },
+    "PLAYGROUND_CHICK|CAST": {
+        "result": 1,
+        "tokens": 28
+    },
+    "PLAYGROUND_DECK|CHICK": {
+        "result": 1,
+        "tokens": 30
+    },
+    "PLAYGROUND_HOSPITAL|DECK": {
+        "result": -1,
+        "tokens": 32
+    },
+    "PLAYGROUND_HOSPITAL|CHICK": {
+        "result": 1,
+        "tokens": 33
+    },
+    "PLAYGROUND_LAB|DECK": {
+        "result": -1,
+        "tokens": 28
+    },
+    "PLAYGROUND_LAB|HOSPITAL": {
+        "result": 1,
+        "tokens": 29
+    },
+    "PLAYGROUND_LEPRECHAUN|DECK": {
+        "result": -1,
+        "tokens": 35
+    },
+    "PLAYGROUND_LEPRECHAUN|LAB": {
+        "result": 0,
+        "tokens": 32
+    },
+    "PLAYGROUND_MINE|DECK": {
+        "result": -1,
+        "tokens": 30
+    },
+    "PLAYGROUND_MINE|LEPRECHAUN": {
+        "result": 1,
+        "tokens": 36
+    },
+    "PLAYGROUND_PUMPKIN|DECK": {
+        "result": -1,
+        "tokens": 34
+    },
+    "PLAYGROUND_PUMPKIN|MINE": {
+        "result": -1,
+        "tokens": 34
+    },
+    "PLAYGROUND_PUMPKIN|LEPRECHAUN": {
+        "result": 1,
+        "tokens": 42
+    },
+    "PLAYGROUND_RING|DECK": {
+        "result": -1,
+        "tokens": 29
+    },
+    "PLAYGROUND_RING|MINE": {
+        "result": 1,
+        "tokens": 28
+    },
+    "PLAYGROUND_SHOP|DECK": {
+        "result": -1,
+        "tokens": 28
+    },
+    "PLAYGROUND_SHOP|RING": {
+        "result": 1,
+        "tokens": 27
+    },
+    "PLAYGROUND_TICK|DECK": {
+        "result": -1,
+        "tokens": 29
+    },
+    "PLAYGROUND_TICK|SHOP": {
+        "result": -1,
+        "tokens": 26
+    },
+    "PLAYGROUND_TICK|RING": {
+        "result": -1,
+        "tokens": 28
+    },
+    "PLAYGROUND_TICK|MINE": {
+        "result": 1,
+        "tokens": 29
+    },
+    "PLAYGROUND_TRUNK|DECK": {
+        "result": -1,
+        "tokens": 30
+    },
+    "PLAYGROUND_TRUNK|SHOP": {
+        "result": -1,
+        "tokens": 27
+    },
+    "PLAYGROUND_TRUNK|RING": {
+        "result": -1,
+        "tokens": 29
+    },
+    "PLAYGROUND_TRUNK|TICK": {
+        "result": -1,
+        "tokens": 28
+    },
+    "PLAYGROUND_TRUNK|MINE": {
+        "result": 1,
+        "tokens": 30
+    },
+    "PLAYGROUND_DINOSAUR|DECK": {
+        "result": -1,
+        "tokens": 35
+    },
+    "PLAYGROUND_DINOSAUR|SHOP": {
+        "result": -1,
+        "tokens": 32
+    },
+    "PLAYGROUND_DINOSAUR|RING": {
+        "result": -1,
+        "tokens": 34
+    },
+    "PLAYGROUND_DINOSAUR|TICK": {
+        "result": 1,
+        "tokens": 36
+    },
+    "PLAYGROUND_SLIP|DECK": {
+        "result": 1,
+        "tokens": 30
+    },
+    "PLAYGROUND_SPOT|SLIP": {
+        "result": 1,
+        "tokens": 30
+    },
+    "PLAYGROUND_TRIP|SPOT": {
+        "result": -1,
+        "tokens": 30
+    },
+    "PLAYGROUND_TRIP|SLIP": {
+        "result": -1,
+        "tokens": 30
+    },
+    "PLAYGROUND_TRIP|DECK": {
+        "result": 1,
+        "tokens": 30
+    },
+    "PLAYGROUND_SWING|SPOT": {
+        "result": 1,
+        "tokens": 30
+    },
+    "FRUIT_DINOSAUR|BEAT": {
+        "result": 0,
+        "tokens": 34
+    },
+    "FRUIT_GHOST|DINOSAUR": {
+        "result": -1,
+        "tokens": 37
+    },
+    "FRUIT_GHOST|BEAT": {
+        "result": -1,
+        "tokens": 30
+    },
+    "FRUIT_MASS|DINOSAUR": {
+        "result": 1,
+        "tokens": 33
+    },
+    "FRUIT_ROW|MASS": {
+        "result": 1,
+        "tokens": 25
+    },
+    "FRUIT_SLIP|ROW": {
+        "result": 1,
+        "tokens": 28
+    },
+    "FRUIT_SPOT|SLIP": {
+        "result": 1,
+        "tokens": 30
+    },
+    "FRUIT_SWING|SPOT": {
+        "result": 0,
+        "tokens": 29
+    },
+    "FRUIT_BATTERY|SWING": {
+        "result": -1,
+        "tokens": 30
+    },
+    "FRUIT_BATTERY|SPOT": {
+        "result": -1,
+        "tokens": 30
+    },
+    "FRUIT_BATTERY|SLIP": {
+        "result": 0,
+        "tokens": 29
+    },
+    "FRUIT_BED|SWING": {
+        "result": 0,
+        "tokens": 27
+    },
+    "FRUIT_BOTTLE|BED": {
+        "result": 1,
+        "tokens": 31
+    },
+    "FRUIT_CAST|BOTTLE": {
+        "result": -1,
+        "tokens": 31
+    },
+    "FRUIT_CAST|BED": {
+        "result": 1,
+        "tokens": 25
+    },
+    "FRUIT_CHICK|BOTTLE": {
+        "result": -1,
+        "tokens": 33
+    },
+    "FRUIT_CHICK|CAST": {
+        "result": 1,
+        "tokens": 28
+    },
+    "FRUIT_DECK|BOTTLE": {
+        "result": -1,
+        "tokens": 33
+    },
+    "FRUIT_DECK|CHICK": {
+        "result": -1,
+        "tokens": 30
+    },
+    "FRUIT_DECK|CAST": {
+        "result": 1,
+        "tokens": 28
+    },
+    "FRUIT_HOSPITAL|BOTTLE": {
+        "result": -1,
+        "tokens": 35
+    },
+    "FRUIT_HOSPITAL|CHICK": {
+        "result": 1,
+        "tokens": 33
+    },
+    "FRUIT_LAB|BOTTLE": {
+        "result": -1,
+        "tokens": 31
+    },
+    "FRUIT_LAB|HOSPITAL": {
+        "result": 1,
+        "tokens": 29
+    },
+    "FRUIT_LEPRECHAUN|BOTTLE": {
+        "result": -1,
+        "tokens": 38
+    },
+    "FRUIT_LEPRECHAUN|LAB": {
+        "result": -1,
+        "tokens": 32
+    },
+    "FRUIT_LEPRECHAUN|HOSPITAL": {
+        "result": -1,
+        "tokens": 38
+    },
+    "FRUIT_LEPRECHAUN|CHICK": {
+        "result": -1,
+        "tokens": 35
+    },
+    "FRUIT_LEPRECHAUN|DECK": {
+        "result": 0,
+        "tokens": 34
+    },
+    "FRUIT_MINE|BOTTLE": {
+        "result": -1,
+        "tokens": 33
+    },
+    "FRUIT_MINE|LAB": {
+        "result": -1,
+        "tokens": 27
+    },
+    "FRUIT_MINE|HOSPITAL": {
+        "result": -1,
+        "tokens": 33
+    },
+    "FRUIT_MINE|CHICK": {
+        "result": 0,
+        "tokens": 29
+    },
+    "FRUIT_RING|BOTTLE": {
+        "result": -1,
+        "tokens": 32
+    },
+    "FRUIT_RING|LAB": {
+        "result": 1,
+        "tokens": 26
+    },
+    "FRUIT_TICK|BOTTLE": {
+        "result": -1,
+        "tokens": 32
+    },
+    "FRUIT_TICK|RING": {
+        "result": 0,
+        "tokens": 28
+    },
+    "FRUIT_TRIP|BOTTLE": {
+        "result": -1,
+        "tokens": 33
+    },
+    "FRUIT_TRIP|TICK": {
+        "result": 1,
+        "tokens": 28
+    },
+    "FRUIT_TRUNK|BOTTLE": {
+        "result": 1,
+        "tokens": 32
+    },
+    "FRUIT_SHOP|TRUNK": {
+        "result": 1,
+        "tokens": 27
+    },
+    "FRUIT_APPLE|SHOP": {
+        "result": 1,
+        "tokens": 25
+    },
+    "FRUIT_PUMPKIN|APPLE": {
+        "result": 0,
+        "tokens": 31
+    },
+    "OARS_BEAT|APPLE": {
+        "result": 1,
+        "tokens": 28
+    },
+    "OARS_DINOSAUR|BEAT": {
+        "result": -1,
+        "tokens": 35
+    },
+    "OARS_DINOSAUR|APPLE": {
+        "result": 1,
+        "tokens": 36
+    },
+    "OARS_GHOST|BEAT": {
+        "result": -1,
+        "tokens": 30
+    },
+    "OARS_GHOST|DINOSAUR": {
+        "result": 0,
+        "tokens": 33
+    },
+    "OARS_MASS|BEAT": {
+        "result": 0,
+        "tokens": 28
+    },
+    "OARS_SLIP|MASS": {
+        "result": 0,
+        "tokens": 27
+    },
+    "OARS_SPOT|SLIP": {
+        "result": 0,
+        "tokens": 29
+    },
+    "OARS_BATTERY|SPOT": {
+        "result": 1,
+        "tokens": 30
+    },
+    "OARS_BED|BATTERY": {
+        "result": -1,
+        "tokens": 28
+    },
+    "OARS_BED|SPOT": {
+        "result": 0,
+        "tokens": 27
+    },
+    "OARS_BOTTLE|BATTERY": {
+        "result": 1,
+        "tokens": 33
+    },
+    "OARS_CAST|BOTTLE": {
+        "result": 1,
+        "tokens": 29
+    },
+    "OARS_CHICK|CAST": {
+        "result": -1,
+        "tokens": 27
+    },
+    "OARS_CHICK|BOTTLE": {
+        "result": -1,
+        "tokens": 33
+    },
+    "OARS_CHICK|BATTERY": {
+        "result": -1,
+        "tokens": 30
+    },
+    "OARS_CHICK|BED": {
+        "result": -1,
+        "tokens": 27
+    },
+    "OARS_CHICK|SPOT": {
+        "result": -1,
+        "tokens": 30
+    },
+    "OARS_CHICK|SLIP": {
+        "result": -1,
+        "tokens": 30
+    },
+    "OARS_CHICK|MASS": {
+        "result": -1,
+        "tokens": 28
+    },
+    "OARS_CHICK|BEAT": {
+        "result": -1,
+        "tokens": 30
+    },
+    "OARS_CHICK|GHOST": {
+        "result": 1,
+        "tokens": 30
+    },
+    "OARS_HOSPITAL|CAST": {
+        "result": 1,
+        "tokens": 31
+    },
+    "OARS_LAB|HOSPITAL": {
+        "result": 0,
+        "tokens": 29
+    },
+    "OARS_LEPRECHAUN|LAB": {
+        "result": -1,
+        "tokens": 32
+    },
+    "OARS_LEPRECHAUN|HOSPITAL": {
+        "result": 0,
+        "tokens": 36
+    },
+    "OARS_MINE|LAB": {
+        "result": 1,
+        "tokens": 28
+    },
+    "OARS_PUMPKIN|MINE": {
+        "result": -1,
+        "tokens": 34
+    },
+    "OARS_PUMPKIN|LAB": {
+        "result": 0,
+        "tokens": 31
+    },
+    "OARS_RING|MINE": {
+        "result": -1,
+        "tokens": 29
+    },
+    "OARS_RING|PUMPKIN": {
+        "result": 1,
+        "tokens": 32
+    },
+    "OARS_SHOP|MINE": {
+        "result": 1,
+        "tokens": 27
+    },
+    "OARS_TICK|SHOP": {
+        "result": -1,
+        "tokens": 26
+    },
+    "OARS_TICK|MINE": {
+        "result": 0,
+        "tokens": 28
+    },
+    "OARS_TRUNK|SHOP": {
+        "result": 1,
+        "tokens": 28
+    },
+    "OARS_SWING|TRUNK": {
+        "result": 1,
+        "tokens": 30
+    },
+    "OARS_DECK|SWING": {
+        "result": 1,
+        "tokens": 30
+    },
+    "OARS_TRIP|DECK": {
+        "result": 1,
+        "tokens": 30
+    },
+    "OARS_ROW|TRIP": {
+        "result": 1,
+        "tokens": 27
+    },
+    "DOT_BEAT|APPLE": {
+        "result": 1,
+        "tokens": 27
+    },
+    "DOT_DINOSAUR|BEAT": {
+        "result": 0,
+        "tokens": 33
+    },
+    "DOT_GHOST|DINOSAUR": {
+        "result": 0,
+        "tokens": 32
+    },
+    "DOT_MASS|GHOST": {
+        "result": 0,
+        "tokens": 27
+    },
+    "DOT_ROW|MASS": {
+        "result": 0,
+        "tokens": 24
+    },
+    "DOT_SLIP|ROW": {
+        "result": 0,
+        "tokens": 26
+    },
+    "DOT_SWING|SLIP": {
+        "result": 0,
+        "tokens": 28
+    },
+    "DOT_BATTERY|SWING": {
+        "result": 0,
+        "tokens": 28
+    },
+    "DOT_BED|BATTERY": {
+        "result": 0,
+        "tokens": 26
+    },
+    "DOT_BOTTLE|BED": {
+        "result": 0,
+        "tokens": 28
+    },
+    "DOT_CAST|BOTTLE": {
+        "result": 0,
+        "tokens": 28
+    },
+    "DOT_CHICK|CAST": {
+        "result": 0,
+        "tokens": 26
+    },
+    "DOT_DECK|CHICK": {
+        "result": 1,
+        "tokens": 29
+    },
+    "DOT_HOSPITAL|DECK": {
+        "result": 0,
+        "tokens": 30
+    },
+    "DOT_LAB|HOSPITAL": {
+        "result": 0,
+        "tokens": 28
+    },
+    "DOT_LEPRECHAUN|LAB": {
+        "result": -1,
+        "tokens": 31
+    },
+    "DOT_LEPRECHAUN|HOSPITAL": {
+        "result": -1,
+        "tokens": 37
+    },
+    "DOT_LEPRECHAUN|DECK": {
+        "result": -1,
+        "tokens": 34
+    },
+    "DOT_LEPRECHAUN|CHICK": {
+        "result": 0,
+        "tokens": 33
+    },
+    "DOT_MINE|LAB": {
+        "result": 1,
+        "tokens": 27
+    },
+    "DOT_PUMPKIN|MINE": {
+        "result": -1,
+        "tokens": 33
+    },
+    "DOT_PUMPKIN|LAB": {
+        "result": -1,
+        "tokens": 30
+    },
+    "DOT_PUMPKIN|HOSPITAL": {
+        "result": 0,
+        "tokens": 34
+    },
+    "DOT_RING|MINE": {
+        "result": 0,
+        "tokens": 27
+    },
+    "DOT_SHOP|RING": {
+        "result": 1,
+        "tokens": 26
+    },
+    "DOT_TRIP|SHOP": {
+        "result": 1,
+        "tokens": 27
+    },
+    "DOT_TRUNK|TRIP": {
+        "result": -1,
+        "tokens": 29
+    },
+    "DOT_TRUNK|SHOP": {
+        "result": 0,
+        "tokens": 26
+    },
+    "DOT_TICK|TRIP": {
+        "result": -1,
+        "tokens": 28
+    },
+    "DOT_TICK|TRUNK": {
+        "result": 1,
+        "tokens": 28
+    },
+    "DOT_SPOT|TRIP": {
+        "result": 0,
+        "tokens": 28
+    },
+    "RHYTHM_DINOSAUR|APPLE": {
+        "result": 0,
+        "tokens": 34
+    },
+    "RHYTHM_GHOST|DINOSAUR": {
+        "result": 0,
+        "tokens": 35
+    },
+    "RHYTHM_MASS|GHOST": {
+        "result": 0,
+        "tokens": 30
+    },
+    "RHYTHM_SLIP|MASS": {
+        "result": 1,
+        "tokens": 30
+    },
+    "RHYTHM_SPOT|SLIP": {
+        "result": 0,
+        "tokens": 31
+    },
+    "RHYTHM_BATTERY|SPOT": {
+        "result": 1,
+        "tokens": 32
+    },
+    "RHYTHM_BED|BATTERY": {
+        "result": -1,
+        "tokens": 30
+    },
+    "RHYTHM_BED|SPOT": {
+        "result": 0,
+        "tokens": 29
+    },
+    "RHYTHM_BOTTLE|BATTERY": {
+        "result": 0,
+        "tokens": 33
+    },
+    "RHYTHM_CAST|BOTTLE": {
+        "result": 0,
+        "tokens": 31
+    },
+    "RHYTHM_CHICK|CAST": {
+        "result": 0,
+        "tokens": 29
+    },
+    "RHYTHM_DECK|CHICK": {
+        "result": -1,
+        "tokens": 32
+    },
+    "RHYTHM_DECK|CAST": {
+        "result": -1,
+        "tokens": 29
+    },
+    "RHYTHM_DECK|BOTTLE": {
+        "result": 0,
+        "tokens": 33
+    },
+    "RHYTHM_HOSPITAL|CHICK": {
+        "result": 1,
+        "tokens": 35
+    },
+    "RHYTHM_LAB|HOSPITAL": {
+        "result": 1,
+        "tokens": 31
+    },
+    "RHYTHM_LEPRECHAUN|LAB": {
+        "result": 0,
+        "tokens": 34
+    },
+    "RHYTHM_MINE|LEPRECHAUN": {
+        "result": 0,
+        "tokens": 37
+    },
+    "RHYTHM_PUMPKIN|MINE": {
+        "result": 0,
+        "tokens": 35
+    },
+    "RHYTHM_SHOP|PUMPKIN": {
+        "result": 0,
+        "tokens": 33
+    },
+    "RHYTHM_TRUNK|SHOP": {
+        "result": 0,
+        "tokens": 29
+    },
+    "RHYTHM_ROW|TRUNK": {
+        "result": 1,
+        "tokens": 29
+    },
+    "RHYTHM_RING|ROW": {
+        "result": 1,
+        "tokens": 28
+    },
+    "RHYTHM_TRIP|RING": {
+        "result": -1,
+        "tokens": 31
+    },
+    "RHYTHM_TRIP|ROW": {
+        "result": -1,
+        "tokens": 29
+    },
+    "RHYTHM_TRIP|TRUNK": {
+        "result": 0,
+        "tokens": 31
+    },
+    "RHYTHM_SWING|RING": {
+        "result": 1,
+        "tokens": 32
+    },
+    "RHYTHM_TICK|SWING": {
+        "result": -1,
+        "tokens": 31
+    },
+    "RHYTHM_TICK|RING": {
+        "result": 1,
+        "tokens": 31
+    },
+    "RHYTHM_BEAT|SWING": {
+        "result": 1,
+        "tokens": 32
+    },
+    "BANANA_DINOSAUR|BEAT": {
+        "result": -1,
+        "tokens": 36
+    },
+    "BANANA_GHOST|BEAT": {
+        "result": -1,
+        "tokens": 31
+    },
+    "BANANA_GHOST|DINOSAUR": {
+        "result": 0,
+        "tokens": 34
+    },
+    "BANANA_MASS|BEAT": {
+        "result": 0,
+        "tokens": 29
+    },
+    "BANANA_ROW|MASS": {
+        "result": 1,
+        "tokens": 26
+    },
+    "BANANA_SPOT|ROW": {
+        "result": 0,
+        "tokens": 28
+    },
+    "BANANA_SWING|SPOT": {
+        "result": 1,
+        "tokens": 31
+    },
+    "BANANA_BATTERY|SWING": {
+        "result": -1,
+        "tokens": 31
+    },
+    "BANANA_BATTERY|SPOT": {
+        "result": 0,
+        "tokens": 30
+    },
+    "BANANA_BED|SWING": {
+        "result": 0,
+        "tokens": 28
+    },
+    "BANANA_BOTTLE|BED": {
+        "result": 1,
+        "tokens": 32
+    },
+    "BANANA_CAST|BOTTLE": {
+        "result": -1,
+        "tokens": 32
+    },
+    "BANANA_CAST|BED": {
+        "result": 1,
+        "tokens": 26
+    },
+    "BANANA_CHICK|BOTTLE": {
+        "result": -1,
+        "tokens": 34
+    },
+    "BANANA_CHICK|CAST": {
+        "result": -1,
+        "tokens": 28
+    },
+    "BANANA_CHICK|BED": {
+        "result": 1,
+        "tokens": 29
+    },
+    "BANANA_DECK|BOTTLE": {
+        "result": -1,
+        "tokens": 34
+    },
+    "BANANA_DECK|CAST": {
+        "result": 0,
+        "tokens": 28
+    },
+    "BANANA_HOSPITAL|BOTTLE": {
+        "result": -1,
+        "tokens": 36
+    },
+    "BANANA_HOSPITAL|DECK": {
+        "result": 0,
+        "tokens": 32
+    },
+    "BANANA_LAB|BOTTLE": {
+        "result": -1,
+        "tokens": 32
+    },
+    "BANANA_LAB|HOSPITAL": {
+        "result": 1,
+        "tokens": 30
+    },
+    "BANANA_LEPRECHAUN|BOTTLE": {
+        "result": -1,
+        "tokens": 39
+    },
+    "BANANA_LEPRECHAUN|LAB": {
+        "result": -1,
+        "tokens": 33
+    },
+    "BANANA_LEPRECHAUN|HOSPITAL": {
+        "result": 0,
+        "tokens": 37
+    },
+    "BANANA_MINE|BOTTLE": {
+        "result": -1,
+        "tokens": 34
+    },
+    "BANANA_MINE|LAB": {
+        "result": 0,
+        "tokens": 28
+    },
+    "BANANA_RING|BOTTLE": {
+        "result": 1,
+        "tokens": 31
+    },
+    "BANANA_TICK|RING": {
+        "result": 0,
+        "tokens": 29
+    },
+    "BANANA_TRIP|TICK": {
+        "result": 0,
+        "tokens": 28
+    },
+    "BANANA_SLIP|TRIP": {
+        "result": 1,
+        "tokens": 31
+    },
+    "BANANA_PUMPKIN|SLIP": {
+        "result": 1,
+        "tokens": 37
+    },
+    "BANANA_SHOP|PUMPKIN": {
+        "result": -1,
+        "tokens": 35
+    },
+    "BANANA_SHOP|SLIP": {
+        "result": -1,
+        "tokens": 29
+    },
+    "BANANA_SHOP|TRIP": {
+        "result": 1,
+        "tokens": 28
+    },
+    "BANANA_TRUNK|PUMPKIN": {
+        "result": -1,
+        "tokens": 37
+    },
+    "BANANA_TRUNK|SLIP": {
+        "result": -1,
+        "tokens": 31
+    },
+    "BANANA_TRUNK|SHOP": {
+        "result": 1,
+        "tokens": 29
+    },
+    "BANANA_APPLE|PUMPKIN": {
+        "result": 1,
+        "tokens": 32
+    },
+    "SPECTER_BEAT|APPLE": {
+        "result": 0,
+        "tokens": 28
+    },
+    "SPECTER_DINOSAUR|BEAT": {
+        "result": -1,
+        "tokens": 36
+    },
+    "SPECTER_DINOSAUR|APPLE": {
+        "result": 1,
+        "tokens": 37
+    },
+    "SPECTER_MASS|BEAT": {
+        "result": 1,
+        "tokens": 30
+    },
+    "SPECTER_ROW|MASS": {
+        "result": 0,
+        "tokens": 26
+    },
+    "SPECTER_SLIP|ROW": {
+        "result": 0,
+        "tokens": 28
+    },
+    "SPECTER_SPOT|SLIP": {
+        "result": 0,
+        "tokens": 30
+    },
+    "SPECTER_SWING|SPOT": {
+        "result": 0,
+        "tokens": 30
+    },
+    "SPECTER_BATTERY|SWING": {
+        "result": 0,
+        "tokens": 30
+    },
+    "SPECTER_BED|BATTERY": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SPECTER_BED|SWING": {
+        "result": 0,
+        "tokens": 28
+    },
+    "SPECTER_BOTTLE|BATTERY": {
+        "result": -1,
+        "tokens": 33
+    },
+    "SPECTER_BOTTLE|BED": {
+        "result": 0,
+        "tokens": 30
+    },
+    "SPECTER_CAST|BATTERY": {
+        "result": 0,
+        "tokens": 28
+    },
+    "SPECTER_CHICK|CAST": {
+        "result": -1,
+        "tokens": 28
+    },
+    "SPECTER_CHICK|BATTERY": {
+        "result": -1,
+        "tokens": 31
+    },
+    "SPECTER_CHICK|BOTTLE": {
+        "result": 0,
+        "tokens": 32
+    },
+    "SPECTER_DECK|CAST": {
+        "result": -1,
+        "tokens": 28
+    },
+    "SPECTER_DECK|BATTERY": {
+        "result": 0,
+        "tokens": 30
+    },
+    "SPECTER_HOSPITAL|CAST": {
+        "result": -1,
+        "tokens": 30
+    },
+    "SPECTER_HOSPITAL|DECK": {
+        "result": 0,
+        "tokens": 32
+    },
+    "SPECTER_LAB|CAST": {
+        "result": 1,
+        "tokens": 26
+    },
+    "SPECTER_MINE|LAB": {
+        "result": 0,
+        "tokens": 28
+    },
+    "SPECTER_PUMPKIN|MINE": {
+        "result": -1,
+        "tokens": 35
+    },
+    "SPECTER_PUMPKIN|LAB": {
+        "result": -1,
+        "tokens": 32
+    },
+    "SPECTER_PUMPKIN|CAST": {
+        "result": -1,
+        "tokens": 32
+    },
+    "SPECTER_PUMPKIN|HOSPITAL": {
+        "result": 0,
+        "tokens": 36
+    },
+    "SPECTER_RING|MINE": {
+        "result": 0,
+        "tokens": 29
+    },
+    "SPECTER_SHOP|RING": {
+        "result": -1,
+        "tokens": 28
+    },
+    "SPECTER_SHOP|MINE": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SPECTER_SHOP|LAB": {
+        "result": -1,
+        "tokens": 26
+    },
+    "SPECTER_SHOP|CAST": {
+        "result": -1,
+        "tokens": 26
+    },
+    "SPECTER_SHOP|PUMPKIN": {
+        "result": -1,
+        "tokens": 35
+    },
+    "SPECTER_SHOP|HOSPITAL": {
+        "result": 0,
+        "tokens": 30
+    },
+    "SPECTER_TICK|RING": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SPECTER_TICK|MINE": {
+        "result": 0,
+        "tokens": 29
+    },
+    "SPECTER_TRIP|RING": {
+        "result": 0,
+        "tokens": 30
+    },
+    "SPECTER_TRUNK|TRIP": {
+        "result": 0,
+        "tokens": 30
+    },
+    "SPECTER_LEPRECHAUN|TRUNK": {
+        "result": 0,
+        "tokens": 35
+    },
+    "SPECTER_GHOST|LEPRECHAUN": {
+        "result": 1,
+        "tokens": 37
+    },
+    "CHURCH_BEAT|APPLE": {
+        "result": -1,
+        "tokens": 28
+    },
+    "CHURCH_DINOSAUR|APPLE": {
+        "result": -1,
+        "tokens": 33
+    },
+    "CHURCH_DINOSAUR|BEAT": {
+        "result": 0,
+        "tokens": 35
+    },
+    "CHURCH_GHOST|APPLE": {
+        "result": 1,
+        "tokens": 29
+    },
+    "CHURCH_ROW|GHOST": {
+        "result": 1,
+        "tokens": 28
+    },
+    "CHURCH_SLIP|ROW": {
+        "result": -1,
+        "tokens": 28
+    },
+    "CHURCH_SLIP|GHOST": {
+        "result": -1,
+        "tokens": 31
+    },
+    "CHURCH_SLIP|APPLE": {
+        "result": -1,
+        "tokens": 28
+    },
+    "CHURCH_SLIP|DINOSAUR": {
+        "result": 0,
+        "tokens": 34
+    },
+    "CHURCH_SPOT|ROW": {
+        "result": 1,
+        "tokens": 29
+    },
+    "CHURCH_SWING|SPOT": {
+        "result": 0,
+        "tokens": 30
+    },
+    "CHURCH_BATTERY|SWING": {
+        "result": 0,
+        "tokens": 30
+    },
+    "CHURCH_BED|BATTERY": {
+        "result": 1,
+        "tokens": 28
+    },
+    "CHURCH_BOTTLE|BED": {
+        "result": -1,
+        "tokens": 30
+    },
+    "CHURCH_BOTTLE|BATTERY": {
+        "result": 1,
+        "tokens": 34
+    },
+    "CHURCH_CAST|BED": {
+        "result": 1,
+        "tokens": 26
+    },
+    "CHURCH_CHICK|CAST": {
+        "result": -1,
+        "tokens": 28
+    },
+    "CHURCH_CHICK|BED": {
+        "result": 1,
+        "tokens": 29
+    },
+    "CHURCH_DECK|CAST": {
+        "result": -1,
+        "tokens": 28
+    },
+    "CHURCH_DECK|CHICK": {
+        "result": 0,
+        "tokens": 30
+    },
+    "CHURCH_HOSPITAL|CAST": {
+        "result": 1,
+        "tokens": 32
+    },
+    "CHURCH_LAB|HOSPITAL": {
+        "result": 0,
+        "tokens": 30
+    },
+    "CHURCH_LEPRECHAUN|LAB": {
+        "result": 1,
+        "tokens": 36
+    },
+    "CHURCH_MINE|LEPRECHAUN": {
+        "result": 1,
+        "tokens": 37
+    },
+    "CHURCH_PUMPKIN|MINE": {
+        "result": 0,
+        "tokens": 34
+    },
+    "CHURCH_SHOP|PUMPKIN": {
+        "result": 1,
+        "tokens": 32
+    },
+    "CHURCH_TICK|SHOP": {
+        "result": -1,
+        "tokens": 27
+    },
+    "CHURCH_TICK|PUMPKIN": {
+        "result": 0,
+        "tokens": 33
+    },
+    "CHURCH_TRUNK|SHOP": {
+        "result": -1,
+        "tokens": 28
+    },
+    "CHURCH_TRUNK|TICK": {
+        "result": 0,
+        "tokens": 28
+    },
+    "CHURCH_RING|SHOP": {
+        "result": 1,
+        "tokens": 27
+    },
+    "CHURCH_TRIP|RING": {
+        "result": -1,
+        "tokens": 30
+    },
+    "CHURCH_TRIP|SHOP": {
+        "result": -1,
+        "tokens": 28
+    },
+    "CHURCH_TRIP|TRUNK": {
+        "result": 1,
+        "tokens": 31
+    },
+    "CHURCH_MASS|RING": {
+        "result": 1,
+        "tokens": 30
+    },
+    "JURASSIC_BEAT|APPLE": {
+        "result": -1,
+        "tokens": 29
+    },
+    "JURASSIC_GHOST|APPLE": {
+        "result": -1,
+        "tokens": 29
+    },
+    "JURASSIC_GHOST|BEAT": {
+        "result": 1,
+        "tokens": 32
+    },
+    "JURASSIC_MASS|APPLE": {
+        "result": 1,
+        "tokens": 29
+    },
+    "JURASSIC_ROW|MASS": {
+        "result": -1,
+        "tokens": 28
+    },
+    "JURASSIC_ROW|APPLE": {
+        "result": 1,
+        "tokens": 27
+    },
+    "JURASSIC_SLIP|MASS": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_SLIP|ROW": {
+        "result": 0,
+        "tokens": 29
+    },
+    "JURASSIC_SPOT|MASS": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_SPOT|SLIP": {
+        "result": 0,
+        "tokens": 31
+    },
+    "JURASSIC_SWING|MASS": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_SWING|SPOT": {
+        "result": 0,
+        "tokens": 31
+    },
+    "JURASSIC_BATTERY|MASS": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_BATTERY|SWING": {
+        "result": -1,
+        "tokens": 32
+    },
+    "JURASSIC_BATTERY|SPOT": {
+        "result": -1,
+        "tokens": 32
+    },
+    "JURASSIC_BATTERY|SLIP": {
+        "result": 0,
+        "tokens": 31
+    },
+    "JURASSIC_BED|MASS": {
+        "result": -1,
+        "tokens": 28
+    },
+    "JURASSIC_BED|SWING": {
+        "result": 0,
+        "tokens": 29
+    },
+    "JURASSIC_BOTTLE|MASS": {
+        "result": -1,
+        "tokens": 32
+    },
+    "JURASSIC_BOTTLE|BED": {
+        "result": 0,
+        "tokens": 31
+    },
+    "JURASSIC_CAST|MASS": {
+        "result": 1,
+        "tokens": 27
+    },
+    "JURASSIC_CHICK|CAST": {
+        "result": -1,
+        "tokens": 29
+    },
+    "JURASSIC_CHICK|MASS": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_CHICK|BOTTLE": {
+        "result": 1,
+        "tokens": 34
+    },
+    "JURASSIC_DECK|CAST": {
+        "result": -1,
+        "tokens": 29
+    },
+    "JURASSIC_DECK|MASS": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_DECK|CHICK": {
+        "result": -1,
+        "tokens": 32
+    },
+    "JURASSIC_DECK|BOTTLE": {
+        "result": 1,
+        "tokens": 34
+    },
+    "JURASSIC_HOSPITAL|CAST": {
+        "result": -1,
+        "tokens": 31
+    },
+    "JURASSIC_HOSPITAL|MASS": {
+        "result": -1,
+        "tokens": 32
+    },
+    "JURASSIC_HOSPITAL|CHICK": {
+        "result": -1,
+        "tokens": 34
+    },
+    "JURASSIC_HOSPITAL|DECK": {
+        "result": -1,
+        "tokens": 34
+    },
+    "JURASSIC_HOSPITAL|BOTTLE": {
+        "result": -1,
+        "tokens": 37
+    },
+    "JURASSIC_HOSPITAL|BED": {
+        "result": 0,
+        "tokens": 31
+    },
+    "JURASSIC_LEPRECHAUN|CAST": {
+        "result": -1,
+        "tokens": 34
+    },
+    "JURASSIC_LEPRECHAUN|MASS": {
+        "result": -1,
+        "tokens": 35
+    },
+    "JURASSIC_LEPRECHAUN|CHICK": {
+        "result": 0,
+        "tokens": 36
+    },
+    "JURASSIC_MINE|CAST": {
+        "result": 1,
+        "tokens": 30
+    },
+    "JURASSIC_PUMPKIN|MINE": {
+        "result": -1,
+        "tokens": 36
+    },
+    "JURASSIC_PUMPKIN|CAST": {
+        "result": -1,
+        "tokens": 33
+    },
+    "JURASSIC_PUMPKIN|MASS": {
+        "result": -1,
+        "tokens": 34
+    },
+    "JURASSIC_PUMPKIN|LEPRECHAUN": {
+        "result": 0,
+        "tokens": 41
+    },
+    "JURASSIC_RING|MINE": {
+        "result": -1,
+        "tokens": 31
+    },
+    "JURASSIC_RING|CAST": {
+        "result": -1,
+        "tokens": 28
+    },
+    "JURASSIC_RING|MASS": {
+        "result": -1,
+        "tokens": 29
+    },
+    "JURASSIC_RING|PUMPKIN": {
+        "result": 1,
+        "tokens": 34
+    },
+    "JURASSIC_SHOP|MINE": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_SHOP|CAST": {
+        "result": -1,
+        "tokens": 27
+    },
+    "JURASSIC_SHOP|MASS": {
+        "result": -1,
+        "tokens": 28
+    },
+    "JURASSIC_SHOP|RING": {
+        "result": -1,
+        "tokens": 29
+    },
+    "JURASSIC_SHOP|PUMPKIN": {
+        "result": -1,
+        "tokens": 36
+    },
+    "JURASSIC_SHOP|LEPRECHAUN": {
+        "result": -1,
+        "tokens": 38
+    },
+    "JURASSIC_SHOP|CHICK": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_SHOP|DECK": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_SHOP|BOTTLE": {
+        "result": -1,
+        "tokens": 33
+    },
+    "JURASSIC_SHOP|HOSPITAL": {
+        "result": 0,
+        "tokens": 31
+    },
+    "JURASSIC_TICK|MINE": {
+        "result": -1,
+        "tokens": 31
+    },
+    "JURASSIC_TICK|CAST": {
+        "result": -1,
+        "tokens": 28
+    },
+    "JURASSIC_TICK|MASS": {
+        "result": -1,
+        "tokens": 29
+    },
+    "JURASSIC_TICK|RING": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_TICK|PUMPKIN": {
+        "result": 1,
+        "tokens": 35
+    },
+    "JURASSIC_TRIP|MINE": {
+        "result": 1,
+        "tokens": 32
+    },
+    "JURASSIC_TRUNK|TRIP": {
+        "result": -1,
+        "tokens": 32
+    },
+    "JURASSIC_TRUNK|MINE": {
+        "result": 1,
+        "tokens": 32
+    },
+    "JURASSIC_LAB|TRIP": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_LAB|TRUNK": {
+        "result": -1,
+        "tokens": 30
+    },
+    "JURASSIC_LAB|MINE": {
+        "result": 1,
+        "tokens": 29
+    },
+    "JURASSIC_DINOSAUR|TRIP": {
+        "result": 1,
+        "tokens": 40
+    },
+    "SLIDE_BEAT|APPLE": {
+        "result": -1,
+        "tokens": 27
+    },
+    "SLIDE_DINOSAUR|APPLE": {
+        "result": -1,
+        "tokens": 32
+    },
+    "SLIDE_DINOSAUR|BEAT": {
+        "result": 0,
+        "tokens": 34
+    },
+    "SLIDE_GHOST|APPLE": {
+        "result": -1,
+        "tokens": 27
+    },
+    "SLIDE_GHOST|DINOSAUR": {
+        "result": -1,
+        "tokens": 37
+    },
+    "SLIDE_GHOST|BEAT": {
+        "result": -1,
+        "tokens": 30
+    },
+    "SLIDE_MASS|APPLE": {
+        "result": -1,
+        "tokens": 26
+    },
+    "SLIDE_MASS|DINOSAUR": {
+        "result": 0,
+        "tokens": 32
+    },
+    "SLIDE_ROW|APPLE": {
+        "result": 1,
+        "tokens": 25
+    },
+    "SLIDE_SPOT|ROW": {
+        "result": -1,
+        "tokens": 27
+    },
+    "SLIDE_SPOT|APPLE": {
+        "result": 1,
+        "tokens": 28
+    },
+    "SLIDE_BATTERY|ROW": {
+        "result": 0,
+        "tokens": 27
+    },
+    "SLIDE_BED|BATTERY": {
+        "result": 1,
+        "tokens": 27
+    },
+    "SLIDE_BOTTLE|BED": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SLIDE_BOTTLE|BATTERY": {
+        "result": 1,
+        "tokens": 33
+    },
+    "SLIDE_CAST|BED": {
+        "result": -1,
+        "tokens": 25
+    },
+    "SLIDE_CAST|BOTTLE": {
+        "result": 1,
+        "tokens": 29
+    },
+    "SLIDE_CHICK|BED": {
+        "result": -1,
+        "tokens": 27
+    },
+    "SLIDE_CHICK|CAST": {
+        "result": -1,
+        "tokens": 27
+    },
+    "SLIDE_CHICK|BOTTLE": {
+        "result": -1,
+        "tokens": 33
+    },
+    "SLIDE_CHICK|BATTERY": {
+        "result": 0,
+        "tokens": 29
+    },
+    "SLIDE_DECK|BED": {
+        "result": 1,
+        "tokens": 28
+    },
+    "SLIDE_HOSPITAL|DECK": {
+        "result": -1,
+        "tokens": 32
+    },
+    "SLIDE_HOSPITAL|BED": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SLIDE_HOSPITAL|CAST": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SLIDE_HOSPITAL|BOTTLE": {
+        "result": -1,
+        "tokens": 35
+    },
+    "SLIDE_HOSPITAL|CHICK": {
+        "result": 0,
+        "tokens": 31
+    },
+    "SLIDE_LAB|DECK": {
+        "result": -1,
+        "tokens": 28
+    },
+    "SLIDE_LAB|BED": {
+        "result": -1,
+        "tokens": 25
+    },
+    "SLIDE_LAB|CAST": {
+        "result": -1,
+        "tokens": 25
+    },
+    "SLIDE_LAB|BOTTLE": {
+        "result": 1,
+        "tokens": 29
+    },
+    "SLIDE_LEPRECHAUN|DECK": {
+        "result": -1,
+        "tokens": 35
+    },
+    "SLIDE_LEPRECHAUN|BED": {
+        "result": -1,
+        "tokens": 32
+    },
+    "SLIDE_LEPRECHAUN|CAST": {
+        "result": -1,
+        "tokens": 32
+    },
+    "SLIDE_LEPRECHAUN|LAB": {
+        "result": -1,
+        "tokens": 32
+    },
+    "SLIDE_LEPRECHAUN|BOTTLE": {
+        "result": -1,
+        "tokens": 38
+    },
+    "SLIDE_LEPRECHAUN|HOSPITAL": {
+        "result": 0,
+        "tokens": 36
+    },
+    "SLIDE_MINE|DECK": {
+        "result": -1,
+        "tokens": 30
+    },
+    "SLIDE_MINE|BED": {
+        "result": -1,
+        "tokens": 27
+    },
+    "SLIDE_MINE|CAST": {
+        "result": -1,
+        "tokens": 27
+    },
+    "SLIDE_MINE|LAB": {
+        "result": 1,
+        "tokens": 28
+    },
+    "SLIDE_PUMPKIN|DECK": {
+        "result": -1,
+        "tokens": 34
+    },
+    "SLIDE_PUMPKIN|BED": {
+        "result": -1,
+        "tokens": 31
+    },
+    "SLIDE_PUMPKIN|CAST": {
+        "result": -1,
+        "tokens": 31
+    },
+    "SLIDE_PUMPKIN|MINE": {
+        "result": -1,
+        "tokens": 34
+    },
+    "SLIDE_PUMPKIN|LAB": {
+        "result": -1,
+        "tokens": 31
+    },
+    "SLIDE_PUMPKIN|BOTTLE": {
+        "result": -1,
+        "tokens": 37
+    },
+    "SLIDE_PUMPKIN|LEPRECHAUN": {
+        "result": 0,
+        "tokens": 39
+    },
+    "SLIDE_RING|DECK": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SLIDE_RING|BED": {
+        "result": 1,
+        "tokens": 26
+    },
+    "SLIDE_SHOP|DECK": {
+        "result": -1,
+        "tokens": 28
+    },
+    "SLIDE_SHOP|RING": {
+        "result": -1,
+        "tokens": 27
+    },
+    "SLIDE_SHOP|BED": {
+        "result": -1,
+        "tokens": 25
+    },
+    "SLIDE_SHOP|CAST": {
+        "result": -1,
+        "tokens": 25
+    },
+    "SLIDE_SHOP|MINE": {
+        "result": 1,
+        "tokens": 27
+    },
+    "SLIDE_TICK|DECK": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SLIDE_TICK|RING": {
+        "result": -1,
+        "tokens": 28
+    },
+    "SLIDE_TICK|BED": {
+        "result": -1,
+        "tokens": 26
+    },
+    "SLIDE_TICK|CAST": {
+        "result": -1,
+        "tokens": 26
+    },
+    "SLIDE_TICK|SHOP": {
+        "result": -1,
+        "tokens": 26
+    },
+    "SLIDE_TICK|MINE": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SLIDE_TICK|LAB": {
+        "result": 1,
+        "tokens": 27
+    },
+    "SLIDE_TRUNK|DECK": {
+        "result": -1,
+        "tokens": 30
+    },
+    "SLIDE_TRUNK|RING": {
+        "result": -1,
+        "tokens": 29
+    },
+    "SLIDE_TRUNK|BED": {
+        "result": -1,
+        "tokens": 27
+    },
+    "SLIDE_TRUNK|CAST": {
+        "result": 0,
+        "tokens": 27
+    },
+    "SLIDE_SWING|DECK": {
+        "result": 1,
+        "tokens": 30
+    },
+    "SLIDE_TRIP|SWING": {
+        "result": -1,
+        "tokens": 30
+    },
+    "SLIDE_TRIP|DECK": {
+        "result": -1,
+        "tokens": 30
+    },
+    "SLIDE_TRIP|RING": {
+        "result": 1,
+        "tokens": 30
+    },
+    "SLIDE_SLIP|SWING": {
+        "result": 1,
+        "tokens": 30
+    }
+}

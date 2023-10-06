@@ -1,4 +1,4 @@
-For each of the words, rate how related the word is to the clue ### on a scale from 1 to 4.
+For each of the words, rate how related the word is to the clue ### on a scale from 1 to 10.
 
 Output format:
 <word>: <score>

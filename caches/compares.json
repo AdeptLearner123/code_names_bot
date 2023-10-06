@@ -1,0 +1,178 @@
+{
+    "PLAYGROUND_BEAT|APPLE": {
+        "result": 0,
+        "tokens": 34
+    },
+    "PLAYGROUND_GHOST|BEAT": {
+        "result": 0,
+        "tokens": 36
+    },
+    "PLAYGROUND_MASS|GHOST": {
+        "result": 0,
+        "tokens": 34
+    },
+    "PLAYGROUND_ROW|MASS": {
+        "result": 0,
+        "tokens": 33
+    },
+    "PLAYGROUND_BATTERY|ROW": {
+        "result": 0,
+        "tokens": 34
+    },
+    "PLAYGROUND_BED|BATTERY": {
+        "result": 1,
+        "tokens": 33
+    },
+    "PLAYGROUND_BOTTLE|BED": {
+        "result": -1,
+        "tokens": 36
+    },
+    "PLAYGROUND_BOTTLE|BATTERY": {
+        "result": 1,
+        "tokens": 39
+    },
+    "PLAYGROUND_CAST|BED": {
+        "result": 1,
+        "tokens": 32
+    },
+    "PLAYGROUND_CHICK|CAST": {
+        "result": 0,
+        "tokens": 34
+    },
+    "PLAYGROUND_DECK|CHICK": {
+        "result": 1,
+        "tokens": 37
+    },
+    "PLAYGROUND_HOSPITAL|DECK": {
+        "result": -1,
+        "tokens": 39
+    },
+    "PLAYGROUND_HOSPITAL|CHICK": {
+        "result": 0,
+        "tokens": 38
+    },
+    "PLAYGROUND_LAB|DECK": {
+        "result": -1,
+        "tokens": 35
+    },
+    "PLAYGROUND_LAB|HOSPITAL": {
+        "result": 0,
+        "tokens": 35
+    },
+    "PLAYGROUND_LEPRECHAUN|DECK": {
+        "result": -1,
+        "tokens": 42
+    },
+    "PLAYGROUND_LEPRECHAUN|LAB": {
+        "result": -1,
+        "tokens": 39
+    },
+    "PLAYGROUND_LEPRECHAUN|HOSPITAL": {
+        "result": -1,
+        "tokens": 44
+    },
+    "PLAYGROUND_LEPRECHAUN|CHICK": {
+        "result": -1,
+        "tokens": 42
+    },
+    "PLAYGROUND_LEPRECHAUN|CAST": {
+        "result": 0,
+        "tokens": 39
+    },
+    "PLAYGROUND_MINE|DECK": {
+        "result": -1,
+        "tokens": 37
+    },
+    "PLAYGROUND_MINE|LAB": {
+        "result": 0,
+        "tokens": 34
+    },
+    "PLAYGROUND_PUMPKIN|DECK": {
+        "result": -1,
+        "tokens": 41
+    },
+    "PLAYGROUND_PUMPKIN|MINE": {
+        "result": -1,
+        "tokens": 40
+    },
+    "PLAYGROUND_PUMPKIN|LAB": {
+        "result": 0,
+        "tokens": 38
+    },
+    "PLAYGROUND_RING|DECK": {
+        "result": -1,
+        "tokens": 36
+    },
+    "PLAYGROUND_RING|MINE": {
+        "result": 0,
+        "tokens": 34
+    },
+    "PLAYGROUND_SHOP|DECK": {
+        "result": -1,
+        "tokens": 35
+    },
+    "PLAYGROUND_SHOP|RING": {
+        "result": 0,
+        "tokens": 33
+    },
+    "PLAYGROUND_TICK|DECK": {
+        "result": -1,
+        "tokens": 36
+    },
+    "PLAYGROUND_TICK|SHOP": {
+        "result": 0,
+        "tokens": 33
+    },
+    "PLAYGROUND_TRUNK|DECK": {
+        "result": -1,
+        "tokens": 37
+    },
+    "PLAYGROUND_TRUNK|TICK": {
+        "result": 0,
+        "tokens": 34
+    },
+    "PLAYGROUND_DINOSAUR|DECK": {
+        "result": -1,
+        "tokens": 42
+    },
+    "PLAYGROUND_DINOSAUR|TRUNK": {
+        "result": 0,
+        "tokens": 40
+    },
+    "PLAYGROUND_SLIP|DECK": {
+        "result": 1,
+        "tokens": 37
+    },
+    "PLAYGROUND_SPOT|SLIP": {
+        "result": 1,
+        "tokens": 37
+    },
+    "PLAYGROUND_TRIP|SPOT": {
+        "result": -1,
+        "tokens": 37
+    },
+    "PLAYGROUND_TRIP|SLIP": {
+        "result": 1,
+        "tokens": 37
+    },
+    "PLAYGROUND_SWING|SPOT": {
+        "result": 1,
+        "tokens": 37
+    },
+    "FRUIT_DINOSAUR|BEAT": {
+        "result": 0,
+        "tokens": 41
+    },
+    "FRUIT_GHOST|DINOSAUR": {
+        "result": 0,
+        "tokens": 40
+    },
+    "FRUIT_MASS|GHOST": {
+        "result": 1,
+        "tokens": 35
+    },
+    "FRUIT_ROW|MASS": {
+        "result": 0,
+        "tokens": 33
+    }
+}

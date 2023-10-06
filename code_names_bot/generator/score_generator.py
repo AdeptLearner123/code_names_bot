@@ -11,8 +11,10 @@ def _format_scores(raw_scores):
     return { word: int(raw_scores[word].split(" ")[0]) for word in raw_scores }
 
 
-def get_scores(words, clue):
-    scenario_key = get_words_list_key(words)
+def get_scores(words, clue, seed=0):
+    words = sorted(words)
+    random.Random(seed).shuffle(words)
+    scenario_key = ",".join(words) #get_words_list_key(words)
 
     if scenario_key not in cache:
         cache[scenario_key] = {}
@@ -22,8 +24,6 @@ def get_scores(words, clue):
         return _format_scores(cache_item["scores"]), cache_item["tokens"]
 
     system_msg = prompt.replace("###", clue)
-    words = sorted(words)
-    random.Random(0).shuffle(words)
     user_msg = get_words_msg(words)
     scores, tokens = get_completion_as_dict(system_msg, user_msg)
 

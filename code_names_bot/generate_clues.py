@@ -11,6 +11,8 @@ from .clue_generator.propose_filter_rank_clue import propose_filter_rank_clue
 from .clue_generator.propose_rank_vote_clue import propose_rank_vote
 from .clue_generator.propose_score_clue import propose_5_score_clue, propose_10_score_clue
 from .clue_generator.propose_for_count_score_clue import propose_for_count_score_clue
+from .clue_generator.propose_score_sort_clue import propose_score_sort_clue
+from .clue_generator.propose_score_multi_clue import propose_score_multi_clue
 
 yaml.Dumper.ignore_aliases = lambda *args: True
 
@@ -42,6 +44,10 @@ def get_generator(generator):
         return propose_10_score_clue
     if generator == "propose-for-count-score":
         return propose_for_count_score_clue
+    if generator == "propose-score-sort":
+        return propose_score_sort_clue
+    if generator == "propose-score-multi":
+        return propose_score_multi_clue
 
 
 def main():

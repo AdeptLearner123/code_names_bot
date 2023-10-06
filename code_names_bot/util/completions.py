@@ -2,8 +2,6 @@ from code_names_bot.util.prompts import read_prompt
 
 import openai
 import os
-import json
-
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def get_completion(system, user = None):
